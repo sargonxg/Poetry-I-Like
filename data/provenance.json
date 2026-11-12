@@ -1,0 +1,18 @@
+{
+  "format": "personal-poetry-collection/2",
+  "fullTextSelections": 121,
+  "fullTextPoets": 104,
+  "readingReferences": 50,
+  "allPoets": 151,
+  "policy": "Full texts from public-domain sources; modern readings are metadata and external links only. Themes are editorial browsing paths.",
+  "attribution": "Poetry data from PoetryDB (https://poetrydb.org), licensed under CC BY 4.0. Original poem texts are public domain.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceSnapshotSha256": "5b576364ad298009a5b9cecb7119c00eb20819d50ba0dc614a14468370618b75",
+  "retrieved": "2026-11-08",
+  "otherSources": [
+    "https://concordiadiscors.org/poetry/",
+    "https://wolnelektury.pl/katalog/lektura/moja-piosnka/"
+  ],
+  "derivation": "Initial Poetry I Like collection; source metadata and per-record rights retained from the licensed November 8 snapshot.",
+  "editorialChanges": "114 empty reading notes receive an original generic reading prompt. Original source and rights metadata are retained."
+}

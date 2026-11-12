@@ -1,0 +1,17 @@
+import { readFile, writeFile, mkdir, rm, copyFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const read = path => readFile(path, 'utf8');
+const collection = JSON.parse(await read('data/poems.json'));
+const source = await read('src/index.html');
+const forest = Buffer.from(await read('assets/forest.svg')).toString('base64');
+const css = (await read('src/style.css')).replace('/*__FOREST__*/', 'data:image/svg+xml;base64,' + forest);
+const core = (await read('src/core.mjs')).replaceAll('export ', '');
+const app = (await read('src/app.mjs')).replace(/^import[^\n]+\n/, '');
+const data = JSON.stringify(collection).replaceAll('<', '\\u003c');
+const html = source.replace('/*__STYLE__*/', css).replace('/*__DATA__*/', data).replace('/*__SCRIPT__*/', core + '\n' + app);
+await rm('dist', {recursive:true, force:true}); await mkdir('dist', {recursive:true});
+await writeFile('dist/index.html', html);
+await writeFile('dist/404.html', '<!doctype html><html lang="en"><meta charset="utf-8"><title>Page not found</title><h1>That page is not here.</h1><p><a href="/">Return to the reading room</a></p></html>');
+await writeFile('dist/_headers', '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n');
+await mkdir('dist/data', {recursive:true}); await copyFile('data/poems.json','dist/data/poems.json'); await copyFile('data/provenance.json','dist/data/provenance.json');
+console.log(JSON.stringify({built:true,html_bytes:Buffer.byteLength(html),poems:collection.filter(item=>item.kind==='poem').length,reading_references:collection.filter(item=>item.kind==='reading').length,sha256:createHash('sha256').update(html).digest('hex'),self_contained:true},null,2));
