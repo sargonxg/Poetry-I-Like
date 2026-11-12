@@ -1,0 +1,21 @@
+{
+  "format": "app-screenshot-receipt/1",
+  "captured": "2026-11-12",
+  "method": "Cloudflare Browser Rendering snapshot of the actual self-contained dist/index.html, not a mockup.",
+  "source_note": "Exact self-contained build.",
+  "browser_audio_tested": false,
+  "viewports": {
+    "desktop": "1440x1000",
+    "mobile": "390x844"
+  },
+  "files": [
+    {
+      "path": "screenshots/desktop.webp",
+      "sha256": "4a0ee768e5c21bf55b79002f39e4c68e74be8b8286c9652f38b6723e907965d4"
+    },
+    {
+      "path": "screenshots/mobile.webp",
+      "sha256": "9303a143daaa92f89fc327ff8141a0cef378200f72b4ca64301c36d04c715d9c"
+    }
+  ]
+}

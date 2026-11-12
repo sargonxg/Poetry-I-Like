@@ -1,5 +1,9 @@
 # Poetry I Like
 
+![App screenshot](screenshots/desktop.webp)
+
+[Mobile view](screenshots/mobile.webp)
+
 A quiet browser reader for **121 full-text poems by 104 poets**, with 50 further
 reading references. Browse by poet, theme or language; read one line at a time;
 save a poem; turn on soft rain or a forest soundscape.
