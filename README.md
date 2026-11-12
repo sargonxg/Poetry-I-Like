@@ -75,4 +75,14 @@ No database, bucket, backend, subscription or scheduled work is required.
 `npm test` checks content/rights separation, multilingual minimums, translation
 attribution, search, saved shelves, bookmark validation, non-repeating shuffles,
 settings and emitted CSP hashes. Browser captures and their limits are recorded
-in `docs/`. Existing captures predate this multilingual release until replaced.
+in `docs/`. The following captures show this multilingual reader integrated into
+the personal site in Chromium CI on November 12, 2026. The return link belongs
+to that integration; the reading interface and collection are this app's build.
+
+![Italian original and attributed English translation, side by side](docs/screenshots/multilingual-desktop.webp)
+
+[Phone reading view](docs/screenshots/multilingual-mobile.webp). These are real
+rendered captures, not mockups. Browser emulation does not certify physical
+devices or screen-reader use. See the personal-site validation run
+[43260842008](https://github.com/sargonxg/Gc-personal-site/actions/runs/43260842008)
+for integrated tests; that repository is private.
