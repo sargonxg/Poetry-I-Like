@@ -4,6 +4,10 @@
 
 [Mobile view](screenshots/mobile.webp)
 
+[100 implemented refinements](docs/REFINEMENTS-100.md) · [Browser review](docs/BROWSER-REVIEW-20261112.json)
+
+[Mobile library](screenshots/library-mobile-20261112.webp) · [Reading settings](screenshots/reading-settings-20261112.webp)
+
 A quiet browser reader for **121 full-text poems by 104 poets**, with 50 further
 reading references. Browse by poet, theme or language; read one line at a time;
 save a poem; turn on soft rain or a forest soundscape.

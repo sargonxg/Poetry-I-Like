@@ -1,0 +1,50 @@
+[
+  {
+    "capture": "poetryDesktop",
+    "qa": {
+      "title": "Poetry I Like \u00b7 The reading room",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "staffNotes": 0,
+      "errors": [],
+      "dialogs": 0
+    }
+  },
+  {
+    "capture": "poetryMobile",
+    "qa": {
+      "title": "Poetry I Like \u00b7 The reading room",
+      "width": 390,
+      "overflow": false,
+      "images": [],
+      "staffNotes": 0,
+      "errors": [],
+      "dialogs": 0
+    }
+  },
+  {
+    "capture": "poetryLibrary",
+    "qa": {
+      "title": "Poetry I Like \u00b7 The reading room",
+      "width": 390,
+      "overflow": false,
+      "images": [],
+      "staffNotes": 0,
+      "errors": [],
+      "dialogs": 1
+    }
+  },
+  {
+    "capture": "poetrySettings",
+    "qa": {
+      "title": "Poetry I Like \u00b7 The reading room",
+      "width": 1440,
+      "overflow": false,
+      "images": [],
+      "staffNotes": 0,
+      "errors": [],
+      "dialogs": 1
+    }
+  }
+]

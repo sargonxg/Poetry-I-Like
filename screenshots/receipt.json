@@ -1,21 +1,44 @@
 {
-  "format": "app-screenshot-receipt/1",
+  "format": "app-screenshot-receipt/2",
   "captured": "2026-11-12",
-  "method": "Cloudflare Browser Rendering snapshot of the actual self-contained dist/index.html, not a mockup.",
-  "source_note": "Exact self-contained build.",
+  "method": "Cloudflare Browser Rendering snapshot of the actual built UI with embedded local assets; no mockup or public hosting required.",
+  "source_sha256": "5edf6f3205b2b4a721bb129421f853f8362fe9661796dcf11fb4960a34a65e0c",
   "browser_audio_tested": false,
+  "manual_screen_reader_tested": false,
   "viewports": {
     "desktop": "1440x1000",
     "mobile": "390x844"
   },
   "files": [
     {
+      "path": "screenshots/desktop-20261112.webp",
+      "bytes": 86146,
+      "sha256": "f2934602d7496f891748de4e798e2b99ded98c65a23f6cf6a98bc6e5dccbed5e"
+    },
+    {
       "path": "screenshots/desktop.webp",
-      "sha256": "4a0ee768e5c21bf55b79002f39e4c68e74be8b8286c9652f38b6723e907965d4"
+      "bytes": 86146,
+      "sha256": "f2934602d7496f891748de4e798e2b99ded98c65a23f6cf6a98bc6e5dccbed5e"
+    },
+    {
+      "path": "screenshots/library-mobile-20261112.webp",
+      "bytes": 14420,
+      "sha256": "c4d0c9449716bd5b973fa9a5ed0d71819b1cf804983700e92fdcca23475ae54c"
+    },
+    {
+      "path": "screenshots/mobile-20261112.webp",
+      "bytes": 26580,
+      "sha256": "386bcc80a07dce506400aeee00c71716c73a94b380b5c14512ddfefc370a59f5"
     },
     {
       "path": "screenshots/mobile.webp",
-      "sha256": "9303a143daaa92f89fc327ff8141a0cef378200f72b4ca64301c36d04c715d9c"
+      "bytes": 26580,
+      "sha256": "386bcc80a07dce506400aeee00c71716c73a94b380b5c14512ddfefc370a59f5"
+    },
+    {
+      "path": "screenshots/reading-settings-20261112.webp",
+      "bytes": 26078,
+      "sha256": "ee7980f56226925b7d01f6e40bdc16e6a167151097c374ea90c7ddb13d217946"
     }
   ]
 }
