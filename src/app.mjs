@@ -1,103 +1,93 @@
-import { THEMES, LANGUAGES, fullTexts, filterCollection, nextRandom, safeSource, readingMinutes, normalizeSaved } from './core.mjs';
-const collection = JSON.parse(document.querySelector('#poetry-data').textContent);
-const $ = selector => document.querySelector(selector);
-const state = { current: collection.find(item => item.id === 'lazarus-new-colossus') || collection[0], saved: [], history: [], query: '', theme: '', language: '', savedOnly: false, focus: false, line: 0, prompt: 0 };
-try { state.saved = normalizeSaved(JSON.parse(localStorage.getItem('poetry-i-like:saved') || '[]'), collection); } catch {}
-const prompts = [
-  'Which image stays with you after the last line? Read that line aloud.',
-  'Where does the voice change direction? Find the word that turns the poem.',
-  'Which sound repeats? Follow it through a second reading.',
-  'What does the poem leave unsaid? Stay with that space for a moment.',
-  'Try reading it once as a letter to one person. What changes?',
-  'Which line would you carry into tomorrow?',
-  'Where do you agree with the speaker? Where do you resist?',
-  'Read the first line, then the last. What has moved between them?',
-  'Find a concrete thing: a door, a tree, a body. What work does it do here?',
-  'Pause at each line ending, then read it as a sentence. Listen for the difference.'
-];
-const exercises = {
-  liberty: 'Write four lines beginning “I am free to…” End with a small, ordinary action rather than an abstract ideal.',
-  pluralism: 'Describe one place through two different voices. Let both remain believable; do not force them to agree.',
-  conscience: 'Choose a decision you noticed today. Describe the room and one gesture. Leave the judgement out.',
-  love: 'Write about someone through an object they use every day. Do not name the feeling.',
-  memory: 'Recall one sound from a place you have left. Write six lines that move from that sound to the present.',
-  nature: 'Spend one minute watching something small outdoors. Write only what you can see or hear.',
-  wonder: 'Begin with “I had not noticed…” Follow the observation for five lines before explaining anything.'
-};
-for (const theme of THEMES) { const o = document.createElement('option'); o.value = theme; o.textContent = theme[0].toUpperCase() + theme.slice(1); $('#theme').append(o); }
-for (const [code, name] of Object.entries(LANGUAGES)) { const o = document.createElement('option'); o.value = code; o.textContent = name; $('#language').append(o); }
-function filtered() { return filterCollection(collection, { ...state, saved: state.saved }); }
-function saveState() { try { localStorage.setItem('poetry-i-like:saved', JSON.stringify(state.saved)); } catch {} }
-function drawShelf() {
-  const rows = filtered(); $('#poem-list').replaceChildren();
-  $('#shelf-count').textContent = rows.length + (rows.length === 1 ? ' selection' : ' selections') + (state.savedOnly ? ' saved' : '');
-  $('#saved-count').textContent = state.saved.length;
-  $('#collection-count').textContent = fullTexts(collection).length + ' full texts · 104 poets';
-  if (!rows.length) { const p = document.createElement('p'); p.className = 'empty'; p.textContent = state.savedOnly ? 'Save a poem with the heart to return to it here.' : 'No poems match. Try another word or theme.'; $('#poem-list').append(p); }
-  for (const item of rows) {
-    const button = document.createElement('button'); button.className = 'poem-item' + (state.current.id === item.id ? ' active' : ''); button.setAttribute('aria-current', state.current.id === item.id ? 'true' : 'false');
-    const title = document.createElement('strong'); title.textContent = item.title;
-    const poet = document.createElement('small'); poet.textContent = item.poet;
-    button.append(title, poet);
-    if (item.kind !== 'poem') { const mark = document.createElement('span'); mark.className = 'ref-mark'; mark.textContent = 'Reading link'; button.append(mark); }
-    button.addEventListener('click', () => selectPoem(item)); $('#poem-list').append(button);
-  }
+import {THEMES,LANGUAGES,DEFAULT_SETTINGS,fold,fullTexts,filterCollection,nextRandom,safeSource,readingMinutes,normalizeSaved,validateSettings,poemFacts,exportShelf,importShelf,citation,shareFragment,parseFragment,safeLine} from './core.mjs';
+import {WoodlandAudio} from './audio.mjs';
+const $=selector=>document.querySelector(selector);
+const collection=JSON.parse($('#poetry-data').textContent),guides=JSON.parse($('#reading-guides').textContent);
+const KEY={saved:'poetry-i-like:saved',settings:'poetry-i-like:settings',last:'poetry-i-like:last'};
+function readStored(key,fallback){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback;}catch{return fallback;}}
+function writeStored(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}}
+const bookmark=parseFragment(location.hash,collection),last=readStored(KEY.last,null);
+const initial=bookmark?.item||collection.find(item=>item.id===last)||collection.find(item=>item.id==='lazarus-new-colossus')||collection[0];
+const state={current:initial,saved:normalizeSaved(readStored(KEY.saved,[]),collection),settings:validateSettings(readStored(KEY.settings,{})),history:[],query:'',theme:'',language:'',kind:'',sort:'collection',scope:'all',savedOnly:false,shown:24,line:bookmark?.line??0,prompt:0,readingMode:false};
+const reduce=matchMedia('(prefers-reduced-motion:reduce)'),small=matchMedia('(max-width:800px)'),fine=matchMedia('(pointer:fine)');
+const libraryAnchor=document.createComment('Library home');$('#library').before(libraryAnchor);
+const exercises={liberty:'Write four lines beginning “I am free to…” End with an ordinary action rather than an abstract ideal.',pluralism:'Describe one place through two voices. Let both remain believable; leave a point of disagreement unresolved.',conscience:'Choose a decision you noticed today. Describe the room and one gesture. Let the reader decide what it means.',love:'Write about someone through an object they use every day. Leave the name of the feeling out.',memory:'Recall one sound from a place you have left. Write six lines that move from that sound to the present.',nature:'Spend a minute watching something small outdoors. Write only what you can see or hear.',wonder:'Begin with “I had not noticed…” Follow the observation for five lines before explaining it.'};
+function text(node,value){node.textContent=value;return node;}
+function tell(message,settings=false){text($(settings?'#settings-status':'#reading-status'),message);}
+function filtered(){return filterCollection(collection,state);}
+function isText(item=state.current){return item.kind==='poem'&&item.rights?.mode==='public-domain';}
+function setLink(node,value,label){const source=safeSource(value);node.hidden=!source;if(source)node.href=source;if(label)node.textContent=label;}
+function updateSaved(){const saved=state.saved.includes(state.current.id);$('#save-poem').setAttribute('aria-pressed',saved);text($('#save-poem'),saved?'Saved':'Save poem');text($('#saved-count'),state.saved.length);}
+function chooseTheme(theme){state.theme=theme;state.shown=24;$('#theme').value=theme;drawShelf();if(small.matches)showLibrary(true);}
+function drawShelf(){
+ const rows=filtered(),box=$('#poem-list');box.replaceChildren();text($('#shelf-count'),rows.length+(rows.length===1?' selection':' selections'));
+ $('#clear-filters').hidden=!(state.query||state.theme||state.language||state.kind||state.sort!=='collection'||state.scope!=='all');
+ if(!rows.length){const p=document.createElement('p');p.className='empty';p.textContent=state.savedOnly?'Your saved shelf is empty. Save a poem to find it here.':'Nothing matches those filters. Clear them or try a shorter phrase.';box.append(p);}
+ for(const item of rows.slice(0,state.shown)){const b=document.createElement('button');b.className='poem-item'+(state.current.id===item.id?' active':'');b.setAttribute('aria-current',state.current.id===item.id?'true':'false');b.append(text(document.createElement('strong'),item.title),text(document.createElement('small'),item.poet));if(item.kind==='reading'){const label=document.createElement('span');label.className='ref-mark';label.textContent='Reading link';b.append(label);}b.addEventListener('click',()=>selectPoem(item));box.append(b);}
+ $('#show-more').hidden=rows.length<=state.shown;text($('#show-more'),'Show '+Math.min(24,Math.max(0,rows.length-state.shown))+' more');
+ const texts=fullTexts(rows);$('#random-poem').disabled=!texts.length;text($('#random-poem'),texts.length?'Another poem ↝':'No full poems in this view');
+ updateSaved();
 }
-function renderFocus() {
-  const container = $('#poem-lines'); container.classList.toggle('focused', state.focus);
-  [...container.children].forEach((line, index) => { line.classList.toggle('current', state.line === index); line.classList.toggle('can-focus', state.focus && !line.classList.contains('blank')); });
+function renderFocus(){const lines=$('#poem-lines');lines.classList.toggle('focused',state.settings.focus&&isText());lines.classList.toggle('numbered',state.settings.numbers);[...lines.children].forEach((node,index)=>{node.classList.toggle('current',state.line===index);node.classList.toggle('can-focus',state.settings.focus&&!node.classList.contains('blank'));});if(!isText()){text($('#line-status'),'');return;}const nonempty=state.current.lines.slice(0,state.line+1).filter(value=>value.trim()).length,total=poemFacts(state.current).lines;text($('#line-status'),state.settings.focus?'Line '+nonempty+' of '+total+'. Arrow keys move through the poem.':'');}
+function updateURL(){try{history.replaceState(null,'',shareFragment(state.current,state.settings.focus?state.line:null));}catch{/* Opaque preview URLs still render normally. */}}
+function drawPoem({focus=false}={}){
+ const item=state.current,full=isText(),facts=poemFacts(item);text($('#edition'),full?'From the collection':'Modern reading shelf');text($('#poet'),item.poet);text($('#poem-title'),item.title);text($('#poem-meta'),item.original+' · '+(full?facts.minutes+' min read':'Reading link'));
+ $('#poem-lines').replaceChildren();$('#poem-lines').hidden=!full;$('#reading-reference').hidden=full;
+ if(full)for(const [index,value]of item.lines.entries()){const line=document.createElement('span');line.className='verse-line'+(!value.trim()?' blank':'');line.textContent=value||'\u00a0';if(value.trim())line.addEventListener('click',()=>{if(state.settings.focus){state.line=index;renderFocus();updateURL();}});$('#poem-lines').append(line);}
+ $('#focus-mode').disabled=!full;$('#line-numbers').disabled=!full;$('#copy-poem').disabled=!full;
+ const source=safeSource(item.source);setLink($('#source-link'),source,full?'Read at '+new URL(source).hostname.replace(/^www\./,'')+' ↗':'Read the authorized edition ↗');text($('#rights-label'),full?'Historic original text':'Reference only');
+ text($('#reading-note'),item.note.startsWith('An invitation to read slowly:')?(full?facts.lines+' lines. Start with one image or one sound, then read the whole poem again.':'Follow the cited publisher or archive for this reading.'):item.note);
+ text($('#reading-prompt'),guides.prompts[state.prompt%guides.prompts.length]);text($('#text-facts'),full?facts.lines+' nonblank lines in '+facts.stanzas+' displayed '+(facts.stanzas===1?'stanza':'stanzas')+', '+facts.words+' words. Estimated reading time: '+facts.minutes+' '+(facts.minutes===1?'minute':'minutes')+'.':'This entry contains metadata and a source link. No protected verse is stored or displayed.');
+ text($('#form-notice'),!full?'The authorized edition may include an introduction or translator’s notes.':facts.repeatedStart?'The opening words “'+facts.repeatedStart[0]+'” recur at the start of '+facts.repeatedStart[1]+' lines. Listen for their effect.':facts.questions?'The displayed text includes '+facts.questions+' '+(facts.questions===1?'line containing a question mark.':'lines containing question marks.')+' Try reading the questions aloud.':'Compare where sentences end with where lines end. They do not always coincide.');
+ const bio=guides.poets[item.poet];text($('#poet-bio'),bio?.bio||(item.rights.authorDied?'The source record gives '+item.rights.authorDied+' as '+item.poet+'’s year of death. Follow the text source for its edition and further context.':'This is a modern reading reference. The cited publisher or archive provides information about the writer and the authorized text.'));setLink($('#poet-source'),bio?.source||item.source,bio?'Biographical source ↗':'Text and edition source ↗');
+ text($('#edition-note'),item.credit+'. '+item.label+'.');text($('#rights-basis'),item.rights.basis||'Metadata and an external link are provided; no protected verse is reproduced.');setLink($('#collection-source'),item.collectionSource,'Concordia Discors reading shelf ↗');
+ text($('#exercise'),exercises[item.themes[0]]||exercises.wonder);$('#private-note').value='';$('#theme-tags').replaceChildren();for(const theme of item.themes){const b=document.createElement('button');b.textContent=theme;b.addEventListener('click',()=>chooseTheme(theme));$('#theme-tags').append(b);}
+ $('#previous-poem').disabled=!state.history.length;renderFocus();drawShelf();writeStored(KEY.last,item.id);updateURL();if(focus)$('#poem-title').focus({preventScroll:true});
 }
-function renderPoem() {
-  const item = state.current; const isFull = item.kind === 'poem' && item.rights?.mode === 'public-domain';
-  $('#edition').textContent = isFull ? 'One poem, a little space' : 'From the reading shelf';
-  $('#poet').textContent = item.poet; $('#poem-title').textContent = item.title;
-  $('#poem-meta').textContent = item.original + ' · ' + (isFull ? readingMinutes(item.lines) + ' min read' : 'Reading reference');
-  $('#reading-note').textContent = item.note; $('#exercise').textContent = exercises[item.themes[0]] || exercises.wonder;
-  $('#poem-lines').replaceChildren(); $('#reading-reference').hidden = isFull;
-  if (isFull) for (const [index, text] of item.lines.entries()) { const line = document.createElement('span'); line.className = 'verse-line' + (!text ? ' blank' : ''); line.textContent = text || '\u00a0'; if (text) line.addEventListener('click', () => { if (state.focus) { state.line = index; renderFocus(); } }); $('#poem-lines').append(line); }
-  const source = safeSource(item.source); $('#source-link').hidden = !source; if (source) $('#source-link').href = source;
-  $('#source-link').textContent = isFull ? 'Original text & source ↗' : 'Read the authorized edition ↗';
-  $('#rights-label').textContent = isFull ? 'Public-domain edition' : 'External reading · no verse reproduced';
-  $('#save-poem').setAttribute('aria-pressed', state.saved.includes(item.id)); $('#save-poem').replaceChildren();
-  const heart = document.createElement('span'); heart.setAttribute('aria-hidden', 'true'); heart.textContent = state.saved.includes(item.id) ? '♥' : '♡'; $('#save-poem').append(heart, document.createTextNode(state.saved.includes(item.id) ? ' Saved' : ' Save'));
-  $('#theme-tags').replaceChildren(); for (const theme of item.themes) { const b = document.createElement('button'); b.textContent = theme; b.addEventListener('click', () => { state.theme = theme; $('#theme').value = theme; drawShelf(); if (matchMedia('(max-width:760px)').matches) showLibrary(true); }); $('#theme-tags').append(b); }
-  $('#previous-poem').disabled = !state.history.length;
-  $('#reading-prompt').textContent = prompts[state.prompt % prompts.length];
-  $('#paper').classList.remove('read-transition'); void $('#paper').offsetWidth; $('#paper').classList.add('read-transition');
-  $('#private-note').value = ''; renderFocus(); drawShelf();
-}
-function selectPoem(item, remember = true) { if (!item || item.id === state.current.id) return; if (remember) { state.history.push(state.current.id); if (state.history.length > 100) state.history.shift(); } state.current = item; state.line = 0; renderPoem(); $('#reading-status').textContent = item.title + ', by ' + item.poet; if (matchMedia('(max-width:760px)').matches) { showLibrary(false); $('#main').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth', block: 'start' }); } }
-$('#random-poem').addEventListener('click', () => { const rows = filtered(); const texts = fullTexts(rows); selectPoem(nextRandom(texts.length ? texts : rows, state.current.id)); });
-$('#previous-poem').addEventListener('click', () => { const id = state.history.pop(); selectPoem(collection.find(item => item.id === id), false); });
-$('#save-poem').addEventListener('click', () => { const note = $('#private-note').value; const id = state.current.id; state.saved = state.saved.includes(id) ? state.saved.filter(value => value !== id) : [...state.saved, id]; saveState(); renderPoem(); $('#private-note').value = note; });
-$('#search').addEventListener('input', event => { state.query = event.target.value.slice(0, 160); drawShelf(); });
-$('#theme').addEventListener('change', event => { state.theme = event.target.value; drawShelf(); }); $('#language').addEventListener('change', event => { state.language = event.target.value; drawShelf(); });
-for (const [selector, savedOnly] of [['#all-tab', false], ['#saved-tab', true]]) $(selector).addEventListener('click', () => { state.savedOnly = savedOnly; $('#all-tab').classList.toggle('selected', !savedOnly); $('#saved-tab').classList.toggle('selected', savedOnly); $('#all-tab').setAttribute('aria-pressed', !savedOnly); $('#saved-tab').setAttribute('aria-pressed', savedOnly); drawShelf(); });
-$('#new-prompt').addEventListener('click', () => { state.prompt++; $('#reading-prompt').textContent = prompts[state.prompt % prompts.length]; });
-$('#settings-toggle').addEventListener('click', () => { const open = $('#settings').hidden; $('#settings').hidden = !open; $('#settings-toggle').setAttribute('aria-expanded', open); });
-$('#font-size').addEventListener('input', event => document.documentElement.style.setProperty('--size', event.target.value + 'px'));
-$('#paper-tone').addEventListener('change', event => $('#paper').className = 'paper ' + event.target.value);
-$('#focus-mode').addEventListener('change', event => { state.focus = event.target.checked; renderFocus(); });
-function showLibrary(open) { $('#library').classList.toggle('open', open); $('#library-toggle').setAttribute('aria-expanded', open); }
-$('#library-toggle').addEventListener('click', () => showLibrary(!$('#library').classList.contains('open')));
-$('.brand').addEventListener('click', event => { event.preventDefault(); selectPoem(collection[0]); });
-document.addEventListener('keydown', event => { if (['INPUT','TEXTAREA','SELECT','BUTTON','A'].includes(document.activeElement.tagName)) return; if (state.focus && ['ArrowDown','ArrowUp'].includes(event.key)) { event.preventDefault(); const direction = event.key === 'ArrowDown' ? 1 : -1; let next = state.line + direction; while (next >= 0 && next < state.current.lines.length && !state.current.lines[next]) next += direction; state.line = Math.max(0, Math.min(state.current.lines.length - 1, next)); renderFocus(); } });
-let audio = null, audioBusy = false;
-async function stopSound() { if (!audio) return; const current = audio; audio = null; clearInterval(current.birds); current.gain.gain.setTargetAtTime(0, current.context.currentTime, .12); setTimeout(() => current.context.close().catch(() => {}), 500); $('#sound-toggle').setAttribute('aria-pressed', 'false'); $('#sound-toggle').innerHTML = '<span aria-hidden="true">◌</span> Sound off'; }
-async function startSound() {
-  await stopSound(); const Audio = window.AudioContext || window.webkitAudioContext; if (!Audio) { $('#sound-toggle').textContent = 'Sound unavailable'; return; }
-  const context = new Audio(); await context.resume(); if (document.hidden) { await context.close(); return; } const gain = context.createGain(); gain.gain.value = 0; gain.connect(context.destination);
-  const type = $('#sound-type').value; const buffer = context.createBuffer(2, context.sampleRate * 4, context.sampleRate);
-  for (let channel = 0; channel < 2; channel++) { const data = buffer.getChannelData(channel); let previous = 0; for (let index = 0; index < data.length; index++) { const white = Math.random() * 2 - 1; previous = (previous + .02 * white) / 1.02; data[index] = type === 'rain' ? (white * .34 + previous * 2.5) : previous * 5; } }
-  const noise = context.createBufferSource(); noise.buffer = buffer; noise.loop = true; const filter = context.createBiquadFilter(); filter.type = 'lowpass'; filter.frequency.value = type === 'rain' ? 1800 : 750; noise.connect(filter); filter.connect(gain); noise.start();
-  gain.gain.setTargetAtTime(Number($('#volume').value) / 100, context.currentTime, .5);
-  let birds = null;
-  if (type === 'forest') birds = setInterval(() => { if (context.state !== 'running') return; const voice = context.createOscillator(), envelope = context.createGain(), time = context.currentTime; voice.type = 'sine'; voice.frequency.setValueAtTime(1700 + Math.random() * 450, time); voice.frequency.exponentialRampToValueAtTime(2600, time + .11); voice.frequency.exponentialRampToValueAtTime(1300, time + .28); envelope.gain.setValueAtTime(0, time); envelope.gain.linearRampToValueAtTime(.09, time + .03); envelope.gain.exponentialRampToValueAtTime(.001, time + .3); voice.connect(envelope); envelope.connect(gain); voice.start(time); voice.stop(time + .32); }, 6900);
-  audio = { context, gain, birds }; $('#sound-toggle').setAttribute('aria-pressed', 'true'); $('#sound-toggle').innerHTML = '<span aria-hidden="true">◉</span> ' + (type === 'rain' ? 'Soft rain' : 'Forest air');
-}
-async function changeSound(enable) { if (audioBusy) return; audioBusy = true; try { if (enable) await startSound(); else await stopSound(); } catch { $('#sound-toggle').textContent = 'Sound unavailable'; } finally { audioBusy = false; } }
-$('#sound-toggle').addEventListener('click', () => changeSound(!audio));
-$('#sound-type').addEventListener('change', () => { if (audio) changeSound(true); }); $('#volume').addEventListener('input', event => { if (audio) audio.gain.gain.setTargetAtTime(Number(event.target.value) / 100, audio.context.currentTime, .1); });
-window.addEventListener('pagehide', () => { if (audio) { clearInterval(audio.birds); audio.context.close().catch(() => {}); audio = null; } });
-document.addEventListener('visibilitychange', () => { if (document.hidden && audio) stopSound(); });
-renderPoem();
+function selectPoem(item,remember=true){if(!item)return;if(item.id!==state.current.id){if(remember){state.history.push(state.current.id);if(state.history.length>100)state.history.shift();}state.current=item;state.line=0;}drawPoem({focus:true});tell(item.title+', by '+item.poet);if($('#library-dialog').open)$('#library-dialog').close();if(small.matches)$('#main').scrollIntoView({block:'start',behavior:'auto'});}
+function randomPoem(){const rows=fullTexts(filtered());if(!rows.length){tell('This view contains reading links. Choose full poems in the library to use random selection.');return;}selectPoem(nextRandom(rows,state.current.id));}
+function back(){const id=state.history.pop();if(id)selectPoem(collection.find(item=>item.id===id),false);}
+for(const theme of THEMES){const count=collection.filter(item=>item.themes.includes(theme)).length;const option=new Option(theme[0].toUpperCase()+theme.slice(1)+' ('+count+')',theme);$('#theme').append(option);}
+for(const [code,name]of Object.entries(LANGUAGES)){const count=collection.filter(item=>item.language===code).length;if(count)$('#language').append(new Option(name+' ('+count+')',code));}
+text($('#collection-count'),fullTexts(collection).length+' poems · '+new Set(fullTexts(collection).map(item=>item.poet)).size+' poets · '+collection.filter(item=>item.kind==='reading').length+' reading links');
+for(const path of guides.paths){const section=document.createElement('section');section.className='pathway';section.append(text(document.createElement('h3'),path.title),text(document.createElement('p'),path.description));for(const id of path.ids){const item=collection.find(value=>value.id===id);if(!item)continue;const b=text(document.createElement('button'),item.poet+': '+item.title+(item.kind==='reading'?' (reading link)':''));b.addEventListener('click',()=>selectPoem(item));section.append(b);}$('#pathways').append(section);}
+let searchTimer;$('#search').addEventListener('input',event=>{clearTimeout(searchTimer);state.query=event.target.value.slice(0,160);state.shown=24;searchTimer=setTimeout(drawShelf,100);});
+for(const key of ['theme','language','kind','sort','scope'])$('#'+key).addEventListener('change',event=>{state[key]=event.target.value;state.shown=24;drawShelf();});
+$('#clear-filters').addEventListener('click',()=>{Object.assign(state,{query:'',theme:'',language:'',kind:'',sort:'collection',scope:'all',shown:24});for(const key of ['theme','language','kind','sort','scope'])$('#'+key).value=state[key];$('#search').value='';drawShelf();$('#search').focus();});
+for(const [selector,savedOnly]of [['#all-tab',false],['#saved-tab',true]])$(selector).addEventListener('click',()=>{state.savedOnly=savedOnly;state.shown=24;$('#all-tab').classList.toggle('selected',!savedOnly);$('#saved-tab').classList.toggle('selected',savedOnly);$('#all-tab').setAttribute('aria-pressed',!savedOnly);$('#saved-tab').setAttribute('aria-pressed',savedOnly);drawShelf();});
+$('#show-more').addEventListener('click',()=>{state.shown+=24;const top=$('#poem-list').scrollTop;drawShelf();$('#poem-list').scrollTop=top;});
+$('#random-poem').addEventListener('click',randomPoem);$('#previous-poem').addEventListener('click',back);
+$('#save-poem').addEventListener('click',()=>{const id=state.current.id;state.saved=state.saved.includes(id)?state.saved.filter(value=>value!==id):normalizeSaved([...state.saved,id],collection);const persistent=writeStored(KEY.saved,state.saved);drawShelf();tell(state.saved.includes(id)?'Saved'+(persistent?' in this browser.':' for this tab. Browser storage is unavailable.'):'Removed from your saved shelf.');});
+$('#new-prompt').addEventListener('click',()=>{state.prompt++;text($('#reading-prompt'),guides.prompts[state.prompt%guides.prompts.length]);});
+function download(name,contents,type='text/plain'){const url=URL.createObjectURL(new Blob([contents],{type})),link=document.createElement('a');link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+async function copy(value,message){try{await navigator.clipboard.writeText(value);tell(message);}catch{tell('Clipboard access is unavailable. Select the text to copy it, or use the source link.');}}
+$('#copy-poem').addEventListener('click',()=>{if(isText())copy(state.current.title+'\n'+state.current.poet+'\n\n'+state.current.lines.join('\n')+'\n\n'+citation(state.current),'Poem and source copied.');});$('#copy-citation').addEventListener('click',()=>copy(citation(state.current),'Source citation copied.'));
+$('#share-poem').addEventListener('click',()=>{const base=/^https?:$/.test(location.protocol)?location.origin+location.pathname:'';copy(base+shareFragment(state.current,state.settings.focus?state.line:null),base?'Poem link copied.':'Poem bookmark copied. On a hosted copy it becomes a full link.');});$('#print-poem').addEventListener('click',()=>window.print());
+$('#download-note').addEventListener('click',()=>{const note=$('#private-note').value.trim();if(!note){tell('Write a note before downloading it.');return;}download('poetry-note.txt',citation(state.current)+'\n\n'+note);tell('Your note was downloaded.');});$('#clear-note').addEventListener('click',()=>{$('#private-note').value='';$('#private-note').focus();});
+$('#export-shelf').addEventListener('click',()=>{download('poetry-i-like-shelf.json',JSON.stringify(exportShelf(state.saved,collection),null,2)+'\n','application/json');tell('Saved poem IDs exported.',true);});
+$('#import-shelf').addEventListener('change',async event=>{const file=event.target.files?.[0];if(!file)return;try{if(file.size>65536)throw Error('Choose a shelf file smaller than 64 KB.');const ids=importShelf(await file.text(),collection);state.saved=normalizeSaved([...state.saved,...ids],collection);writeStored(KEY.saved,state.saved);drawShelf();tell('Imported '+ids.length+' known selections. Your shelf now has '+state.saved.length+'.',true);}catch(error){tell(error.message,true);}finally{event.target.value='';}});
+$('#clear-saved').addEventListener('click',()=>{state.saved=[];writeStored(KEY.saved,[]);drawShelf();tell('Saved poems cleared. The collection is unchanged.',true);});
+$('#reading-mode').addEventListener('click',()=>{state.readingMode=!state.readingMode;$('#workspace').classList.toggle('reading-mode',state.readingMode);$('#reading-mode').setAttribute('aria-pressed',state.readingMode);text($('#reading-mode'),state.readingMode?'Show the room':'Just the poem');});
+function showLibrary(open){if(!small.matches)return;if(open){$('#library-slot').append($('#library'));$('#library-toggle').setAttribute('aria-expanded','true');$('#library-dialog').showModal();$('#search').focus();}else if($('#library-dialog').open)$('#library-dialog').close();}
+$('#library-dialog').addEventListener('close',()=>{libraryAnchor.after($('#library'));$('#library-toggle').setAttribute('aria-expanded','false');$('#library-toggle').focus({preventScroll:true});});$('#close-library').addEventListener('click',()=>showLibrary(false));$('#library-toggle').addEventListener('click',()=>showLibrary(true));small.addEventListener('change',()=>{if(!small.matches&&$('#library-dialog').open)$('#library-dialog').close();});
+$('#settings-toggle').addEventListener('click',()=>$('#settings').showModal());$('#close-settings').addEventListener('click',()=>$('#settings').close());
+for(const dialog of [$('#settings'),$('#library-dialog')])dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
+let depthFrame=0,depthX=0,depthY=0;
+function stopDepth(){cancelAnimationFrame(depthFrame);depthFrame=0;$('#forest').style.transform='translate3d(0,0,0)';}
+function depthEnabled(){return state.settings.depth&&!reduce.matches&&fine.matches&&!document.hidden;}
+function applySettings(persist=false){const s=state.settings,root=document.documentElement;root.style.setProperty('--size',s.size+'px');root.style.setProperty('--leading',s.leading);root.style.setProperty('--measure',s.measure+'ch');root.style.setProperty('--letter',s.spacing+'em');root.style.setProperty('--paper-alpha',s.opacity/100);root.style.setProperty('--reader-font',s.font==='sans'?'Arial,Helvetica,sans-serif':s.font==='serif'?'Georgia,serif':"Charter,'Bitstream Charter','Sitka Text','Palatino Linotype',Georgia,serif");$('#paper').className='paper '+s.tone;
+ for(const [id,key]of [['font-size','size'],['line-height','leading'],['measure','measure'],['letter-spacing','spacing'],['paper-opacity','opacity'],['font-family','font'],['paper-tone','tone'],['sound-type','sound'],['volume','volume'],['sleep-timer','timer']])$('#'+id).value=s[key];
+ for(const [id,key]of [['focus-mode','focus'],['line-numbers','numbers'],['forest-depth','depth'],['visual-rain','rain']])$('#'+id).checked=s[key];
+ for(const [id,value]of [['size-value',s.size+' px'],['leading-value',s.leading.toFixed(1)],['measure-value',s.measure+' ch'],['spacing-value',s.spacing.toFixed(2)+' em'],['opacity-value',s.opacity+'%'],['volume-value',s.volume+'%']])text($('#'+id),value);
+ $('#rain').classList.toggle('show',s.rain&&!reduce.matches);text($('#motion-note'),reduce.matches?'Your device requests reduced motion, so pointer depth and rain animation are off. Sound remains optional and is synthesized locally.':'Sound starts after a click and stops when you leave the tab. Rain animation is optional. All soundscapes are synthesized locally.');if(!depthEnabled())stopDepth();renderFocus();if(persist&&!writeStored(KEY.settings,s))tell('Preferences apply for this tab. Browser storage is unavailable.',true);}
+const audio=new WoodlandAudio((active,sound)=>{$('#sound-toggle').setAttribute('aria-pressed',active);text($('#sound-toggle'),active?({rain:'Rain on',forest:'Forest on',stream:'Stream on'}[sound]):'Sound off');});
+let soundBusy=false;async function startSound(){if(soundBusy)return;soundBusy=true;try{await audio.start(state.settings);}catch(error){tell(error.message);}finally{soundBusy=false;}}
+$('#sound-toggle').addEventListener('click',()=>{if(audio.active||soundBusy)audio.stop();else startSound();});
+for(const [id,key,type]of [['font-size','size','number'],['line-height','leading','number'],['measure','measure','number'],['letter-spacing','spacing','number'],['paper-opacity','opacity','number'],['font-family','font','string'],['paper-tone','tone','string'],['focus-mode','focus','bool'],['line-numbers','numbers','bool'],['forest-depth','depth','bool'],['visual-rain','rain','bool'],['sound-type','sound','string'],['volume','volume','number'],['sleep-timer','timer','number']])$('#'+id).addEventListener(type==='number'&&id!=='sleep-timer'?'input':'change',event=>{state.settings=validateSettings({...state.settings,[key]:type==='bool'?event.target.checked:type==='number'?Number(event.target.value):event.target.value});applySettings(true);if(key==='volume')audio.setVolume(state.settings.volume);if(key==='timer')audio.setTimer(state.settings.timer);if(key==='sound'&&audio.active)startSound();if(key==='focus')updateURL();});
+$('#reset-settings').addEventListener('click',()=>{state.settings={...DEFAULT_SETTINGS};applySettings(true);audio.stop();tell('Reading settings reset. Your saved poems remain.',true);});$('#clear-local').addEventListener('click',()=>{for(const key of Object.values(KEY))try{localStorage.removeItem(key);}catch{}state.saved=[];state.settings={...DEFAULT_SETTINGS};applySettings();drawShelf();audio.stop();tell('This reader’s saved IDs and preferences were removed from this browser.',true);});
+for(let i=0;i<32;i++){const drop=document.createElement('i');drop.style.left=(i*37%100)+'%';drop.style.animationDelay=(-i*.19)+'s';drop.style.animationDuration=(1.2+(i%7)*.18)+'s';$('#rain').append(drop);}
+window.addEventListener('pointermove',event=>{if(!depthEnabled())return;depthX=(event.clientX/innerWidth-.5)*7;depthY=(event.clientY/innerHeight-.5)*5;if(!depthFrame)depthFrame=requestAnimationFrame(()=>{depthFrame=0;$('#forest').style.transform='translate3d('+depthX.toFixed(2)+'px,'+depthY.toFixed(2)+'px,0)';});},{passive:true});document.addEventListener('pointerleave',stopDepth);reduce.addEventListener('change',()=>applySettings());fine.addEventListener('change',()=>applySettings());
+document.addEventListener('visibilitychange',()=>{if(document.hidden){audio.stop();stopDepth();}});window.addEventListener('pagehide',()=>{audio.stop();stopDepth();clearTimeout(searchTimer);});
+document.addEventListener('keydown',event=>{if($('#settings').open||$('#library-dialog').open)return;const active=document.activeElement;if(['INPUT','TEXTAREA','SELECT'].includes(active?.tagName))return;if(event.altKey&&event.key==='ArrowRight'){event.preventDefault();randomPoem();return;}if(event.altKey&&event.key==='ArrowLeft'){event.preventDefault();back();return;}if(active===$('#poem-lines')&&state.settings.focus&&isText()){let next;if(event.key==='ArrowDown')next=safeLine(state.current,state.line+1,1);else if(event.key==='ArrowUp')next=safeLine(state.current,state.line-1,-1);else if(event.key==='Home')next=safeLine(state.current,0,1);else if(event.key==='End')next=safeLine(state.current,state.current.lines.length-1,-1);if(next!==undefined){event.preventDefault();state.line=next;renderFocus();updateURL();}}});
+window.addEventListener('hashchange',()=>{const value=parseFragment(location.hash,collection);if(value){state.current=value.item;state.line=value.line??0;if(value.line!==null)state.settings.focus=true;drawPoem();applySettings();}});$('.brand').addEventListener('click',event=>{event.preventDefault();selectPoem(collection[0]);});
+if(bookmark?.line!==null&&bookmark?.line!==undefined)state.settings.focus=true;
+applySettings();drawPoem();

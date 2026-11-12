@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {Script} from 'node:vm';
+const root=new URL('../',import.meta.url),html=await readFile(new URL('dist/index.html',root),'utf8'),headers=await readFile(new URL('dist/_headers',root),'utf8');
+test('the entire initial app is self-contained and has no unexpanded build placeholders',()=>{assert(!/\/\*__(STYLE|DATA|SCRIPT|FOREST|GUIDES)__\*\//.test(html));assert(!/<script[^>]+src=/.test(html));assert(!/<link[^>]+(?:stylesheet|preload)/.test(html));assert(html.includes('data:image/svg+xml;base64,'));assert(Buffer.byteLength(html)<1024*1024);});
+test('compiled app script parses and CSP permits precisely the emitted script/style hashes',()=>{const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];assert.equal(scripts.length,1);new Script(scripts[0][1]);const style=html.match(/<style>([\s\S]*?)<\/style>/)[1];for(const code of [scripts[0][1],style])assert(headers.includes("'sha256-"+createHash('sha256').update(code).digest('base64')+"'"));assert(headers.includes("connect-src 'none'"));assert(headers.includes("frame-ancestors 'none'"));assert(!headers.includes('unsafe-inline'));});
+test('all 121 full texts and 50 reference-only selections survive serialization',()=>{const text=html.match(/<script id="poetry-data" type="application\/json">([\s\S]*?)<\/script>/)[1];const data=JSON.parse(text);assert.equal(data.filter(x=>x.kind==='poem').length,121);assert.equal(data.filter(x=>x.kind==='reading').length,50);assert(!text.includes('</script>'));});
+test('every library pathway points to existing entries and original art has no external dependency',async()=>{const collection=JSON.parse(await readFile(new URL('data/poems.json',root))),guides=JSON.parse(await readFile(new URL('data/reading-guides.json',root)));for(const path of guides.paths)for(const id of path.ids)assert(collection.some(x=>x.id===id));const forest=await readFile(new URL('assets/forest.svg',root),'utf8');assert(!/https?:\/\//.test(forest.replace('http://www.w3.org/2000/svg','')));assert(!/<script/.test(forest));});

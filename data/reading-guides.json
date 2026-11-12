@@ -1,0 +1,35 @@
+{
+  "format":"poetry-i-like:reading-guides/1",
+  "note":"Original reading prompts and brief factual notes. Theme paths are editorial suggestions, not claims about an author's intent.",
+  "poets":{
+    "Emma Lazarus":{"bio":"Emma Lazarus (1849–1887) was an American poet. The New Colossus was written in 1883 for a fundraiser for the Statue of Liberty's pedestal.","source":"https://www.nps.gov/stli/learn/historyculture/colossus.htm"},
+    "William Blake":{"bio":"William Blake (1757–1827) was an English poet, printmaker and painter. Songs of Innocence and of Experience combines poems with his own illustrations.","source":"https://www.bl.uk/people/william-blake"},
+    "Emily Dickinson":{"bio":"Emily Dickinson (1830–1886) lived in Amherst, Massachusetts. Most of her poems appeared in print after her death; early editions sometimes altered punctuation and wording.","source":"https://www.emilydickinsonmuseum.org/emily-dickinson/biography/"},
+    "Cyprian Kamil Norwid":{"bio":"Cyprian Norwid (1821–1883) was a Polish poet and artist who spent much of his adult life abroad. This reader uses his original Polish text, not a modern translation.","source":"https://wolnelektury.pl/katalog/autor/cyprian-kamil-norwid/"},
+    "Walt Whitman":{"bio":"Walt Whitman (1819–1892) was an American poet. He revised and expanded Leaves of Grass across several editions during his lifetime.","source":"https://www.whitmanarchive.org/"},
+    "William Wordsworth":{"bio":"William Wordsworth (1770–1850) was an English Romantic poet. He published Lyrical Ballads with Samuel Taylor Coleridge in 1798.","source":"https://www.wordsworth.org.uk/"},
+    "Paul Laurence Dunbar":{"bio":"Paul Laurence Dunbar (1872–1906) was an American poet, novelist and short-story writer. His poetry uses both standard English and dialect.","source":"https://www.nps.gov/daav/learn/historyculture/paullaurencedunbar.htm"},
+    "Elizabeth Barrett Browning":{"bio":"Elizabeth Barrett Browning (1806–1861) was an English poet. Her publications include Sonnets from the Portuguese and the verse novel Aurora Leigh.","source":"https://en.wikisource.org/wiki/Author:Elizabeth_Barrett_Browning"},
+    "Eugenio Montale":{"bio":"Eugenio Montale (1896–1981) was an Italian poet and the 1975 Nobel laureate in literature. His work appears here as a reading reference, with no protected verse reproduced.","source":"https://www.nobelprize.org/prizes/literature/1975/montale/biographical/"},
+    "Ryszard Krynicki":{"bio":"Ryszard Krynicki is a Polish poet and translator. Magnetic Point is a selection of his poems published in English by New Directions.","source":"https://www.ndbooks.com/book/magnetic-point-selected-poems/"},
+    "Camillo Sbarbaro":{"bio":"Camillo Sbarbaro (1888–1967) was an Italian poet. Pianissimo is one of his poetry collections; the reader links to an authorized reading source.","source":"https://www.treccani.it/enciclopedia/camillo-sbarbaro/"},
+    "Karol Wojtyła (John Paul II)":{"bio":"Karol Wojtyła (1920–2005), later Pope John Paul II, wrote poetry and plays. His work appears here as reading references only.","source":"https://www.vatican.va/content/john-paul-ii/en/biography/documents/hf_jp-ii_bio_01021999_biography.html"}
+  },
+  "paths":[
+    {"id":"freedom","title":"Freedom and the public voice","description":"Read hospitality, power and dissent through three different speakers.","ids":["lazarus-new-colossus","blake-london","dickinson-madness"]},
+    {"id":"home","title":"Home, distance and belonging","description":"Begin in New York, then read Norwid's original Polish poem and follow a modern reading reference.","ids":["lazarus-new-colossus","norwid-moja-piosnka-ii","reading-93777ee73083"]},
+    {"id":"italian","title":"An Italian reading shelf","description":"Follow authorized sources for Montale and Sbarbaro; modern verse stays with its publisher.","ids":["reading-025334cddb12","reading-b73f12bfca2a"]}
+  ],
+  "prompts":[
+    "Which image do you remember after the last line? Return to that line.",
+    "Read once to the punctuation, then once to the line endings. What changes?",
+    "Where does the voice change direction? Look for a verb or a small linking word.",
+    "Which sound repeats? Follow it through a second reading.",
+    "What is left unsaid? Distinguish your inference from the words on the page.",
+    "Try reading it as a letter to one person. Does the voice change?",
+    "Where do you agree with the speaker, and where do you resist?",
+    "Read the first line, then the last. What has moved between them?",
+    "Find one concrete object. What would be lost if it disappeared?",
+    "Choose a line to read aloud twice, once quickly and once slowly."
+  ]
+}
