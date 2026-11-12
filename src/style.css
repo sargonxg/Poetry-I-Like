@@ -1,7 +1,7 @@
 :root{
  --ink:#1c352d;--secondary:#3f5648;--muted:#52674f;--accent:#8b472e;--line:rgba(31,61,39,.23);
  --size:21px;--leading:1.8;--measure:60ch;--letter:0em;--paper-alpha:.97;
- --reader-font:Charter,'Bitstream Charter','Sitka Text','Palatino Linotype',Georgia,serif;
+ --reader-font:"Source Serif 4",Georgia,serif;
  color:var(--ink);font-family:Arial,Helvetica,sans-serif;color-scheme:light;
 }
 *{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;min-width:320px;background:#adbaa4;font-size:13px;line-height:1.6}
@@ -20,3 +20,11 @@ dialog{padding:0;width:min(650px,calc(100vw - 32px));max-height:calc(100dvh - 40
 @media print{body{background:#fff;color:#000}.masthead,.library,.reading-notes,.reader-actions,.reader-feedback,.site-footer,.forest,.mist,.rain,.paper-toolbar,.poem-tools,.line-status,dialog,.skip-link{display:none!important}.workspace{display:block;padding:0;margin:0;max-width:none}.paper{background:#fff!important;color:#000!important;border:0;box-shadow:none;padding:10mm}.poem-lines{font-size:13pt;line-height:1.7;max-width:none}.poem-lines.focused .verse-line{opacity:1}.poem-lines .verse-line::after{display:none}h1{font-size:24pt}.poet,.poem-meta,.source-line{color:#000!important}.source-line a::after{content:' (' attr(href) ')';font-size:8pt;overflow-wrap:anywhere}.source-line{margin-top:8mm}.poem-heading{break-after:avoid}.verse-line{break-inside:avoid}.paper.evening .poem-lines.numbered .verse-line::before{color:#333}}
 .poem-item.active strong{font-weight:700}.library-dialog .filters select,.library-dialog .library-options select,.library-dialog .library-options summary{min-height:44px}
 @media(prefers-contrast:more){.poem-lines.focused .verse-line{opacity:1!important}}
+
+/* The poem stays in front; language tools sit beside its source. */
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:200 900;font-display:swap;src:url(/*__SERIF_FONT__*/) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:200 900;font-display:swap;src:url(/*__SERIF_EXT_FONT__*/) format("woff2");unicode-range:U+0100-02FF,U+1E00-1EFF}
+.poem-lines{font-family:var(--reader-font)}.translation-controls{display:flex;gap:5px;flex-wrap:wrap;margin:10px 0 25px}.translation-controls button{min-height:44px;padding:8px 12px;border:1px solid #b9c8ba;background:#fff;font-size:12px}.translation-controls button[aria-pressed=true]{background:#e4ece3;border-color:#506f59}.poem-text-grid{display:block;min-width:0}.poem-text-grid.view-both{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px}.poem-text-grid.view-english #original-column,.poem-text-grid.view-original #english-column{display:none}.column-label{font:12px/1.5 Arial,sans-serif;color:#4c604e;margin:0 0 14px}.translation-note{font:12px/1.65 Arial,sans-serif;color:#465c4a;border-top:1px solid #cdd8c7;margin:25px 0 0;padding-top:13px}.poem-text-grid .poem-lines{margin:0}.poem-text-grid>section{min-width:0}.poem-lines .verse-line{overflow-wrap:anywhere}.library-tabs{gap:4px}.library-tabs button{min-height:44px;font-size:11px;padding-inline:9px}[hidden]{display:none!important}
+@media(max-width:1100px){.poem-text-grid.view-both{display:block}.poem-text-grid.view-both #english-column{margin-top:30px;padding-top:22px;border-top:1px solid #cdd8c7}}
+@media(prefers-color-scheme:dark){html{color-scheme:only light}}
+@media(forced-colors:active){.translation-controls button[aria-pressed=true]{border:2px solid Highlight}.translation-note,.column-label{color:CanvasText}}

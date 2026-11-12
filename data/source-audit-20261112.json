@@ -1,0 +1,2365 @@
+{
+  "format": "poetry-audit-receipt/1",
+  "checkedAt": "2026-11-12",
+  "verifiedExisting": 115,
+  "newOriginals": 30,
+  "held": [
+    {
+      "id": "hugo-conscience",
+      "title": "La Conscience",
+      "reason": "hold-incomplete"
+    },
+    {
+      "id": "giusti-santambrogio",
+      "title": "Sant’Ambrogio",
+      "reason": "hold-incomplete"
+    },
+    {
+      "id": "pd-355bf443cdd0f6",
+      "title": "From “Later Life”",
+      "reason": "hold-completeness-unclear"
+    },
+    {
+      "id": "pd-a3cceebb151f10",
+      "title": "From the Short Story Shadow-Children",
+      "reason": "hold-completeness-unclear"
+    },
+    {
+      "id": "pd-ef6c252236e44d",
+      "title": "Fragment: To a Friend Released from Prison",
+      "reason": "hold-completeness-unclear"
+    },
+    {
+      "id": "norwid-moja-piosnka-ii",
+      "title": "Moja piosnka (II)",
+      "reason": "replaced-by-source-verified-polish-asset"
+    }
+  ],
+  "languages": {
+    "en": 115,
+    "pl": 10,
+    "it": 10,
+    "fr": 10
+  },
+  "fullPoems": 145,
+  "fullPoets": 126,
+  "modernReadings": 9,
+  "audit": {
+    "schema": "poetry-source-audit/1",
+    "checkedAt": "2026-11-12",
+    "scope": "121 original full-text records; bounded exact-title queries, not author corpus downloads.",
+    "entries": [
+      {
+        "id": "lazarus-new-colossus",
+        "poet": "Emma Lazarus",
+        "title": "The New Colossus",
+        "originalSource": "https://en.wikisource.org/wiki/The_New_Colossus",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poets.org/poem/new-colossus",
+        "status": "verified",
+        "sourceSha256": "bab26df629742a25aa4afb52d595f10d9b33cdbaa41685a5a63d4db2b3ca0a1a",
+        "lines": 14,
+        "verifiedBy": "Exact full poem word sequence matches the Academy of American Poets page, with original title and poet attribution.",
+        "rightsAudit": {
+          "authorDied": 1887,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "basis": "Original1883 poem; no modern translation."
+        }
+      },
+      {
+        "id": "blake-london",
+        "poet": "William Blake",
+        "title": "London",
+        "originalSource": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Experience/London",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/London",
+        "status": "text-mismatch",
+        "localLines": 16,
+        "sourceLines": 16,
+        "sourceSha256": "c1b405ec165ba5027190b102753f480b856ed97b56fa33c36b8c47ba6eba75d9",
+        "recommendedLines": [
+          "I wandered through each chartered street,",
+          "  Near where the chartered Thames does flow,",
+          "A mark in every face I meet,",
+          "  Marks of weakness, marks of woe.",
+          "",
+          "In every cry of every man,",
+          "  In every infant's cry of fear,",
+          "In every voice, in every ban,",
+          "  The mind-forged manacles I hear:",
+          "",
+          "How the chimney-sweeper's cry",
+          "  Every blackening church appalls,",
+          "And the hapless soldier's sigh",
+          "  Runs in blood down palace-walls.",
+          "",
+          "But most, through midnight streets I hear",
+          "  How the youthful harlot's curse",
+          "Blasts the new-born infant's tear,",
+          "  And blights with plagues the marriage-hearse."
+        ]
+      },
+      {
+        "id": "dickinson-madness",
+        "poet": "Emily Dickinson",
+        "title": "Much madness is divinest sense",
+        "originalSource": "https://en.wikisource.org/wiki/The_Complete_Poems_of_Emily_Dickinson/Much_madness_is_divinest_sense",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Much%20madness%20is%20divinest%20sense",
+        "status": "text-mismatch",
+        "localLines": 8,
+        "sourceLines": 8,
+        "sourceSha256": "bd366608957b759a30a55d5a7a23b7a8c30461ad0411980291afa8a4ec6d857d",
+        "recommendedLines": [
+          "Much madness is divinest sense",
+          "To a discerning eye;",
+          "Much sense the starkest madness.",
+          "'T is the majority",
+          "In this, as all, prevails.",
+          "Assent, and you are sane;",
+          "Demur, -- you're straightway dangerous,",
+          "And handled with a chain."
+        ]
+      },
+      {
+        "id": "dunbar-sympathy",
+        "poet": "Paul Laurence Dunbar",
+        "title": "Sympathy",
+        "originalSource": "https://poets.org/poem/sympathy",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Sympathy",
+        "status": "text-mismatch",
+        "localLines": 21,
+        "sourceLines": 21,
+        "sourceSha256": "1fc4d36c6c1262592078ad5777651bd1f863838bd28c0be0c2a4108bfd416d94",
+        "recommendedLines": [
+          "I know what the caged bird feels, alas!",
+          "When the sun is bright on the upland slopes;",
+          "When the wind stirs soft through the springing grass,",
+          "And the river flows like a stream of glass;",
+          "When the first bird sings and the first bud opes,",
+          "And the faint perfume from its chalice steals--",
+          "I know what the caged bird feels!",
+          "",
+          "I know why the caged bird beats his wing",
+          "Till its blood is red on the cruel bars;",
+          "For he must fly back to his perch and cling",
+          "When he fain would be on the bough a-swing;",
+          "And a pain still throbs in the old, old scars",
+          "And they pulse again with a keener sting--",
+          "I know why he beats his wing!",
+          "",
+          "I know why the caged bird sings, ah me,",
+          "When his wing is bruised and his bosom sore,--",
+          "When he beats his bars and he would be free;",
+          "It is not a carol of joy or glee,",
+          "But a prayer that he sends from his heart's deep core,",
+          "But a plea, that upward to Heaven he flings--",
+          "I know why the caged bird sings!"
+        ]
+      },
+      {
+        "id": "hugo-conscience",
+        "poet": "Victor Hugo",
+        "title": "La Conscience",
+        "originalSource": "https://fr.wikisource.org/wiki/La_L%C3%A9gende_des_si%C3%A8cles/La_Conscience",
+        "checkedAt": "2026-11-12",
+        "status": "hold-incomplete",
+        "reason": "Displayed text is a short excerpt, not the complete named poem."
+      },
+      {
+        "id": "giusti-santambrogio",
+        "poet": "Giuseppe Giusti",
+        "title": "Sant’Ambrogio",
+        "originalSource": "https://it.wikisource.org/wiki/Versi_editi_ed_inediti_di_Giuseppe_Giusti/Sant%27Ambrogio",
+        "checkedAt": "2026-11-12",
+        "status": "hold-incomplete",
+        "reason": "Displayed text is a short excerpt, not the complete named poem."
+      },
+      {
+        "id": "pd-d5d58450b0901b",
+        "poet": "Adam Lindsay Gordon",
+        "title": "A Song of Autumn",
+        "originalSource": "https://poetrydb.org/author,title/Adam%20Lindsay%20Gordon:abs;A%20Song%20of%20Autumn:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Song%20of%20Autumn",
+        "status": "verified",
+        "sourceSha256": "75fa44667fa9678f13680e148d51d4f8c30436358c47337bace100304424c75f",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1870,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bfe2c7d07bcac8",
+        "poet": "Alexander Pope",
+        "title": "Epitaph. Another, on the Same.",
+        "originalSource": "https://poetrydb.org/author,title/Alexander%20Pope:abs;Epitaph.%20Another%2C%20on%20the%20Same.:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Epitaph.%20Another%2C%20on%20the%20Same.",
+        "status": "verified",
+        "sourceSha256": "86d1e900cb0a70a548818db928eb65f813f6218dc85620654d1b6ffcc73c96b5",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1744,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-73360380b2d070",
+        "poet": "Amy Levy",
+        "title": "Ballade of an Omnibus",
+        "originalSource": "https://poetrydb.org/author,title/Amy%20Levy:abs;Ballade%20of%20an%20Omnibus:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Ballade%20of%20an%20Omnibus",
+        "status": "verified",
+        "sourceSha256": "99420f75a30d4c8e2ddb54c4d5baf908ea53932a7319fa13d952690fdd77f221",
+        "lines": 30,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1889,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d7f436855a4688",
+        "poet": "Andrew Marvell",
+        "title": "Music's Empire",
+        "originalSource": "https://poetrydb.org/author,title/Andrew%20Marvell:abs;Music%27s%20Empire:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Music%27s%20Empire",
+        "status": "verified",
+        "sourceSha256": "c32f8b90743391ba3091a296a02975d3160b2d4e62e808c3498b4874d5477f6e",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1678,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f2a20b78c35d52",
+        "poet": "Ann Taylor",
+        "title": "About the Little Girl that Beat Her Sister",
+        "originalSource": "https://poetrydb.org/author,title/Ann%20Taylor:abs;About%20the%20Little%20Girl%20that%20Beat%20Her%20Sister:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/About%20the%20Little%20Girl%20that%20Beat%20Her%20Sister",
+        "status": "verified",
+        "sourceSha256": "a84bb88a72a0b7d2b282dce5e10f6c4108d147dbe117eb7bcbf452cb771d0f5f",
+        "lines": 20,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1866,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0568ac8c0f2848",
+        "poet": "Anne Bradstreet",
+        "title": "To Her Father with Some Verses",
+        "originalSource": "https://poetrydb.org/author,title/Anne%20Bradstreet:abs;To%20Her%20Father%20with%20Some%20Verses:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20Her%20Father%20with%20Some%20Verses",
+        "status": "verified",
+        "sourceSha256": "0c7cb53d62802598b1691d8e245a797cf7f352df90dcc4a36523e7b47dfa97c6",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1672,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-59a132d05995ce",
+        "poet": "Anne Bronte",
+        "title": "Lines Written from Home",
+        "originalSource": "https://poetrydb.org/author,title/Anne%20Bronte:abs;Lines%20Written%20from%20Home:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Lines%20Written%20from%20Home",
+        "status": "verified",
+        "sourceSha256": "2c3b561cdddaf51a5409bb529439bac2fa09f2b4e0f101fc0792bcb217360442",
+        "lines": 32,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1849,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-4b6e3a912f7bcc",
+        "poet": "Anne Killigrew",
+        "title": "St. John Baptist Painted by her self in the Wilderness, with Angels appearing to him, and with a Lamb by him",
+        "originalSource": "https://poetrydb.org/author,title/Anne%20Killigrew:abs;St.%20John%20Baptist%20Painted%20by%20her%20self%20in%20the%20Wilderness%2C%20with%20Angels%20appearing%20to%20him%2C%20and%20with%20a%20Lamb%20by%20him:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/St.%20John%20Baptist%20Painted%20by%20her%20self%20in%20the%20Wilderness%2C%20with%20Angels%20appearing%20to%20him%2C%20and%20with%20a%20Lamb%20by%20him",
+        "status": "verified",
+        "sourceSha256": "bf4e74c9fb7996c4ea301765404562444a5bc01005cfb0e89c46af27e2b9f3e2",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1685,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2c8f29eb8d993f",
+        "poet": "Anne Kingsmill Finch",
+        "title": "On Myselfe",
+        "originalSource": "https://poetrydb.org/author,title/Anne%20Kingsmill%20Finch:abs;On%20Myselfe:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20Myselfe",
+        "status": "verified",
+        "sourceSha256": "cc2d394d24181faf8ae0fc1a67aa5b614b9ce605ab5bf18e4034b26a75764b29",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1720,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-89077feeaafa29",
+        "poet": "Arthur Hugh Clough",
+        "title": "Across the Sea Along the Shore",
+        "originalSource": "https://poetrydb.org/author,title/Arthur%20Hugh%20Clough:abs;Across%20the%20Sea%20Along%20the%20Shore:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Across%20the%20Sea%20Along%20the%20Shore",
+        "status": "verified",
+        "sourceSha256": "9b605576b057588f3c2ba19a215e8a5b1589b531648a816cdd011d13ed64a480",
+        "lines": 28,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1861,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-8651aa6368f7ca",
+        "poet": "Ben Jonson",
+        "title": "A Farewell to the World",
+        "originalSource": "https://poetrydb.org/author,title/Ben%20Jonson:abs;A%20Farewell%20to%20the%20World:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Farewell%20to%20the%20World",
+        "status": "verified",
+        "sourceSha256": "76599ef30db6c7aded8fad7018dd3b34f1f4d24d42bea511a2566250de275f74",
+        "lines": 36,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1637,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-1ee7522ef3c500",
+        "poet": "Charles Kingsley",
+        "title": "Easter Week",
+        "originalSource": "https://poetrydb.org/author,title/Charles%20Kingsley:abs;Easter%20Week:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Easter%20Week",
+        "status": "verified",
+        "sourceSha256": "3fed9ad72098f55f672621ea174c7bc81663a72b1da07f7968129ea71c9aad62",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1875,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6e944a6b070134",
+        "poet": "Charlotte Bronte",
+        "title": "Life",
+        "originalSource": "https://poetrydb.org/author,title/Charlotte%20Bronte:abs;Life:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Life",
+        "status": "verified",
+        "sourceSha256": "691c9da27414e74435147029ecd35e9514762e8a311db1e148b838cb7b7f16ac",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1855,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6e826844349c12",
+        "poet": "Charlotte Smith",
+        "title": "Sonnet XLIV: Press'd by the Moon",
+        "originalSource": "https://poetrydb.org/author,title/Charlotte%20Smith:abs;Sonnet%20XLIV%3A%20Press%27d%20by%20the%20Moon:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Sonnet%20XLIV%3A%20Press%27d%20by%20the%20Moon",
+        "status": "verified",
+        "sourceSha256": "997bf58935e68478f98d89f0b6dbc510d32031133666661be3896d5359e74cf2",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1806,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-355bf443cdd0f6",
+        "poet": "Christina Rossetti",
+        "title": "From “Later Life”",
+        "originalSource": "https://poetrydb.org/author,title/Christina%20Rossetti:abs;From%20%E2%80%9CLater%20Life%E2%80%9D:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/From%20%E2%80%9CLater%20Life%E2%80%9D",
+        "status": "hold-completeness-unclear",
+        "sourceSha256": "65fc811b57f9f50f847b1570be62e5451d8ea463a59e7ac625c8821bd0906793",
+        "lines": 30,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1894,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        },
+        "reason": "Source text matches, but title identifies a fragment or selection from another work. Exclude from the promised complete-poem count until a complete independent poem can be documented."
+      },
+      {
+        "id": "pd-19c3e318238426",
+        "poet": "Christopher Marlowe",
+        "title": "The Passionate Shepherd to His Love",
+        "originalSource": "https://poetrydb.org/author,title/Christopher%20Marlowe:abs;The%20Passionate%20Shepherd%20to%20His%20Love:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Passionate%20Shepherd%20to%20His%20Love",
+        "status": "verified",
+        "sourceSha256": "b0809222f510f53fcebd5a3053226ff65542623fd157e6d71c071d7a3a6d3ed8",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1593,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-a837dc3664352e",
+        "poet": "Christopher Smart",
+        "title": "On My Wife's Birth-Day",
+        "originalSource": "https://poetrydb.org/author,title/Christopher%20Smart:abs;On%20My%20Wife%27s%20Birth-Day:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20My%20Wife%27s%20Birth-Day",
+        "status": "verified",
+        "sourceSha256": "34937df601120dcd12820ae112f08210378bf1de46058a6f3d854569d99fa652",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1771,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-86f320d191841c",
+        "poet": "Coventry Patmore",
+        "title": "A Farewell",
+        "originalSource": "https://poetrydb.org/author,title/Coventry%20Patmore:abs;A%20Farewell:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Farewell",
+        "status": "verified",
+        "sourceSha256": "b018902853347b83fea8de23463f2076ea002f19952b495afe52150926161b6c",
+        "lines": 25,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1896,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6685837cf9c03e",
+        "poet": "Edgar Allan Poe",
+        "title": "To Marie Louise (Shew)",
+        "originalSource": "https://poetrydb.org/author,title/Edgar%20Allan%20Poe:abs;To%20Marie%20Louise%20%28Shew%29:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20Marie%20Louise%20%28Shew%29",
+        "status": "verified",
+        "sourceSha256": "c8ccecb91fd8f0e96aff4092a4b4697de55f38d797d6ab4bbf92dc9d9f509629",
+        "lines": 18,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1849,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-cd62d85a7e28ac",
+        "poet": "Edmund Spenser",
+        "title": "Amoretti LXXIV: Most Happy Letters",
+        "originalSource": "https://poetrydb.org/author,title/Edmund%20Spenser:abs;Amoretti%20LXXIV%3A%20Most%20Happy%20Letters:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Amoretti%20LXXIV%3A%20Most%20Happy%20Letters",
+        "status": "verified",
+        "sourceSha256": "d600f8ea6730396c310e2fbd4a07590c334c4d177e906ec2107592368ccad586",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1599,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-3c4cce17851ce1",
+        "poet": "Edward Taylor",
+        "title": "Loyalty",
+        "originalSource": "https://poetrydb.org/author,title/Edward%20Taylor:abs;Loyalty:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Loyalty",
+        "status": "verified",
+        "sourceSha256": "791d6471692a3da0f0db485d4221543cfbaf4da3e5d7e9b6e8ae65f1ef1bd10e",
+        "lines": 27,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1729,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-83ac41dea4c482",
+        "poet": "Eliza Cook",
+        "title": "The Sea-Child",
+        "originalSource": "https://poetrydb.org/author,title/Eliza%20Cook:abs;The%20Sea-Child:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Sea-Child",
+        "status": "verified",
+        "sourceSha256": "b794b76f845b35a591fb5367e9089364c79c00bf6bf18a42d07f960fd017ca83",
+        "lines": 32,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1889,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-3f8abca390882f",
+        "poet": "Elizabeth Barrett Browning",
+        "title": "On a Portrait of Wordsworth",
+        "originalSource": "https://poetrydb.org/author,title/Elizabeth%20Barrett%20Browning:abs;On%20a%20Portrait%20of%20Wordsworth:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20a%20Portrait%20of%20Wordsworth",
+        "status": "verified",
+        "sourceSha256": "c6f1e9ad5614d4e4ca832b5e39a64059773041840341baeb412656a3911285e7",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1861,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d0f60b93ebc569",
+        "poet": "Emily Bronte",
+        "title": "Hope",
+        "originalSource": "https://poetrydb.org/author,title/Emily%20Bronte:abs;Hope:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Hope",
+        "status": "verified",
+        "sourceSha256": "ad4dd228f57d877cadb548faab787a9d5be9ce7e4c2281a4f6fb6ae0eab5a6e5",
+        "lines": 20,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1848,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-577d863a341fad",
+        "poet": "Emily Dickinson",
+        "title": "Mine by the right of the white election!",
+        "originalSource": "https://poetrydb.org/author,title/Emily%20Dickinson:abs;Mine%20by%20the%20right%20of%20the%20white%20election%21:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Mine%20by%20the%20right%20of%20the%20white%20election%21",
+        "status": "verified",
+        "sourceSha256": "983ed2e3d0f0d880167b09934ba296ac55994d4fc7463240d70cdbc55ac01ee8",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1886,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-340055ffc648e7",
+        "poet": "Emma Lazarus",
+        "title": "Marriage Bells",
+        "originalSource": "https://poetrydb.org/author,title/Emma%20Lazarus:abs;Marriage%20Bells:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Marriage%20Bells",
+        "status": "verified",
+        "sourceSha256": "72343bca9bdf1d07d63462acca3820860ee2ac39b8ac7295a8420f72ba5aeef0",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1887,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-fec086fb38bc2d",
+        "poet": "Ernest Dowson",
+        "title": "The Moon Maiden's Song",
+        "originalSource": "https://poetrydb.org/author,title/Ernest%20Dowson:abs;The%20Moon%20Maiden%27s%20Song:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Moon%20Maiden%27s%20Song",
+        "status": "verified",
+        "sourceSha256": "5bdced2842de6d5df6a0a5ebe85c82a5d73a8ff6e3c490a1365dea7de9bb3898",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1900,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d13a0b67e578a5",
+        "poet": "Eugene Field",
+        "title": "The bow-leg boy",
+        "originalSource": "https://poetrydb.org/author,title/Eugene%20Field:abs;The%20bow-leg%20boy:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20bow-leg%20boy",
+        "status": "verified",
+        "sourceSha256": "8cb3cf7022cc2fc2bc050f7f8dcc190772ef4761625b2745ee12f4f71b337cf6",
+        "lines": 42,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1895,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f128e430b245db",
+        "poet": "George Gordon, Lord Byron",
+        "title": "Stanzas",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;Stanzas:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Stanzas",
+        "status": "verified",
+        "sourceSha256": "49b96cb7c95268645b03222f8d6e50431f35f4be4acd5570b3e0d962fb97ee2b",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f73fdc7f3cff7b",
+        "poet": "George Herbert",
+        "title": "Church Music",
+        "originalSource": "https://poetrydb.org/author,title/George%20Herbert:abs;Church%20Music:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Church%20Music",
+        "status": "verified",
+        "sourceSha256": "3cafbd1a9d388ea62659ba1060c66a7069a6a99a907a769099ee1660b0ab0027",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1633,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6d05197b1dfcd2",
+        "poet": "Gerard Manley Hopkins",
+        "title": "What Being in Rank-Old Nature",
+        "originalSource": "https://poetrydb.org/author,title/Gerard%20Manley%20Hopkins:abs;What%20Being%20in%20Rank-Old%20Nature:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/What%20Being%20in%20Rank-Old%20Nature",
+        "status": "verified",
+        "sourceSha256": "5556da7035d62720b9b8a7adebca89242a7aa4abdf3d3ec7ba73e7b47803be09",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1889,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bf6e7d2e0f89c6",
+        "poet": "Helen Hunt Jackson",
+        "title": "Freedom",
+        "originalSource": "https://poetrydb.org/author,title/Helen%20Hunt%20Jackson:abs;Freedom:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Freedom",
+        "status": "verified",
+        "sourceSha256": "59c5f6dae212c84e2a0acc33fc21b8fd4e6b1987bf3a1eebe02f19e5ecff82bf",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1885,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-731b69106abd6e",
+        "poet": "Henry David Thoreau",
+        "title": "Prayer",
+        "originalSource": "https://poetrydb.org/author,title/Henry%20David%20Thoreau:abs;Prayer:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Prayer",
+        "status": "verified",
+        "sourceSha256": "4c6ace90e6376417f0d06b7529059fbbf5e6129b188b85de4e254f4bc7f8e770",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1862,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-e116469337046f",
+        "poet": "Henry Vaughan",
+        "title": "The Water-Fall",
+        "originalSource": "https://poetrydb.org/author,title/Henry%20Vaughan:abs;The%20Water-Fall:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Water-Fall",
+        "status": "verified",
+        "sourceSha256": "61d8a55b3f207677dea1083670dc7c870d0eb4bf8d6ae1062b8919e4d62965ce",
+        "lines": 40,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1695,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-b5dc0f540800f1",
+        "poet": "Henry Wadsworth Longfellow",
+        "title": "The Sound of the Sea",
+        "originalSource": "https://poetrydb.org/author,title/Henry%20Wadsworth%20Longfellow:abs;The%20Sound%20of%20the%20Sea:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Sound%20of%20the%20Sea",
+        "status": "verified",
+        "sourceSha256": "1ef173d71aeac295c640337b15209b7263e22e33ad63a25bd3548517f3612339",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1882,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6f0578d8db3b31",
+        "poet": "Isaac Watts",
+        "title": "Psalm XXXII: Happy the Man",
+        "originalSource": "https://poetrydb.org/author,title/Isaac%20Watts:abs;Psalm%20XXXII%3A%20Happy%20the%20Man:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Psalm%20XXXII%3A%20Happy%20the%20Man",
+        "status": "verified",
+        "sourceSha256": "afe31e1bef9880f7d828401945266e7d947a7424e6a548acb05a865a793efb56",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1748,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-c56072613fd836",
+        "poet": "James Henry Leigh Hunt",
+        "title": "Death",
+        "originalSource": "https://poetrydb.org/author,title/James%20Henry%20Leigh%20Hunt:abs;Death:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Death",
+        "status": "verified",
+        "sourceSha256": "1ee3548cb021b75f03562a00d1b173397b222974344d03b361d9cd4453b5c5f4",
+        "lines": 13,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1859,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-04b6d845882c47",
+        "poet": "Jane Austen",
+        "title": "Happy the Lab'rer",
+        "originalSource": "https://poetrydb.org/author,title/Jane%20Austen:abs;Happy%20the%20Lab%27rer:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Happy%20the%20Lab%27rer",
+        "status": "verified",
+        "sourceSha256": "e1b2509e1571097e5f2ca70e804b005db94023c4583d5f4d96097c401a609f23",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1817,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-eef81b965c7951",
+        "poet": "Jane Taylor",
+        "title": "Little Girls Must Not Fret",
+        "originalSource": "https://poetrydb.org/author,title/Jane%20Taylor:abs;Little%20Girls%20Must%20Not%20Fret:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Little%20Girls%20Must%20Not%20Fret",
+        "status": "verified",
+        "sourceSha256": "4fd86b9a9b1ee1d41a7655a6aa21ecaaed8303f76e985a11d4cdeb1a9de86975",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-ed197431451c16",
+        "poet": "John Clare",
+        "title": "House or Window Flies",
+        "originalSource": "https://poetrydb.org/author,title/John%20Clare:abs;House%20or%20Window%20Flies:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/House%20or%20Window%20Flies",
+        "status": "verified",
+        "sourceSha256": "8815e3c0fb9b61f51a334ace5b675a5365b45a3e851ae1b9340127d850f517f5",
+        "lines": 9,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1864,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-7e7daa9bf21b76",
+        "poet": "John Donne",
+        "title": "Holy Sonnet IV: Oh My Black Soul! Now Art Thou Summoned",
+        "originalSource": "https://poetrydb.org/author,title/John%20Donne:abs;Holy%20Sonnet%20IV%3A%20Oh%20My%20Black%20Soul%21%20Now%20Art%20Thou%20Summoned:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Holy%20Sonnet%20IV%3A%20Oh%20My%20Black%20Soul%21%20Now%20Art%20Thou%20Summoned",
+        "status": "verified",
+        "sourceSha256": "e8e549be06562c11f9b2b1e4171251aa52a1482f93c2ca87de1d8aad9677ceaa",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1631,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-9bcaf027d88061",
+        "poet": "John Dryden",
+        "title": "Song from Marriage-a-La-Mode",
+        "originalSource": "https://poetrydb.org/author,title/John%20Dryden:abs;Song%20from%20Marriage-a-La-Mode:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Song%20from%20Marriage-a-La-Mode",
+        "status": "verified",
+        "sourceSha256": "af372fdb87cf85c300c743eb29d0042d693706774deb1968cc19a06bd58f6152",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1700,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2f61799aba0fc7",
+        "poet": "John Greenleaf Whittier",
+        "title": "A Word for the Hour",
+        "originalSource": "https://poetrydb.org/author,title/John%20Greenleaf%20Whittier:abs;A%20Word%20for%20the%20Hour:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Word%20for%20the%20Hour",
+        "status": "verified",
+        "sourceSha256": "19670d0c6f309a3680204fd83584f138ea71719c6104146deee074ed90538ac9",
+        "lines": 29,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1892,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-92f669cdb5cbd4",
+        "poet": "John Keats",
+        "title": "To Hope",
+        "originalSource": "https://poetrydb.org/author,title/John%20Keats:abs;To%20Hope:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20Hope",
+        "status": "verified",
+        "sourceSha256": "a24bc7b8b3352795c6f3deabc27cd4875d0e81beba819dbc7a64e852fd5bca23",
+        "lines": 48,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1821,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-caf81cb79be25b",
+        "poet": "John Milton",
+        "title": "At a Solemn Musick",
+        "originalSource": "https://poetrydb.org/author,title/John%20Milton:abs;At%20a%20Solemn%20Musick:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/At%20a%20Solemn%20Musick",
+        "status": "verified",
+        "sourceSha256": "a6ec3ee6f917a6aeb95d677b842c3331f06942878062d9bbb5b2cf5d2b91964d",
+        "lines": 30,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1674,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-038289f93c5262",
+        "poet": "John Wilmot",
+        "title": "To This Moment a Rebel",
+        "originalSource": "https://poetrydb.org/author,title/John%20Wilmot:abs;To%20This%20Moment%20a%20Rebel:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20This%20Moment%20a%20Rebel",
+        "status": "verified",
+        "sourceSha256": "86887d133a1c91a32ff9aa7680dae31edbffe3ea77edc6395649dcfe92ceb342",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1680,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f7313bd3efb703",
+        "poet": "Jonathan Swift",
+        "title": "Stella's Birthday March 13, 1719",
+        "originalSource": "https://poetrydb.org/author,title/Jonathan%20Swift:abs;Stella%27s%20Birthday%20March%2013%2C%201719:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Stella%27s%20Birthday%20March%2013%2C%201719",
+        "status": "verified",
+        "sourceSha256": "e76317fddad24911a49d9ff20194b5d266a32ba04c76b105b2cf902d6868fe49",
+        "lines": 18,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1745,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2d42c6c637dc83",
+        "poet": "Joseph Warton",
+        "title": "Verses on a Butterfly",
+        "originalSource": "https://poetrydb.org/author,title/Joseph%20Warton:abs;Verses%20on%20a%20Butterfly:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Verses%20on%20a%20Butterfly",
+        "status": "verified",
+        "sourceSha256": "e5fef15ad26956be52c69ac72fb8a15e1c9b5d38b3944b1808c3ae003f7a4096",
+        "lines": 22,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1800,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-b774d9ccd909f0",
+        "poet": "Katherine Philips",
+        "title": "To my dear Sister, Mrs. C. P. on her Nuptial",
+        "originalSource": "https://poetrydb.org/author,title/Katherine%20Philips:abs;To%20my%20dear%20Sister%2C%20Mrs.%20C.%20P.%20on%20her%20Nuptial:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20my%20dear%20Sister%2C%20Mrs.%20C.%20P.%20on%20her%20Nuptial",
+        "status": "verified",
+        "sourceSha256": "a064b4e59a04bec750b4d03512b7e2710758d49c86a0f232214c8dfa043e132e",
+        "lines": 27,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1664,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-15a76d49f2a030",
+        "poet": "Lewis Carroll",
+        "title": "Brother and Sister",
+        "originalSource": "https://poetrydb.org/author,title/Lewis%20Carroll:abs;Brother%20and%20Sister:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Brother%20and%20Sister",
+        "status": "verified",
+        "sourceSha256": "c55cf2a554500b6bc64790810fea75e7dc335fd14a43f97230c394b5c294f43b",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1898,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f18f1bb74fb524",
+        "poet": "Lord Alfred Tennyson",
+        "title": "Of Old Sat Freedom on the Heights",
+        "originalSource": "https://poetrydb.org/author,title/Lord%20Alfred%20Tennyson:abs;Of%20Old%20Sat%20Freedom%20on%20the%20Heights:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Of%20Old%20Sat%20Freedom%20on%20the%20Heights",
+        "status": "verified",
+        "sourceSha256": "677b4f2083760e0b90fe23664dd68a8ed4b888717c7a5237622b081c535e71c9",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1892,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-a3cceebb151f10",
+        "poet": "Louisa May Alcott",
+        "title": "From the Short Story Shadow-Children",
+        "originalSource": "https://poetrydb.org/author,title/Louisa%20May%20Alcott:abs;From%20the%20Short%20Story%20Shadow-Children:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/From%20the%20Short%20Story%20Shadow-Children",
+        "status": "hold-completeness-unclear",
+        "sourceSha256": "072d4cf35dc158b85f119f766a4528970a314a20d98860bfa4c2470bf5a1c0f3",
+        "lines": 32,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1888,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        },
+        "reason": "Source text matches, but title identifies a fragment or selection from another work. Exclude from the promised complete-poem count until a complete independent poem can be documented."
+      },
+      {
+        "id": "pd-9a61692c83940e",
+        "poet": "Major Henry Livingston, Jr.",
+        "title": "On my Sister Joanna's Entrance into Her 33rd Year",
+        "originalSource": "https://poetrydb.org/author,title/Major%20Henry%20Livingston%2C%20Jr.:abs;On%20my%20Sister%20Joanna%27s%20Entrance%20into%20Her%2033rd%20Year:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20my%20Sister%20Joanna%27s%20Entrance%20into%20Her%2033rd%20Year",
+        "status": "verified",
+        "sourceSha256": "d9b2080774d8fdc970b4e3252789e15112833a9361d018b14ca0af0da48f202d",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1828,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d50047a24202f3",
+        "poet": "Matthew Arnold",
+        "title": "Hayeswater",
+        "originalSource": "https://poetrydb.org/author,title/Matthew%20Arnold:abs;Hayeswater:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Hayeswater",
+        "status": "verified",
+        "sourceSha256": "aa014a310128323bbfbc6c09169f5995d769e6670a894ef633ee1353b78c6024",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1888,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0eaae265e7cbbb",
+        "poet": "Matthew Prior",
+        "title": "A Letter to Lady Margaret Cavendish Holles-Harley, when a Child",
+        "originalSource": "https://poetrydb.org/author,title/Matthew%20Prior:abs;A%20Letter%20to%20Lady%20Margaret%20Cavendish%20Holles-Harley%2C%20when%20a%20Child:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Letter%20to%20Lady%20Margaret%20Cavendish%20Holles-Harley%2C%20when%20a%20Child",
+        "status": "verified",
+        "sourceSha256": "93d58b8180b32f9219cb2edd3b02db16c4a8b11c495e96feeac4231bda70ae39",
+        "lines": 13,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1721,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-4fd6218436b532",
+        "poet": "Michael Drayton",
+        "title": "Sonnet LVI: When Like an Eaglet",
+        "originalSource": "https://poetrydb.org/author,title/Michael%20Drayton:abs;Sonnet%20LVI%3A%20When%20Like%20an%20Eaglet:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Sonnet%20LVI%3A%20When%20Like%20an%20Eaglet",
+        "status": "verified",
+        "sourceSha256": "d8648f4e8aced1a2b227240bfd8a389d059f4aa33e37905e13192460d3ababc9",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1631,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f33180999b5df6",
+        "poet": "Oliver Goldsmith",
+        "title": "An Elegy on the Death of a Mad Dog",
+        "originalSource": "https://poetrydb.org/author,title/Oliver%20Goldsmith:abs;An%20Elegy%20on%20the%20Death%20of%20a%20Mad%20Dog:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/An%20Elegy%20on%20the%20Death%20of%20a%20Mad%20Dog",
+        "status": "verified",
+        "sourceSha256": "daa36d8fba0c4375d8f38f4c2086c7433f18a000ca9d487c2ea4172869594a3c",
+        "lines": 32,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1774,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0f033897a4d400",
+        "poet": "Oliver Wendell Holmes",
+        "title": "A Parody on “A Psalm of Life”",
+        "originalSource": "https://poetrydb.org/author,title/Oliver%20Wendell%20Holmes:abs;A%20Parody%20on%20%E2%80%9CA%20Psalm%20of%20Life%E2%80%9D:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Parody%20on%20%E2%80%9CA%20Psalm%20of%20Life%E2%80%9D",
+        "status": "verified",
+        "sourceSha256": "1175991aea1217ef94b9e98483dc85591154d48aebeb109d40aa6ca9b749d62a",
+        "lines": 20,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1894,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2021afd7a29e5f",
+        "poet": "Oscar Wilde",
+        "title": "To My Wife - With a Copy of My Poems",
+        "originalSource": "https://poetrydb.org/author,title/Oscar%20Wilde:abs;To%20My%20Wife%20-%20With%20a%20Copy%20of%20My%20Poems:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20My%20Wife%20-%20With%20a%20Copy%20of%20My%20Poems",
+        "status": "verified",
+        "sourceSha256": "bb2ca0da20391ca353c8013e84a3ca77b62c65ff0c4b94947691408be7c63fee",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1900,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bd4751b1e29757",
+        "poet": "Paul Laurence Dunbar",
+        "title": "Life's Tragedy",
+        "originalSource": "https://poetrydb.org/author,title/Paul%20Laurence%20Dunbar:abs;Life%27s%20Tragedy:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Life%27s%20Tragedy",
+        "status": "verified",
+        "sourceSha256": "64842e54f33f5bd2a454cbb1d638415aad63e3288a91ad84f03e6de0d4bfa9f1",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1906,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-ef6c252236e44d",
+        "poet": "Percy Bysshe Shelley",
+        "title": "Fragment: To a Friend Released from Prison",
+        "originalSource": "https://poetrydb.org/author,title/Percy%20Bysshe%20Shelley:abs;Fragment%3A%20To%20a%20Friend%20Released%20from%20Prison:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Fragment%3A%20To%20a%20Friend%20Released%20from%20Prison",
+        "status": "hold-completeness-unclear",
+        "sourceSha256": "4a393c787e1c00db4be91c05741aed3a7281723a593a8434d69791a51e4c77bb",
+        "lines": 10,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1822,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        },
+        "reason": "Source text matches, but title identifies a fragment or selection from another work. Exclude from the promised complete-poem count until a complete independent poem can be documented."
+      },
+      {
+        "id": "pd-869a4076b915d9",
+        "poet": "Philip Freneau",
+        "title": "To the Memory of the Brave Americans",
+        "originalSource": "https://poetrydb.org/author,title/Philip%20Freneau:abs;To%20the%20Memory%20of%20the%20Brave%20Americans:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20the%20Memory%20of%20the%20Brave%20Americans",
+        "status": "verified",
+        "sourceSha256": "d84c967f6cc420747c3288a3f8fcd4be753770ac13c9ef8679e342bfbcc5ce38",
+        "lines": 34,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1832,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d14896f323e131",
+        "poet": "Phillis Wheatley",
+        "title": "An Hymn to Humanity (To S.P.G. Esp)",
+        "originalSource": "https://poetrydb.org/author,title/Phillis%20Wheatley:abs;An%20Hymn%20to%20Humanity%20%28To%20S.P.G.%20Esp%29:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/An%20Hymn%20to%20Humanity%20%28To%20S.P.G.%20Esp%29",
+        "status": "verified",
+        "sourceSha256": "f362260a38f420b55a0bfa6b95d13d9ed2f73184af9c94bd894ea6ac3330bac8",
+        "lines": 41,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1784,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2cb56ce4059ada",
+        "poet": "Ralph Waldo Emerson",
+        "title": "Mithridates",
+        "originalSource": "https://poetrydb.org/author,title/Ralph%20Waldo%20Emerson:abs;Mithridates:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Mithridates",
+        "status": "verified",
+        "sourceSha256": "b8ed3073f6eb28ae716dbceede5a3911f6c2c3051993bb506569bbb6163169a9",
+        "lines": 34,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1882,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0297c5dbccb8be",
+        "poet": "Richard Crashaw",
+        "title": "An Epitaph upon a Young Married Couple, Dead and Buried Together",
+        "originalSource": "https://poetrydb.org/author,title/Richard%20Crashaw:abs;An%20Epitaph%20upon%20a%20Young%20Married%20Couple%2C%20Dead%20and%20Buried%20Together:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/An%20Epitaph%20upon%20a%20Young%20Married%20Couple%2C%20Dead%20and%20Buried%20Together",
+        "status": "verified",
+        "sourceSha256": "4fcb634fae7ee08f405bf0ff1fbdae12eab479b058a8c78afb5a91d9bf246ae5",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1649,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f91b46ed4bc6ce",
+        "poet": "Richard Lovelace",
+        "title": "The Rose",
+        "originalSource": "https://poetrydb.org/author,title/Richard%20Lovelace:abs;The%20Rose:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Rose",
+        "status": "verified",
+        "sourceSha256": "a7dd7dfbef625be332136a9c16ff8aae918b19dd7498ca331816afb987fe08fd",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1657,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-add65f465ee23c",
+        "poet": "Robert Browning",
+        "title": "Why I am a Liberal",
+        "originalSource": "https://poetrydb.org/author,title/Robert%20Browning:abs;Why%20I%20am%20a%20Liberal:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Why%20I%20am%20a%20Liberal",
+        "status": "verified",
+        "sourceSha256": "51f22f21c71ce4eaf5f18a6e79e3b6d28a9fdeec20f56ee91ccde2fbb427a837",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1889,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6e29aa239b02ab",
+        "poet": "Robert Burns",
+        "title": "The Song of Death",
+        "originalSource": "https://poetrydb.org/author,title/Robert%20Burns:abs;The%20Song%20of%20Death:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Song%20of%20Death",
+        "status": "verified",
+        "sourceSha256": "c3fff62326933acdf57d1c9122e6dfa2bb81943f46b68baf96ccc4df10ea95cf",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1796,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f73cf11979c988",
+        "poet": "Robert Herrick",
+        "title": "To Heaven",
+        "originalSource": "https://poetrydb.org/author,title/Robert%20Herrick:abs;To%20Heaven:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20Heaven",
+        "status": "verified",
+        "sourceSha256": "d69da49dd6ffb67a0ca1c021dc0b50d87dd1df15c8560e48a88d6c66ba9fb472",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1674,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-2cc28283955bf6",
+        "poet": "Robert Louis Stevenson",
+        "title": "Farewell",
+        "originalSource": "https://poetrydb.org/author,title/Robert%20Louis%20Stevenson:abs;Farewell:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Farewell",
+        "status": "verified",
+        "sourceSha256": "f862e8c90833f7874bf0269c59d53a23e54ba7fedc1c2c5d561ffa4ff7ae0dca",
+        "lines": 10,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1894,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-b434fa5b70f013",
+        "poet": "Robert Southey",
+        "title": "The Pauper's Funeral",
+        "originalSource": "https://poetrydb.org/author,title/Robert%20Southey:abs;The%20Pauper%27s%20Funeral:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Pauper%27s%20Funeral",
+        "status": "verified",
+        "sourceSha256": "57c4b2a55092de546e0692a6041e6d83abcc1cf3edfd31ca0345d2449e20f7d5",
+        "lines": 26,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1843,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-a642f67b9e2206",
+        "poet": "Samuel Coleridge",
+        "title": "Human Life",
+        "originalSource": "https://poetrydb.org/author,title/Samuel%20Coleridge:abs;Human%20Life:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Human%20Life",
+        "status": "verified",
+        "sourceSha256": "3ae326a724b841cd6611a267381d79153ae0da708b1f91d28ff27b2dd7ccc56e",
+        "lines": 29,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1834,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-231eaf71d8d361",
+        "poet": "Samuel Johnson",
+        "title": "On the Death of Mr. Robert Levet, a Practiser in Physic",
+        "originalSource": "https://poetrydb.org/author,title/Samuel%20Johnson:abs;On%20the%20Death%20of%20Mr.%20Robert%20Levet%2C%20a%20Practiser%20in%20Physic:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20the%20Death%20of%20Mr.%20Robert%20Levet%2C%20a%20Practiser%20in%20Physic",
+        "status": "verified",
+        "sourceSha256": "b65308a7e9b4eef4ffcd56938744610112b2206391197f6090072e2b3deda139",
+        "lines": 36,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1784,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-4a0ce85f538fa2",
+        "poet": "Sarah Flower Adams",
+        "title": "Part in Peace: Is Day Before Us?",
+        "originalSource": "https://poetrydb.org/author,title/Sarah%20Flower%20Adams:abs;Part%20in%20Peace%3A%20Is%20Day%20Before%20Us%3F:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Part%20in%20Peace%3A%20Is%20Day%20Before%20Us%3F",
+        "status": "verified",
+        "sourceSha256": "dce6c76f6ee905b7536aefc5f0f49d9386406e905fe24fde603906e75d1df027",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1848,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bc5a907e2977ba",
+        "poet": "Sidney Lanier",
+        "title": "Baby Charley",
+        "originalSource": "https://poetrydb.org/author,title/Sidney%20Lanier:abs;Baby%20Charley:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Baby%20Charley",
+        "status": "verified",
+        "sourceSha256": "2a5837b1fa84dc714bdcf1014a95cea7b5cb8c634f5ce4159a9312d184ab3caa",
+        "lines": 20,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1881,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-aff9349b559ffc",
+        "poet": "Sir John Suckling",
+        "title": "Sonnet",
+        "originalSource": "https://poetrydb.org/author,title/Sir%20John%20Suckling:abs;Sonnet:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Sonnet",
+        "status": "verified",
+        "sourceSha256": "e6c2ed04e3f5ab17f927bba3b79fddf92cacec081667c359a7473e3587dba3a8",
+        "lines": 35,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1641,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bc6a045a1eb7de",
+        "poet": "Sir Philip Sidney",
+        "title": "Come Sleep, O Sleep! The Certain Knot of Peace",
+        "originalSource": "https://poetrydb.org/author,title/Sir%20Philip%20Sidney:abs;Come%20Sleep%2C%20O%20Sleep%21%20The%20Certain%20Knot%20of%20Peace:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Come%20Sleep%2C%20O%20Sleep%21%20The%20Certain%20Knot%20of%20Peace",
+        "status": "verified",
+        "sourceSha256": "2df04fb0cce2f9200b5560657aef6448f58ce6e0aa3e30fc9d9bf13df9f1d011",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1586,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-740617ceaececb",
+        "poet": "Sir Thomas Wyatt",
+        "title": "Unstable Dream",
+        "originalSource": "https://poetrydb.org/author,title/Sir%20Thomas%20Wyatt:abs;Unstable%20Dream:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Unstable%20Dream",
+        "status": "verified",
+        "sourceSha256": "9e9231e6ac0a4c5f8de5544e4f8921fcfedd2bea6ee68504b16544b991078198",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1542,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-876c0ae2ff326b",
+        "poet": "Sir Walter Raleigh",
+        "title": "Song of Myself",
+        "originalSource": "https://poetrydb.org/author,title/Sir%20Walter%20Raleigh:abs;Song%20of%20Myself:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Song%20of%20Myself",
+        "status": "verified",
+        "sourceSha256": "6d408dd969122f8e29755c39d91636b064bdd26e89b4aa022e392ac7f915f8cd",
+        "lines": 42,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1618,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-9f6e731e11e2e2",
+        "poet": "Sir Walter Scott",
+        "title": "The Truth of Woman",
+        "originalSource": "https://poetrydb.org/author,title/Sir%20Walter%20Scott:abs;The%20Truth%20of%20Woman:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Truth%20of%20Woman",
+        "status": "verified",
+        "sourceSha256": "9c36c0c048cab02baff2b1556634ee9b2aa47ef79cdd87004eb6d07819755608",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1832,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-58bc30c42a59be",
+        "poet": "Stephen Crane",
+        "title": "\"It was wrong to do this,\" said the angel",
+        "originalSource": "https://poetrydb.org/author,title/Stephen%20Crane:abs;%22It%20was%20wrong%20to%20do%20this%2C%22%20said%20the%20angel:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/%22It%20was%20wrong%20to%20do%20this%2C%22%20said%20the%20angel",
+        "status": "verified",
+        "sourceSha256": "a323962848b5c21187c721756f083f93614ecf40928c81c96911939094a955a3",
+        "lines": 10,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1900,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-e65c381bd5e5f7",
+        "poet": "Thomas Campbell",
+        "title": "The River of Life",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Campbell:abs;The%20River%20of%20Life:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20River%20of%20Life",
+        "status": "verified",
+        "sourceSha256": "619191d0809b1f5bc5a2eac4f19de2a5a96daf53b057eb6f9343c6839da4e478",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1844,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-10f070c6f963bc",
+        "poet": "Thomas Chatterton",
+        "title": "A Hymn for Christmas Day",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Chatterton:abs;A%20Hymn%20for%20Christmas%20Day:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/A%20Hymn%20for%20Christmas%20Day",
+        "status": "verified",
+        "sourceSha256": "e0df2d0732282441415af66db25f60bdfd6ea0f6ea099fb32d0ee3ddf3e6a691",
+        "lines": 42,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1770,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-bc1a22f33ce09b",
+        "poet": "Thomas Flatman",
+        "title": "The Sad Day",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Flatman:abs;The%20Sad%20Day:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Sad%20Day",
+        "status": "verified",
+        "sourceSha256": "203339103eafcb1c8e86015815090147d36c9ca9311ca7fef20b6419016a8d39",
+        "lines": 19,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1688,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f14545c25023b4",
+        "poet": "Thomas Hood",
+        "title": "Time of Roses",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Hood:abs;Time%20of%20Roses:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Time%20of%20Roses",
+        "status": "verified",
+        "sourceSha256": "2cbae4f58820b7e40a9faecf4bf307697156ef232ae9e1c43b8975de0b6ffb35",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1845,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d22217029ff025",
+        "poet": "Thomas Moore",
+        "title": "This Life Is All Chequer'd with Pleasures and Woes",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Moore:abs;This%20Life%20Is%20All%20Chequer%27d%20with%20Pleasures%20and%20Woes:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/This%20Life%20Is%20All%20Chequer%27d%20with%20Pleasures%20and%20Woes",
+        "status": "verified",
+        "sourceSha256": "c2af43824eb7d3066fd956a0879214fc49942d4443373a060a7710996add33e7",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1852,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-a4c07a7593bb74",
+        "poet": "Thomas Warton",
+        "title": "While Summer Suns O'er the Gay Prospect Play'd",
+        "originalSource": "https://poetrydb.org/author,title/Thomas%20Warton:abs;While%20Summer%20Suns%20O%27er%20the%20Gay%20Prospect%20Play%27d:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/While%20Summer%20Suns%20O%27er%20the%20Gay%20Prospect%20Play%27d",
+        "status": "verified",
+        "sourceSha256": "098afa900fe239dac3f7441a929dec9e7c48cf3adcce0f66b7c761c7be0db218",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1790,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-6a9caf4859f4c0",
+        "poet": "Walt Whitman",
+        "title": "Native Moments",
+        "originalSource": "https://poetrydb.org/author,title/Walt%20Whitman:abs;Native%20Moments:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Native%20Moments",
+        "status": "verified",
+        "sourceSha256": "36e7d12be7e882b781f07e732305f8f84cdd297dc14fc44521e8398db9106b47",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1892,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-7750d4f66bbcc6",
+        "poet": "Walter Savage Landor",
+        "title": "In spring and summer winds may blow",
+        "originalSource": "https://poetrydb.org/author,title/Walter%20Savage%20Landor:abs;In%20spring%20and%20summer%20winds%20may%20blow:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/In%20spring%20and%20summer%20winds%20may%20blow",
+        "status": "verified",
+        "sourceSha256": "3748492094382144398456da89de9e2f5bc952854506aa55128c3858fe2780ec",
+        "lines": 20,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1864,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-5450b10afd3551",
+        "poet": "William Allingham",
+        "title": "Autumnal Sonnet",
+        "originalSource": "https://poetrydb.org/author,title/William%20Allingham:abs;Autumnal%20Sonnet:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Autumnal%20Sonnet",
+        "status": "verified",
+        "sourceSha256": "c977ba3927946c999ca0212d44858541c689fb825b4be2cc7f92899d86395148",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1889,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0453699c346b12",
+        "poet": "William Barnes",
+        "title": "The Young that Died in Beauty",
+        "originalSource": "https://poetrydb.org/author,title/William%20Barnes:abs;The%20Young%20that%20Died%20in%20Beauty:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Young%20that%20Died%20in%20Beauty",
+        "status": "verified",
+        "sourceSha256": "43256c3df9189184000b30048841bced870d919e91d3adfd8934c6b42eb9f3ae",
+        "lines": 40,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1886,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d8a6bdfba4722e",
+        "poet": "William Blake",
+        "title": "The Chimney-Sweeper",
+        "originalSource": "https://poetrydb.org/author,title/William%20Blake:abs;The%20Chimney-Sweeper:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Chimney-Sweeper",
+        "status": "verified",
+        "sourceSha256": "360c2908117f891453f389f90fc6d03b27e70b494c75ea2ad004019f1e035ab7",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1827,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-82b0b16d8fc453",
+        "poet": "William Browne",
+        "title": "The Rose",
+        "originalSource": "https://poetrydb.org/author,title/William%20Browne:abs;The%20Rose:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Rose",
+        "status": "verified",
+        "sourceSha256": "a7dd7dfbef625be332136a9c16ff8aae918b19dd7498ca331816afb987fe08fd",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1645,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-064e206318e38c",
+        "poet": "William Cowper",
+        "title": "Jehovah-Shalom. The Lord Send Peace",
+        "originalSource": "https://poetrydb.org/author,title/William%20Cowper:abs;Jehovah-Shalom.%20The%20Lord%20Send%20Peace:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Jehovah-Shalom.%20The%20Lord%20Send%20Peace",
+        "status": "verified",
+        "sourceSha256": "427d77519f629b6c5dd26fc0b02998f176477529211aabe95817cd745937ddb5",
+        "lines": 25,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1800,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-42b737804d8f49",
+        "poet": "William Cullen Bryant",
+        "title": "To a Waterfowl",
+        "originalSource": "https://poetrydb.org/author,title/William%20Cullen%20Bryant:abs;To%20a%20Waterfowl:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/To%20a%20Waterfowl",
+        "status": "verified",
+        "sourceSha256": "c6047cab57a85aba7112244a7777a8c2732200978f72b3bbdef2e820e23b04e4",
+        "lines": 32,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1878,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-45137560939d1e",
+        "poet": "William Ernest Henley",
+        "title": "Madam Life's a Piece in Bloom",
+        "originalSource": "https://poetrydb.org/author,title/William%20Ernest%20Henley:abs;Madam%20Life%27s%20a%20Piece%20in%20Bloom:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Madam%20Life%27s%20a%20Piece%20in%20Bloom",
+        "status": "verified",
+        "sourceSha256": "6fd7dcd73f44fcba51408513e683aec04f67d50a5c526e6698d3c7655552224e",
+        "lines": 16,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1903,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f4010bed49d4d7",
+        "poet": "William Lisle Bowles",
+        "title": "On the Funeral of Charles the First",
+        "originalSource": "https://poetrydb.org/author,title/William%20Lisle%20Bowles:abs;On%20the%20Funeral%20of%20Charles%20the%20First:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20the%20Funeral%20of%20Charles%20the%20First",
+        "status": "verified",
+        "sourceSha256": "f7b68ea53405a4ea9e724748d9d2e72ec842376c7d05214e91e5f2e6d00e3bf5",
+        "lines": 36,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1850,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-4d1c555d5ce55c",
+        "poet": "William Morris",
+        "title": "Song VI: Cherish Life that Abideth",
+        "originalSource": "https://poetrydb.org/author,title/William%20Morris:abs;Song%20VI%3A%20Cherish%20Life%20that%20Abideth:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Song%20VI%3A%20Cherish%20Life%20that%20Abideth",
+        "status": "verified",
+        "sourceSha256": "c31793671ece72eb4d7bb365512b8e74d5b78ef1e9d379f98d38960e8da0bda3",
+        "lines": 19,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1896,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-18e760405fe819",
+        "poet": "William Shakespeare",
+        "title": "Sonnet 41: Those pretty wrongs that liberty commits",
+        "originalSource": "https://poetrydb.org/author,title/William%20Shakespeare:abs;Sonnet%2041%3A%20Those%20pretty%20wrongs%20that%20liberty%20commits:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Sonnet%2041%3A%20Those%20pretty%20wrongs%20that%20liberty%20commits",
+        "status": "verified",
+        "sourceSha256": "312d32dde12e441fd585469ae95c6e2b21a5c1007495ce074d72c858cb5a61a7",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1616,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0c4084f0cba7a8",
+        "poet": "William Topaz McGonagall",
+        "title": "Loch Ness",
+        "originalSource": "https://poetrydb.org/author,title/William%20Topaz%20McGonagall:abs;Loch%20Ness:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Loch%20Ness",
+        "status": "verified",
+        "sourceSha256": "f4cf0e3c2e8ea6a6b8655b9c41006b18fc0bbafb45f15aef2696782d001c947f",
+        "lines": 28,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1902,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d8587ce2cc8b16",
+        "poet": "William Wordsworth",
+        "title": "Lines Written in Early Spring",
+        "originalSource": "https://poetrydb.org/author,title/William%20Wordsworth:abs;Lines%20Written%20in%20Early%20Spring:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Lines%20Written%20in%20Early%20Spring",
+        "status": "verified",
+        "sourceSha256": "42999efecd761ce5ac2bd6259f16e71d0eaf0100d12e6884e76592ea090254e1",
+        "lines": 24,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1850,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-4d29c0914e5845",
+        "poet": "George Gordon, Lord Byron",
+        "title": "Answer to----'s Professions of Affection",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;Answer%20to----%27s%20Professions%20of%20Affection:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Answer%20to----%27s%20Professions%20of%20Affection",
+        "status": "verified",
+        "sourceSha256": "7eaeec295cfd673bc81ffd7dca0f8a0671f5172d2af6d90e04b2fbe56a77ce3d",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-f2aee9871e4b7d",
+        "poet": "Emily Dickinson",
+        "title": "Great streets of silence led away",
+        "originalSource": "https://poetrydb.org/author,title/Emily%20Dickinson:abs;Great%20streets%20of%20silence%20led%20away:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Great%20streets%20of%20silence%20led%20away",
+        "status": "verified",
+        "sourceSha256": "49ef2643514f72d7f36b45ab7891a73cb4b08be8e11d04e44f2265ea170f5c94",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1886,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-972541a0a58979",
+        "poet": "Emily Dickinson",
+        "title": "I worked for chaff, and earning wheat",
+        "originalSource": "https://poetrydb.org/author,title/Emily%20Dickinson:abs;I%20worked%20for%20chaff%2C%20and%20earning%20wheat:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/I%20worked%20for%20chaff%2C%20and%20earning%20wheat",
+        "status": "verified",
+        "sourceSha256": "30ff86da41869576d05ecd2a79a74ae31f321f40a216584d186a2078c70bd4ea",
+        "lines": 8,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1886,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-0b8a6f495798ee",
+        "poet": "Alexander Pope",
+        "title": "Epitaph. On the Hon. Simon Harcourt, Only Son of the Lord Chancellor",
+        "originalSource": "https://poetrydb.org/author,title/Alexander%20Pope:abs;Epitaph.%20On%20the%20Hon.%20Simon%20Harcourt%2C%20Only%20Son%20of%20the%20Lord%20Chancellor:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Epitaph.%20On%20the%20Hon.%20Simon%20Harcourt%2C%20Only%20Son%20of%20the%20Lord%20Chancellor",
+        "status": "verified",
+        "sourceSha256": "4e5c153d7b89b9fe1ddff25d51bd7c7a7f93d6dc8b5aa921569f3e860289257a",
+        "lines": 9,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1744,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-3ac543b1bbf29f",
+        "poet": "Alexander Pope",
+        "title": "Epitaph. On James Craggs, Esq. in Westminster Abbey.",
+        "originalSource": "https://poetrydb.org/author,title/Alexander%20Pope:abs;Epitaph.%20On%20James%20Craggs%2C%20Esq.%20in%20Westminster%20Abbey.:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Epitaph.%20On%20James%20Craggs%2C%20Esq.%20in%20Westminster%20Abbey.",
+        "status": "verified",
+        "sourceSha256": "c4f3c20057b560f730bf9401e92c1259d67378223bd10a1204fcbd455ffd2e1d",
+        "lines": 9,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1744,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-c9e83504077ed6",
+        "poet": "George Gordon, Lord Byron",
+        "title": "Windsor Poetics. Lines Composed on the Occasion of His Royal Highness the Prince Regent Being Seen Standing between the Coffins of Henry VIII. and Charles I., in the Royal Vault at Windsor",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;Windsor%20Poetics.%20Lines%20Composed%20on%20the%20Occasion%20of%20His%20Royal%20Highness%20the%20Prince%20Regent%20Being%20Seen%20Standing%20between%20the%20Coffins%20of%20Henry%20VIII.%20and%20Charles%20I.%2C%20in%20the%20Royal%20Vault%20at%20Windsor:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Windsor%20Poetics.%20Lines%20Composed%20on%20the%20Occasion%20of%20His%20Royal%20Highness%20the%20Prince%20Regent%20Being%20Seen%20Standing%20between%20the%20Coffins%20of%20Henry%20VIII.%20and%20Charles%20I.%2C%20in%20the%20Royal%20Vault%20at%20Windsor",
+        "status": "verified",
+        "sourceSha256": "b87d1cf57c2a247f05ace4fec53d14f4b5bbf0709efd43d04e4386296a9fc568",
+        "lines": 10,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-e90cae95cd8ff2",
+        "poet": "George Gordon, Lord Byron",
+        "title": "On a Royal Visit to the Vaults. Or Caesar's Discovery of C.I. and H. 8. In Ye Same Vault",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;On%20a%20Royal%20Visit%20to%20the%20Vaults.%20Or%20Caesar%27s%20Discovery%20of%20C.I.%20and%20H.%208.%20In%20Ye%20Same%20Vault:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/On%20a%20Royal%20Visit%20to%20the%20Vaults.%20Or%20Caesar%27s%20Discovery%20of%20C.I.%20and%20H.%208.%20In%20Ye%20Same%20Vault",
+        "status": "verified",
+        "sourceSha256": "f0065013e55e96a2fbdb8de9ad25c34b267379a4aa7635e2cd659fa940da33fe",
+        "lines": 10,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-9c5cb30a4c581a",
+        "poet": "Alexander Pope",
+        "title": "Epitaph. On Sir William Trumbull.",
+        "originalSource": "https://poetrydb.org/author,title/Alexander%20Pope:abs;Epitaph.%20On%20Sir%20William%20Trumbull.:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Epitaph.%20On%20Sir%20William%20Trumbull.",
+        "status": "verified",
+        "sourceSha256": "4cecd64b48b56bf4882be3dff4c6ca255a46536030994dce2ae119e2f03cf398",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1744,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-285d0c3048951c",
+        "poet": "George Gordon, Lord Byron",
+        "title": "\"By the Waters of Babylon\"",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;%22By%20the%20Waters%20of%20Babylon%22:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/%22By%20the%20Waters%20of%20Babylon%22",
+        "status": "verified",
+        "sourceSha256": "b9d4828895b90f7faebcec093e83d8a64861bf24841e3dbff8092da3b7e0ff23",
+        "lines": 12,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-a006c191053598",
+        "poet": "Percy Bysshe Shelley",
+        "title": "Pan, Echo, and the Satyr",
+        "originalSource": "https://poetrydb.org/author,title/Percy%20Bysshe%20Shelley:abs;Pan%2C%20Echo%2C%20and%20the%20Satyr:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Pan%2C%20Echo%2C%20and%20the%20Satyr",
+        "status": "verified",
+        "sourceSha256": "d6f7516db016c7f20f23722ec3879019abfa7c785b82008b6fb7328db824a992",
+        "lines": 13,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1822,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-660ebe0c8b15eb",
+        "poet": "Percy Bysshe Shelley",
+        "title": "Lines to a Reviewer",
+        "originalSource": "https://poetrydb.org/author,title/Percy%20Bysshe%20Shelley:abs;Lines%20to%20a%20Reviewer:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Lines%20to%20a%20Reviewer",
+        "status": "verified",
+        "sourceSha256": "c85795a7e672fa8545b6816a7e40b245b8d2d0a6bbda0d4a7934024421231852",
+        "lines": 13,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1822,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-d308c2de53f02a",
+        "poet": "John Clare",
+        "title": "The Soldier",
+        "originalSource": "https://poetrydb.org/author,title/John%20Clare:abs;The%20Soldier:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/The%20Soldier",
+        "status": "verified",
+        "sourceSha256": "58121ce390d42abcf15de2978805945e0fc844e629d3544c97276890da9a3538",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1864,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "pd-b1dd6582adaa94",
+        "poet": "George Gordon, Lord Byron",
+        "title": "DamæTas",
+        "originalSource": "https://poetrydb.org/author,title/George%20Gordon%2C%20Lord%20Byron:abs;Dam%C3%A6Tas:abs",
+        "checkedAt": "2026-11-12",
+        "recommendedSource": "https://poetrydb.org/title/Dam%C3%A6Tas",
+        "status": "verified",
+        "sourceSha256": "51b9c68e6e8c50ce99dfbd7f025cf129d361b44fa6b51d7f7794c82ca01775c9",
+        "lines": 14,
+        "verifiedBy": "Exact title, poet and normalized complete line sequence match returned source record.",
+        "rightsAudit": {
+          "authorDied": 1824,
+          "deathCutoffPassed": true,
+          "originalTextOnly": true,
+          "collectionLicense": "CC-BY-4.0; underlying original identified as public domain by PoetryDB",
+          "basis": "Original collection uses conservative author death cutoff ≤1907; no modern translation added."
+        }
+      },
+      {
+        "id": "norwid-moja-piosnka-ii",
+        "poet": "Cyprian Kamil Norwid",
+        "title": "Moja piosnka (II)",
+        "originalSource": "https://wolnelektury.pl/katalog/lektura/moja-piosnka/",
+        "checkedAt": "2026-11-12",
+        "status": "replaced-by-source-verified-polish-asset",
+        "reason": "New original extracted directly from Wolne Lektury XML."
+      }
+    ],
+    "verifiedCount": 112,
+    "verifiedAuthors": 99,
+    "rightsPolicy": "Keep only original full-text records with source-match validation and numeric author death ≤1907; no late authors accepted under a dataset license alone.",
+    "availabilityCorrection": "Compound PoetryDB author,title URLs with :abs returned403 in this environment. Each verified entry has a readable simple /title/ URL with exact title, poet and full normalized line match."
+  },
+  "translations": "AI-generated for this site; labelled per record; originals and English are stored together."
+}

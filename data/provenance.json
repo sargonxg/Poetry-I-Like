@@ -1,18 +1,28 @@
 {
-  "format": "personal-poetry-collection/2",
-  "fullTextSelections": 121,
-  "fullTextPoets": 104,
-  "readingReferences": 50,
+  "format": "poetry-source-audit/2",
+  "fullTextSelections": 145,
+  "fullTextPoets": 126,
+  "readingReferences": 9,
   "allPoets": 151,
   "policy": "Full texts from public-domain sources; modern readings are metadata and external links only. Themes are editorial browsing paths.",
   "attribution": "Poetry data from PoetryDB (https://poetrydb.org), licensed under CC BY 4.0. Original poem texts are public domain.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "sourceSnapshotSha256": "5b576364ad298009a5b9cecb7119c00eb20819d50ba0dc614a14468370618b75",
-  "retrieved": "2026-11-08",
+  "retrieved": "2026-11-12",
   "otherSources": [
     "https://concordiadiscors.org/poetry/",
     "https://wolnelektury.pl/katalog/lektura/moja-piosnka/"
   ],
   "derivation": "Initial Poetry I Like collection; source metadata and per-record rights retained from the licensed November 8 snapshot.",
-  "editorialChanges": "114 empty reading notes receive an original generic reading prompt. Original source and rights metadata are retained. Krynicki’s modern reading note uses factual reader-facing wording; source links, rights and poem counts are unchanged."
+  "editorialChanges": "114 empty reading notes receive an original generic reading prompt. Original source and rights metadata are retained. Krynicki’s modern reading note uses factual reader-facing wording; source links, rights and poem counts are unchanged.",
+  "languages": {
+    "en": 115,
+    "pl": 10,
+    "it": 10,
+    "fr": 10
+  },
+  "collectionSha256": "9dd8ee0f6fd83aa248e44f845b8bc3cd9cef2c1cd804ee76122a3e8d839c9193",
+  "sourceAudit": "data/source-audit-20261112.json",
+  "translationPolicy": "Stored AI-generated English translations of public-domain originals. Not published translations; no human review is claimed.",
+  "referencePolicy": "Exact readable modern poem pages only. No protected verse or modern translation is included."
 }

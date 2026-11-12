@@ -1,38 +1,25 @@
 # Collection sources and reuse
 
-This initial library has 171 entries:
+145 complete poems by 126 poets; 115 English originals and ten each in Italian,
+French and Polish. Nine modern reading references contain no poem lines.
+Translations are attached to originals and are never counted as additional poems.
 
-- 121 full-text selections by 104 poets, with kind "poem" and
-  rights.mode "public-domain".
-- 50 modern reading references, with kind "reading",
-  rights.mode "reference-only" and no poem lines.
+Each record has a source URL, edition/rights metadata and a source check. The
+November 12 audit matched actual text, not merely HTTP status. It replaced
+compound PoetryDB links, corrected edition variants, replaced Giusti
+Sant’Ambrogio with all 96 lines, and held excerpts or fragments whose independent
+completeness was unclear. See source-audit-20261112.json and provenance.json.
 
-Every record includes a source URL, language, editorial themes and rights
-metadata. Source metadata and rights were retained from the November 8, 2026
-collection snapshot; see provenance.json. Themes and reading notes are
-editorial browsing aids and can be debated or revised.
+PoetryDB data is CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+Historic originals retain their own public-domain basis. Wolne Lektury and
+Wikisource edition links accompany new originals; modern annotations were not
+copied. The original English texts and new translations are distinct editions.
 
-The upstream **PoetryDB** dataset is licensed **CC BY 4.0**:
+New English translations use method ai-generated and include a visible credit.
+They were generated for this project, not copied from published translations;
+no human editorial review is claimed. Modern favourites including Krynicki,
+Montale and Sbarbaro remain exact external poem links, with no protected text or
+translation stored. Publisher book listings and lectures do not qualify.
 
-- Dataset: https://poetrydb.org
-- License: https://creativecommons.org/licenses/by/4.0/
-- Attribution: Poetry data from PoetryDB; original poem texts are public domain.
-
-Selected historic editions also link directly to Wikisource, Project Gutenberg,
-Wolne Lektury and other record-level sources. Refer to each record rather than
-treating the collection as one anonymous text dump. Modern references include
-publisher/author/archive pages and Concordia Discors reading suggestions.
-
-The project does not scrape or republish modern protected poems by Krynicki,
-Montale, Sbarbaro or John Paul II. Reading references point to authorized sources.
-Historical Norwid originals can be read as full texts where their rights record
-permits; a modern translation is not automatically covered.
-
-Some records had no reading note. This edition adds an original generic reading
-prompt to those entries, as recorded in provenance.json; it does not invent an
-interpretation or a biographical claim.
-
-To add an entry, use a stable ID, an HTTPS source URL, accurate language and
-edition information, a rights record and only the text you have permission to
-redistribute. Do not copy a site's modern editorial introduction or translation
-under a public-domain label. Rights can vary by jurisdiction.
+The font, illustration, sound and reader have separate retained licences.
+Builds are offline and never call a source website or model service.

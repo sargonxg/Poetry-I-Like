@@ -1,12 +1,14 @@
 /** Pure, deterministic helpers shared by the reader and its tests. */
-export const THEMES = ['liberty', 'pluralism', 'conscience', 'love', 'memory', 'nature', 'wonder'];
+export const THEMES = ['liberty','pluralism','conscience','love','memory','nature','wonder','ordinary life','exile','home','art','change','dignity','hope','humour','imagination','listening','music','peace','power','solidarity','solitude','stillness','time','uncertainty','witness'];
 export const LANGUAGES = { en: 'English', it: 'Italian', pl: 'Polish', fr: 'French' };
 export const DEFAULT_SETTINGS = Object.freeze({size:21,leading:1.8,measure:60,spacing:0,opacity:97,font:'book',tone:'paper',focus:false,numbers:false,depth:true,rain:false,sound:'rain',volume:12,timer:15});
 export const fold = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l').replace(/Ł/g,'l').toLocaleLowerCase();
 export function fullTexts(collection) { return collection.filter(item => item.kind === 'poem' && item.rights?.mode === 'public-domain' && item.lines?.some(line => line.trim())); }
+export function englishTranslation(item){return item.language!=='en'&&item.translation?.language==='en'&&item.translation?.method==='ai-generated'&&Array.isArray(item.translation.lines)&&item.translation.lines.some(line=>line.trim())?item.translation:null;}
+export function shuffledPoemIds(rows,previous=null,random=Math.random){const ids=fullTexts(rows).map(item=>item.id);for(let i=ids.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]];}if(ids.length>1&&ids[0]===previous)[ids[0],ids[1]]=[ids[1],ids[0]];return ids;}
 export function filterCollection(collection, {query='',theme='',language='',savedOnly=false,saved=[],kind='',sort='collection',scope='all'}={}) {
  const words=fold(query).trim().split(/\s+/).filter(Boolean).slice(0,12);
- const rows=collection.filter(item=>{if((theme&&!item.themes.includes(theme))||(language&&item.language!==language)||(savedOnly&&!saved.includes(item.id))||(kind&&item.kind!==kind))return false;if(!words.length)return true;const haystack=fold(item.title+' '+item.poet+' '+(scope==='all'?item.lines.join(' '):''));return words.every(word=>haystack.includes(word));});
+ const rows=collection.filter(item=>{if((theme&&!item.themes.includes(theme))||(language&&item.language!==language)||(savedOnly&&!saved.includes(item.id))||(kind&&item.kind!==kind))return false;if(!words.length)return true;const haystack=fold(item.title+' '+item.poet+' '+(scope==='all'?item.lines.join(' ')+' '+(item.translation?.lines||[]).join(' '):''));return words.every(word=>haystack.includes(word));});
  if(sort==='poet')rows.sort((a,b)=>a.poet.localeCompare(b.poet)||a.title.localeCompare(b.title));
  if(sort==='title')rows.sort((a,b)=>a.title.localeCompare(b.title));
  if(sort==='short')rows.sort((a,b)=>(a.kind==='reading')-(b.kind==='reading')||readingMinutes(a.lines)-readingMinutes(b.lines)||a.lines.length-b.lines.length);
