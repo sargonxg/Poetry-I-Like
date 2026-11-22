@@ -14,7 +14,7 @@ with previous and next controls and a position indicator.
 Node.js 20 or later. No package dependencies or API keys.
 
 ```sh
-git clone https://github.com/sargonxg/Poetry-I-Like.git
+git clone --branch codex/poetry-paths-and-rain https://github.com/sargonxg/Poetry-I-Like.git
 cd Poetry-I-Like
 npm test
 npm run dev
@@ -95,3 +95,20 @@ rendered captures, not mockups. Browser emulation does not certify physical
 devices or screen-reader use. See the personal-site validation run
 [43260842008](https://github.com/sargonxg/Gc-personal-site/actions/runs/43260842008)
 for integrated tests; that repository is private.
+
+## Liberty paths and stanza reading
+
+The collection now includes complete texts by Claude McKay, Frances Ellen
+Watkins Harper, Alice Dunbar-Nelson, James Weldon Johnson, Kahlil Gibran
+and Rabindranath Tagore. Each addition has a checked source, rights statement
+and original reading note. The paths connect freedom, conscience and solidarity.
+
+These November 22, 2026 captures show the pinned reader in the personal site.
+That integration adds two editions, a return link and a pairing strip to the
+canonical 167-poem reader. Tests cover shared paths, stanza navigation, rain
+switching and same-origin authentication on recordings. Mobile coverage uses
+browser emulation.
+
+![Learning to Read on the liberty path](docs/screenshots/liberty-desktop.webp)
+
+[Phone reading controls](docs/screenshots/liberty-phone.webp)
