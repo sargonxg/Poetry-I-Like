@@ -1,7 +1,7 @@
 /** Pure, deterministic helpers shared by the reader and its tests. */
 export const THEMES = ['liberty','pluralism','conscience','love','memory','nature','wonder','ordinary life','exile','home','art','change','dignity','hope','humour','imagination','listening','music','peace','power','solidarity','solitude','stillness','time','uncertainty','witness'];
 export const LANGUAGES = { en: 'English', it: 'Italian', pl: 'Polish', fr: 'French' };
-export const DEFAULT_SETTINGS = Object.freeze({size:21,leading:1.8,measure:60,spacing:0,opacity:97,font:'book',tone:'paper',focus:false,numbers:false,depth:true,rain:false,sound:'rain',volume:12,timer:15});
+export const DEFAULT_SETTINGS = Object.freeze({size:21,leading:1.8,measure:60,spacing:0,opacity:97,font:'book',tone:'paper',focus:false,focusUnit:'line',numbers:false,depth:true,rain:false,sound:'rain',volume:12,timer:15});
 export const fold = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l').replace(/Ł/g,'l').toLocaleLowerCase();
 export function fullTexts(collection) { return collection.filter(item => item.kind === 'poem' && item.rights?.mode === 'public-domain' && item.lines?.some(line => line.trim())); }
 export function englishTranslation(item){return item.language!=='en'&&item.translation?.language==='en'&&item.translation?.method==='ai-generated'&&Array.isArray(item.translation.lines)&&item.translation.lines.some(line=>line.trim())?item.translation:null;}
@@ -22,7 +22,7 @@ export function validateSettings(input={}) {
  const result={...DEFAULT_SETTINGS};if(!input||typeof input!=='object'||Array.isArray(input))return result;
  for(const [key,min,max] of [['size',17,32],['leading',1.4,2.3],['measure',36,72],['spacing',0,.09],['opacity',85,100],['volume',0,35],['timer',5,60]])if(Number.isFinite(input[key]))result[key]=Math.min(max,Math.max(min,input[key]));
  for(const key of ['focus','numbers','depth','rain'])if(typeof input[key]==='boolean')result[key]=input[key];
- for(const [key,allowed]of [['font',['book','serif','sans']],['tone',['paper','white','evening']],['sound',['rain','forest','window','stream']]])if(allowed.includes(input[key]))result[key]=input[key];
+ for(const [key,allowed]of [['font',['book','serif','sans']],['tone',['paper','white','evening']],['focusUnit',['line','stanza']],['sound',['rain','forest','window','stream']]])if(allowed.includes(input[key]))result[key]=input[key];
  return result;
 }
 export function poemFacts(item) {
@@ -32,6 +32,13 @@ export function poemFacts(item) {
  const repeated=new Map();for(const line of nonempty){const start=fold(line.trim().split(/\s+/).slice(0,2).join(' ')).replace(/[^\p{L}\s]/gu,'');if(start)repeated.set(start,(repeated.get(start)||0)+1);}
  const repeatedStart=[...repeated].filter(([,count])=>count>=3).sort((a,b)=>b[1]-a[1])[0]||null;
  return{lines:nonempty.length,stanzas,words:words.length,minutes:readingMinutes(item.lines),questions:nonempty.filter(line=>line.includes('?')).length,repeatedStart};
+}
+export function stanzaRange(lines,line){
+ if(!lines?.length)return {start:0,end:0};
+ let start=safeLine({lines},line,1),end=start;
+ while(start>0&&lines[start-1].trim())start--;
+ while(end<lines.length-1&&lines[end+1].trim())end++;
+ return {start,end};
 }
 export function exportShelf(saved,collection) {return{format:'poetry-i-like:shelf/1',ids:normalizeSaved(saved,collection)};}
 export function importShelf(text,collection) {

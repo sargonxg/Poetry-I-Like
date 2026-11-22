@@ -53,6 +53,38 @@
   },
   "paths": [
     {
+      "id": "liberty",
+      "title": "What freedom asks",
+      "description": "McKay, Harper, Tagore and Dickinson approach freedom through resistance, literacy, knowledge and conscience.",
+      "ids": [
+        "mckay-if-we-must-die",
+        "harper-learning-read",
+        "tagore-gitanjali-35",
+        "dickinson-no-rack"
+      ]
+    },
+    {
+      "id": "conscience",
+      "title": "Conscience in public",
+      "description": "Read the pressure of a mask, a sewing task, a burial wish and an orator’s question.",
+      "ids": [
+        "dunbar-mask",
+        "dunbar-nelson-sew",
+        "harper-free-land",
+        "gibran-freedom"
+      ]
+    },
+    {
+      "id": "solidarity",
+      "title": "A voice among others",
+      "description": "Harper, Johnson and Shelley turn a single voice toward a wider audience.",
+      "ids": [
+        "harper-songs-people",
+        "johnson-lift-every-voice",
+        "shelley-men-england"
+      ]
+    },
+    {
       "id": "rain",
       "title": "After the rain",
       "description": "Three poems listen to the weather at different distances.",
@@ -75,7 +107,7 @@
     {
       "id": "freedom",
       "title": "Freedom and the public voice",
-      "description": "Read hospitality, power and dissent through three different speakers.",
+      "description": "Four poems consider hospitality, power, dissent and the pressure to conceal a feeling.",
       "ids": [
         "lazarus-new-colossus",
         "blake-london",

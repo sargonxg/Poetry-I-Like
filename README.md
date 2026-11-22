@@ -1,12 +1,12 @@
 # Poetry I Like
 
-A browser reading room with **155 complete poems by 128 poets**, including 10
+A browser reading room with **167 complete poems by 134 poets**, including 10
 Italian, 11 French and 10 Polish originals. All 31 have attributed English translations. Nine modern
 favourites link to readable editions. They are counted separately from poems.
 
 Search a remembered line, choose a language or theme, save a poem, or read a
 shuffled shelf without repeats. Original, English and side-by-side views keep
-the source text close to each translation. Five guided paths sit above the poem,
+the source text close to each translation. Eight guided paths sit above the poem,
 with previous and next controls and a position indicator.
 
 ## Run locally
@@ -40,7 +40,9 @@ in the tab and clear when switching poems; download a note before leaving it.
 Reading settings offer size, spacing, line focus, plain paper and sound. No
 account, analytics, model endpoint or reading history leaves the browser. The
 rain recordings crossfade when you change sound and stop when the tab is hidden.
-Volume, sleep timer and [recording credits](assets/ambience/provenance.json) are
+A volume slider sits beside the rain selector. Choose line or stanza focus
+in the reading settings, then use the arrow keys within the poem. Path links
+retain the selection and the current poem. Sleep timer and [recording credits](assets/ambience/provenance.json) are
 in the reading settings.
 
 ## Sources, translations and audit
