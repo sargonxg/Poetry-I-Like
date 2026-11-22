@@ -11412,5 +11412,601 @@
       "method": "Exact poem/extract page and matching title checked; not a book listing or lecture.",
       "completeTextStored": false
     }
+  },
+  {
+    "id": "longfellow-rainy-day",
+    "poet": "Henry Wadsworth Longfellow",
+    "title": "The Rainy Day",
+    "original": "1841 · English",
+    "language": "en",
+    "lines": [
+      "The day is cold, and dark, and dreary",
+      "It rains, and the wind is never weary;",
+      "The vine still clings to the mouldering wall,",
+      "But at every gust the dead leaves fall,",
+      "And the day is dark and dreary.",
+      "",
+      "My life is cold, and dark, and dreary;",
+      "It rains, and the wind is never weary;",
+      "My thoughts still cling to the mouldering Past,",
+      "But the hopes of youth fall thick in the blast,",
+      "And the days are dark and dreary.",
+      "",
+      "Be still, sad heart! and cease repining;",
+      "Behind the clouds is the sun still shining;",
+      "Thy fate is the common fate of all,",
+      "Into each life some rain must fall,",
+      "Some days must be dark and dreary."
+    ],
+    "note": "Notice how the same weather moves from the house to the speaker’s inner life.",
+    "themes": [
+      "nature",
+      "hope"
+    ],
+    "source": "https://poetrydb.org/title/The%20Rainy%20Day%3Aabs",
+    "label": "PoetryDB · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1882,
+      "editionYear": 1841,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "longfellow-rainy-day",
+      "poet": "Henry Wadsworth Longfellow",
+      "title": "The Rainy Day",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poetrydb.org/title/The%20Rainy%20Day%3Aabs",
+      "status": "verified",
+      "sourceSha256": "e0f20cdecb8c3515d66feb5b033268603f1a8be08c59db8d2f2399bfa9779dd8",
+      "lines": 15,
+      "verifiedBy": "Text and attribution checked against PoetryDB. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1882,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "longfellow-tide",
+    "poet": "Henry Wadsworth Longfellow",
+    "title": "The Tide Rises, the Tide Falls",
+    "original": "1879 · English",
+    "language": "en",
+    "lines": [
+      "The tide rises, the tide falls,",
+      "The twilight darkens, the curlew calls;",
+      "Along the sea-sands damp and brown",
+      "The traveller hastens toward the town,",
+      "And the tide rises, the tide falls.",
+      "",
+      "Darkness settles on roofs and walls,",
+      "But the sea, the sea in darkness calls;",
+      "The little waves, with their soft, white hands,",
+      "Efface the footprints in the sands,",
+      "And the tide rises, the tide falls.",
+      "",
+      "The morning breaks; the steeds in their stalls",
+      "Stamp and neigh, as the hostler calls;",
+      "The day returns, but nevermore",
+      "Returns the traveller to the shore,",
+      "And the tide rises, the tide falls."
+    ],
+    "note": "The tide keeps the same refrain while everything on shore changes.",
+    "themes": [
+      "nature",
+      "time"
+    ],
+    "source": "https://poets.org/poem/tide-rises-tide-falls",
+    "label": "Academy of American Poets · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1882,
+      "editionYear": 1879,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "longfellow-tide",
+      "poet": "Henry Wadsworth Longfellow",
+      "title": "The Tide Rises, the Tide Falls",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poets.org/poem/tide-rises-tide-falls",
+      "status": "verified",
+      "sourceSha256": "8578d5b9aa57d197380d90e230ba408b1aa2515ba586e8fa87144239c4f15fb3",
+      "lines": 15,
+      "verifiedBy": "Text and attribution checked against Academy of American Poets. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1882,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "tennyson-crossing-bar",
+    "poet": "Lord Alfred Tennyson",
+    "title": "Crossing the Bar",
+    "original": "1889 · English",
+    "language": "en",
+    "lines": [
+      "Sunset and evening star,",
+      "And one clear call for me!",
+      "And may there be no moaning of the bar,",
+      "When I put out to sea,",
+      "",
+      "But such a tide as moving seems asleep,",
+      "Too full for sound and foam,",
+      "When that which drew from out the boundless deep",
+      "Turns again home.",
+      "",
+      "Twilight and evening bell,",
+      "And after that the dark!",
+      "And may there be no sadness of farewell,",
+      "When I embark;",
+      "",
+      "For tho’ from out our bourne of Time and Place",
+      "The flood may bear me far,",
+      "I hope to see my Pilot face to face",
+      "When I have cross’d the bar."
+    ],
+    "note": "Read the lines about setting out and returning as one extended image of the tide.",
+    "themes": [
+      "nature",
+      "memory"
+    ],
+    "source": "https://poets.org/poem/crossing-bar",
+    "label": "Academy of American Poets · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1892,
+      "editionYear": 1889,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "tennyson-crossing-bar",
+      "poet": "Lord Alfred Tennyson",
+      "title": "Crossing the Bar",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poets.org/poem/crossing-bar",
+      "status": "verified",
+      "sourceSha256": "797cb4d7bc8c856b9f1c926bd7727b80e51da341866681419de2b94ccbf7689c",
+      "lines": 16,
+      "verifiedBy": "Text and attribution checked against Academy of American Poets. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1892,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "tennyson-eagle",
+    "poet": "Lord Alfred Tennyson",
+    "title": "The Eagle",
+    "original": "1851 · English",
+    "language": "en",
+    "lines": [
+      "He clasps the crag with crooked hands;",
+      "Close to the sun in lonely lands,",
+      "Ring'd with the azure world, he stands.",
+      "",
+      "The wrinkled sea beneath him crawls;",
+      "He watches from his mountain walls,",
+      "And like a thunderbolt he falls."
+    ],
+    "note": "The first stanza holds the eagle still. The last line ends that stillness in a single motion.",
+    "themes": [
+      "nature",
+      "wonder"
+    ],
+    "source": "https://en.wikisource.org/wiki/The_Eagle_(Tennyson)",
+    "label": "Wikisource · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1892,
+      "editionYear": 1851,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "tennyson-eagle",
+      "poet": "Lord Alfred Tennyson",
+      "title": "The Eagle",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://en.wikisource.org/wiki/The_Eagle_(Tennyson)",
+      "status": "verified",
+      "sourceSha256": "ef70f50ae254aee3c1b82cbdade08a8aebbb9b60b3812117e52660ef8c1d255e",
+      "lines": 6,
+      "verifiedBy": "Text and attribution checked against Wikisource. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1892,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "rossetti-wind",
+    "poet": "Christina Rossetti",
+    "title": "Who Has Seen the Wind?",
+    "original": "1872 · English",
+    "language": "en",
+    "lines": [
+      "Who has seen the wind?",
+      "Neither I nor you.",
+      "But when the leaves hang trembling,",
+      "The wind is passing through.",
+      "Who has seen the wind?",
+      "Neither you nor I.",
+      "But when the trees bow down their heads,",
+      "The wind is passing by."
+    ],
+    "note": "The wind becomes visible through what it touches.",
+    "themes": [
+      "nature",
+      "wonder"
+    ],
+    "source": "https://poets.org/poem/who-has-seen-wind",
+    "label": "Academy of American Poets · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1894,
+      "editionYear": 1872,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "rossetti-wind",
+      "poet": "Christina Rossetti",
+      "title": "Who Has Seen the Wind?",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poets.org/poem/who-has-seen-wind",
+      "status": "verified",
+      "sourceSha256": "6582b95a54000f30bd398b9a396aa7348a1912386ab6d6fe71bd61d9849eb582",
+      "lines": 8,
+      "verifiedBy": "Text and attribution checked against Academy of American Poets. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1894,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "rossetti-birthday",
+    "poet": "Christina Rossetti",
+    "title": "A Birthday",
+    "original": "1862 · English",
+    "language": "en",
+    "lines": [
+      "My heart is like a singing bird",
+      "Whose nest is in a water'd shoot;",
+      "My heart is like an apple-tree",
+      "Whose boughs are bent with thickset fruit;",
+      "My heart is like a rainbow shell",
+      "That paddles in a halcyon sea;",
+      "My heart is gladder than all these",
+      "Because my love is come to me.",
+      "",
+      "Raise me a dais of silk and down;",
+      "Hang it with vair and purple dyes;",
+      "Carve it in doves and pomegranates,",
+      "And peacocks with a hundred eyes;",
+      "Work it in gold and silver grapes,",
+      "In leaves and silver fleurs-de-lys;",
+      "Because the birthday of my life",
+      "Is come, my love is come to me."
+    ],
+    "note": "The first stanza compares joy to living things. The second asks for a place fit to receive it.",
+    "themes": [
+      "love",
+      "wonder"
+    ],
+    "source": "https://poetrydb.org/title/A%20Birthday%3Aabs",
+    "label": "PoetryDB · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1894,
+      "editionYear": 1862,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "rossetti-birthday",
+      "poet": "Christina Rossetti",
+      "title": "A Birthday",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poetrydb.org/title/A%20Birthday%3Aabs",
+      "status": "verified",
+      "sourceSha256": "2c93cb72af8239226289b1f4a320597b6cd6336adde2527155e44553d637dbac",
+      "lines": 16,
+      "verifiedBy": "Text and attribution checked against PoetryDB. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1894,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "hardy-darkling-thrush",
+    "poet": "Thomas Hardy",
+    "title": "The Darkling Thrush",
+    "original": "1900 · English",
+    "language": "en",
+    "lines": [
+      "I leant upon a coppice gate",
+      "When Frost was spectre-gray,",
+      "And Winter's dregs made desolate",
+      "The weakening eye of day.",
+      "The tangled bine-stems scored the sky",
+      "Like strings of broken lyres,",
+      "And all mankind that haunted nigh",
+      "Had sought their household fires.",
+      "",
+      "The land's sharp features seemed to be",
+      "The Century's corpse outleant,",
+      "His crypt the cloudy canopy,",
+      "The wind his death-lament.",
+      "The ancient pulse of germ and birth",
+      "Was shrunken hard and dry,",
+      "And every spirit upon earth",
+      "Seemed fervorless as I.",
+      "",
+      "At once a voice arose among",
+      "The bleak twigs overhead",
+      "In a full-hearted evensong",
+      "Of joy illimited;",
+      "An aged thrush, frail, gaunt, and small,",
+      "In blast-beruffled plume,",
+      "Had chosen thus to fling his soul",
+      "Upon the growing gloom.",
+      "",
+      "So little cause for carolings",
+      "Of such ecstatic sound",
+      "Was written on terrestrial things",
+      "Afar or nigh around.",
+      "That I could think there trembled through",
+      "His happy good-night air",
+      "Some blessed Hope, whereof he knew",
+      "And I was unaware."
+    ],
+    "note": "Listen for the moment the bird’s voice changes what the speaker can imagine.",
+    "themes": [
+      "nature",
+      "hope"
+    ],
+    "source": "https://en.wikisource.org/wiki/The_Darkling_Thrush",
+    "label": "Wikisource · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1928,
+      "editionYear": 1900,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "hardy-darkling-thrush",
+      "poet": "Thomas Hardy",
+      "title": "The Darkling Thrush",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://en.wikisource.org/wiki/The_Darkling_Thrush",
+      "status": "verified",
+      "sourceSha256": "24dae04e611d8df9740ff0dcf1f1bd01c47be400433dcda38603f05f616b6691",
+      "lines": 32,
+      "verifiedBy": "Text and attribution checked against Wikisource. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1928,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "stevenson-rain",
+    "poet": "Robert Louis Stevenson",
+    "title": "Rain",
+    "original": "1885 · English",
+    "language": "en",
+    "lines": [
+      "The rain is raining all around,",
+      "It falls on field and tree,",
+      "It rains on the umbrellas here,",
+      "And on the ships at sea."
+    ],
+    "note": "Four lines move from the window’s view of the rain to ships at sea.",
+    "themes": [
+      "nature",
+      "wonder"
+    ],
+    "source": "https://en.wikisource.org/wiki/A_Child%27s_Garden_of_Verses/Rain",
+    "label": "Wikisource · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1894,
+      "editionYear": 1885,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "stevenson-rain",
+      "poet": "Robert Louis Stevenson",
+      "title": "Rain",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://en.wikisource.org/wiki/A_Child%27s_Garden_of_Verses/Rain",
+      "status": "verified",
+      "sourceSha256": "87ee88fcc338c043b0146e2a80ca1a73639a883c1da6e457df02127f966e01ad",
+      "lines": 4,
+      "verifiedBy": "Text and attribution checked against Wikisource. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1894,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "dunbar-mask",
+    "poet": "Paul Laurence Dunbar",
+    "title": "We Wear the Mask",
+    "original": "1896 · English",
+    "language": "en",
+    "lines": [
+      "We wear the mask that grins and lies,",
+      "It hides our cheeks and shades our eyes,—",
+      "This debt we pay to human guile;",
+      "With torn and bleeding hearts we smile",
+      "And mouth with myriad subtleties,",
+      "",
+      "Why should the world be over-wise,",
+      "In counting all our tears and sighs?",
+      "Nay, let them only see us, while",
+      "We wear the mask.",
+      "",
+      "We smile, but oh great Christ, our cries",
+      "To thee from tortured souls arise.",
+      "We sing, but oh the clay is vile",
+      "Beneath our feet, and long the mile,",
+      "But let the world dream otherwise,",
+      "We wear the mask!"
+    ],
+    "note": "Read the refrain aloud each time it returns. The same words do different work after each stanza.",
+    "themes": [
+      "conscience",
+      "liberty"
+    ],
+    "source": "https://poets.org/poem/we-wear-mask",
+    "label": "Academy of American Poets · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1906,
+      "editionYear": 1896,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "dunbar-mask",
+      "poet": "Paul Laurence Dunbar",
+      "title": "We Wear the Mask",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://poets.org/poem/we-wear-mask",
+      "status": "verified",
+      "sourceSha256": "9c56764b3603a9fff36975c0483e9ec346c87cfaf62763472fd06f8f15fca4a0",
+      "lines": 15,
+      "verifiedBy": "Text and attribution checked against Academy of American Poets. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1906,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    }
+  },
+  {
+    "id": "baudelaire-correspondances",
+    "poet": "Charles Baudelaire",
+    "title": "Correspondances",
+    "original": "1861 · French",
+    "language": "fr",
+    "lines": [
+      "La Nature est un temple où de vivants piliers",
+      "Laissent parfois sortir de confuses paroles ;",
+      "L’homme y passe à travers des forêts de symboles",
+      "Qui l’observent avec des regards familiers.",
+      "",
+      "Comme de longs échos qui de loin se confondent",
+      "Dans une ténébreuse et profonde unité,",
+      "Vaste comme la nuit et comme la clarté,",
+      "Les parfums, les couleurs et les sons se répondent.",
+      "",
+      "Il est des parfums frais comme des chairs d’enfants,",
+      "Doux comme les hautbois, verts comme les prairies,",
+      "— Et d’autres, corrompus, riches et triomphants,",
+      "",
+      "Ayant l’expansion des choses infinies,",
+      "Comme l’ambre, le musc, le benjoin et l’encens,",
+      "Qui chantent les transports de l’esprit et des sens."
+    ],
+    "note": "Follow how sounds, colors and scents begin to answer one another in the French original.",
+    "themes": [
+      "nature",
+      "wonder"
+    ],
+    "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal/1861/Correspondances",
+    "label": "Wikisource · full poem",
+    "credit": "Public-domain original · complete poem",
+    "rights": {
+      "authorDied": 1867,
+      "editionYear": 1861,
+      "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced.",
+      "mode": "public-domain"
+    },
+    "kind": "poem",
+    "sourceCheck": {
+      "id": "baudelaire-correspondances",
+      "poet": "Charles Baudelaire",
+      "title": "Correspondances",
+      "checkedAt": "2026-11-21",
+      "recommendedSource": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal/1861/Correspondances",
+      "status": "verified",
+      "sourceSha256": "f864410885a57a2426d21edb9cfb2fc0f425893a8ebab963515ef796939eccc7",
+      "lines": 14,
+      "verifiedBy": "Text and attribution checked against Wikisource. Display spacing is normalized.",
+      "rightsAudit": {
+        "authorDied": 1867,
+        "deathCutoffPassed": true,
+        "originalTextOnly": true,
+        "basis": "Original public-domain poem. No modern translation or editorial annotation reproduced."
+      }
+    },
+    "translation": {
+      "language": "en",
+      "lines": [
+        "Nature is a temple where living pillars",
+        "Sometimes let slip indistinct words;",
+        "A man passes there through forests of symbols",
+        "That watch him with familiar eyes.",
+        "",
+        "Like long echoes mingling from afar",
+        "In a deep and shadowy unity,",
+        "Vast as the night and vast as light,",
+        "Scents, colors and sounds answer one another.",
+        "",
+        "Some scents are fresh as children’s flesh,",
+        "Soft as oboes, green as meadows,",
+        "And others, corrupt, rich and triumphant,",
+        "",
+        "That spread as boundless things do,",
+        "Like ambergris, musk, benzoin and incense,",
+        "Singing the raptures of the mind and the senses."
+      ],
+      "method": "ai-generated",
+      "credit": "AI-generated English translation for this site; not a published edition.",
+      "generated": "2026-11-21",
+      "humanReviewed": false,
+      "basis": "Generated from the complete public-domain original displayed alongside it.",
+      "sourceTextSha256": "75b0623c3376e8bbb120129433655a806c6308ed6856f2a0638d9b35b342e033"
+    }
   }
 ]

@@ -1,13 +1,13 @@
 # Poetry I Like
 
-A browser reading room with **145 complete poems by 126 poets**, including 10
-Italian, 10 French and 10 Polish originals with English translations. Nine modern
+A browser reading room with **155 complete poems by 128 poets**, including 10
+Italian, 11 French and 10 Polish originals. All 31 have attributed English translations. Nine modern
 favourites link to readable editions. They are counted separately from poems.
 
 Search a remembered line, choose a language or theme, save a poem, or read a
 shuffled shelf without repeats. Original, English and side-by-side views keep
-the source text close to each translation. The forest and optional rain stay
-behind the reading; sound starts only when chosen.
+the source text close to each translation. Five guided paths sit above the poem,
+with previous and next controls and a position indicator.
 
 ## Run locally
 
@@ -23,7 +23,9 @@ npm run dev
 Open http://127.0.0.1:5175. `npm run build` creates a self-contained
 `dist/index.html`, including the collection, Source Serif 4, illustration and
 reader. It also opens directly as a local file. External edition links need an
-internet connection; reading and locally synthesized sound do not.
+internet connection. Choose Light rain, Woodland rain, Rain on a window or
+Stream above a poem. The three rain recordings load after you start sound.
+The single-file reader uses local sound textures when recordings cannot load.
 
 ## Read and return
 
@@ -36,7 +38,10 @@ bookmark, copy a source citation, print, or download a private note. Notes remai
 in the tab and clear when switching poems; download a note before leaving it.
 
 Reading settings offer size, spacing, line focus, plain paper and sound. No
-account, analytics, model endpoint or reading history leaves the browser.
+account, analytics, model endpoint or reading history leaves the browser. The
+rain recordings crossfade when you change sound and stop when the tab is hidden.
+Volume, sleep timer and [recording credits](assets/ambience/provenance.json) are
+in the reading settings.
 
 ## Sources, translations and audit
 
@@ -45,7 +50,9 @@ rights basis and source check. `data/source-audit-20261112.json` documents
 source-text verification, excerpt corrections and held records. Broken compound
 PoetryDB URLs were replaced with verified title endpoints. Three edition
 variants were replaced with the exact source text; Giusti's Sant'Ambrogio is
-now the complete 96-line poem.
+now the complete 96-line poem. The ten additions are checked against the
+Academy of American Poets, PoetryDB or Wikisource, with links and rights
+information on each record.
 
 Full texts use public-domain originals. PoetryDB collection data is CC BY 4.0;
 original texts and translations have distinct rights. Modern favourites such as

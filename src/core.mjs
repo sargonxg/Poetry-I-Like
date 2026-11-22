@@ -22,7 +22,7 @@ export function validateSettings(input={}) {
  const result={...DEFAULT_SETTINGS};if(!input||typeof input!=='object'||Array.isArray(input))return result;
  for(const [key,min,max] of [['size',17,32],['leading',1.4,2.3],['measure',36,72],['spacing',0,.09],['opacity',85,100],['volume',0,35],['timer',5,60]])if(Number.isFinite(input[key]))result[key]=Math.min(max,Math.max(min,input[key]));
  for(const key of ['focus','numbers','depth','rain'])if(typeof input[key]==='boolean')result[key]=input[key];
- for(const [key,allowed]of [['font',['book','serif','sans']],['tone',['paper','white','evening']],['sound',['rain','forest','stream']]])if(allowed.includes(input[key]))result[key]=input[key];
+ for(const [key,allowed]of [['font',['book','serif','sans']],['tone',['paper','white','evening']],['sound',['rain','forest','window','stream']]])if(allowed.includes(input[key]))result[key]=input[key];
  return result;
 }
 export function poemFacts(item) {

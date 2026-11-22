@@ -1,0 +1,53 @@
+[
+  {
+    "key": "forest",
+    "upstream": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bourne_woods_rain_2020-05-10_0800.mp3",
+    "upstreamSha256": "79ecd2198eff06680996fa9d525e3fa99e12615fd43799800d18d2ecb0e9ecee",
+    "upstreamBytes": 2808096,
+    "title": "Bourne woods rain 2020-05-10 0800",
+    "artist": "Robert EA Harvey",
+    "source": "https://commons.wikimedia.org/wiki/File:Bourne_woods_rain_2020-05-10_0800.mp3",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "file": "woodland-rain.mp3",
+    "startSeconds": 5,
+    "loopSeconds": 17.3,
+    "adaptation": "Excerpt, equal-level crossfade, filtered, adjusted gain and compressed for looping. The CC BY-SA excerpts retain the original license.",
+    "bytes": 104372,
+    "sha256": "2f3b4398952107e05232f75d3a18dc8fc2cd69c758340bb1d0d42475376fc8e9"
+  },
+  {
+    "key": "window",
+    "upstream": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rain_against_the_window.ogg",
+    "upstreamSha256": "85be295e9936fbf003ae5dbc0e106b77e60854ea4b19bfb7b232420f291a737e",
+    "upstreamBytes": 1208332,
+    "title": "Rain against the window",
+    "artist": "cori",
+    "source": "https://commons.wikimedia.org/wiki/File:Rain_against_the_window.ogg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rain_against_the_window.ogg#Licensing",
+    "file": "window-rain.mp3",
+    "startSeconds": 3,
+    "loopSeconds": 17.3,
+    "adaptation": "Excerpt, equal-level crossfade, filtered, adjusted gain and compressed for looping. The CC BY-SA excerpts retain the original license.",
+    "bytes": 104372,
+    "sha256": "0e4cf423579560aa91743cddb9fe1b5b9190a1bf8a8b058e14c4d3d73ef90878"
+  },
+  {
+    "key": "rain",
+    "upstream": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sound_of_light_rainfall.ogg",
+    "upstreamSha256": "e0233652d8173650149adcf3d6e5ddc01b73e8a93ce61b8d7809abfe582251a8",
+    "upstreamBytes": 647064,
+    "title": "Sound of light rainfall",
+    "artist": "Mijesty",
+    "source": "https://commons.wikimedia.org/wiki/File:Sound_of_light_rainfall.ogg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "file": "light-rain.mp3",
+    "startSeconds": 2,
+    "loopSeconds": 17.29490625,
+    "adaptation": "Excerpt, equal-level crossfade, filtered, adjusted gain and compressed for looping. The CC BY-SA excerpts retain the original license.",
+    "bytes": 104372,
+    "sha256": "f55bcc1a9e0bf75581f53f71474776008b934ab7e88571d316196fff3796d6ad"
+  }
+]

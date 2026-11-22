@@ -8,7 +8,7 @@ parts=['''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" preser
 <radialGradient id="light" cx=".65" cy=".28" r=".65"><stop stop-color="#fcf8dc" stop-opacity=".9"/><stop offset=".6" stop-color="#d7dfbd" stop-opacity=".2"/><stop offset="1" stop-color="#91a68b" stop-opacity="0"/></radialGradient>
 <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#729071"/><stop offset="1" stop-color="#1a372a"/></linearGradient>
 <linearGradient id="bark" x2="1" y2="0"><stop stop-color="#263d32"/><stop offset=".45" stop-color="#61715b"/><stop offset=".7" stop-color="#394c3c"/><stop offset="1" stop-color="#1a3327"/></linearGradient>
-<linearGradient id="path" x2=".4" y2="1"><stop stop-color="#c0c4a2"/><stop offset="1" stop-color="#9b9c73"/></linearGradient>
+<linearGradient id="path" x2=".4" y2="1"><stop stop-color="#c3c5a6"/><stop offset=".64" stop-color="#b7ad84"/><stop offset="1" stop-color="#c6b88a"/></linearGradient>
 <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
 <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="17" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
 <g id="leaves"><path d="M-26 1 Q-17-25-3-17 Q8-31 19-13 Q39-19 31-1 Q44 14 20 16 Q9 34-5 16 Q-30 27-25 10 Q-39 2-26 1Z"/><path d="M-15-8 Q-3-18 7-8 Q21-13 19 0 Q26 14 11 12 Q1 24-9 10 Q-26 12-15-8Z" opacity=".65"/></g>
@@ -29,7 +29,8 @@ for layer,(count,fill,opacity,base,scale) in enumerate([(90,'#82977f',.30,800,.7
  if layer<2:parts.append(f'<path d="M0 {base-150} Q450 {base-250} 900 {base-130} T1800 {base-180} V{base+70} H0Z" fill="#dfe5d1" opacity=".18" filter="url(#soft)"/>')
 parts.append('<path d="M0 1000 Q250 940 570 1020 Q950 900 1800 1030 V1200 H0Z" fill="url(#ground)"/>')
 # An unmarked woodland path gives the eye a place to rest behind the reading page.
-parts.append('<path d="M1110 826 C1060 912 1250 970 1100 1040 C970 1110 1020 1150 1190 1200 H1570 C1360 1100 1200 1095 1260 1010 C1300 930 1140 900 1130 826Z" fill="url(#path)" opacity=".55"/>')
+parts.append('<path d="M1370 827 C1355 893 1290 919 1334 973 C1389 1034 1553 1096 1700 1200 H1800 C1648 1077 1435 1030 1382 964 C1340 907 1379 876 1382 827Z" fill="url(#path)" opacity=".88"/>')
+parts.append('<path d="M1380 849 C1365 907 1323 926 1365 977 C1420 1040 1565 1091 1760 1200" fill="none" stroke="#f4e0ac" stroke-width="5" opacity=".34" filter="url(#soft)"/>')
 # Foreground trees: curved bark, roots and long branching limbs.
 for x,y,h,w,side in [(70,1280,1280,64,1),(360,1260,1410,47,-1),(1510,1300,1430,69,-1),(1770,1290,1210,80,-1)]:
  bend=side*85

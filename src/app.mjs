@@ -1,5 +1,5 @@
 import {THEMES,LANGUAGES,DEFAULT_SETTINGS,fold,fullTexts,filterCollection,nextRandom,safeSource,readingMinutes,normalizeSaved,validateSettings,poemFacts,exportShelf,importShelf,citation,shareFragment,parseFragment,safeLine,englishTranslation,shuffledPoemIds} from './core.mjs';
-import {WoodlandAudio} from './audio.mjs';
+import {SOUND_LABELS,WoodlandAudio} from './audio.mjs';
 const $=selector=>document.querySelector(selector);
 const collection=JSON.parse($('#poetry-data').textContent),guides=JSON.parse($('#reading-guides').textContent);
 const KEY={saved:'poetry-i-like:saved',settings:'poetry-i-like:settings',last:'poetry-i-like:last'};
@@ -7,7 +7,7 @@ function readStored(key,fallback){try{return JSON.parse(localStorage.getItem(key
 function writeStored(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}}
 const bookmark=parseFragment(location.hash,collection),last=readStored(KEY.last,null);
 const initial=bookmark?.item||collection.find(item=>item.id===last)||collection.find(item=>item.id==='lazarus-new-colossus')||collection[0];
-const state={current:initial,saved:normalizeSaved(readStored(KEY.saved,[]),collection),settings:validateSettings(readStored(KEY.settings,{})),history:[],query:'',theme:'',language:'',kind:'poem',sort:'collection',scope:'all',savedOnly:false,shown:24,line:bookmark?.line??0,prompt:0,readingMode:false,view:'both',deck:[],deckKey:''};
+const state={current:initial,saved:normalizeSaved(readStored(KEY.saved,[]),collection),settings:validateSettings(readStored(KEY.settings,{})),history:[],query:'',theme:'',language:'',kind:'poem',sort:'collection',scope:'all',savedOnly:false,shown:24,path:'',line:bookmark?.line??0,prompt:0,readingMode:false,view:'both',deck:[],deckKey:''};
 const reduce=matchMedia('(prefers-reduced-motion:reduce)'),small=matchMedia('(max-width:800px)'),fine=matchMedia('(pointer:fine)');
 const libraryAnchor=document.createComment('Library home');$('#library').before(libraryAnchor);
 const exercises={liberty:'Write four lines beginning “I am free to…” End with an ordinary action rather than an abstract ideal.',pluralism:'Describe one place through two voices. Let both remain believable; leave a point of disagreement unresolved.',conscience:'Choose a decision you noticed today. Describe the room and one gesture. Let the reader decide what it means.',love:'Write about someone through an object they use every day. Leave the name of the feeling out.',memory:'Recall one sound from a place you have left. Write six lines that move from that sound to the present.',nature:'Spend a minute watching something small outdoors. Write only what you can see or hear.',wonder:'Begin with “I had not noticed…” Follow the observation for five lines before explaining it.'};
@@ -46,7 +46,7 @@ function drawPoem({focus=false}={}){
  const bio=guides.poets[item.poet];text($('#poet-bio'),bio?.bio||(item.rights.authorDied?'The source record gives '+item.rights.authorDied+' as '+item.poet+'’s year of death. Follow the text source for its edition and further context.':'This is a modern reading reference. The cited publisher or archive provides information about the writer and the authorized text.'));setLink($('#poet-source'),bio?.source||item.source,bio?'Biographical source ↗':'Text and edition source ↗');
  text($('#edition-note'),item.credit+'. '+item.label+'.');text($('#rights-basis'),item.rights.basis||'Metadata and an external link are provided; no protected verse is reproduced.');setLink($('#collection-source'),item.collectionSource,'Concordia Discors reading shelf ↗');
  text($('#exercise'),exercises[item.themes[0]]||exercises.wonder);$('#private-note').value='';$('#theme-tags').replaceChildren();for(const theme of item.themes){const b=document.createElement('button');b.textContent=theme;b.addEventListener('click',()=>chooseTheme(theme));$('#theme-tags').append(b);}
- $('#previous-poem').disabled=!state.history.length;renderFocus();drawShelf();writeStored(KEY.last,item.id);updateURL();if(focus)$('#poem-title').focus({preventScroll:true});
+ $('#previous-poem').disabled=!state.history.length;renderFocus();renderPath();drawShelf();writeStored(KEY.last,item.id);updateURL();if(focus)$('#poem-title').focus({preventScroll:true});
 }
 function selectPoem(item,remember=true){if(!item)return;if(item.id!==state.current.id){if(remember){state.history.push(state.current.id);if(state.history.length>100)state.history.shift();}state.current=item;state.line=0;}drawPoem({focus:true});tell(item.title+', by '+item.poet);if($('#library-dialog').open)$('#library-dialog').close();if(small.matches)$('#main').scrollIntoView({block:'start',behavior:'auto'});}
 function randomPoem(){const rows=fullTexts(filtered());if(!rows.length){tell('Choose the poems shelf to read another complete poem.');return;}const key=rows.map(item=>item.id).join('|');if(state.deckKey!==key||!state.deck.length){state.deck=shuffledPoemIds(rows,state.current.id);state.deckKey=key;}selectPoem(rows.find(item=>item.id===state.deck.shift()));}
@@ -54,7 +54,34 @@ function back(){const id=state.history.pop();if(id)selectPoem(collection.find(it
 for(const theme of THEMES){const count=collection.filter(item=>item.themes.includes(theme)).length;const option=new Option(theme[0].toUpperCase()+theme.slice(1)+' ('+count+')',theme);$('#theme').append(option);}
 for(const [code,name]of Object.entries(LANGUAGES)){const count=collection.filter(item=>item.language===code).length;if(count)$('#language').append(new Option(name+' ('+count+')',code));}
 text($('#collection-count'),fullTexts(collection).length+' poems · '+new Set(fullTexts(collection).map(item=>item.poet)).size+' poets · '+collection.filter(item=>item.kind==='reading').length+' reading links');
-for(const path of guides.paths){const section=document.createElement('section');section.className='pathway';section.append(text(document.createElement('h3'),path.title),text(document.createElement('p'),path.description));for(const id of path.ids){const item=collection.find(value=>value.id===id);if(!item)continue;const b=text(document.createElement('button'),item.poet+': '+item.title+(item.kind==='reading'?' (reading link)':''));b.addEventListener('click',()=>selectPoem(item));section.append(b);}$('#pathways').append(section);}
+const paths=new Map(guides.paths.map(path=>[path.id,path]));
+const pathSelect=$('#reading-path');
+for(const path of paths.values())pathSelect.add(new Option(path.title,path.id));
+function renderPath(){
+ const path=paths.get(state.path);
+ const index=path?.ids.indexOf(state.current.id)??-1;
+ if(index<0){state.path='';pathSelect.value='';}
+ $('#path-steps').hidden=index<0;
+ if(index<0)return;
+ $('#path-back').disabled=index===0;
+ $('#path-next').disabled=index===path.ids.length-1;
+ text($('#path-progress'),(index+1)+' of '+path.ids.length);
+}
+function moveOnPath(offset){
+ const path=paths.get(state.path);
+ if(!path)return;
+ const nextId=path.ids[path.ids.indexOf(state.current.id)+offset];
+ void selectPoem(collection.find(item=>item.id===nextId));
+}
+pathSelect.addEventListener('change',()=>{
+ state.path=pathSelect.value;
+ const path=paths.get(state.path);
+ if(!path){renderPath();return;}
+ if(path.ids.includes(state.current.id)){renderPath();return;}
+ void selectPoem(collection.find(item=>item.id===path.ids[0]));
+});
+$('#path-back').addEventListener('click',()=>moveOnPath(-1));
+$('#path-next').addEventListener('click',()=>moveOnPath(1));
 let searchTimer;$('#search').addEventListener('input',event=>{clearTimeout(searchTimer);state.query=event.target.value.slice(0,160);state.shown=24;searchTimer=setTimeout(drawShelf,100);});
 for(const key of ['theme','language','kind','sort','scope'])$('#'+key).addEventListener('change',event=>{state[key]=event.target.value;state.shown=24;drawShelf();});
 $('#clear-filters').addEventListener('click',()=>{Object.assign(state,{query:'',theme:'',language:'',kind:'poem',sort:'collection',scope:'all',shown:24});for(const key of ['theme','language','kind','sort','scope'])$('#'+key).value=state[key];$('#search').value='';drawShelf();$('#search').focus();});
@@ -83,18 +110,39 @@ let depthFrame=0,depthX=0,depthY=0;
 function stopDepth(){cancelAnimationFrame(depthFrame);depthFrame=0;$('#forest').style.transform='translate3d(0,0,0)';}
 function depthEnabled(){return state.settings.depth&&!reduce.matches&&fine.matches&&!document.hidden;}
 function applySettings(persist=false){const s=state.settings,root=document.documentElement;root.style.setProperty('--size',s.size+'px');root.style.setProperty('--leading',s.leading);root.style.setProperty('--measure',s.measure+'ch');root.style.setProperty('--letter',s.spacing+'em');root.style.setProperty('--paper-alpha',s.opacity/100);root.style.setProperty('--reader-font',s.font==='sans'?'Arial,Helvetica,sans-serif':s.font==='serif'?'Georgia,serif':'"Source Serif 4",Georgia,serif');$('#paper').className='paper '+s.tone;
- for(const [id,key]of [['font-size','size'],['line-height','leading'],['measure','measure'],['letter-spacing','spacing'],['paper-opacity','opacity'],['font-family','font'],['paper-tone','tone'],['sound-type','sound'],['volume','volume'],['sleep-timer','timer']])$('#'+id).value=s[key];
+ for(const [id,key]of [['font-size','size'],['line-height','leading'],['measure','measure'],['letter-spacing','spacing'],['paper-opacity','opacity'],['font-family','font'],['paper-tone','tone'],['volume','volume'],['sleep-timer','timer']])$('#'+id).value=s[key];
  for(const [id,key]of [['focus-mode','focus'],['line-numbers','numbers'],['forest-depth','depth'],['visual-rain','rain']])$('#'+id).checked=s[key];
  for(const [id,value]of [['size-value',s.size+' px'],['leading-value',s.leading.toFixed(1)],['measure-value',s.measure+' ch'],['spacing-value',s.spacing.toFixed(2)+' em'],['opacity-value',s.opacity+'%'],['volume-value',s.volume+'%']])text($('#'+id),value);
- $('#rain').classList.toggle('show',s.rain&&!reduce.matches);text($('#motion-note'),reduce.matches?'Your device requests reduced motion, so pointer depth and rain animation are off. Sound remains optional and is synthesized locally.':'Sound starts after a click and stops when you leave the tab. Rain animation is optional. All soundscapes are synthesized locally.');if(!depthEnabled())stopDepth();renderFocus();if(persist&&!writeStored(KEY.settings,s))tell('Preferences apply for this tab. Browser storage is unavailable.',true);}
-const audio=new WoodlandAudio((active,sound)=>{$('#sound-toggle').setAttribute('aria-pressed',active);text($('#sound-toggle'),active?({rain:'Rain on',forest:'Forest on',stream:'Stream on'}[sound]):'Sound off');});
-let soundBusy=false;async function startSound(){if(soundBusy)return;soundBusy=true;try{await audio.start(state.settings);}catch(error){tell(error.message);}finally{soundBusy=false;}}
-$('#sound-toggle').addEventListener('click',()=>{if(audio.active||soundBusy)audio.stop();else startSound();});
-for(const [id,key,type]of [['font-size','size','number'],['line-height','leading','number'],['measure','measure','number'],['letter-spacing','spacing','number'],['paper-opacity','opacity','number'],['font-family','font','string'],['paper-tone','tone','string'],['focus-mode','focus','bool'],['line-numbers','numbers','bool'],['forest-depth','depth','bool'],['visual-rain','rain','bool'],['sound-type','sound','string'],['volume','volume','number'],['sleep-timer','timer','number']])$('#'+id).addEventListener(type==='number'&&id!=='sleep-timer'?'input':'change',event=>{state.settings=validateSettings({...state.settings,[key]:type==='bool'?event.target.checked:type==='number'?Number(event.target.value):event.target.value});applySettings(true);if(key==='volume')audio.setVolume(state.settings.volume);if(key==='timer')audio.setTimer(state.settings.timer);if(key==='sound'&&audio.active)startSound();if(key==='focus')updateURL();});
+ $('#sound-type').value=s.sound;
+ if($('#sound-toggle').getAttribute('aria-pressed')==='false')$('#sound-toggle').setAttribute('aria-label','Play '+SOUND_LABELS[s.sound]);
+ $('#rain').dataset.sound=s.sound;
+ $('#rain').classList.toggle('show',s.rain&&!reduce.matches);text($('#motion-note'),reduce.matches?'Your device requests reduced motion, so pointer depth and rain animation are off. Sound remains optional.':'Sound starts after a click and stops when you leave the tab. Rain animation is optional. Three rain recordings and a local stream sound are available.');if(!depthEnabled())stopDepth();renderFocus();if(persist&&!writeStored(KEY.settings,s))tell('Preferences apply for this tab. Browser storage is unavailable.',true);}
+const audio=new WoodlandAudio((active,sound,mode)=>{
+ const button=$('#sound-toggle');
+ button.setAttribute('aria-pressed',String(active));
+ button.dataset.audio=mode||'off';
+ button.setAttribute('aria-label',(active?'Pause ':'Play ')+SOUND_LABELS[sound||state.settings.sound]);
+ text(button,active?'Pause':'Play');
+});
+let soundBusy=false;
+async function startSound(){
+ if(soundBusy)return;
+ soundBusy=true;$('#sound-type').disabled=true;
+ try{await audio.start(state.settings);}
+ catch(error){tell(error.message);}
+ finally{soundBusy=false;$('#sound-type').disabled=false;}
+}
+$('#sound-toggle').addEventListener('click',()=>{if(audio.active||soundBusy)void audio.stop();else void startSound();});
+$('#sound-type').addEventListener('change',event=>{
+ state.settings=validateSettings({...state.settings,sound:event.target.value});
+ applySettings(true);
+ if(audio.active)void audio.setSound(state.settings.sound).catch(error=>tell(error.message));
+});
+for(const [id,key,type]of [['font-size','size','number'],['line-height','leading','number'],['measure','measure','number'],['letter-spacing','spacing','number'],['paper-opacity','opacity','number'],['font-family','font','string'],['paper-tone','tone','string'],['focus-mode','focus','bool'],['line-numbers','numbers','bool'],['forest-depth','depth','bool'],['visual-rain','rain','bool'],['volume','volume','number'],['sleep-timer','timer','number']])$('#'+id).addEventListener(type==='number'&&id!=='sleep-timer'?'input':'change',event=>{state.settings=validateSettings({...state.settings,[key]:type==='bool'?event.target.checked:type==='number'?Number(event.target.value):event.target.value});applySettings(true);if(key==='volume')audio.setVolume(state.settings.volume);if(key==='timer')audio.setTimer(state.settings.timer);if(key==='focus')updateURL();});
 $('#reset-settings').addEventListener('click',()=>{state.settings={...DEFAULT_SETTINGS};applySettings(true);audio.stop();tell('Reading settings reset. Your saved poems remain.',true);});$('#clear-local').addEventListener('click',()=>{for(const key of Object.values(KEY))try{localStorage.removeItem(key);}catch{}state.saved=[];state.settings={...DEFAULT_SETTINGS};applySettings();drawShelf();audio.stop();tell('This reader’s saved IDs and preferences were removed from this browser.',true);});
 for(let i=0;i<32;i++){const drop=document.createElement('i');drop.style.left=(i*37%100)+'%';drop.style.animationDelay=(-i*.19)+'s';drop.style.animationDuration=(1.2+(i%7)*.18)+'s';$('#rain').append(drop);}
 window.addEventListener('pointermove',event=>{if(!depthEnabled())return;depthX=(event.clientX/innerWidth-.5)*7;depthY=(event.clientY/innerHeight-.5)*5;if(!depthFrame)depthFrame=requestAnimationFrame(()=>{depthFrame=0;$('#forest').style.transform='translate3d('+depthX.toFixed(2)+'px,'+depthY.toFixed(2)+'px,0)';});},{passive:true});document.addEventListener('pointerleave',stopDepth);reduce.addEventListener('change',()=>applySettings());fine.addEventListener('change',()=>applySettings());
-document.addEventListener('visibilitychange',()=>{if(document.hidden){audio.stop();stopDepth();}});window.addEventListener('pagehide',()=>{audio.stop();stopDepth();clearTimeout(searchTimer);});
+document.addEventListener('visibilitychange',()=>{document.body.toggleAttribute('data-room-hidden',document.hidden);if(document.hidden){void audio.stop();stopDepth();}});window.addEventListener('pagehide',()=>{audio.stop();stopDepth();clearTimeout(searchTimer);});
 document.addEventListener('keydown',event=>{if($('#settings').open||$('#library-dialog').open)return;const active=document.activeElement;if(['INPUT','TEXTAREA','SELECT'].includes(active?.tagName))return;if(event.altKey&&event.key==='ArrowRight'){event.preventDefault();randomPoem();return;}if(event.altKey&&event.key==='ArrowLeft'){event.preventDefault();back();return;}if(active===$('#poem-lines')&&state.settings.focus&&isText()){let next;if(event.key==='ArrowDown')next=safeLine(state.current,state.line+1,1);else if(event.key==='ArrowUp')next=safeLine(state.current,state.line-1,-1);else if(event.key==='Home')next=safeLine(state.current,0,1);else if(event.key==='End')next=safeLine(state.current,state.current.lines.length-1,-1);if(next!==undefined){event.preventDefault();state.line=next;renderFocus();updateURL();}}});
 window.addEventListener('hashchange',()=>{const value=parseFragment(location.hash,collection);if(value){state.current=value.item;state.line=value.line??0;if(value.line!==null)state.settings.focus=true;drawPoem();applySettings();}});$('.brand').addEventListener('click',event=>{event.preventDefault();selectPoem(collection[0]);});
 if(bookmark?.line!==null&&bookmark?.line!==undefined)state.settings.focus=true;

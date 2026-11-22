@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, rm, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm, copyFile, cp } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const read = path => readFile(path, 'utf8');
 const collection = JSON.parse(await read('data/poems.json'));
@@ -15,9 +15,10 @@ const data = JSON.stringify(collection).replaceAll('<', '\\u003c');
 const html = source.replace('/*__STYLE__*/', () => css).replace('/*__DATA__*/', () => data).replace('/*__GUIDES__*/', () => guides.replaceAll('<', '\\u003c')).replace('/*__SCRIPT__*/', () => core + '\n' + audio + '\n' + app);
 await rm('dist', {recursive:true, force:true}); await mkdir('dist', {recursive:true});
 await writeFile('dist/index.html', html);
+await mkdir('dist/assets',{recursive:true}); await cp('assets/ambience','dist/assets/ambience',{recursive:true});
 await writeFile('dist/404.html', '<!doctype html><html lang="en"><meta charset="utf-8"><title>Page not found</title><h1>That page is not here.</h1><p><a href="/">Return to the reading room</a></p></html>');
 const hash=value=>createHash('sha256').update(value).digest('base64');
-const csp="default-src 'none'; script-src 'sha256-"+hash(core+'\n'+audio+'\n'+app)+"'; style-src 'sha256-"+hash(css)+"'; img-src data:; connect-src 'none'; font-src data:; media-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; object-src 'none'";
+const csp="default-src 'none'; script-src 'sha256-"+hash(core+'\n'+audio+'\n'+app)+"'; style-src 'sha256-"+hash(css)+"'; img-src data:; connect-src 'self'; font-src data:; media-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'; object-src 'none'";
 await writeFile('dist/_headers', '/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()\n  Content-Security-Policy: '+csp+'\n');
 await mkdir('dist/licenses',{recursive:true});await copyFile('assets/fonts/SOURCE-SERIF-4-OFL.txt','dist/licenses/SOURCE-SERIF-4-OFL.txt');
 await mkdir('dist/data', {recursive:true}); await copyFile('data/poems.json','dist/data/poems.json'); await copyFile('data/provenance.json','dist/data/provenance.json'); await copyFile('data/reading-guides.json','dist/data/reading-guides.json');

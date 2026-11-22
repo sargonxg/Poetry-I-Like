@@ -1,17 +1,155 @@
-/** Small synthesized ambience engine. No recorded audio, downloads or autoplay. */
-export class WoodlandAudio {
- constructor(onChange=()=>{}){this.context=null;this.gain=null;this.stopTimer=null;this.generation=0;this.onChange=onChange;this.active=false;}
- async stop(){this.generation++;clearTimeout(this.stopTimer);this.stopTimer=null;const context=this.context,gain=this.gain;this.context=null;this.gain=null;this.active=false;this.onChange(false);if(!context)return;if(gain)gain.gain.setTargetAtTime(0,context.currentTime,.12);await new Promise(resolve=>setTimeout(resolve,420));await context.close().catch(()=>{});}
- setVolume(value){if(this.context&&this.gain)this.gain.gain.setTargetAtTime(Math.max(0,Math.min(.35,Number(value)/100)),this.context.currentTime,.18);}
- setTimer(minutes){clearTimeout(this.stopTimer);if(this.active)this.stopTimer=setTimeout(()=>this.stop(),Math.max(5,Math.min(60,minutes))*60000);}
- async start(settings){const generation=this.generation+1;await this.stop();if(generation!==this.generation)return;const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)throw Error('This browser does not support Web Audio.');const context=new Audio();this.context=context;try{await context.resume();if(generation!==this.generation||document.hidden){if(this.context===context)this.context=null;await context.close();return;}
- const gain=context.createGain();gain.gain.value=0;const limiter=context.createDynamicsCompressor();limiter.threshold.value=-18;limiter.knee.value=20;limiter.ratio.value=4;limiter.attack.value=.02;limiter.release.value=.4;gain.connect(limiter);limiter.connect(context.destination);this.gain=gain;
- for(let layer=0;layer<2;layer++){
-  const seconds=layer?11:7,buffer=context.createBuffer(2,context.sampleRate*seconds,context.sampleRate);
-  for(let channel=0;channel<2;channel++){const data=buffer.getChannelData(channel);let brown=0;for(let i=0;i<data.length;i++){const white=Math.random()*2-1;brown=(brown+.02*white)/1.02;data[i]=settings.sound==='rain'?(white*.3+brown*2):settings.sound==='stream'?(white*.17+brown*3):brown*3.4;}}
-  const source=context.createBufferSource();source.buffer=buffer;source.loop=true;const filter=context.createBiquadFilter();filter.type='lowpass';filter.frequency.value=settings.sound==='rain'?(layer?3000:1350):settings.sound==='stream'?(layer?1900:680):(layer?630:280);const level=context.createGain();level.gain.value=.45;source.connect(filter);filter.connect(level);level.connect(gain);source.start();
-  const movement=context.createOscillator(),depth=context.createGain();movement.frequency.value=layer?.043:.027;depth.gain.value=.09;movement.connect(depth);depth.connect(level.gain);movement.start();
+/** Local, opt-in ambience. Recorded rain crossfades in the same AudioContext. */
+export const SOUND_LABELS = Object.freeze({
+ rain:'Light rain', forest:'Woodland rain', window:'Rain on a window', stream:'Stream'
+});
+const RAIN_FILES = Object.freeze({
+ rain:'assets/ambience/light-rain.mp3',
+ forest:'assets/ambience/woodland-rain.mp3',
+ window:'assets/ambience/window-rain.mp3'
+});
+
+function localTexture(context, sound) {
+ const seconds=9, length=Math.floor(context.sampleRate*seconds);
+ const buffer=context.createBuffer(2,length,context.sampleRate);
+ const weights=sound==='stream'?[.09,2.1]:[.21,1.9];
+ for(let channel=0;channel<2;channel++){
+  const data=buffer.getChannelData(channel);
+  let drift=0;
+  for(let i=0;i<data.length;i++){
+   const white=Math.random()*2-1;
+   drift=(drift+white*.022)/1.022;
+   data[i]=white*weights[0]+drift*weights[1];
+  }
+  const fade=Math.floor(context.sampleRate*.07);
+  for(let i=0;i<fade;i++){
+   const blend=(i+1)/fade;
+   data[length-fade+i]=data[length-fade+i]*(1-blend)+data[i]*blend;
+  }
  }
- this.active=true;gain.gain.setTargetAtTime(Math.max(0,Math.min(.35,settings.volume/100)),context.currentTime,.65);this.setTimer(settings.timer);this.onChange(true,settings.sound);
- }catch(error){if(this.context===context)this.context=null;await context.close().catch(()=>{});throw error;}}
+ return {buffer,recorded:false,loopStart:.07};
+}
+
+export class WoodlandAudio {
+ constructor(onChange=()=>{}) {
+  this.onChange=onChange;
+  this.context=null;
+  this.gain=null;
+  this.stopTimer=null;
+  this.channel=null;
+  this.active=false;
+  this.generation=0;
+  this.selection=0;
+  this.buffers=new Map();
+ }
+
+ async start(settings) {
+  if(this.context)return;
+  const Audio=globalThis.AudioContext||globalThis.webkitAudioContext;
+  if(!Audio)throw Error('This browser does not support Web Audio.');
+  const context=new Audio();
+  const generation=++this.generation;
+  this.context=context;
+  const gain=context.createGain();
+  gain.gain.value=0;
+  const limiter=context.createDynamicsCompressor();
+  limiter.threshold.value=-12;
+  limiter.knee.value=20;
+  limiter.ratio.value=3;
+  gain.connect(limiter);
+  limiter.connect(context.destination);
+  this.gain=gain;
+  try{
+   await context.resume();
+   if(generation!==this.generation||document.hidden)return;
+   if(await this.setSound(settings.sound)){
+    this.setVolume(settings.volume);
+    this.setTimer(settings.timer);
+   }
+  }catch(error){
+   if(this.context===context)await this.stop();
+   throw error;
+  }
+ }
+
+ async setSound(sound) {
+  if(!this.context||!Object.hasOwn(SOUND_LABELS,sound))return false;
+  if(this.channel?.sound===sound)return true;
+  const context=this.context;
+  const selection=++this.selection;
+  const audio=await this.getBuffer(context,sound);
+  if(this.context!==context||selection!==this.selection||document.hidden)return false;
+  const source=context.createBufferSource();
+  source.buffer=audio.buffer;
+  source.loop=true;
+  source.loopStart=audio.loopStart||0;
+  const level=context.createGain();
+  const motion=context.createBiquadFilter();
+  motion.type='lowpass';
+  motion.frequency.value=audio.recorded?8600:sound==='stream'?900:2700;
+  motion.Q.value=.55;
+  source.connect(motion);
+  motion.connect(level);
+  level.connect(this.gain);
+  const now=context.currentTime;
+  level.gain.setValueAtTime(0,now);
+  level.gain.linearRampToValueAtTime(1,now+.65);
+  source.start(now);
+  const old=this.channel;
+  this.channel={source,level,sound};
+  source.onended=()=>{source.disconnect();motion.disconnect();level.disconnect();};
+  if(old){
+   old.level.gain.cancelScheduledValues(now);
+   old.level.gain.setTargetAtTime(0,now,.17);
+   old.source.stop(now+.72);
+  }
+  this.active=true;
+  this.onChange(true,sound,audio.recorded?'recorded':'local');
+  return true;
+ }
+
+ getBuffer(context,sound) {
+  if(this.buffers.has(sound))return this.buffers.get(sound);
+  const url=RAIN_FILES[sound];
+  const request=(url && location.protocol!=='file:'
+   ? fetch(url,{credentials:'omit',signal:AbortSignal.timeout(6500)}).then(response=>{
+     if(!response.ok)throw Error('Rain recording unavailable.');
+     return response.arrayBuffer();
+    }).then(bytes=>{
+     if(bytes.byteLength>220_000)throw Error('Rain recording exceeds its size limit.');
+     return context.decodeAudioData(bytes);
+    }).then(buffer=>({buffer,recorded:true}))
+   : Promise.resolve(localTexture(context,sound))
+  ).catch(()=>localTexture(context,sound));
+  this.buffers.set(sound,request);
+  return request;
+ }
+
+ setVolume(value) {
+  if(this.context&&this.gain){
+   const volume=Math.max(0,Math.min(.35,(Number(value)||0)/100));
+   this.gain.gain.setTargetAtTime(volume,this.context.currentTime,.18);
+  }
+ }
+
+ setTimer(minutes) {
+  clearTimeout(this.stopTimer);
+  if(this.active)this.stopTimer=setTimeout(()=>void this.stop(),Math.max(5,Math.min(60,minutes))*60000);
+ }
+
+ async stop() {
+  this.generation++;
+  this.selection++;
+  clearTimeout(this.stopTimer);
+  this.stopTimer=null;
+  const context=this.context,gain=this.gain,wasActive=this.active;
+  this.context=null;this.gain=null;this.channel=null;this.active=false;
+  this.buffers.clear();
+  this.onChange(false);
+  if(!context)return;
+  if(wasActive&&gain&&context.state==='running'){
+   gain.gain.setTargetAtTime(0,context.currentTime,.07);
+   await new Promise(resolve=>setTimeout(resolve,240));
+  }
+  if(context.state!=='closed')await context.close().catch(()=>{});
+ }
 }
