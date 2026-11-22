@@ -77,6 +77,7 @@ function renderPath(){
  const path=paths.get(state.path);
  const index=path?.ids.indexOf(state.current.id)??-1;
  if(index<0){state.path='';pathSelect.value='';}
+ else pathSelect.value=state.path;
  $('#path-steps').hidden=index<0;
  $('#path-description').hidden=index<0;
  text($('#path-description'),path?.description||'');
