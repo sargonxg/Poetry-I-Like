@@ -32,6 +32,8 @@ dialog{padding:0;width:min(650px,calc(100vw - 32px));max-height:calc(100dvh - 40
 @media(max-width:500px){.masthead{flex-wrap:wrap;gap:10px;padding:15px 5%}.masthead nav{width:100%;justify-content:space-between;gap:8px}.masthead nav .personal-return{white-space:nowrap}.masthead nav button{min-height:44px}.brand{max-width:100%}}
 
 .reader-tools{display:flex;flex-wrap:wrap;align-items:end;gap:10px 22px;margin:0 0 13px;padding:11px 14px;background:#f2f5e9e8;border:1px solid #afbaac;color:#263d31}
+.workspace>.library,.reading-notes{background:#f1f4e9eb;border:1px solid #b8c5b3;padding:13px 14px}
+.library-tabs{gap:16px}
 .reader-tools label{display:block;margin-bottom:3px;font-size:12px;font-weight:680}
 .reader-tools select,.reader-tools button{min-height:40px;border:1px solid #8b9d8e;background:#fafbf4;color:#263d31;border-radius:2px;padding:5px 8px;max-width:100%}
 .reader-tools button{cursor:pointer}.reader-tools button:disabled{opacity:.55;cursor:default}
