@@ -12124,7 +12124,7 @@
     }
   },
   {
-    "id": "harper-learning-read",
+    "id": "harper-learning-to-read",
     "poet": "Frances Ellen Watkins Harper",
     "title": "Learning to Read",
     "original": "1872 · English",
@@ -12202,7 +12202,7 @@
     },
     "kind": "poem",
     "sourceCheck": {
-      "id": "harper-learning-read",
+      "id": "harper-learning-to-read",
       "poet": "Frances Ellen Watkins Harper",
       "title": "Learning to Read",
       "checkedAt": "2026-11-22",

@@ -21,7 +21,7 @@
     "it": 10,
     "fr": 11
   },
-  "collectionSha256": "79aad09e3a89532b8a1f7f179fc60f8ee4f7a8245c3b7b553d9ca157da98eab9",
+  "collectionSha256": "9c4adcf9d232920471cad35e1adb92cad7fdf861a420aeb42c563716a3e85034",
   "sourceAudit": "data/source-audit-20261112.json",
   "translationPolicy": "Stored AI-generated English translations of public-domain originals. Not published translations; no human review is claimed.",
   "referencePolicy": "Exact readable modern poem pages only. No protected verse or modern translation is included.",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "harper-learning-read",
+      "id": "harper-learning-to-read",
       "poet": "Frances Ellen Watkins Harper",
       "title": "Learning to Read",
       "checkedAt": "2026-11-22",
