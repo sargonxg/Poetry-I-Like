@@ -111,7 +111,7 @@ export class WoodlandAudio {
   if(this.buffers.has(sound))return this.buffers.get(sound);
   const url=RAIN_FILES[sound];
   const request=(url && location.protocol!=='file:'
-   ? fetch(url,{credentials:'omit',signal:AbortSignal.timeout(6500)}).then(response=>{
+   ? fetch(url,{credentials:'same-origin',signal:AbortSignal.timeout(6500)}).then(response=>{
      if(!response.ok)throw Error('Rain recording unavailable.');
      return response.arrayBuffer();
     }).then(bytes=>{
