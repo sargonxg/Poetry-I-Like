@@ -1,17 +1,17 @@
 /** Pure, deterministic helpers shared by the reader and its tests. */
 export const THEMES = ['liberty','pluralism','conscience','love','memory','nature','wonder','ordinary life','exile','home','art','change','dignity','hope','humour','imagination','listening','music','peace','power','solidarity','solitude','stillness','time','uncertainty','witness'];
-export const LANGUAGES = { en: 'English', it: 'Italian', pl: 'Polish', fr: 'French' };
+export const LANGUAGES = { en: 'English', it: 'Italian', pl: 'Polish', fr: 'French', de: 'German', es: 'Spanish', pt: 'Portuguese', ru: 'Russian', el: 'Greek', tr: 'Turkish', hu: 'Hungarian', he: 'Hebrew', sr: 'Serbian' };
 export const DEFAULT_SETTINGS = Object.freeze({size:21,leading:1.8,measure:60,spacing:0,opacity:97,font:'book',tone:'paper',focus:false,focusUnit:'line',numbers:false,depth:true,rain:false,sound:'rain',volume:12,timer:15});
 export const fold = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ł/g,'l').replace(/Ł/g,'l').toLocaleLowerCase();
-export function fullTexts(collection) { return collection.filter(item => item.kind === 'poem' && item.rights?.mode === 'public-domain' && item.lines?.some(line => line.trim())); }
+export function fullTexts(collection) { return collection.filter(item => item.kind === 'poem' && (Array.isArray(item.lines) ? item.rights?.mode === 'public-domain' && item.lines.some(line => line.trim()) : item.verseCount > 0)); }
 export function englishTranslation(item){return item.language!=='en'&&item.translation?.language==='en'&&item.translation?.method==='ai-generated'&&Array.isArray(item.translation.lines)&&item.translation.lines.some(line=>line.trim())?item.translation:null;}
 export function shuffledPoemIds(rows,previous=null,random=Math.random){const ids=fullTexts(rows).map(item=>item.id);for(let i=ids.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]];}if(ids.length>1&&ids[0]===previous)[ids[0],ids[1]]=[ids[1],ids[0]];return ids;}
-export function filterCollection(collection, {query='',theme='',language='',savedOnly=false,saved=[],kind='',sort='collection',scope='all'}={}) {
+export function filterCollection(collection, {query='',theme='',language='',savedOnly=false,saved=[],kind='',sort='collection',scope='all',textFor=(item)=>(item.lines||[]).join(' ')+' '+(item.translation?.lines||[]).join(' ')}={}) {
  const words=fold(query).trim().split(/\s+/).filter(Boolean).slice(0,12);
- const rows=collection.filter(item=>{if((theme&&!item.themes.includes(theme))||(language&&item.language!==language)||(savedOnly&&!saved.includes(item.id))||(kind&&item.kind!==kind))return false;if(!words.length)return true;const haystack=fold(item.title+' '+item.poet+' '+(scope==='all'?item.lines.join(' ')+' '+(item.translation?.lines||[]).join(' '):''));return words.every(word=>haystack.includes(word));});
+ const rows=collection.filter(item=>{if((theme&&!item.themes.includes(theme))||(language&&item.language!==language)||(savedOnly&&!saved.includes(item.id))||(kind&&item.kind!==kind))return false;if(!words.length)return true;const haystack=fold(item.title+' '+item.poet+' '+(scope==='all'?textFor(item):''));return words.every(word=>haystack.includes(word));});
  if(sort==='poet')rows.sort((a,b)=>a.poet.localeCompare(b.poet)||a.title.localeCompare(b.title));
  if(sort==='title')rows.sort((a,b)=>a.title.localeCompare(b.title));
- if(sort==='short')rows.sort((a,b)=>(a.kind==='reading')-(b.kind==='reading')||readingMinutes(a.lines)-readingMinutes(b.lines)||a.lines.length-b.lines.length);
+ if(sort==='short')rows.sort((a,b)=>(a.kind==='reading')-(b.kind==='reading')||(a.minutes||readingMinutes(a.lines))-(b.minutes||readingMinutes(b.lines))||(a.verseCount??a.lines.length)-(b.verseCount??b.lines.length));
  return rows;
 }
 export function nextRandom(collection,currentId,random=Math.random) { const candidates=collection.filter(item=>item.id!==currentId);if(!candidates.length)return collection[0]||null;return candidates[Math.min(candidates.length-1,Math.max(0,Math.floor(random()*candidates.length)))]; }
@@ -49,5 +49,5 @@ export function importShelf(text,collection) {
 }
 export function citation(item) {return item.poet+'. '+item.title+'. '+item.original+'. '+item.source;}
 export function shareFragment(item,line=null){return '#poem='+encodeURIComponent(item.id)+(Number.isInteger(line)&&line>=0?'&line='+line:'');}
-export function parseFragment(hash,collection){try{const p=new URLSearchParams(String(hash).replace(/^#/,''));const item=collection.find(x=>x.id===p.get('poem'));if(!item)return null;const n=Number(p.get('line'));return{item,line:p.has('line')&&Number.isInteger(n)&&n>=0&&n<item.lines.length?n:null};}catch{return null;}}
+export function parseFragment(hash,collection){try{const p=new URLSearchParams(String(hash).replace(/^#/,''));const item=collection.find(x=>x.id===p.get('poem'));if(!item)return null;const n=Number(p.get('line'));return{item,line:p.has('line')&&Number.isInteger(n)&&n>=0&&n<(item.verseCount??item.lines?.length??0)?n:null};}catch{return null;}}
 export function safeLine(item,index,direction=1){if(!item.lines.length)return 0;let next=Math.max(0,Math.min(item.lines.length-1,index));while(next>=0&&next<item.lines.length&&!item.lines[next].trim())next+=direction;return next>=0&&next<item.lines.length?next:Math.max(0,item.lines.findLastIndex(line=>line.trim()));}

@@ -1,13 +1,16 @@
 # Poetry I Like
 
-A browser reading room with **167 complete poems by 134 poets**, including 10
-Italian, 11 French and 10 Polish originals. All 31 have attributed English translations. Nine modern
-favourites link to readable editions. They are counted separately from poems.
+Read 172 selected poems, open 55 linked readings and browse 2,402 historic
+English poems from PoetryDB. The Concordia Discors shelf gathers 48 selections
+from Poets’ Nook and the magazine’s essay on Norwid. Read Apollinaire’s
+complete French original in the room. Modern texts by Montale, Sbarbaro and
+others open at their published sources.
 
-Search a remembered line, choose a language or theme, save a poem, or read a
-shuffled shelf without repeats. Original, English and side-by-side views keep
-the source text close to each translation. Eight guided paths sit above the poem,
-with previous and next controls and a position indicator.
+Choose a shelf and find a poet or title. The selected poems also support
+search by line, language and theme. Ten reading paths include freedom,
+conscience, solidarity and a route through Montale and Sbarbaro. Save a poem,
+share its bookmark, or switch between an original and its available English
+translation. Original pixel portraits appear beside the readings.
 
 ## Run locally
 
@@ -20,30 +23,24 @@ npm test
 npm run dev
 ```
 
-Open http://127.0.0.1:5175. `npm run build` creates a self-contained
-`dist/index.html`, including the collection, Source Serif 4, illustration and
-reader. It also opens directly as a local file. External edition links need an
-internet connection. Choose Light rain, Woodland rain, Rain on a window or
-Stream above a poem. The three rain recordings load after you start sound.
-The single-file reader uses local sound textures when recordings cannot load.
+Open http://127.0.0.1:5175. Serve `dist/` over HTTP for archive shelves,
+pixel portraits and recorded rain. The selected poems also open directly in
+`dist/index.html` as a local file. A hosted copy can pair this reader with the
+Baroque listening room’s local keyboard transport. The personal site uses that
+integration. The standalone build includes rain and stream soundscapes.
 
 ## Read and return
 
-The library starts with complete poems. Reading links have a separate shelf.
-Search works across titles, poets and original lines; language and theme
-filters combine. The random shelf visits every selection before reshuffling.
+The poem stays at the centre. Reading notes, writing prompts, share and print
+controls open below it. Use **Aa** to adjust type, spacing, paper and focus.
+Saved poems are browser-local. Export or import their IDs from reading
+settings. The reader loads archive metadata on first use and text in small
+shelves as you choose poems. Archive search matches poets and titles.
 
-Save poems in this browser. Export/import a shelf of IDs, share a poem or line
-bookmark, copy a source citation, print, or download a private note. Notes remain
-in the tab and clear when switching poems; download a note before leaving it.
-
-Reading settings offer size, spacing, line focus, plain paper and sound. No
-account, analytics, model endpoint or reading history leaves the browser. The
-rain recordings crossfade when you change sound and stop when the tab is hidden.
-A volume slider sits beside the rain selector. Choose line or stanza focus
-in the reading settings, then use the arrow keys within the poem. Path links
-retain the selection and the current poem. Sleep timer and [recording credits](assets/ambience/provenance.json) are
-in the reading settings.
+Choose rain, a stream or an available piano piece from **Listen while reading**.
+Sound starts after Play and stops when the page is hidden. On the personal
+site music continues while you choose another poem. A score link opens the
+same Baroque piece in the listening room.
 
 ## Sources, translations and audit
 
@@ -59,9 +56,13 @@ information on each record.
 Full texts use public-domain originals. PoetryDB collection data is CC BY 4.0;
 original texts and translations have distinct rights. Modern favourites such as
 Krynicki, Montale and Sbarbaro remain external references with no protected verse
-stored. Book listings, lectures and unavailable links are excluded from that
-shelf. [Concordia Discors](https://concordiadiscors.org/poetry/) provides reading
-inspiration; a collection listing does not count as a complete poem.
+stored. The Concordia shelf links to each named reading or printed excerpt, including
+`Liberté` and `Frederick Douglass`. Those readings are counted separately.
+The [archive manifest](data/archive/manifest.json) records the source snapshots,
+licence and per-shelf hashes. The optional `scripts/import-archive.py` rebuilds
+the shelves from those saved PoetryDB responses. Its checks remove duplicates
+and explicitly labelled extracts. The archive is a source edition collection,
+with individual editorial selection on the curated shelf.
 
 New English translations are **AI-generated for this project** and labelled in
 the reader, exports and each record. They are not established published
@@ -96,19 +97,8 @@ devices or screen-reader use. See the personal-site validation run
 [43260842008](https://github.com/sargonxg/Gc-personal-site/actions/runs/43260842008)
 for integrated tests; that repository is private.
 
-## Liberty paths and stanza reading
+## Pixel portraits and edition scope
 
-The collection now includes complete texts by Claude McKay, Frances Ellen
-Watkins Harper, Alice Dunbar-Nelson, James Weldon Johnson, Kahlil Gibran
-and Rabindranath Tagore. Each addition has a checked source, rights statement
-and original reading note. The paths connect freedom, conscience and solidarity.
-
-These November 22, 2026 captures show the pinned reader in the personal site.
-That integration adds two editions, a return link and a pairing strip to the
-canonical 167-poem reader. Tests cover shared paths, stanza navigation, rain
-switching and same-origin authentication on recordings. Mobile coverage uses
-browser emulation.
-
-![Learning to Read on the liberty path](docs/screenshots/liberty-desktop.webp)
-
-[Phone reading controls](docs/screenshots/liberty-phone.webp)
+The 32 × 34 pixel illustrations are original decorative art. The historic
+archive and marked reading links use separate source records. Some Poets’ Nook
+links open excerpts. The reading interface directs visitors to those pages.

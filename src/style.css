@@ -54,3 +54,39 @@ dialog{padding:0;width:min(650px,calc(100vw - 32px));max-height:calc(100dvh - 40
 
 .path-description{flex-basis:100%;max-width:62ch;margin:0;font-size:12px;line-height:1.65;color:#3c5944}.ambient-volume{display:flex!important;align-items:center;gap:7px;margin-top:9px!important;font-weight:400!important}.ambient-volume output{font-variant-numeric:tabular-nums;min-width:2.8em}.ambient-volume input{width:90px;min-height:24px;accent-color:#365847}.reader-tools:has(#sound-toggle[aria-pressed=true]) .ambient-control{border-left:2px solid #365847;padding-left:11px}.poem-lines.focused .verse-line.current{transition:opacity 140ms ease}.poem-lines.focused .verse-line.blank{opacity:1}
 @media(prefers-reduced-motion:reduce){.poem-lines.focused .verse-line.current{transition:none}}
+
+/* A single reading column with a compact library alongside it. */
+.masthead,.workspace,.site-footer{max-width:1260px}
+.masthead{min-height:86px}
+.workspace{grid-template-columns:minmax(210px,240px) minmax(0,1fr);gap:clamp(20px,3.2vw,42px);padding-top:12px}
+.workspace>.library{background:#f7f8efe8;padding:15px;border-color:#b6c4b1}
+.shelf-picker{display:grid;gap:5px;margin-bottom:10px;font-weight:680}
+.shelf-picker select{width:100%;min-height:42px;background:#fdfdf5;border:1px solid #829782;padding:7px 10px}
+.search-hint:empty{display:none}
+.shelf-footer{display:flex;flex-wrap:wrap;gap:5px 12px}
+.reader-tools{align-items:start;border:0;border-bottom:1px solid var(--line);background:#f0f3e6f2;padding:12px 15px}
+.ambient-control{flex:1 1 245px}
+.ambient-control select{flex:1;width:auto;min-width:135px}
+.ambient-control>div{flex-wrap:nowrap}
+.reading-score-link{display:inline-block;font-size:12px;margin-top:5px;text-decoration:underline;text-underline-offset:3px}
+.paper{box-shadow:0 5px 24px #223e2a19;padding:clamp(22px,4.2vw,53px)}
+.paper-toolbar{margin-top:-7px}
+.poem-heading{display:flex;align-items:start;justify-content:space-between;gap:16px;min-width:0}
+.poem-heading>div:first-child{min-width:0}
+.poem-heading h1{overflow-wrap:break-word}
+.poet-pixel{flex:none;display:grid;place-items:center;width:78px;height:84px;background:#e4e9da;border:1px solid #bfcab6}
+.poet-pixel img{image-rendering:pixelated;width:64px;height:68px;display:block}
+.poem-actions{font-size:12px;margin-top:7px}
+.poem-actions summary{cursor:pointer;min-height:32px}
+.reading-notes{display:block;margin-top:12px;padding:13px 19px;font-size:13px}
+.reading-notes>summary{font-weight:680}
+.reading-notes[open]>summary{margin-bottom:10px}
+.reading-notes>details{padding-block:6px}
+.reader-feedback:empty{display:none}
+.reading-settings{padding:18px 25px}
+#settings>.saved-settings{padding:8px 25px}
+.library-dialog .library{background:transparent}
+@media(max-width:800px){.workspace{display:block}.masthead{min-height:70px}.reader-tools{margin-bottom:9px}.poet-pixel{width:58px;height:63px}.poet-pixel img{width:48px;height:51px}}
+@media(max-width:540px){.poem-heading{gap:9px}.poet-pixel{width:48px;height:54px}.poet-pixel img{width:40px;height:43px}.ambient-control{flex-basis:100%}.reader-tools{gap:10px}.paper{padding:18px}.paper-toolbar .caption{max-width:100px}}
+@media(forced-colors:active){.poet-pixel,.shelf-picker select{border-color:CanvasText}}
+@media print{.poet-pixel,.poem-actions,.reading-notes{display:none}}

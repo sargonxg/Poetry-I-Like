@@ -1,9 +1,9 @@
 {
   "format": "poetry-source-audit/2",
-  "fullTextSelections": 167,
+  "fullTextSelections": 172,
   "fullTextPoets": 134,
-  "readingReferences": 9,
-  "allPoets": 142,
+  "readingReferences": 55,
+  "allPoets": 181,
   "policy": "Full texts from public-domain sources; modern readings are metadata and external links only. Themes are editorial browsing paths.",
   "attribution": "Poetry data from PoetryDB (https://poetrydb.org), licensed under CC BY 4.0. Original poem texts are public domain.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -16,15 +16,15 @@
   "derivation": "Initial Poetry I Like collection; source metadata and per-record rights retained from the licensed November 8 snapshot.",
   "editorialChanges": "114 empty reading notes receive an original generic reading prompt. Original source and rights metadata are retained. Krynicki’s modern reading note uses factual reader-facing wording; source links, rights and poem counts are unchanged.",
   "languages": {
-    "en": 136,
+    "en": 140,
     "pl": 10,
     "it": 10,
-    "fr": 11
+    "fr": 12
   },
-  "collectionSha256": "9c4adcf9d232920471cad35e1adb92cad7fdf861a420aeb42c563716a3e85034",
+  "collectionSha256": "4f4ba5e62377c045be9e828ac467bde3b959cfdf705ea8597f9be1bfa64411e6",
   "sourceAudit": "data/source-audit-20261112.json",
   "translationPolicy": "Stored AI-generated English translations of public-domain originals. Not published translations; no human review is claimed.",
-  "referencePolicy": "Exact readable modern poem pages only. No protected verse or modern translation is included.",
+  "referencePolicy": "Verified named poem pages, full-text sources or clearly marked excerpts. No modern verse or modern translations reproduced in reference records.",
   "recentSources": [
     {
       "id": "mckay-if-we-must-die",
@@ -242,5 +242,6 @@
         "basis": "Original text published before 1930; author died before 1956. Public domain in the United States and in life-plus-70 jurisdictions."
       }
     }
-  ]
+  ],
+  "concordia": "Poets’ Nook article headings deep-link to the published texts or excerpts. The full original of La Jolie Rousse is sourced from Wikisource."
 }

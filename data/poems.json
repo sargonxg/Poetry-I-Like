@@ -11223,7 +11223,7 @@
       "mode": "reference-only",
       "basis": "Link to a readable poem/extract page; no protected original or translation is stored in this collection."
     },
-    "collectionSource": "https://concordiadiscors.org/poetry/",
+    "collectionSource": "https://concordiadiscors.org/poetry/#eugenio-montale-italy-1896%25E2%2580%25931981-%25E2%2580%2594-ossi-di-seppia-%25C2%25B7-le-occasioni",
     "sourceCheck": {
       "checkedAt": "2026-11-12",
       "status": 200,
@@ -11231,7 +11231,8 @@
       "sourceSha256": "46aa561a455b9b48b774ea0777666d4800c4f150f79bc5597ac52a49eed06361",
       "method": "Exact poem/extract page and matching title checked; not a book listing or lecture.",
       "completeTextStored": false
-    }
+    },
+    "collection": "Concordia Discors"
   },
   {
     "id": "reading-b73f12bfca2a",
@@ -11343,7 +11344,7 @@
       "mode": "reference-only",
       "basis": "Link to a readable poem/extract page; no protected original or translation is stored in this collection."
     },
-    "collectionSource": "https://concordiadiscors.org/poetry/",
+    "collectionSource": "https://concordiadiscors.org/poetry/#paul-celan-romania-germany-france-1920%25E2%2580%25931970-%25E2%2580%2594-todesfuge-%25C2%25B7-die-niemandsrose",
     "sourceCheck": {
       "checkedAt": "2026-11-12",
       "status": 200,
@@ -11351,7 +11352,8 @@
       "sourceSha256": "6feda32288faa1ceb5f65cd7f6a0c1e1265c5189767124060307fc70270a325d",
       "method": "Exact poem/extract page and matching title checked; not a book listing or lecture.",
       "completeTextStored": false
-    }
+    },
+    "collection": "Concordia Discors"
   },
   {
     "id": "reading-0047975576df",
@@ -11373,7 +11375,7 @@
       "mode": "reference-only",
       "basis": "Link to a readable poem/extract page; no protected original or translation is stored in this collection."
     },
-    "collectionSource": "https://concordiadiscors.org/poetry/",
+    "collectionSource": "https://concordiadiscors.org/poetry/#seamus-heaney-ireland-1939%25E2%2580%25932013-%25E2%2580%2594-the-haw-lantern-%25C2%25B7-the-nobel-lecture-crediting-poetry",
     "sourceCheck": {
       "checkedAt": "2026-11-12",
       "status": 200,
@@ -11381,7 +11383,8 @@
       "sourceSha256": "33aed053fc3c307c0e058036ea73c5d209ff87161d9e942eb50071bbe0f11987",
       "method": "Exact poem/extract page and matching title checked; not a book listing or lecture.",
       "completeTextStored": false
-    }
+    },
+    "collection": "Concordia Discors"
   },
   {
     "id": "reading-a83299fd62d9",
@@ -12847,5 +12850,2166 @@
         "basis": "Original text published before 1930; author died before 1956. Public domain in the United States and in life-plus-70 jurisdictions."
       }
     }
+  },
+  {
+    "id": "shelley-england-1819",
+    "kind": "poem",
+    "title": "England in 1819",
+    "poet": "Percy Bysshe Shelley",
+    "original": "Written 1819 · first published 1839",
+    "language": "en",
+    "lines": [
+      "An old, mad, blind, despised, and dying king,--",
+      "Princes, the dregs of their dull race, who flow",
+      "Through public scorn,--mud from a muddy spring,--",
+      "Rulers who neither see, nor feel, nor know,",
+      "But leech-like to their fainting country cling,",
+      "Till they drop, blind in blood, without a blow,--",
+      "A people starved and stabbed in the untilled field,--",
+      "An army, which liberticide and prey",
+      "Makes as a two-edged sword to all who wield,--",
+      "Golden and sanguine laws which tempt and slay;",
+      "Religion Christless, Godless--a book sealed;",
+      "A Senate,--Time's worst statute, unrepealed,--",
+      "Are graves from which a glorious Phantom may",
+      "Burst, to illumine our tempestuous day."
+    ],
+    "note": "A list of indictments ends with an image of possibility. Read the last two lines aloud together.",
+    "themes": [
+      "liberty",
+      "power",
+      "hope"
+    ],
+    "source": "https://poetrydb.org/author,title/Percy%20Bysshe%20Shelley%3Aabs;Sonnet%3A%20England%20in%201819%3Aabs",
+    "label": "Complete poem",
+    "credit": "Historic original text",
+    "rights": {
+      "mode": "public-domain",
+      "authorDied": 1822,
+      "basis": "Historic original published before 1930 by an author who died before 1956."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://poetrydb.org/author,title/Percy%20Bysshe%20Shelley%3Aabs;Sonnet%3A%20England%20in%201819%3Aabs",
+      "sourceSha256": "30c3c7f2b3a43dc7c365de45a2fdb8e8e632f071186b1579f775c77b9f0b083e",
+      "verifiedBy": "Full original from the cited edition, with stanza breaks retained."
+    }
+  },
+  {
+    "id": "browning-cry-of-the-children",
+    "kind": "poem",
+    "title": "The Cry of the Children",
+    "poet": "Elizabeth Barrett Browning",
+    "original": "Blackwood’s Edinburgh Magazine · 1843",
+    "language": "en",
+    "lines": [
+      "Do ye hear the children weeping, O my brothers,",
+      "Ere the sorrow comes with years?",
+      "They are leaning their young heads against their mothers,",
+      "And that cannot stop their tears.",
+      "The young lambs are bleating in the meadows,",
+      "The young birds are chirping in the nest,",
+      "The young fawns are playing with the shadows,",
+      "The young flowers are blowing toward the west—",
+      "But the young, young children, O my brothers,",
+      "They are weeping bitterly!",
+      "They are weeping in the playtime of the others,",
+      "In the country of the free.",
+      "",
+      "Do you question the young children in their sorrow,",
+      "Why their tears are falling so?",
+      "The old man may weep for his tomorrow,",
+      "Which is lost in Long Ago;",
+      "The old tree is leafless in the forest,",
+      "The old year is ending in the frost,",
+      "The old wound, if stricken, is the sorest,",
+      "The old hope is hardest to be lost:",
+      "But the young, young children, O my brothers,",
+      "Do you ask them why they stand",
+      "Weeping sore before the bosoms of their mothers,",
+      "In our happy Fatherland?",
+      "",
+      "They look up with their pale and sunken faces,",
+      "And their looks are sad to see,",
+      "For the man's hoary anguish draws and presses",
+      "Down the cheeks of infancy;",
+      "\"Your old earth,\" they say, \"is very dreary;",
+      "Our young feet,\" they say, \"are very weak!",
+      "Few paces have we taken, yet are weary—",
+      "Our grave-rest is very far to seek.",
+      "Ask the aged why they weep, and not the children,",
+      "For the outside earth is cold,",
+      "And we young ones stand without, in our bewildering,",
+      "And the graves are for the old.\"",
+      "",
+      "\"True,\" say the children, \"it may happen",
+      "That we die before our time.",
+      "Little Alice died last year—her grave is shapen",
+      "Like a snowball, in the rime.",
+      "We looked into the pit prepared to take her:",
+      "Was no room for any work in the close clay!",
+      "From the sleep wherein she lieth none will wake her,",
+      "Crying 'Get up, little Alice! it is day.'",
+      "If you listen by that grave, in sun and shower,",
+      "With your ear down, little Alice never cries;",
+      "Could we see her face, be sure we should not know her,",
+      "For the smile has time for growing in her eyes:",
+      "And merry go her moments, lulled and stilled in",
+      "The shroud by the kirk-chime.",
+      "It is good when it happens,\" say the children,",
+      "\"That we die before our time.\"",
+      "",
+      "Alas, alas, the children! They are seeking",
+      "Death in life, as best to have;",
+      "They are binding up their hearts away from breaking,",
+      "With a cerement from the grave.",
+      "Go out, children, from the mine and from the city,",
+      "Sing out, children, as the little thrushes do;",
+      "Pluck your handfuls of the meadow-cowslips pretty,",
+      "Laugh aloud, to feel your fingers let them through!",
+      "But they answer, \"Are your cowslips of the meadows",
+      "Like our weeds anear the mine?",
+      "Leave us quiet in the dark of the coal-shadows,",
+      "From your pleasures fair and fine!",
+      "",
+      "\"For oh,\" say the children, \"we are weary,",
+      "And we cannot run or leap;",
+      "If we cared for any meadows, it were merely",
+      "To drop down in them and sleep.",
+      "Our knees tremble sorely in the stooping,",
+      "We fall upon our faces, trying to go;",
+      "And, underneath our heavy eyelids drooping,",
+      "The reddest flower would look as pale as snow.",
+      "For, all day, we drag our burden tiring",
+      "Through the coal-dark, underground;",
+      "Or, all day, we drive the wheels of iron",
+      "In the factories, round and round.",
+      "",
+      "\"For all day the wheels are droning, turning;",
+      "Their wind comes in our faces,—",
+      "Till our hearts turn, our heads with pulses burning,",
+      "And the walls turn in their places:",
+      "Turns the sky in the high window blank and reeling,",
+      "Turns the long light that drops adown the wall,",
+      "Turn the black flies that crawl along the ceiling,—",
+      "All are turning, all the day, and we with all.",
+      "And all day, the iron wheels are droning,",
+      "And sometimes we could pray,",
+      "'O ye wheels,' (breaking out in a mad moaning)",
+      "'Stop! be silent for today!' \"",
+      "",
+      "Ay, be silent! Let them hear each other breathing",
+      "For a moment, mouth to mouth!",
+      "Let them touch each other's hands, in a fresh wreathing",
+      "Of their tender human youth!",
+      "Let them feel that this cold metallic motion",
+      "Is not all the life God fashions or reveals:",
+      "Let them prove their living souls against the notion",
+      "That they live in you, or under you, O wheels!",
+      "Still, all day, the iron wheels go onward,",
+      "Grinding life down from its mark;",
+      "And the children's souls, which God is calling sunward,",
+      "Spin on blindly in the dark.",
+      "",
+      "Now tell the poor young children, O my brothers,",
+      "To look up to Him and pray;",
+      "So the blessed One, who blesseth all the others,",
+      "Will bless them another day.",
+      "They answer, \"Who is God that He should hear us,",
+      "While the rushing of the iron wheels is stirred?",
+      "When we sob aloud, the human creatures near us",
+      "Pass by, hearing not, or answer not a word.",
+      "And we hear not (for the wheels in their resounding)",
+      "Strangers speaking at the door:",
+      "Is it likely God, with angels singing round Him,",
+      "Hears our weeping any more?",
+      "",
+      "\"Two words, indeed, of praying we remember,",
+      "And at midnight's hour of harm,",
+      "'Our Father,' looking upward in the chamber,",
+      "We say softly for a charm.",
+      "We know no other words except 'Our Father,'",
+      "And we think that, in some pause of angels' song,",
+      "God may pluck them with the silence sweet to gather,",
+      "And hold both within His right hand which is strong.",
+      "'Our Father!' If He heard us, He would surely",
+      "(For they call Him good and mild)",
+      "Answer, smiling down the steep world very purely,",
+      "'Come and rest with me, my child.'",
+      "",
+      "\"But, no!\" say the children, weeping faster,",
+      "\"He is speechless as a stone:",
+      "And they tell us, of His image is the master",
+      "Who commands us to work on.",
+      "Go to!\" say the children,—\"up in heaven,",
+      "Dark, wheel-like, turning clouds are all we find.",
+      "Do not mock us; grief has made us unbelieving—",
+      "We look up for God, but tears have made us blind.\"",
+      "Do you hear the children weeping and disproving,",
+      "O my brothers, what ye preach?",
+      "For God's possible is taught by His world's loving,",
+      "And the children doubt of each.",
+      "",
+      "And well may the children weep before you!",
+      "They are weary ere they run;",
+      "They have never seen the sunshine, nor the glory",
+      "Which is brighter than the sun.",
+      "They know the grief of man, without its wisdom;",
+      "They sink in man's despair, without its calm,—",
+      "Are slaves, without the liberty in Christdom,—",
+      "Are martyrs, by the pang without the palm,—",
+      "Are worn as if with age, yet unretrievingly",
+      "The harvest of its memories cannot reap,—",
+      "Are orphans of the earthly love and heavenly.",
+      "Let them weep! let them weep!",
+      "",
+      "They look up with their pale and sunken faces,",
+      "And their look is dread to see,",
+      "For they mind you of their angels in high places,",
+      "With eyes turned on Deity;—",
+      "\"How long,\" they say, \"how long, O cruel nation,",
+      "Will you stand, to move the world, on a child's heart,—",
+      "Stifle down with a mailed heel its palpitation,",
+      "And tread onward to your throne amid the mart?",
+      "Our blood splashes upward, O gold-heaper,",
+      "And its purple shows your path!",
+      "But the child's sob in the silence curses deeper",
+      "Than the strong man in his wrath.\""
+    ],
+    "note": "Listen for the questions. The speaking voice keeps turning from description to an appeal to its listeners.",
+    "themes": [
+      "dignity",
+      "witness",
+      "solidarity"
+    ],
+    "source": "https://poetrydb.org/author,title/Elizabeth%20Barrett%20Browning%3Aabs;The%20Cry%20of%20the%20Children%3Aabs",
+    "label": "Complete poem",
+    "credit": "Historic original text",
+    "rights": {
+      "mode": "public-domain",
+      "authorDied": 1861,
+      "basis": "Historic original published before 1930 by an author who died before 1956."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://poetrydb.org/author,title/Elizabeth%20Barrett%20Browning%3Aabs;The%20Cry%20of%20the%20Children%3Aabs",
+      "sourceSha256": "e4d60953ae8326929baf1fb0829da778f72d07f84f2d43d9bf4adb6786cdbe81",
+      "verifiedBy": "Full original from the cited edition, with stanza breaks retained."
+    }
+  },
+  {
+    "id": "whitman-open-road",
+    "kind": "poem",
+    "title": "Song of the Open Road",
+    "poet": "Walt Whitman",
+    "original": "Leaves of Grass · 1891–92 edition",
+    "language": "en",
+    "lines": [
+      "1",
+      "AFOOT and light-hearted, I take to the open road,",
+      "Healthy, free, the world before me,",
+      "The long brown path before me, leading wherever I choose.",
+      "",
+      "Henceforth I ask not good-fortune—I myself am good fortune;",
+      "Henceforth I whimper no more, postpone no more, need nothing,",
+      "Strong and content, I travel the open road.",
+      "",
+      "The earth—that is sufficient;",
+      "I do not want the constellations any nearer;",
+      "I know they are very well where they are;",
+      "I know they suffice for those who belong to them.",
+      "",
+      "(Still here I carry my old delicious burdens;",
+      "I carry them, men and women—I carry them with me wherever I go;",
+      "I swear it is impossible for me to get rid of them;",
+      "I am fill’d with them, and I will fill them in return.)",
+      "",
+      "2",
+      "You road I enter upon and look around! I believe you are not all that is here;",
+      "I believe that much unseen is also here.",
+      "",
+      "Here the profound lesson of reception, neither preference or denial;",
+      "The black with his woolly head, the felon, the diseas’d, the illiterate person, are not",
+      "    denied;",
+      "",
+      "The birth, the hasting after the physician, the beggar’s tramp, the drunkard’s stagger,",
+      "    the",
+      "  laughing party of mechanics,",
+      "The escaped youth, the rich person’s carriage, the fop, the eloping couple,",
+      "The early market-man, the hearse, the moving of furniture into the town, the return back",
+      "    from",
+      "  the",
+      "  town,",
+      "They pass—I also pass—anything passes—none can be interdicted;",
+      "None but are accepted—none but are dear to me.",
+      "",
+      "3",
+      "You air that serves me with breath to speak!",
+      "You objects that call from diffusion my meanings, and give them shape!",
+      "You light that wraps me and all things in delicate equable showers!",
+      "You paths worn in the irregular hollows by the roadsides!",
+      "I think you are latent with unseen existences—you are so dear to me.",
+      "",
+      "You flagg’d walks of the cities! you strong curbs at the edges!",
+      "You ferries! you planks and posts of wharves! you timber-lined sides! you distant ships!",
+      "You rows of houses! you window-pierc’d faÃ§ades! you roofs!",
+      "You porches and entrances! you copings and iron guards!",
+      "You windows whose transparent shells might expose so much!",
+      "You doors and ascending steps! you arches!",
+      "You gray stones of interminable pavements! you trodden crossings!",
+      "From all that has been near you, I believe you have imparted to yourselves, and now would",
+      "  impart the",
+      "  same secretly to me;",
+      "From the living and the dead I think you have peopled your impassive surfaces, and the",
+      "    spirits",
+      "  thereof would be evident and amicable with me.",
+      "",
+      "4",
+      "The earth expanding right hand and left hand,",
+      "The picture alive, every part in its best light,",
+      "The music falling in where it is wanted, and stopping where it is not wanted,",
+      "The cheerful voice of the public road—the gay fresh sentiment of the road.",
+      "",
+      "O highway I travel! O public road! do you say to me, Do not leave me?",
+      "Do you say, Venture not? If you leave me, you are lost?",
+      "Do you say, I am already prepared—I am well-beaten and undenied—adhere to me?",
+      "",
+      "O public road! I say back, I am not afraid to leave you—yet I love you;",
+      "You express me better than I can express myself;",
+      "You shall be more to me than my poem.",
+      "",
+      "I think heroic deeds were all conceiv’d in the open air, and all great poems also;",
+      "I think I could stop here myself, and do miracles;",
+      "(My judgments, thoughts, I henceforth try by the open air, the road;)",
+      "I think whatever I shall meet on the road I shall like, and whoever beholds me shall like",
+      "    me;",
+      "I think whoever I see must be happy.",
+      "",
+      "5",
+      "From this hour, freedom!",
+      "From this hour I ordain myself loos’d of limits and imaginary lines,",
+      "Going where I list, my own master, total and absolute,",
+      "Listening to others, and considering well what they say,",
+      "Pausing, searching, receiving, contemplating,",
+      "Gently, but with undeniable will, divesting myself of the holds that would hold me.",
+      "",
+      "I inhale great draughts of space;",
+      "The east and the west are mine, and the north and the south are mine.",
+      "",
+      "I am larger, better than I thought;",
+      "I did not know I held so much goodness.",
+      "",
+      "All seems beautiful to me;",
+      "I can repeat over to men and women, You have done such good to me, I would do the same to",
+      "    you.",
+      "",
+      "",
+      "I will recruit for myself and you as I go;",
+      "I will scatter myself among men and women as I go;",
+      "I will toss the new gladness and roughness among them;",
+      "Whoever denies me, it shall not trouble me;",
+      "Whoever accepts me, he or she shall be blessed, and shall bless me.",
+      "",
+      "6",
+      "Now if a thousand perfect men were to appear, it would not amaze me;",
+      "Now if a thousand beautiful forms of women appear’d, it would not astonish me.",
+      "",
+      "Now I see the secret of the making of the best persons,",
+      "It is to grow in the open air, and to eat and sleep with the earth.",
+      "",
+      "Here a great personal deed has room;",
+      "A great deed seizes upon the hearts of the whole race of men,",
+      "Its effusion of strength and will overwhelms law, and mocks all authority and all argument",
+      "  against",
+      "  it.",
+      "",
+      "Here is the test of wisdom;",
+      "Wisdom is not finally tested in schools;",
+      "Wisdom cannot be pass’d from one having it, to another not having it;",
+      "Wisdom is of the Soul, is not susceptible of proof, is its own proof,",
+      "Applies to all stages and objects and qualities, and is content,",
+      "Is the certainty of the reality and immortality of things, and the excellence of things;",
+      "Something there is in the float of the sight of things that provokes it out of the Soul.",
+      "",
+      "Now I reëxamine philosophies and religions,",
+      "They may prove well in lecture-rooms, yet not prove at all under the spacious clouds, and",
+      "    along",
+      "  the",
+      "  landscape and flowing currents.",
+      "",
+      "Here is realization;",
+      "Here is a man tallied—he realizes here what he has in him;",
+      "The past, the future, majesty, love—if they are vacant of you, you are vacant of them.",
+      "",
+      "Only the kernel of every object nourishes;",
+      "Where is he who tears off the husks for you and me?",
+      "Where is he that undoes stratagems and envelopes for you and me?",
+      "",
+      "Here is adhesiveness—it is not previously fashion’d—it is apropos;",
+      "Do you know what it is, as you pass, to be loved by strangers?",
+      "Do you know the talk of those turning eye-balls?",
+      "",
+      "7",
+      "Here is the efflux of the Soul;",
+      "The efflux of the Soul comes from within, through embower’d gates, ever provoking",
+      "    questions:",
+      "These yearnings, why are they? These thoughts in the darkness, why are they?",
+      "Why are there men and women that while they are nigh me, the sun-light expands my blood?",
+      "Why, when they leave me, do my pennants of joy sink flat and lank?",
+      "Why are there trees I never walk under, but large and melodious thoughts descend upon me?",
+      "(I think they hang there winter and summer on those trees, and always drop fruit as I",
+      "    pass;)",
+      "What is it I interchange so suddenly with strangers?",
+      "What with some driver, as I ride on the seat by his side?",
+      "What with some fisherman, drawing his seine by the shore, as I walk by, and pause?",
+      "What gives me to be free to a woman’s or man’s good-will? What gives them to be free to",
+      "    mine?",
+      "",
+      "8",
+      "The efflux of the Soul is happiness—here is happiness;",
+      "I think it pervades the open air, waiting at all times;",
+      "Now it flows unto us—we are rightly charged.",
+      "",
+      "Here rises the fluid and attaching character;",
+      "The fluid and attaching character is the freshness and sweetness of man and woman;",
+      "(The herbs of the morning sprout no fresher and sweeter every day out of the roots of",
+      "  themselves,",
+      "  than it sprouts fresh and sweet continually out of itself.)",
+      "",
+      "Toward the fluid and attaching character exudes the sweat of the love of young and old;",
+      "From it falls distill’d the charm that mocks beauty and attainments;",
+      "Toward it heaves the shuddering longing ache of contact.",
+      "",
+      "9",
+      "Allons! whoever you are, come travel with me!",
+      "Traveling with me, you find what never tires.",
+      "",
+      "The earth never tires;",
+      "The earth is rude, silent, incomprehensible at first—Nature is rude and incomprehensible",
+      "    at",
+      "  first;",
+      "",
+      "Be not discouraged—keep on—there are divine things, well envelop’d;",
+      "I swear to you there are divine things more beautiful than words can tell.",
+      "",
+      "Allons! we must not stop here!",
+      "However sweet these laid-up stores—however convenient this dwelling, we cannot remain",
+      "    here;",
+      "However shelter’d this port, and however calm these waters, we must not anchor here;",
+      "However welcome the hospitality that surrounds us, we are permitted to receive it but a",
+      "    little",
+      "  while.",
+      "",
+      "10",
+      "Allons! the inducements shall be greater;",
+      "We will sail pathless and wild seas;",
+      "We will go where winds blow, waves dash, and the Yankee clipper speeds by under full sail.",
+      "",
+      "",
+      "Allons! with power, liberty, the earth, the elements!",
+      "Health, defiance, gayety, self-esteem, curiosity;",
+      "Allons! from all formules!",
+      "From your formules, O bat-eyed and materialistic priests!",
+      "",
+      "The stale cadaver blocks up the passage—the burial waits no longer.",
+      "",
+      "Allons! yet take warning!",
+      "He traveling with me needs the best blood, thews, endurance;",
+      "None may come to the trial, till he or she bring courage and health.",
+      "",
+      "Come not here if you have already spent the best of yourself;",
+      "Only those may come, who come in sweet and determin’d bodies;",
+      "No diseas’d person—no rum-drinker or venereal taint is permitted here.",
+      "",
+      "I and mine do not convince by arguments, similes, rhymes;",
+      "We convince by our presence.",
+      "",
+      "11",
+      "Listen! I will be honest with you;",
+      "I do not offer the old smooth prizes, but offer rough new prizes;",
+      "These are the days that must happen to you:",
+      "",
+      "You shall not heap up what is call’d riches,",
+      "You shall scatter with lavish hand all that you earn or achieve,",
+      "You but arrive at the city to which you were destin’d—you hardly settle yourself to",
+      "  satisfaction, before you are call’d by an irresistible call to depart,",
+      "You shall be treated to the ironical smiles and mockings of those who remain behind you;",
+      "What beckonings of love you receive, you shall only answer with passionate kisses of",
+      "    parting,",
+      "You shall not allow the hold of those who spread their reach’d hands toward you.",
+      "",
+      "12",
+      "Allons! after the GREAT COMPANIONS! and to belong to them!",
+      "They too are on the road! they are the swift and majestic men; they are the greatest",
+      "    women.",
+      "Over that which hinder’d them—over that which retarded—passing impediments large or small,",
+      "",
+      "Committers of crimes, committers of many beautiful virtues,",
+      "Enjoyers of calms of seas, and storms of seas,",
+      "Sailors of many a ship, walkers of many a mile of land,",
+      "Habitués of many distant countries, habitués of far-distant dwellings,",
+      "Trusters of men and women, observers of cities, solitary toilers,",
+      "Pausers and contemplators of tufts, blossoms, shells of the shore,",
+      "Dancers at wedding-dances, kissers of brides, tender helpers of children, bearers of",
+      "    children,",
+      "",
+      "Soldiers of revolts, standers by gaping graves, lowerers down of coffins,",
+      "Journeyers over consecutive seasons, over the years—the curious years, each emerging from",
+      "    that",
+      "  which preceded it,",
+      "Journeyers as with companions, namely, their own diverse phases,",
+      "Forth-steppers from the latent unrealized baby-days,",
+      "Journeyers gayly with their own youth—Journeyers with their bearded and well-grain’d",
+      "    manhood,",
+      "Journeyers with their womanhood, ample, unsurpass’d, content,",
+      "Journeyers with their own sublime old age of manhood or womanhood,",
+      "Old age, calm, expanded, broad with the haughty breadth of the universe,",
+      "Old age, flowing free with the delicious near-by freedom of death.",
+      "",
+      "13",
+      "Allons! to that which is endless, as it was beginningless,",
+      "To undergo much, tramps of days, rests of nights,",
+      "To merge all in the travel they tend to, and the days and nights they tend to,",
+      "Again to merge them in the start of superior journeys;",
+      "To see nothing anywhere but what you may reach it and pass it,",
+      "To conceive no time, however distant, but what you may reach it and pass it,",
+      "To look up or down no road but it stretches and waits for you—however long, but it",
+      "    stretches",
+      "  and",
+      "  waits for you;",
+      "To see no being, not God’s or any, but you also go thither,",
+      "To see no possession but you may possess it—enjoying all without labor or",
+      "    purchase—abstracting",
+      "  the feast, yet not abstracting one particle of it;",
+      "To take the best of the farmer’s farm and the rich man’s elegant villa, and the chaste",
+      "  blessings",
+      "  of the well-married couple, and the fruits of orchards and flowers of gardens,",
+      "To take to your use out of the compact cities as you pass through,",
+      "To carry buildings and streets with you afterward wherever you go,",
+      "To gather the minds of men out of their brains as you encounter them—to gather the love",
+      "    out of",
+      "  their hearts,",
+      "To take your lovers on the road with you, for all that you leave them behind you,",
+      "To know the universe itself as a road—as many roads—as roads for traveling souls.",
+      "",
+      "14",
+      "The Soul travels;",
+      "The body does not travel as much as the soul;",
+      "The body has just as great a work as the soul, and parts away at last for the journeys of",
+      "    the",
+      "  soul.",
+      "",
+      "",
+      "All parts away for the progress of souls;",
+      "All religion, all solid things, arts, governments,—all that was or is apparent upon this",
+      "    globe",
+      "  or",
+      "  any globe, falls into niches and corners before the procession of Souls along the grand",
+      "    roads",
+      "  of",
+      "  the",
+      "  universe.",
+      "",
+      "Of the progress of the souls of men and women along the grand roads of the universe, all",
+      "    other",
+      "  progress is the needed emblem and sustenance.",
+      "",
+      "Forever alive, forever forward,",
+      "Stately, solemn, sad, withdrawn, baffled, mad, turbulent, feeble, dissatisfied,",
+      "Desperate, proud, fond, sick, accepted by men, rejected by men,",
+      "They go! they go! I know that they go, but I know not where they go;",
+      "But I know that they go toward the best—toward something great.",
+      "",
+      "15",
+      "Allons! whoever you are! come forth!",
+      "You must not stay sleeping and dallying there in the house, though you built it, or though",
+      "    it",
+      "  has",
+      "  been built for you.",
+      "",
+      "Allons! out of the dark confinement!",
+      "It is useless to protest—I know all, and expose it.",
+      "",
+      "Behold, through you as bad as the rest,",
+      "Through the laughter, dancing, dining, supping, of people,",
+      "Inside of dresses and ornaments, inside of those wash’d and trimm’d faces,",
+      "Behold a secret silent loathing and despair.",
+      "",
+      "No husband, no wife, no friend, trusted to hear the confession;",
+      "Another self, a duplicate of every one, skulking and hiding it goes,",
+      "Formless and wordless through the streets of the cities, polite and bland in the parlors,",
+      "In the cars of rail-roads, in steamboats, in the public assembly,",
+      "Home to the houses of men and women, at the table, in the bed-room, everywhere,",
+      "Smartly attired, countenance smiling, form upright, death under the breast-bones, hell",
+      "    under",
+      "  the",
+      "  skull-bones,",
+      "Under the broadcloth and gloves, under the ribbons and artificial flowers,",
+      "Keeping fair with the customs, speaking not a syllable of itself,",
+      "Speaking of anything else, but never of itself.",
+      "",
+      "16",
+      "Allons! through struggles and wars!",
+      "The goal that was named cannot be countermanded.",
+      "",
+      "Have the past struggles succeeded?",
+      "What has succeeded? yourself? your nation? nature?",
+      "Now understand me well—It is provided in the essence of things, that from any fruition of",
+      "  success,",
+      "  no matter what, shall come forth something to make a greater struggle necessary.",
+      "",
+      "My call is the call of battle—I nourish active rebellion;",
+      "He going with me must go well arm’d;",
+      "He going with me goes often with spare diet, poverty, angry enemies, desertions.",
+      "",
+      "17",
+      "Allons! the road is before us!",
+      "It is safe—I have tried it—my own feet have tried it well.",
+      "",
+      "Allons! be not detain’d!",
+      "Let the paper remain on the desk unwritten, and the book on the shelf unopen’d!",
+      "Let the tools remain in the workshop! let the money remain unearn’d!",
+      "Let the school stand! mind not the cry of the teacher!",
+      "Let the preacher preach in his pulpit! let the lawyer plead in the court, and the judge",
+      "    expound",
+      "  the",
+      "  law.",
+      "",
+      "Mon enfant! I give you my hand!",
+      "I give you my love, more precious than money,",
+      "I give you myself, before preaching or law;",
+      "Will you give me yourself? will you come travel with me?",
+      "Shall we stick by each other as long as we live?"
+    ],
+    "note": "The walk begins alone and becomes an invitation. Notice when the pronouns change.",
+    "themes": [
+      "liberty",
+      "solidarity",
+      "change"
+    ],
+    "source": "https://poetrydb.org/author,title/Walt%20Whitman%3Aabs;Song%20of%20the%20Open%20Road%3Aabs",
+    "label": "Complete poem",
+    "credit": "Historic original text",
+    "rights": {
+      "mode": "public-domain",
+      "authorDied": 1892,
+      "basis": "Historic original published before 1930 by an author who died before 1956."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://poetrydb.org/author,title/Walt%20Whitman%3Aabs;Song%20of%20the%20Open%20Road%3Aabs",
+      "sourceSha256": "d29bf4dedb5d507f95df2e91b960a88493d700b7c69e668a40570ed4c5062f13",
+      "verifiedBy": "Full original from the cited edition, with stanza breaks retained."
+    }
+  },
+  {
+    "id": "dickinson-hope-feathers",
+    "kind": "poem",
+    "title": "Hope is the thing with feathers",
+    "poet": "Emily Dickinson",
+    "original": "Poems by Emily Dickinson · Second Series, 1891",
+    "language": "en",
+    "lines": [
+      "Hope is the thing with feathers",
+      "That perches in the soul,",
+      "And sings the tune without the words,",
+      "And never stops at all,",
+      "",
+      "And sweetest in the gale is heard;",
+      "And sore must be the storm",
+      "That could abash the little bird",
+      "That kept so many warm.",
+      "",
+      "I 've heard it in the chillest land,",
+      "And on the strangest sea;",
+      "Yet, never, in extremity,",
+      "It asked a crumb of me."
+    ],
+    "note": "The bird offers a song without a word or a price. Read for the way the setting changes around it.",
+    "themes": [
+      "hope",
+      "nature",
+      "dignity"
+    ],
+    "source": "https://poetrydb.org/author,title/Emily%20Dickinson%3Aabs;Hope%20is%20the%20thing%20with%20feathers%3Aabs",
+    "label": "Complete poem",
+    "credit": "Historic original text",
+    "rights": {
+      "mode": "public-domain",
+      "authorDied": 1886,
+      "basis": "Historic original published before 1930 by an author who died before 1956."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://poetrydb.org/author,title/Emily%20Dickinson%3Aabs;Hope%20is%20the%20thing%20with%20feathers%3Aabs",
+      "sourceSha256": "8469d0d168b70f4c1595a10890533c4e978a22f295700bee3b077621de44c78e",
+      "verifiedBy": "Full original from the cited edition, with stanza breaks retained."
+    }
+  },
+  {
+    "id": "concordia-660659984bce",
+    "kind": "reading",
+    "title": "Ève",
+    "poet": "Charles Péguy",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#charles-p%25C3%25A9guy-france-1873%25E2%2580%25931914%25C3%25A8ve-%25C2%25B7-notre-jeunesse",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#charles-p%25C3%25A9guy-france-1873%25E2%2580%25931914%25C3%25A8ve-%25C2%25B7-notre-jeunesse",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#charles-p%25C3%25A9guy-france-1873%25E2%2580%25931914%25C3%25A8ve-%25C2%25B7-notre-jeunesse"
+  },
+  {
+    "id": "concordia-e6ba7647ee7b",
+    "kind": "reading",
+    "title": "Veglia",
+    "poet": "Giuseppe Ungaretti",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "it",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#giuseppe-ungaretti-italy-1888%25E2%2580%25931970-%25E2%2580%2594-il-porto-sepolto-%25C2%25B7-allegria-di-naufragi",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#giuseppe-ungaretti-italy-1888%25E2%2580%25931970-%25E2%2580%2594-il-porto-sepolto-%25C2%25B7-allegria-di-naufragi",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#giuseppe-ungaretti-italy-1888%25E2%2580%25931970-%25E2%2580%2594-il-porto-sepolto-%25C2%25B7-allegria-di-naufragi"
+  },
+  {
+    "id": "concordia-ee8cba312fea",
+    "kind": "reading",
+    "title": "Liberté",
+    "poet": "Paul Éluard",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "Repeated naming turns the poem into something readers can remember and carry.",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#paul-%25C3%25A9luard-france-1895%25E2%2580%25931952-%25E2%2580%2594-libert%25C3%25A9",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#paul-%25C3%25A9luard-france-1895%25E2%2580%25931952-%25E2%2580%2594-libert%25C3%25A9",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#paul-%25C3%25A9luard-france-1895%25E2%2580%25931952-%25E2%2580%2594-libert%25C3%25A9"
+  },
+  {
+    "id": "concordia-b2be04ca5776",
+    "kind": "reading",
+    "title": "Feuillets d’Hypnos · fragments",
+    "poet": "René Char",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#ren%25C3%25A9-char-france-1907%25E2%2580%25931988-%25E2%2580%2594-feuillets-dhypnos",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#ren%25C3%25A9-char-france-1907%25E2%2580%25931988-%25E2%2580%2594-feuillets-dhypnos",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#ren%25C3%25A9-char-france-1907%25E2%2580%25931988-%25E2%2580%2594-feuillets-dhypnos"
+  },
+  {
+    "id": "concordia-cf203e81b464",
+    "kind": "reading",
+    "title": "Sonnet VI",
+    "poet": "Jean Cassou",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#jean-cassou-france-1897%25E2%2580%25931986-%25E2%2580%2594-trente-trois-sonnets-compos%25C3%25A9s-au-secret",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#jean-cassou-france-1897%25E2%2580%25931986-%25E2%2580%2594-trente-trois-sonnets-compos%25C3%25A9s-au-secret",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#jean-cassou-france-1897%25E2%2580%25931986-%25E2%2580%2594-trente-trois-sonnets-compos%25C3%25A9s-au-secret"
+  },
+  {
+    "id": "concordia-2041aecf222e",
+    "kind": "reading",
+    "title": "Alle fronde dei salici",
+    "poet": "Salvatore Quasimodo",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "it",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#salvatore-quasimodo-italy-1901%25E2%2580%25931968-%25E2%2580%2594-giorno-dopo-giorno",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#salvatore-quasimodo-italy-1901%25E2%2580%25931968-%25E2%2580%2594-giorno-dopo-giorno",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#salvatore-quasimodo-italy-1901%25E2%2580%25931968-%25E2%2580%2594-giorno-dopo-giorno"
+  },
+  {
+    "id": "concordia-80923ddcfd8a",
+    "kind": "reading",
+    "title": "La Rose et le Réséda",
+    "poet": "Louis Aragon",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#louis-aragon-france-1897%25E2%2580%25931982-%25E2%2580%2594-la-diane-fran%25C3%25A7aise-%25C2%25B7-le-mus%25C3%25A9e-gr%25C3%25A9vin",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#louis-aragon-france-1897%25E2%2580%25931982-%25E2%2580%2594-la-diane-fran%25C3%25A7aise-%25C2%25B7-le-mus%25C3%25A9e-gr%25C3%25A9vin",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#louis-aragon-france-1897%25E2%2580%25931982-%25E2%2580%2594-la-diane-fran%25C3%25A7aise-%25C2%25B7-le-mus%25C3%25A9e-gr%25C3%25A9vin"
+  },
+  {
+    "id": "concordia-048da679dc00",
+    "kind": "reading",
+    "title": "Requiem · Instead of a Preface",
+    "poet": "Anna Akhmatova",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#anna-akhmatova-russia-1889%25E2%2580%25931966-%25E2%2580%2594-requiem",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#anna-akhmatova-russia-1889%25E2%2580%25931966-%25E2%2580%2594-requiem",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#anna-akhmatova-russia-1889%25E2%2580%25931966-%25E2%2580%2594-requiem"
+  },
+  {
+    "id": "concordia-e6c8192d2f39",
+    "kind": "reading",
+    "title": "Stalin Epigram",
+    "poet": "Osip Mandelstam",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#osip-mandelstam-russia-1891%25E2%2580%25931938-%25E2%2580%2594-voronezh-notebooks-%25C2%25B7-stalin-epigram",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#osip-mandelstam-russia-1891%25E2%2580%25931938-%25E2%2580%2594-voronezh-notebooks-%25C2%25B7-stalin-epigram",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#osip-mandelstam-russia-1891%25E2%2580%25931938-%25E2%2580%2594-voronezh-notebooks-%25C2%25B7-stalin-epigram"
+  },
+  {
+    "id": "concordia-fa573b463f91",
+    "kind": "reading",
+    "title": "An Attempt at Jealousy",
+    "poet": "Marina Tsvetaeva",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#marina-tsvetaeva-russia-1892%25E2%2580%25931941-%25E2%2580%2594-poem-of-the-end-%25C2%25B7-after-russia",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#marina-tsvetaeva-russia-1892%25E2%2580%25931941-%25E2%2580%2594-poem-of-the-end-%25C2%25B7-after-russia",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#marina-tsvetaeva-russia-1892%25E2%2580%25931941-%25E2%2580%2594-poem-of-the-end-%25C2%25B7-after-russia"
+  },
+  {
+    "id": "concordia-7818ec08c953",
+    "kind": "reading",
+    "title": "Hamlet",
+    "poet": "Boris Pasternak",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#boris-pasternak-russia-1890%25E2%2580%25931960-%25E2%2580%2594-doctor-zhivago-%25C2%25B7-the-zhivago-poems",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#boris-pasternak-russia-1890%25E2%2580%25931960-%25E2%2580%2594-doctor-zhivago-%25C2%25B7-the-zhivago-poems",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#boris-pasternak-russia-1890%25E2%2580%25931960-%25E2%2580%2594-doctor-zhivago-%25C2%25B7-the-zhivago-poems"
+  },
+  {
+    "id": "concordia-2af6ddab07ce",
+    "kind": "reading",
+    "title": "Forced March",
+    "poet": "Miklós Radnóti",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "hu",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "witness"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#mikl%25C3%25B3s-radn%25C3%25B3ti-hungary-1909%25E2%2580%25931944-%25E2%2580%2594-bor-notebook",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#mikl%25C3%25B3s-radn%25C3%25B3ti-hungary-1909%25E2%2580%25931944-%25E2%2580%2594-bor-notebook",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#mikl%25C3%25B3s-radn%25C3%25B3ti-hungary-1909%25E2%2580%25931944-%25E2%2580%2594-bor-notebook"
+  },
+  {
+    "id": "concordia-9a2db1b8ee6e",
+    "kind": "reading",
+    "title": "Elegia o chłopcu polskim",
+    "poet": "Krzysztof Kamil Baczyński",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#krzysztof-kamil-baczy%25C5%2584ski-poland-1921%25E2%2580%25931944-%25E2%2580%2594-wiersze-zebrane",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#krzysztof-kamil-baczy%25C5%2584ski-poland-1921%25E2%2580%25931944-%25E2%2580%2594-wiersze-zebrane",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#krzysztof-kamil-baczy%25C5%2584ski-poland-1921%25E2%2580%25931944-%25E2%2580%2594-wiersze-zebrane"
+  },
+  {
+    "id": "concordia-074c18242662",
+    "kind": "reading",
+    "title": "Building the Barricade",
+    "poet": "Anna Świrszczyńska",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#anna-%25C5%259Bwirszczy%25C5%2584ska-anna-swir-poland-1909%25E2%2580%25931984-%25E2%2580%2594-building-the-barricade",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#anna-%25C5%259Bwirszczy%25C5%2584ska-anna-swir-poland-1909%25E2%2580%25931984-%25E2%2580%2594-building-the-barricade",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#anna-%25C5%259Bwirszczy%25C5%2584ska-anna-swir-poland-1909%25E2%2580%25931984-%25E2%2580%2594-building-the-barricade"
+  },
+  {
+    "id": "concordia-5101fda8a883",
+    "kind": "reading",
+    "title": "Shemà",
+    "poet": "Primo Levi",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "it",
+    "lines": [],
+    "note": "Levi asks the reader to remember and to teach. The anthology keeps the poem beside the account it introduces.",
+    "themes": [
+      "liberty",
+      "witness"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta"
+  },
+  {
+    "id": "concordia-fb4e4d41b20b",
+    "kind": "reading",
+    "title": "Il superstite",
+    "poet": "Primo Levi",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "it",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#primo-levi-italy-1919%25E2%2580%25931987-%25E2%2580%2594-se-questo-%25C3%25A8-un-uomo-%25C2%25B7-ad-ora-incerta"
+  },
+  {
+    "id": "concordia-0ccbbe6ff2df",
+    "kind": "reading",
+    "title": "O die Schornsteine",
+    "poet": "Nelly Sachs",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "de",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#nelly-sachs-germany-sweden-1891%25E2%2580%25931970-%25E2%2580%2594-in-den-wohnungen-des-todes",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#nelly-sachs-germany-sweden-1891%25E2%2580%25931970-%25E2%2580%2594-in-den-wohnungen-des-todes",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#nelly-sachs-germany-sweden-1891%25E2%2580%25931970-%25E2%2580%2594-in-den-wohnungen-des-todes"
+  },
+  {
+    "id": "concordia-32f81d8e2831",
+    "kind": "reading",
+    "title": "Harbach 1944",
+    "poet": "János Pilinszky",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "hu",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#j%25C3%25A1nos-pilinszky-hungary-1921%25E2%2580%25931981-%25E2%2580%2594-harmadnapon",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#j%25C3%25A1nos-pilinszky-hungary-1921%25E2%2580%25931981-%25E2%2580%2594-harmadnapon",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#j%25C3%25A1nos-pilinszky-hungary-1921%25E2%2580%25931981-%25E2%2580%2594-harmadnapon"
+  },
+  {
+    "id": "concordia-b3c0347ef3a4",
+    "kind": "reading",
+    "title": "Written in Pencil in the Sealed Railway-Car",
+    "poet": "Dan Pagis",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "he",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#dan-pagis-romania-israel-1930%25E2%2580%25931986-%25E2%2580%2594-variable-directions",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#dan-pagis-romania-israel-1930%25E2%2580%25931986-%25E2%2580%2594-variable-directions",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#dan-pagis-romania-israel-1930%25E2%2580%25931986-%25E2%2580%2594-variable-directions"
+  },
+  {
+    "id": "concordia-3bbc52a0743f",
+    "kind": "reading",
+    "title": "More Light! More Light!",
+    "poet": "Anthony Hecht",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "en",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#anthony-hecht-united-states-1923%25E2%2580%25932004-%25E2%2580%2594-the-hard-hours",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#anthony-hecht-united-states-1923%25E2%2580%25932004-%25E2%2580%2594-the-hard-hours",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#anthony-hecht-united-states-1923%25E2%2580%25932004-%25E2%2580%2594-the-hard-hours"
+  },
+  {
+    "id": "concordia-1413e58aa705",
+    "kind": "reading",
+    "title": "J’ai tant rêvé de toi",
+    "poet": "Robert Desnos",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "fr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#robert-desnos-france-1900%25E2%2580%25931945-%25E2%2580%2594-corps-et-biens",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#robert-desnos-france-1900%25E2%2580%25931945-%25E2%2580%2594-corps-et-biens",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#robert-desnos-france-1900%25E2%2580%25931945-%25E2%2580%2594-corps-et-biens"
+  },
+  {
+    "id": "concordia-ff4b6db0d960",
+    "kind": "reading",
+    "title": "Potęga smaku",
+    "poet": "Zbigniew Herbert",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "The poem asks what taste and judgement can do in the face of political pressure.",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#zbigniew-herbert-poland-1924%25E2%2580%25931998-%25E2%2580%2594-pan-cogito-%25C2%25B7-raport-z-obl%25C4%2599%25C5%25BConego-miasta",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#zbigniew-herbert-poland-1924%25E2%2580%25931998-%25E2%2580%2594-pan-cogito-%25C2%25B7-raport-z-obl%25C4%2599%25C5%25BConego-miasta",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#zbigniew-herbert-poland-1924%25E2%2580%25931998-%25E2%2580%2594-pan-cogito-%25C2%25B7-raport-z-obl%25C4%2599%25C5%25BConego-miasta"
+  },
+  {
+    "id": "concordia-f3e67df8490c",
+    "kind": "reading",
+    "title": "Koniec i początek",
+    "poet": "Wisława Szymborska",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#wis%25C5%2582awa-szymborska-poland-1923%25E2%2580%25932012-%25E2%2580%2594-ludzie-na-mo%25C5%259Bcie-%25C2%25B7-koniec-i-pocz%25C4%2585tek",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#wis%25C5%2582awa-szymborska-poland-1923%25E2%2580%25932012-%25E2%2580%2594-ludzie-na-mo%25C5%259Bcie-%25C2%25B7-koniec-i-pocz%25C4%2585tek",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#wis%25C5%2582awa-szymborska-poland-1923%25E2%2580%25932012-%25E2%2580%2594-ludzie-na-mo%25C5%259Bcie-%25C2%25B7-koniec-i-pocz%25C4%2585tek"
+  },
+  {
+    "id": "concordia-a71ea5776b72",
+    "kind": "reading",
+    "title": "Mala kutija",
+    "poet": "Vasko Popa",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "sr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#vasko-popa-serbia-1922%25E2%2580%25931991-%25E2%2580%2594-kora-%25C2%25B7-nepo%25C4%258Din-polje",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#vasko-popa-serbia-1922%25E2%2580%25931991-%25E2%2580%2594-kora-%25C2%25B7-nepo%25C4%258Din-polje",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#vasko-popa-serbia-1922%25E2%2580%25931991-%25E2%2580%2594-kora-%25C2%25B7-nepo%25C4%258Din-polje"
+  },
+  {
+    "id": "concordia-be1ea8ea98fa",
+    "kind": "reading",
+    "title": "On Living",
+    "poet": "Nâzım Hikmet",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "tr",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#n%25C3%25A2z%25C4%25B1m-hikmet-turkey-1902%25E2%2580%25931963-%25E2%2580%2594-human-landscapes-from-my-country",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#n%25C3%25A2z%25C4%25B1m-hikmet-turkey-1902%25E2%2580%25931963-%25E2%2580%2594-human-landscapes-from-my-country",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#n%25C3%25A2z%25C4%25B1m-hikmet-turkey-1902%25E2%2580%25931963-%25E2%2580%2594-human-landscapes-from-my-country"
+  },
+  {
+    "id": "concordia-9c1fc9cf7d5e",
+    "kind": "reading",
+    "title": "Romiosini",
+    "poet": "Yannis Ritsos",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "el",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#yannis-ritsos-greece-1909%25E2%2580%25931990-%25E2%2580%2594-romiosini-%25C2%25B7-diaries-of-exile",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#yannis-ritsos-greece-1909%25E2%2580%25931990-%25E2%2580%2594-romiosini-%25C2%25B7-diaries-of-exile",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#yannis-ritsos-greece-1909%25E2%2580%25931990-%25E2%2580%2594-romiosini-%25C2%25B7-diaries-of-exile"
+  },
+  {
+    "id": "concordia-61759923245a",
+    "kind": "reading",
+    "title": "I will live and survive",
+    "poet": "Irina Ratushinskaya",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#irina-ratushinskaya-ussr-united-kingdom-1954%25E2%2580%25932017-%25E2%2580%2594-no-im-not-afraid",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#irina-ratushinskaya-ussr-united-kingdom-1954%25E2%2580%25932017-%25E2%2580%2594-no-im-not-afraid",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#irina-ratushinskaya-ussr-united-kingdom-1954%25E2%2580%25932017-%25E2%2580%2594-no-im-not-afraid"
+  },
+  {
+    "id": "concordia-3f3ea12de273",
+    "kind": "reading",
+    "title": "Ocalony",
+    "poet": "Tadeusz Różewicz",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#tadeusz-r%25C3%25B3%25C5%25BCewicz-poland-1921%25E2%2580%25932014-%25E2%2580%2594-niepok%25C3%25B3j-%25C2%25B7-poezje-zebrane",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#tadeusz-r%25C3%25B3%25C5%25BCewicz-poland-1921%25E2%2580%25932014-%25E2%2580%2594-niepok%25C3%25B3j-%25C2%25B7-poezje-zebrane",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#tadeusz-r%25C3%25B3%25C5%25BCewicz-poland-1921%25E2%2580%25932014-%25E2%2580%2594-niepok%25C3%25B3j-%25C2%25B7-poezje-zebrane"
+  },
+  {
+    "id": "concordia-53633c248fe8",
+    "kind": "reading",
+    "title": "A Flamingo’s Dream",
+    "poet": "Aleksander Wat",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#aleksander-wat-poland-1900%25E2%2580%25931967-%25E2%2580%2594-mediterranean-poems-%25C2%25B7-my-century",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#aleksander-wat-poland-1900%25E2%2580%25931967-%25E2%2580%2594-mediterranean-poems-%25C2%25B7-my-century",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#aleksander-wat-poland-1900%25E2%2580%25931967-%25E2%2580%2594-mediterranean-poems-%25C2%25B7-my-century"
+  },
+  {
+    "id": "concordia-1a1947c685cf",
+    "kind": "reading",
+    "title": "If Porcelain, Then Only the Kind",
+    "poet": "Stanisław Barańczak",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#stanis%25C5%2582aw-bara%25C5%2584czak-poland-1946%25E2%2580%25932014-%25E2%2580%2594-korekta-twarzy-%25C2%25B7-widok%25C3%25B3wka-z-tego-%25C5%259Bwiata",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#stanis%25C5%2582aw-bara%25C5%2584czak-poland-1946%25E2%2580%25932014-%25E2%2580%2594-korekta-twarzy-%25C2%25B7-widok%25C3%25B3wka-z-tego-%25C5%259Bwiata",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#stanis%25C5%2582aw-bara%25C5%2584czak-poland-1946%25E2%2580%25932014-%25E2%2580%2594-korekta-twarzy-%25C2%25B7-widok%25C3%25B3wka-z-tego-%25C5%259Bwiata"
+  },
+  {
+    "id": "concordia-862f00855a56",
+    "kind": "reading",
+    "title": "Try to Praise the Mutilated World",
+    "poet": "Adam Zagajewski",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#adam-zagajewski-poland-1945%25E2%2580%25932021-%25E2%2580%2594-tremor-%25C2%25B7-without-end",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#adam-zagajewski-poland-1945%25E2%2580%25932021-%25E2%2580%2594-tremor-%25C2%25B7-without-end",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#adam-zagajewski-poland-1945%25E2%2580%25932021-%25E2%2580%2594-tremor-%25C2%25B7-without-end"
+  },
+  {
+    "id": "concordia-052570375a94",
+    "kind": "reading",
+    "title": "Who Am I?",
+    "poet": "Dietrich Bonhoeffer",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "de",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#dietrich-bonhoeffer-germany-1906%25E2%2580%25931945-%25E2%2580%2594-widerstand-und-ergebung",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#dietrich-bonhoeffer-germany-1906%25E2%2580%25931945-%25E2%2580%2594-widerstand-und-ergebung",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#dietrich-bonhoeffer-germany-1906%25E2%2580%25931945-%25E2%2580%2594-widerstand-und-ergebung"
+  },
+  {
+    "id": "concordia-1545883fe459",
+    "kind": "reading",
+    "title": "The Quarry · Material",
+    "poet": "Karol Wojtyła",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within"
+  },
+  {
+    "id": "concordia-dcc6409a3c95",
+    "kind": "reading",
+    "title": "Easter Vigil, 1966",
+    "poet": "Karol Wojtyła",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pl",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#karol-wojty%25C5%2582a-poland-1920%25E2%2580%25932005-%25E2%2580%2594-the-place-within"
+  },
+  {
+    "id": "concordia-af970dfc8356",
+    "kind": "reading",
+    "title": "Verrà la morte e avrà i tuoi occhi",
+    "poet": "Cesare Pavese",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "it",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#cesare-pavese-italy-1908%25E2%2580%25931950-%25E2%2580%2594-lavorare-stanca-%25C2%25B7-verr%25C3%25A0-la-morte",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#cesare-pavese-italy-1908%25E2%2580%25931950-%25E2%2580%2594-lavorare-stanca-%25C2%25B7-verr%25C3%25A0-la-morte",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#cesare-pavese-italy-1908%25E2%2580%25931950-%25E2%2580%2594-lavorare-stanca-%25C2%25B7-verr%25C3%25A0-la-morte"
+  },
+  {
+    "id": "concordia-7acad9bfb71f",
+    "kind": "reading",
+    "title": "O Infante",
+    "poet": "Fernando Pessoa",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "pt",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#fernando-pessoa-portugal-1888%25E2%2580%25931935-%25E2%2580%2594-mensagem-%25C2%25B7-the-heteronymic-corpus",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#fernando-pessoa-portugal-1888%25E2%2580%25931935-%25E2%2580%2594-mensagem-%25C2%25B7-the-heteronymic-corpus",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#fernando-pessoa-portugal-1888%25E2%2580%25931935-%25E2%2580%2594-mensagem-%25C2%25B7-the-heteronymic-corpus"
+  },
+  {
+    "id": "concordia-5d3980c8bac1",
+    "kind": "reading",
+    "title": "A Part of Speech",
+    "poet": "Joseph Brodsky",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "ru",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#joseph-brodsky-russia-united-states-1940%25E2%2580%25931996-%25E2%2580%2594-a-part-of-speech-%25C2%25B7-collected-poems-in-english",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#joseph-brodsky-russia-united-states-1940%25E2%2580%25931996-%25E2%2580%2594-a-part-of-speech-%25C2%25B7-collected-poems-in-english",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#joseph-brodsky-russia-united-states-1940%25E2%2580%25931996-%25E2%2580%2594-a-part-of-speech-%25C2%25B7-collected-poems-in-english"
+  },
+  {
+    "id": "concordia-68c1708fdf48",
+    "kind": "reading",
+    "title": "When Lilacs Last in the Dooryard Bloom’d",
+    "poet": "Walt Whitman",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "en",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#walt-whitman-united-states-1819%25E2%2580%25931892-%25E2%2580%2594-leaves-of-grass-%25C2%25B7-drum-taps",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#walt-whitman-united-states-1819%25E2%2580%25931892-%25E2%2580%2594-leaves-of-grass-%25C2%25B7-drum-taps",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#walt-whitman-united-states-1819%25E2%2580%25931892-%25E2%2580%2594-leaves-of-grass-%25C2%25B7-drum-taps"
+  },
+  {
+    "id": "concordia-24f49a7509a5",
+    "kind": "reading",
+    "title": "The Gift Outright",
+    "poet": "Robert Frost",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "en",
+    "lines": [],
+    "note": "Read alongside the other American poems in the anthology and notice who is meant by “we”.",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#robert-frost-united-states-1874%25E2%2580%25931963-%25E2%2580%2594-north-of-boston-%25C2%25B7-a-witness-tree",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#robert-frost-united-states-1874%25E2%2580%25931963-%25E2%2580%2594-north-of-boston-%25C2%25B7-a-witness-tree",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#robert-frost-united-states-1874%25E2%2580%25931963-%25E2%2580%2594-north-of-boston-%25C2%25B7-a-witness-tree"
+  },
+  {
+    "id": "concordia-4ae49ed25402",
+    "kind": "reading",
+    "title": "Frederick Douglass",
+    "poet": "Robert Hayden",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "en",
+    "lines": [],
+    "note": "Hayden asks what it would mean to honour an abolitionist through the lives of people who come after him.",
+    "themes": [
+      "liberty",
+      "witness"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#robert-hayden-united-states-1913%25E2%2580%25931980-%25E2%2580%2594-a-ballad-of-remembrance-%25C2%25B7-words-in-the-mourning-time",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#robert-hayden-united-states-1913%25E2%2580%25931980-%25E2%2580%2594-a-ballad-of-remembrance-%25C2%25B7-words-in-the-mourning-time",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#robert-hayden-united-states-1913%25E2%2580%25931980-%25E2%2580%2594-a-ballad-of-remembrance-%25C2%25B7-words-in-the-mourning-time"
+  },
+  {
+    "id": "concordia-34f3cb9dfc90",
+    "kind": "reading",
+    "title": "In Memory of W. B. Yeats",
+    "poet": "W. H. Auden",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "en",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#w-h-auden-england-united-states-1907%25E2%2580%25931973-%25E2%2580%2594-another-time-%25C2%25B7-the-shield-of-achilles",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#w-h-auden-england-united-states-1907%25E2%2580%25931973-%25E2%2580%2594-another-time-%25C2%25B7-the-shield-of-achilles",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#w-h-auden-england-united-states-1907%25E2%2580%25931973-%25E2%2580%2594-another-time-%25C2%25B7-the-shield-of-achilles"
+  },
+  {
+    "id": "concordia-239d6bde62d0",
+    "kind": "reading",
+    "title": "La Aurora",
+    "poet": "Federico García Lorca",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "es",
+    "lines": [],
+    "note": "Lorca’s New York dawn steps away from welcome and comes close to dread.",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#federico-garc%25C3%25ADa-lorca-spain-1898%25E2%2580%25931936-%25E2%2580%2594-poeta-en-nueva-york-%25C2%25B7-romancero-gitano",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#federico-garc%25C3%25ADa-lorca-spain-1898%25E2%2580%25931936-%25E2%2580%2594-poeta-en-nueva-york-%25C2%25B7-romancero-gitano",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#federico-garc%25C3%25ADa-lorca-spain-1898%25E2%2580%25931936-%25E2%2580%2594-poeta-en-nueva-york-%25C2%25B7-romancero-gitano"
+  },
+  {
+    "id": "concordia-7ec979d8932b",
+    "kind": "reading",
+    "title": "The Diameter of the Bomb",
+    "poet": "Yehuda Amichai",
+    "original": "Poets’ Nook · Concordia Discors",
+    "language": "he",
+    "lines": [],
+    "note": "",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry/#yehuda-amichai-germany-israel-1924%25E2%2580%25932000-%25E2%2580%2594-open-closed-open-%25C2%25B7-selected-poetry",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry/#yehuda-amichai-germany-israel-1924%25E2%2580%25932000-%25E2%2580%2594-open-closed-open-%25C2%25B7-selected-poetry",
+      "sourceSha256": "e8cf1df8ffe1b5490a22fec8b4afc2e4928e04c9b9bdd68eb722bc6e207ff854",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#yehuda-amichai-germany-israel-1924%25E2%2580%25932000-%25E2%2580%2594-open-closed-open-%25C2%25B7-selected-poetry"
+  },
+  {
+    "id": "montale-noon",
+    "kind": "reading",
+    "title": "Meriggiare pallido e assorto",
+    "poet": "Eugenio Montale",
+    "original": "Ossi di seppia · Italian and Jamie McKendrick’s English translation",
+    "language": "it",
+    "lines": [],
+    "note": "Look at how many sounds and textures the poem gives you before it reaches the wall.",
+    "themes": [
+      "nature",
+      "solitude",
+      "conscience"
+    ],
+    "source": "https://poets.org/poem/noon-1",
+    "label": "Read at the source",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://poets.org/poem/noon-1",
+      "sourceSha256": "953619c29640f6b6091114efd04db6882119e320c15d63adace9df0124849abc",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    }
+  },
+  {
+    "id": "sbarbaro-sonnambulo",
+    "kind": "reading",
+    "title": "Io che come un sonnambulo cammino",
+    "poet": "Camillo Sbarbaro",
+    "original": "Pianissimo · Italian original",
+    "language": "it",
+    "lines": [],
+    "note": "Read for the moment when familiar streets become strange.",
+    "themes": [
+      "ordinary life",
+      "solitude"
+    ],
+    "source": "https://www.italian-poetry.org/camillo-sbarbaro/",
+    "label": "Read at the source",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://www.italian-poetry.org/camillo-sbarbaro/",
+      "sourceSha256": "c040d2ef8cba83c311edb21b161bf2cc92817fbc0d4a43930264d5971ff1c722",
+      "verifiedBy": "The titled poem and its Italian text are present on the author page."
+    }
+  },
+  {
+    "id": "concordia-norwid",
+    "kind": "reading",
+    "title": "Norwid’s Humble Freedom",
+    "poet": "Cyprian Kamil Norwid",
+    "original": "Concordia Discors · essay and excerpts",
+    "language": "pl",
+    "lines": [],
+    "note": "Read the essay beside Norwid’s Polish originals in the collection.",
+    "themes": [
+      "liberty",
+      "conscience"
+    ],
+    "source": "https://concordiadiscors.org/poetry-norwids-humble-freedom/",
+    "label": "Read the excerpt",
+    "credit": "External reading",
+    "rights": {
+      "mode": "reference-only",
+      "basis": "Titles and a link to the publication. Text and translations remain at the source."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://concordiadiscors.org/poetry-norwids-humble-freedom/",
+      "sourceSha256": "4ef876113f9455ab516b9527875e8b9d725deebd25ed89a96bb3febe57b5878f",
+      "verifiedBy": "The named poem or excerpt is present on the linked page."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry-norwids-humble-freedom/"
+  },
+  {
+    "id": "apollinaire-jolie-rousse",
+    "kind": "poem",
+    "title": "La Jolie Rousse",
+    "poet": "Guillaume Apollinaire",
+    "original": "Calligrammes · 1918",
+    "language": "fr",
+    "lines": [
+      "Me voici devant tous un homme plein de sens",
+      "Connaissant la vie et de la mort ce qu’un vivant peut connaître",
+      "Ayant éprouvé les douleurs et les joies de l’amour",
+      "Ayant su quelquefois imposer ses idées",
+      "Connaissant plusieurs langages",
+      "Ayant pas mal voyagé",
+      "Ayant vu la guerre dans l’Artillerie et l’Infanterie",
+      "Blessé à la tête trépané sous le chloroforme",
+      "Ayant perdu ses meilleurs amis dans l’effroyable lutte",
+      "Je sais d’ancien et de nouveau autant qu’un homme seul pourrait des deux savoir",
+      "Et sans m’inquiéter aujourd’hui de cette guerre",
+      "Entre nous et pour nous mes amis",
+      "Je juge cette longue querelle de la tradition et de l’invention",
+      "              De l’Ordre et de l’Aventure",
+      "Vous dont la bouche est faite à l’image de celle de Dieu",
+      "Bouche qui est l’ordre même",
+      "Soyez indulgents quand vous nous comparez",
+      "À ceux qui furent la perfection de l’ordre",
+      "Nous qui quêtons partout l’aventure",
+      "",
+      "Nous ne sommes pas vos ennemis",
+      "Nous voulons vous donner de vastes et d’étranges domaines",
+      "Où le mystère en fleurs s’offre à qui veut le cueillir",
+      "Il y a là des feux nouveaux des couleurs jamais vues",
+      "Mille phantasmes impondérables",
+      "Auxquels il faut donner de la réalité",
+      "Nous voulons explorer la bonté contrée énorme où tout se tait",
+      "Il y a aussi le temps qu’on peut chasser ou faire revenir",
+      "Pitié pour nous qui combattons toujours aux frontières",
+      "De l’illimité et de l’avenir",
+      "Pitié pour nos erreurs pitié pour nos péchés",
+      "",
+      "Voici que vient l’été la saison violente",
+      "Et ma jeunesse est morte ainsi que le printemps",
+      "Ô Soleil c’est le temps de la Raison ardente",
+      "                                  Et j’attends",
+      "Pour la suivre toujours la forme noble et douce",
+      "Qu’elle prend afin que je l’aime seulement",
+      "Elle vient et m’attire ainsi qu’un fer l’aimant",
+      "                         Elle a l’aspect charmant",
+      "                         D’une adorable rousse",
+      "",
+      "Ses cheveux sont d’or on dirait",
+      "Un bel éclair qui durerait",
+      "Ou ces flammes qui se pavanent",
+      "Dans les roses-thé qui se fanent",
+      "",
+      "Mais riez riez de moi",
+      "Hommes de partout surtout gens d’ici",
+      "Car il y a tant de choses que je n’ose vous dire",
+      "Tant de choses que vous ne me laisseriez pas dire",
+      "Ayez pitié de moi"
+    ],
+    "note": "Apollinaire puts “ordre” next to “aventure”. Listen for the turn from defending the new poetry to asking for kindness.",
+    "themes": [
+      "liberty",
+      "art",
+      "witness"
+    ],
+    "source": "https://fr.wikisource.org/wiki/Calligrammes/La_Jolie_Rousse",
+    "label": "Complete poem",
+    "credit": "Historic original text",
+    "rights": {
+      "mode": "public-domain",
+      "authorDied": 1918,
+      "basis": "Historic original published before 1930 by an author who died before 1956."
+    },
+    "sourceCheck": {
+      "status": "verified",
+      "checkedAt": "2026-11-24",
+      "recommendedSource": "https://fr.wikisource.org/wiki/Calligrammes/La_Jolie_Rousse",
+      "sourceSha256": "94652f05a1966a47112951857efba33350b7738dfdc7e934a148b2c488ecfc5c",
+      "verifiedBy": "Full original from the cited edition, with stanza breaks retained."
+    },
+    "collection": "Concordia Discors",
+    "collectionSource": "https://concordiadiscors.org/poetry/#guillaume-apollinaire-france-1880%25E2%2580%25931918calligrammes"
   }
 ]

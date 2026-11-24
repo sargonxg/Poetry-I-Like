@@ -133,6 +133,28 @@
         "reading-025334cddb12",
         "reading-b73f12bfca2a"
       ]
+    },
+    {
+      "id": "public-voice",
+      "title": "Freedom in public",
+      "description": "Shelley, Browning and Whitman turn forms as different as a sonnet and a long walk into public speech.",
+      "ids": [
+        "shelley-england-1819",
+        "browning-cry-of-the-children",
+        "whitman-open-road",
+        "lazarus-new-colossus"
+      ]
+    },
+    {
+      "id": "italian-modern",
+      "title": "Montale & Sbarbaro",
+      "description": "A short route from Sbarbaro’s inward voice to the textures and silences of Montale. The texts open in their published editions.",
+      "ids": [
+        "reading-b73f12bfca2a",
+        "sbarbaro-sonnambulo",
+        "reading-025334cddb12",
+        "montale-noon"
+      ]
     }
   ],
   "prompts": [

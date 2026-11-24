@@ -1,0 +1,284 @@
+{
+  "format": "poetry-i-like:historic-archive/1",
+  "entries": 2402,
+  "poets": 110,
+  "language": "en",
+  "source": "https://poetrydb.org/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Poetry data from PoetryDB, licensed under CC BY 4.0. Original texts are public domain.",
+  "checkedOn": "2026-11-24",
+  "policy": "Historic English entries up to 75 nonblank source lines. Preserve source text and stanzas, with trailing space normalization. Explicitly labelled extracts and records with ambiguous authorship are held. Deduplicate against the curated collection and among archive titles and text.",
+  "omitted": {
+    "labelled excerpt or fragment": 90,
+    "duplicate title or verse": 178,
+    "ambiguous author": 42
+  },
+  "sourceSnapshots": [
+    {
+      "file": "lines-1-6.json",
+      "url": "https://poetrydb.org/linecount/1-6",
+      "sha256": "5331ef31a67e138c63b564841c96107bf3b5d43b805aa20ad5da1198fe19761b",
+      "rows": 197
+    },
+    {
+      "file": "lines-7-10.json",
+      "url": "https://poetrydb.org/linecount/7-10",
+      "sha256": "abe94ab0b7f500cd6b246f6150e5dd3ed757d05061972b231b9f050fedabb65e",
+      "rows": 339
+    },
+    {
+      "file": "lines-11-13.json",
+      "url": "https://poetrydb.org/linecount/11-13",
+      "sha256": "8469d0d168b70f4c1595a10890533c4e978a22f295700bee3b077621de44c78e",
+      "rows": 231
+    },
+    {
+      "file": "lines-14.json",
+      "url": "https://poetrydb.org/linecount/14",
+      "sha256": "30c3c7f2b3a43dc7c365de45a2fdb8e8e632f071186b1579f775c77b9f0b083e",
+      "rows": 442
+    },
+    {
+      "file": "lines-15-19.json",
+      "url": "https://poetrydb.org/linecount/15-19",
+      "sha256": "9314d3fb6b72ce5f9b994ef47a1b88f306b9567f4c6bbd7353963313340334a8",
+      "rows": 372
+    },
+    {
+      "file": "lines-20-26.json",
+      "url": "https://poetrydb.org/linecount/20-26",
+      "sha256": "a272ea5b783fa319bc5f54ba40a16e4510aeae927bd4a833b0b8ffb03c2715ca",
+      "rows": 386
+    },
+    {
+      "file": "lines-27-36.json",
+      "url": "https://poetrydb.org/linecount/27-36",
+      "sha256": "a6a3e14178e65124dc7176528e311a363c15f358b0406b2a10ecb252e631bf65",
+      "rows": 301
+    },
+    {
+      "file": "lines-37-50.json",
+      "url": "https://poetrydb.org/linecount/37-50",
+      "sha256": "9615404d468a53ac64dc432093ee73202d34993ec732e9a40e60afb432ff0570",
+      "rows": 236
+    },
+    {
+      "file": "lines-51-75.json",
+      "url": "https://poetrydb.org/linecount/51-75",
+      "sha256": "1c26f07ce92421f60d241e21a1e15f07c9df7d10bdc3f4845ad7a0d51a6ed7c5",
+      "rows": 208
+    }
+  ],
+  "catalogue": {
+    "file": "catalogue.json.gz",
+    "bytes": 70416,
+    "expandedBytes": 206246,
+    "sha256": "e0b6a1ffd965c3c73754dcc2752c13ea567d2d742dd54877fba848ead93eaeaf"
+  },
+  "shelves": [
+    {
+      "file": "verse-00.json.gz",
+      "bytes": 31894,
+      "expandedBytes": 74334,
+      "sha256": "b7cdc0b5647d160509111bfef6ba9a3504ef648149fa35510a669bb604c25782"
+    },
+    {
+      "file": "verse-01.json.gz",
+      "bytes": 32248,
+      "expandedBytes": 75865,
+      "sha256": "3c40ea47f4002d5c5d2e6cd4a725bd5522043e5e4f070599a7e5b3870fbbeeaf"
+    },
+    {
+      "file": "verse-02.json.gz",
+      "bytes": 29982,
+      "expandedBytes": 70655,
+      "sha256": "41f400f4a66799ca1844b7a037d801be5092be18bddecd9e01f17c71fb24bb5b"
+    },
+    {
+      "file": "verse-03.json.gz",
+      "bytes": 27138,
+      "expandedBytes": 64869,
+      "sha256": "443355d48165894064b2fb0c2c7a5ecdc0a51aff136c91332725cb9301ec7a1c"
+    },
+    {
+      "file": "verse-04.json.gz",
+      "bytes": 29107,
+      "expandedBytes": 68829,
+      "sha256": "2a56b05ac33b8a922e33cfa945c9ab4036380f6157cb07177e6194c97d6644e9"
+    },
+    {
+      "file": "verse-05.json.gz",
+      "bytes": 13446,
+      "expandedBytes": 37135,
+      "sha256": "94946f632345cc666e948b283f3fcc7ca8528308503348aab207b056b31a45a2"
+    },
+    {
+      "file": "verse-06.json.gz",
+      "bytes": 13764,
+      "expandedBytes": 38237,
+      "sha256": "2aaa4404e6a9448fbbdf51b2f823f07a7d0962f8231853dce11af60bee4d3e41"
+    },
+    {
+      "file": "verse-07.json.gz",
+      "bytes": 13888,
+      "expandedBytes": 39143,
+      "sha256": "501ad797babe87c74bd64478b7ab68cf9c6b7c235e79240e5fc19c7a174e2ca3"
+    },
+    {
+      "file": "verse-08.json.gz",
+      "bytes": 12767,
+      "expandedBytes": 35445,
+      "sha256": "d1e7ca940573959f3409145fc5311ed2f6464c1b56c502bf7dee2d44b811c645"
+    },
+    {
+      "file": "verse-09.json.gz",
+      "bytes": 12807,
+      "expandedBytes": 35753,
+      "sha256": "627ec4f08b669f343898ea49e5036ab456efe7b7297b1f2e948e5034c677cea7"
+    },
+    {
+      "file": "verse-10.json.gz",
+      "bytes": 12390,
+      "expandedBytes": 34722,
+      "sha256": "1f56b33f50dab18b432545f385719ef5ae3aa362a0bbd42adfc1c813f6fdd72f"
+    },
+    {
+      "file": "verse-11.json.gz",
+      "bytes": 39054,
+      "expandedBytes": 93200,
+      "sha256": "70757e7b82a6c2d7d248a2b7542e6ce1af2f8e4e17894eef285f189e0927a7f5"
+    },
+    {
+      "file": "verse-12.json.gz",
+      "bytes": 30999,
+      "expandedBytes": 72375,
+      "sha256": "b0f34f4db0b380764a1b93981b167961ecf775e8f0f25a20abf8a2f28fe03128"
+    },
+    {
+      "file": "verse-13.json.gz",
+      "bytes": 34375,
+      "expandedBytes": 80434,
+      "sha256": "794925dc6f557929946238ebd7c02fc374cd1f42a8770e50ef7e241e9e3262a5"
+    },
+    {
+      "file": "verse-14.json.gz",
+      "bytes": 34719,
+      "expandedBytes": 81890,
+      "sha256": "fafc731066b09349d9b7c6d372ca4b1d91800394a2d038b3e6c1c396cb6992e9"
+    },
+    {
+      "file": "verse-15.json.gz",
+      "bytes": 30509,
+      "expandedBytes": 70802,
+      "sha256": "2ba50b94081daad3e4a28cd37f71ae473fbf606deff81e0aaf667d328788174b"
+    },
+    {
+      "file": "verse-16.json.gz",
+      "bytes": 30596,
+      "expandedBytes": 73724,
+      "sha256": "415a0afc8b9d50e4e629d7af0f6e1a31380d85ff8c3659762baa379021ec6a7a"
+    },
+    {
+      "file": "verse-17.json.gz",
+      "bytes": 30132,
+      "expandedBytes": 74347,
+      "sha256": "2fe0fc9ac46f18427efc54df1ca90ba5b0b788eec3946df4edd60b2a238d97d4"
+    },
+    {
+      "file": "verse-18.json.gz",
+      "bytes": 31018,
+      "expandedBytes": 74868,
+      "sha256": "ee50af8e5068fb755c7cc2a0b8fd8f7d6d1e933cec86823b0e56d414c4e9a9f9"
+    },
+    {
+      "file": "verse-19.json.gz",
+      "bytes": 31835,
+      "expandedBytes": 73875,
+      "sha256": "c8d3990d02d4339b675d6d8bfe4cdf94a45975f21f5f035be7fc820ae1d3d657"
+    },
+    {
+      "file": "verse-20.json.gz",
+      "bytes": 28383,
+      "expandedBytes": 66853,
+      "sha256": "a2e77d8a09c2446ac0af5a2b8e95a128acd4e66e114e03694852fa17c4ddd6ad"
+    },
+    {
+      "file": "verse-21.json.gz",
+      "bytes": 32338,
+      "expandedBytes": 77279,
+      "sha256": "bed726f93f8fe4859a9279e9754b5a5a677f745fd913579b0414b98ed3865e15"
+    },
+    {
+      "file": "verse-22.json.gz",
+      "bytes": 32235,
+      "expandedBytes": 76315,
+      "sha256": "4ed18b5cce4315253ff30f24e67c38dc640d4aa37f6655b4b328e53f75b4e22b"
+    },
+    {
+      "file": "verse-23.json.gz",
+      "bytes": 47109,
+      "expandedBytes": 111502,
+      "sha256": "75d62a0b1edc78382d183bb50cbda1aa52466ae87c80df031c50369d7c2a8cab"
+    },
+    {
+      "file": "verse-24.json.gz",
+      "bytes": 30826,
+      "expandedBytes": 74116,
+      "sha256": "9c2baf31c6e20aaa4a27a7049362efffd047678cf196f3c6d5cf67473c747635"
+    },
+    {
+      "file": "verse-25.json.gz",
+      "bytes": 18245,
+      "expandedBytes": 42487,
+      "sha256": "efa870efedd29fc50caa8f7243f5870091798698f8e4819730fb133cb880a3ae"
+    },
+    {
+      "file": "verse-26.json.gz",
+      "bytes": 31343,
+      "expandedBytes": 73723,
+      "sha256": "16a98a7b4c26df94edfc356c829c66f6cd1092e525d3b3c5940984d0f7fb4ffc"
+    },
+    {
+      "file": "verse-27.json.gz",
+      "bytes": 30056,
+      "expandedBytes": 72126,
+      "sha256": "d8bd348469544722cbfb0699186aab31fe95a65b0c901ed7302df820d4879a96"
+    },
+    {
+      "file": "verse-28.json.gz",
+      "bytes": 35599,
+      "expandedBytes": 84527,
+      "sha256": "1903fca9c0712c5304e4883ce8412e0748ac4a914e5f79bc3a157a2e29f02fb3"
+    },
+    {
+      "file": "verse-29.json.gz",
+      "bytes": 25884,
+      "expandedBytes": 63157,
+      "sha256": "f2070b9687b34f23f008d4870866ade5ed4b5b2816fda47dff336c5624051b24"
+    },
+    {
+      "file": "verse-30.json.gz",
+      "bytes": 23130,
+      "expandedBytes": 54676,
+      "sha256": "83abfe14e5a350112d7102e5d599b41f0a1f3188dd20dbcffa205519af2f7c81"
+    },
+    {
+      "file": "verse-31.json.gz",
+      "bytes": 20373,
+      "expandedBytes": 48713,
+      "sha256": "46b2a8911af50e267faf7340086e081ca88c50421e95fb7ad1fb3ac8e14b204b"
+    },
+    {
+      "file": "verse-32.json.gz",
+      "bytes": 45184,
+      "expandedBytes": 123855,
+      "sha256": "b0bf3ba737890cf9f7a2a891bbaf83658ef5bb7191981f45ea8da16bb2e59a39"
+    },
+    {
+      "file": "verse-33.json.gz",
+      "bytes": 25427,
+      "expandedBytes": 68353,
+      "sha256": "8792b790c1f7df48806a37822a70a5c2ead30e114c219d1039ecb995c4c552af"
+    }
+  ]
+}
