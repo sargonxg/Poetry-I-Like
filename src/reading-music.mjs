@@ -38,7 +38,6 @@ export class ReadingMusic {
       if (version !== this.version) return;
       const transport = new library.KeyboardTransport(() => {}, () => this.onState(false));
       transport.load(study);
-      transport.setTimbre('piano');
       transport.setVolume(volume / 100);
       transport.initialize(context);
       this.transport = transport;
