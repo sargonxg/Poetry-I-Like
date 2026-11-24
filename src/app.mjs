@@ -95,7 +95,7 @@ function drawShelf(){
  if(!rows.length){const p=document.createElement('p');p.className='empty';p.textContent=state.shelf==='saved'?'Your saved shelf is empty. Save a poem to find it here.':'Nothing matches those filters. Clear them or try a shorter phrase.';box.append(p);}
  for(const item of rows.slice(0,state.shown)){const b=document.createElement('button');b.className='poem-item'+(state.current.id===item.id?' active':'');b.setAttribute('aria-current',state.current.id===item.id?'true':'false');b.append(text(document.createElement('strong'),item.title),text(document.createElement('small'),item.poet));if(item.kind==='reading'){const label=document.createElement('span');label.className='ref-mark';label.textContent=item.label==='Read the excerpt'?'Excerpt at source':'At source';b.append(label);}b.addEventListener('click',()=>selectPoem(item));box.append(b);}
  $('#show-more').hidden=rows.length<=state.shown;text($('#show-more'),'Show '+Math.min(24,Math.max(0,rows.length-state.shown))+' more');
- const texts=fullTexts(rows);$('#random-poem').disabled=!texts.length;text($('#random-poem'),'Another poem ↝');
+ const texts=fullTexts(rows);$('#random-poem').disabled=!texts.length;text($('#random-poem'),'Another poem');
  updateSaved();
 }
 function renderFocus(){
@@ -129,7 +129,7 @@ function drawPoem({focus=false}={}){
  $('#original-label').hidden=!translation;
  $('#focus-mode').disabled = !full;
  const source = safeSource(item.source);
- setLink($('#source-link'), source, full ? 'Read the source ↗' : item.label === 'Read the excerpt' ? 'Read at Concordia Discors ↗' : 'Read the published text ↗');
+ setLink($('#source-link'), source, full ? 'Read the source' : item.label === 'Read the excerpt' ? 'Read at Concordia Discors' : 'Read the published text');
  text($('#rights-label'), full ? (item.archive ? 'PoetryDB · CC BY 4.0' : 'Historic original') : 'External reading');
  const note = item.note || '';
  $('#reading-note').hidden = !note || note.startsWith('An invitation to read slowly:');
@@ -139,10 +139,10 @@ function drawPoem({focus=false}={}){
  const biography = $('#poet-bio').closest('details');
  biography.hidden = !bio;
  text($('#poet-bio'), bio?.bio || '');
- setLink($('#poet-source'), bio?.source, 'Biographical source ↗');
+ setLink($('#poet-source'), bio?.source, 'Biographical source');
  text($('#edition-note'), item.original);
  text($('#rights-basis'), item.rights.basis || '');
- setLink($('#collection-source'), item.collectionSource && item.collectionSource !== source ? item.collectionSource : null, 'Concordia Discors context ↗');
+ setLink($('#collection-source'), item.collectionSource && item.collectionSource !== source ? item.collectionSource : null, 'Concordia Discors context');
  text($('#exercise'),exercises[item.themes[0]]||exercises.wonder);$('#private-note').value='';$('#theme-tags').replaceChildren();for(const theme of item.themes){const b=document.createElement('button');b.textContent=theme;b.addEventListener('click',()=>chooseTheme(theme));$('#theme-tags').append(b);}
  $('#previous-poem').disabled=!state.history.length;renderFocus();renderPath();drawShelf();if(!initialError)writeStored(KEY.last,item.id);updateURL();if(focus)$('#poem-title').focus({preventScroll:true});
 }

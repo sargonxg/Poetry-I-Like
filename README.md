@@ -49,7 +49,7 @@ rights basis and source check. `data/source-audit-20261112.json` documents
 source-text verification, excerpt corrections and held records. Broken compound
 PoetryDB URLs were replaced with verified title endpoints. Three edition
 variants were replaced with the exact source text; Giusti's Sant'Ambrogio is
-now the complete 96-line poem. The ten additions are checked against the
+now the complete 96-line poem. Recent additions are checked against the
 Academy of American Poets, PoetryDB or Wikisource, with links and rights
 information on each record.
 
