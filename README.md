@@ -84,18 +84,14 @@ No database, bucket, backend, subscription or scheduled work is required.
 
 `npm test` checks content/rights separation, multilingual minimums, translation
 attribution, search, saved shelves, bookmark validation, non-repeating shuffles,
-settings and emitted CSP hashes. Browser captures and their limits are recorded
-in `docs/`. The following captures show this multilingual reader integrated into
-the personal site in Chromium CI on November 12, 2026. The return link belongs
-to that integration; the reading interface and collection are this app's build.
+settings and emitted CSP hashes. The November 24 captures show the public
+portfolio integration, with its local piano option and return link.
 
-![Italian original and attributed English translation, side by side](docs/screenshots/multilingual-desktop.webp)
+![Freedom in public reading path with Shelley's England in 1819 and piano controls](docs/screenshots/nov24-desktop.webp)
 
-[Phone reading view](docs/screenshots/multilingual-mobile.webp). These are real
-rendered captures, not mockups. Browser emulation does not certify physical
-devices or screen-reader use. See the personal-site validation run
-[43260842008](https://github.com/sargonxg/Gc-personal-site/actions/runs/43260842008)
-for integrated tests; that repository is private.
+[Phone reading view](docs/screenshots/nov24-phone.webp) · [Open the reading room](https://giulio-catanzariti.giuliocatanzariti.workers.dev/poetry).
+The Concordia shelf, archive bookmarks and playback across poems passed on the
+live site on desktop and in Android Chrome emulation.
 
 ## Pixel portraits and edition scope
 
