@@ -1,3 +1,27 @@
+/** Read a standalone book or the host's lighter, same-origin catalogue. */
+export async function readPoetryIndex(input, locationURL=location.href) {
+  if (Array.isArray(input) && input.length) return input;
+  if (input?.encoding==='gzip-base64' && typeof input.body==='string' && globalThis.DecompressionStream) {
+    const bytes=Uint8Array.from(atob(input.body), char=>char.charCodeAt(0));
+    const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+    const buffer=await new Response(stream).arrayBuffer();
+    if (buffer.byteLength!==input.bytes) throw Error('The saved poetry edition is incomplete.');
+    const rows=JSON.parse(new TextDecoder().decode(buffer));
+    if (Array.isArray(rows) && rows.length) return rows;
+    throw Error('Empty poetry collection.');
+  }
+  const path=typeof input==='string' ? input : input?.source;
+  const page=new URL(locationURL);
+  if (typeof path!=='string') throw Error('Missing poetry catalogue.');
+  const url=new URL(path,page);
+  if (url.origin!==page.origin || !['https:','http:'].includes(url.protocol)) throw Error('Open the hosted reading room or the collection file.');
+  const response=await fetch(url,{credentials:'same-origin',redirect:'error'});
+  if (!response.ok) throw Error('The poetry catalogue could not load.');
+  const rows=await response.json();
+  if (!Array.isArray(rows) || !rows.length) throw Error('Empty poetry catalogue.');
+  return rows;
+}
+
 /** Local editions, and an optional archive packed at build time. */
 export function openPoetryLibrary(collection, files, archive) {
   const byId = new Map(collection.map(poem => [poem.id, poem]));

@@ -1,9 +1,9 @@
 {
   "format": "poetry-source-audit/2",
-  "fullTextSelections": 172,
-  "fullTextPoets": 134,
+  "fullTextSelections": 401,
+  "fullTextPoets": 139,
   "readingReferences": 55,
-  "allPoets": 181,
+  "allPoets": 186,
   "policy": "Full texts from public-domain sources; modern readings are metadata and external links only. Themes are editorial browsing paths.",
   "attribution": "Poetry data from PoetryDB (https://poetrydb.org), licensed under CC BY 4.0. Original poem texts are public domain.",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -16,14 +16,14 @@
   "derivation": "Initial Poetry I Like collection; source metadata and per-record rights retained from the licensed November 8 snapshot.",
   "editorialChanges": "114 empty reading notes receive an original generic reading prompt. Original source and rights metadata are retained. Krynicki’s modern reading note uses factual reader-facing wording; source links, rights and poem counts are unchanged.",
   "languages": {
-    "en": 140,
-    "pl": 10,
-    "it": 10,
-    "fr": 12
+    "en": 240,
+    "pl": 46,
+    "it": 58,
+    "fr": 57
   },
-  "collectionSha256": "4f4ba5e62377c045be9e828ac467bde3b959cfdf705ea8597f9be1bfa64411e6",
+  "collectionSha256": "a4bce0d2f113f3c399428eca0ce04ab4dd06d9fbdd197adb18f7537c0b8b6c5e",
   "sourceAudit": "data/source-audit-20261112.json",
-  "translationPolicy": "Stored AI-generated English translations of public-domain originals. Not published translations; no human review is claimed.",
+  "translationPolicy": "English editions are attached to a source original, with method and attribution. New machine-generated translations carry an AI label. Frederick Townsend’s published 1887 version of L’infinito carries its translator, publisher and two public sources.",
   "referencePolicy": "Verified named poem pages, full-text sources or clearly marked excerpts. No modern verse or modern translations reproduced in reference records.",
   "recentSources": [
     {
@@ -243,5 +243,37 @@
       }
     }
   ],
-  "concordia": "Poets’ Nook article headings deep-link to the published texts or excerpts. The full original of La Jolie Rousse is sourced from Wikisource."
+  "concordia": "Poets’ Nook article headings deep-link to the published texts or excerpts. The full original of La Jolie Rousse is sourced from Wikisource.",
+  "translations": {
+    "ai-generated": 30,
+    "published": 1
+  },
+  "recentEditionAudit": {
+    "manifest": "data/editions-20261124.json",
+    "checkedAt": "2026-11-25",
+    "sha256": "eba9e85850613f44a2fdd89c6a1be936d743f7aa55eaa2bdc128d79ebfb55219",
+    "completeAdditions": 227,
+    "editions": 17,
+    "newOriginalsByLanguage": {
+      "en": 98,
+      "it": 48,
+      "fr": 45,
+      "pl": 36
+    },
+    "selectedFromSite": [
+      "shelley-ozymandias",
+      "whitman-patient-spider"
+    ],
+    "movedFromArchive": {
+      "archive-145effb854854cbc": "shelley-ozymandias"
+    },
+    "historicArchive": "data/archive/manifest.json"
+  },
+  "modernLinksRechecked": {
+    "checkedAt": "2026-11-25",
+    "status": 200,
+    "referencePages": 55,
+    "anchoredHeadings": 43,
+    "method": "All 55 reference links opened; each of the 43 fragment identifiers resolved to a named element in the publisher page. The original per-record checks identify the named poem or excerpt."
+  }
 }

@@ -1,0 +1,2741 @@
+{
+  "format": "poetry-i-like:historic-originals/1",
+  "checkedAt": "2026-11-25",
+  "editions": [
+    {
+      "author": "Frances Ellen Watkins Harper",
+      "died": 1911,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/frances-ellen-watkins-harper/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "03a545dc85fb6261cf94ed009e85ab2cc8a98e080a35650b1df137c9f4f057a9",
+      "items": [
+        {
+          "section": "eliza-harris",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Eliza Harris",
+          "id": "frances-ellen-watkins-harper-eliza-harris",
+          "textSha256": "071daeb9a0d194b599a5e1e14fdc3a8b82e34ea24dee14bcd6d616e3c84e2437"
+        },
+        {
+          "section": "the-slave-mother",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Slave Mother",
+          "id": "frances-ellen-watkins-harper-the-slave-mother",
+          "textSha256": "560fb797c631b3caaa05bf833802de688e08a8c9072823d8bb1f4b73277165ea"
+        },
+        {
+          "section": "the-slave-auction",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Slave Auction",
+          "id": "frances-ellen-watkins-harper-the-slave-auction",
+          "textSha256": "d96a6e3a2f62a41f10eebd82d6bfe7c07033abec234abee883d475504284d7ca",
+          "note": "Notice the difference between the auctioneer’s view of the sale and the family relationships the speaker sees."
+        },
+        {
+          "section": "the-fugitives-wife",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Fugitive’s Wife",
+          "id": "frances-ellen-watkins-harper-the-fugitives-wife",
+          "textSha256": "0e8136c35e703a0ea195a164a43fa005b74c8d2fa072dab37dcfede8d185f4ea"
+        },
+        {
+          "section": "aunt-chloes-politics",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Aunt Chloe’s Politics",
+          "id": "frances-ellen-watkins-harper-aunt-chloes-politics",
+          "textSha256": "ab2c2e739a3ff63897212331a098f8a194f216821cf2d2c90a471c9ad81d82cc",
+          "note": "Read Aunt Chloe’s account of politics aloud. Where does the sound of conversation carry the argument?"
+        },
+        {
+          "section": "the-freedom-bell",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Freedom Bell",
+          "id": "frances-ellen-watkins-harper-the-freedom-bell",
+          "textSha256": "2fd8c15b684f246fda69f09156f4d2159d450654125fecb250c3d8a2a448bdc0",
+          "note": "Follow the bell as its sound travels beyond its point of origin."
+        },
+        {
+          "section": "an-appeal-to-the-american-people",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "An Appeal to the American People",
+          "id": "frances-ellen-watkins-harper-an-appeal-to-the-american-people",
+          "textSha256": "55084d21125bdb6c00f95e35e2fce5ee26195b7fa0089ff39e14b02e2457d7a2"
+        },
+        {
+          "section": "words-for-the-hour",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Words for the Hour",
+          "id": "frances-ellen-watkins-harper-words-for-the-hour",
+          "textSha256": "98f7756af0b2798b4c9257c824de69e28f5ffea6798d46da166fddd9b13b667f"
+        },
+        {
+          "section": "president-lincolns-proclamation-of-freedom",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "President Lincoln’s Proclamation of Freedom",
+          "id": "frances-ellen-watkins-harper-president-lincolns-proclamation-of-freedom",
+          "textSha256": "46fd9932ec112f2e888acbcade75e33eae91eca9a6e1e0695db6bc0f4cc44410"
+        },
+        {
+          "section": "fifteenth-amendment",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Fifteenth Amendment",
+          "id": "frances-ellen-watkins-harper-fifteenth-amendment",
+          "textSha256": "121002fe1d319334734313d44bb0ddff25e5867536ed9cb1415ddefa6d5902c3"
+        },
+        {
+          "section": "free-labor",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Free Labor",
+          "id": "frances-ellen-watkins-harper-free-labor",
+          "textSha256": "6a8d85a6f6ebc68d77dbaa0831c4803540660a228a2831b9202e1ea436e18ad7"
+        },
+        {
+          "section": "a-double-standard",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "A Double Standard",
+          "id": "frances-ellen-watkins-harper-a-double-standard",
+          "textSha256": "b4eb21acf95434eb78a37cc9dccf3bfa4f0888c408e4476428765ea1fe0779ae"
+        },
+        {
+          "section": "bible-defense-of-slavery",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "Bible Defence of Slavery",
+          "id": "frances-ellen-watkins-harper-bible-defense-of-slavery",
+          "textSha256": "491eb7282a063ce507c8cc76ceffca861e4c95e5d3bbb94d1513e08d65707af7"
+        },
+        {
+          "section": "died-of-starvation",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "Died of Starvation",
+          "id": "frances-ellen-watkins-harper-died-of-starvation",
+          "textSha256": "f719a7e360c3195ce3843a3ca9730c4e7792ce9f556a6550e9beda1f03b92265"
+        },
+        {
+          "section": "to-the-union-savers-of-cleveland",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "To the Union Savers of Cleveland",
+          "id": "frances-ellen-watkins-harper-to-the-union-savers-of-cleveland",
+          "textSha256": "61634cdd61ce90f8a8013eb2838aa07c0c3c1a287bf949b966f7a272f8935413"
+        },
+        {
+          "section": "truth",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "Truth",
+          "id": "frances-ellen-watkins-harper-truth",
+          "textSha256": "8676e371ba80124b8f0b9f5a00198558261bf22fe0abdc6378678774896a465e"
+        },
+        {
+          "section": "an-appeal-to-my-countrywomen",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "An Appeal to My Countrywomen",
+          "id": "frances-ellen-watkins-harper-an-appeal-to-my-countrywomen",
+          "textSha256": "83a9dab84113e3feaabc93711827308a1de7035f08dc4ed130903f374f36a83a"
+        },
+        {
+          "section": "do-not-cheer-men-are-dying",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "“Do Not Cheer, Men Are Dying,” Said Capt. Phillips, in the Spanish-American War",
+          "id": "frances-ellen-watkins-harper-do-not-cheer-men-are-dying",
+          "textSha256": "42ac99059ff21c2436c5acab19b52a99ed3e6ce7ea03ec0cae14fcfe5681034d"
+        },
+        {
+          "section": "the-burdens-of-all",
+          "themes": [
+            "conscience",
+            "solidarity"
+          ],
+          "title": "The Burdens of All",
+          "id": "frances-ellen-watkins-harper-the-burdens-of-all",
+          "textSha256": "f7df51131fdbc8ea80ce2619947c379930bb2fe2528b9489846ed219e1a55590"
+        },
+        {
+          "section": "the-artist",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "title": "The Artist",
+          "id": "frances-ellen-watkins-harper-the-artist",
+          "textSha256": "5f26db312bb9fe07e4ccebb088304f7cc0c057905600b6d398a67c3231633649"
+        },
+        {
+          "section": "the-crocuses",
+          "themes": [
+            "nature",
+            "hope"
+          ],
+          "title": "The Crocuses",
+          "id": "frances-ellen-watkins-harper-the-crocuses",
+          "textSha256": "a954407c6cf8f51373b34c14158cd7992fd6db9066e0ef39587b818c5aec679f"
+        },
+        {
+          "section": "dandelions",
+          "themes": [
+            "nature",
+            "hope"
+          ],
+          "title": "Dandelions",
+          "id": "frances-ellen-watkins-harper-dandelions",
+          "textSha256": "6b434f30707d48132c015b28611015b3066123983e189cdfb8d5041ebece4919"
+        },
+        {
+          "section": "a-grain-of-sand",
+          "themes": [
+            "nature",
+            "hope"
+          ],
+          "title": "A Grain of Sand",
+          "id": "frances-ellen-watkins-harper-a-grain-of-sand",
+          "textSha256": "60a127212f69a57f58041fc868bbad84ad9bf0e5bf548f3ca73a6c1e5429982f"
+        }
+      ]
+    },
+    {
+      "author": "Sarah Louisa Forten Purvis",
+      "died": 1898,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/sarah-louisa-forten-purvis/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "a1aaffcfa40d1a56d8d6fbe8d6449ff5bfc82962218bae1ed1f256bc549dce0d",
+      "items": [
+        {
+          "section": "the-grave-of-the-slave",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Grave of the Slave",
+          "id": "sarah-louisa-forten-purvis-the-grave-of-the-slave",
+          "textSha256": "f575730daad56f3f53a6872ed1d1b758b16bd0046ff147b96b40cc44de017d57"
+        },
+        {
+          "section": "the-slave-girls-address-to-her-mother",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Slave Girl’s Address to Her Mother",
+          "id": "sarah-louisa-forten-purvis-the-slave-girls-address-to-her-mother",
+          "textSha256": "2ec4fe569abc92338dffb78c7559c37ac3f39fb131eed9b4bc7c496a5fcb3fcb"
+        },
+        {
+          "section": "the-slave",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Slave",
+          "id": "sarah-louisa-forten-purvis-the-slave",
+          "textSha256": "1b5b9315aff01d8022dfa0dcb6baadf26d38e52bbfcf67d2dbd386c547aa870c"
+        },
+        {
+          "section": "an-appeal-to-woman",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "An Appeal to Woman",
+          "id": "sarah-louisa-forten-purvis-an-appeal-to-woman",
+          "textSha256": "d9c8168a2830839683ca79c633c31aef4ce9d8853c553395f5f5ab2c23306d00"
+        },
+        {
+          "section": "my-country",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "My Country",
+          "id": "sarah-louisa-forten-purvis-my-country",
+          "textSha256": "e820d76166481d424a5f93274ce6606f8477f0f0b5b264093b4d4bd5c98b2bb0",
+          "note": "Listen to the pressure the speaker puts on the possessive word in the title."
+        },
+        {
+          "section": "past-joys",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "title": "Past Joys",
+          "id": "sarah-louisa-forten-purvis-past-joys",
+          "textSha256": "683337e0f29a9d1b94fceb85334c1c8689c46f683529e6440757f2fa64114cc9"
+        },
+        {
+          "section": "a-mothers-grief",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "title": "A Mother’s Grief",
+          "id": "sarah-louisa-forten-purvis-a-mothers-grief",
+          "textSha256": "7f5f6f2b3ec9c5ac10829203c771f4b3d1c04d71b380e8a5ad1a98b3537c4dbe"
+        }
+      ]
+    },
+    {
+      "author": "Mary Weston Fordham",
+      "died": 1905,
+      "language": "en",
+      "edition": "Magnolia Leaves",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/mary-weston-fordham/magnolia-leaves/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "0207cb7a49ff43f6cfdf77e66c2851ffa36de9347fdb4ee076e138522bc03981",
+      "items": [
+        {
+          "section": "the-washerwoman",
+          "themes": [
+            "dignity",
+            "conscience"
+          ],
+          "title": "The Washerwoman",
+          "id": "mary-weston-fordham-the-washerwoman",
+          "textSha256": "ddeecdfbacf62867d5086d1584bdf761b4261d734df624c04e26b01d90350d7f",
+          "note": "Notice the distance between the speaker and the woman who does the washing."
+        },
+        {
+          "section": "the-coming-woman",
+          "themes": [
+            "dignity",
+            "conscience"
+          ],
+          "title": "The Coming Woman",
+          "id": "mary-weston-fordham-the-coming-woman",
+          "textSha256": "c1cbb6d02a818de6fcb9cec8d71476c7cec6dc06d20a0edd0b0ef62cfabb8489"
+        },
+        {
+          "section": "the-cherokee",
+          "themes": [
+            "dignity",
+            "conscience"
+          ],
+          "title": "The Cherokee",
+          "id": "mary-weston-fordham-the-cherokee",
+          "textSha256": "8d1d7ac5b676ab9f634cda8e63b5c3fb4e8e4a69f6e0365c99b50e2f1d7d5ce9"
+        },
+        {
+          "section": "the-exiles-reverie",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "The Exile’s Reverie",
+          "id": "mary-weston-fordham-the-exiles-reverie",
+          "textSha256": "cd2aa5e1e82e4eb48aa6105cb0e5c0ca033dc1dc180f27dbcb37c5f9cbd19734"
+        },
+        {
+          "section": "song-to-erin",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "Song to Erin",
+          "id": "mary-weston-fordham-song-to-erin",
+          "textSha256": "dfc3b65d3a6bf6965a8168cb7c6678d00fc9a52da34c68fc531c05a462514ae9"
+        },
+        {
+          "section": "by-the-waters-of-babylon",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "“By the Waters of Babylon”",
+          "id": "mary-weston-fordham-by-the-waters-of-babylon",
+          "textSha256": "36ad11f1707419f8de88c6a8a9f6832d1ea43a1e59bbefd3effa0940ed15ca6a"
+        },
+        {
+          "section": "nestle-down-cottage",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "Nestle-Down Cottage",
+          "id": "mary-weston-fordham-nestle-down-cottage",
+          "textSha256": "6ed8b7aa8f144b741c57393621d1df48eebed7d2973da543c70229018d808267"
+        },
+        {
+          "section": "the-snowdrop",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "The Snowdrop",
+          "id": "mary-weston-fordham-the-snowdrop",
+          "textSha256": "61f41accbefb461d19939add0a1a64129274f15297f428432b1743e9ab036428"
+        },
+        {
+          "section": "magnolia",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "Magnolia",
+          "id": "mary-weston-fordham-magnolia",
+          "textSha256": "5211cf14aa7505356cdc68b96402d85355478ff1847b032bfbce9739908a19a2"
+        },
+        {
+          "section": "october",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "October",
+          "id": "mary-weston-fordham-october",
+          "textSha256": "a590a84a191267ada1bc4e92a19cfda5e4bcaa545b860d211635cdb66ff3df1a"
+        },
+        {
+          "section": "twilight-musings",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "Twilight Musing",
+          "id": "mary-weston-fordham-twilight-musings",
+          "textSha256": "b72d0bd6291f0d70310f3c148000869203860da39b4278e26876a18e71f8cc5c"
+        },
+        {
+          "section": "sunset",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "Sunset",
+          "id": "mary-weston-fordham-sunset",
+          "textSha256": "3223665fba4297f0a3e5b9097b4cf4c5681772570245c3a166740cf7954fdfc5"
+        },
+        {
+          "section": "to-the-mock-bird",
+          "themes": [
+            "nature",
+            "stillness"
+          ],
+          "title": "To the Mock-Bird",
+          "id": "mary-weston-fordham-to-the-mock-bird",
+          "textSha256": "cf464fc0a898b0ce04c00d6fa7658df2c956ef3f9e76e88beacefb8446c56f3c"
+        },
+        {
+          "section": "ode-to-peace",
+          "themes": [
+            "peace",
+            "hope"
+          ],
+          "title": "Ode to Peace",
+          "id": "mary-weston-fordham-ode-to-peace",
+          "textSha256": "664377a76ac63e1f2be5221c144f8fb684dfcbc788bf6311b811d4a27e5908fb"
+        },
+        {
+          "section": "rally-song",
+          "themes": [
+            "peace",
+            "hope"
+          ],
+          "title": "Rally Song",
+          "id": "mary-weston-fordham-rally-song",
+          "textSha256": "c79ac53b39bcf991e14942ccefa99fbbb7b2453fc086613090a398ff28cae53c"
+        },
+        {
+          "section": "the-pen",
+          "themes": [
+            "art"
+          ],
+          "title": "The Pen",
+          "id": "mary-weston-fordham-the-pen",
+          "textSha256": "534401e6ba7309d805304e5e6f41dd77aa440f19be1a639725671c4962ceba49"
+        }
+      ]
+    },
+    {
+      "author": "James Weldon Johnson",
+      "died": 1938,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/james-weldon-johnson/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "d8ad28a43f271645572b11eaef4eb2bf1410cd44eaa57534f55bad26ce29f8ed",
+      "items": [
+        {
+          "section": "to-america",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "To America",
+          "id": "james-weldon-johnson-to-america",
+          "textSha256": "1882d646fb87399fe6f0f4bbc7634a32bcfcd7526c64f832a576333045bbb4dd"
+        },
+        {
+          "section": "o-southland",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "O Southland!",
+          "id": "james-weldon-johnson-o-southland",
+          "textSha256": "01c1a28fa1c8ce75ea9dede650f521252b0da8dc734b45d80561b109f2c542ca"
+        },
+        {
+          "section": "brothers",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "Brothers",
+          "id": "james-weldon-johnson-brothers",
+          "textSha256": "b6c144bf04fd9e73c26124dbdd2e9fe39a163ba8a019b49bdcf5296fa8ce8020"
+        },
+        {
+          "section": "to-horace-bumstead",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "To Horace Bumstead",
+          "id": "james-weldon-johnson-to-horace-bumstead",
+          "textSha256": "f6df308a8252819553e860f74e40e9a8b3ec1ed04e056741188f027600ffa972"
+        },
+        {
+          "section": "o-black-and-unknown-bards",
+          "themes": [
+            "music",
+            "art"
+          ],
+          "title": "O Black and Unknown Bards",
+          "id": "james-weldon-johnson-o-black-and-unknown-bards",
+          "textSha256": "ea594daec2bd4b47c7129b21b937702b7036b9ee6a113dc27b9dc8d164b9d187",
+          "note": "The speaker addresses unnamed makers. Whose names does a history of music usually preserve?"
+        },
+        {
+          "section": "before-a-painting",
+          "themes": [
+            "music",
+            "art"
+          ],
+          "title": "Before a Painting",
+          "id": "james-weldon-johnson-before-a-painting",
+          "textSha256": "bde0400580cf8c90d9a4aa726d124d852a6e925cfacc22c0f28d615b9b95e6ad"
+        },
+        {
+          "section": "the-gift-to-sing",
+          "themes": [
+            "music",
+            "art"
+          ],
+          "title": "The Gift to Sing",
+          "id": "james-weldon-johnson-the-gift-to-sing",
+          "textSha256": "4a406a96a04cfe03f06b00003ac4e5aaa9e284e7489f6019cf1ebbe423effbe3",
+          "note": "The voice carries its own instrument. What can singing change about the speaker’s circumstances?"
+        },
+        {
+          "section": "mother-night",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "title": "Mother Night",
+          "id": "james-weldon-johnson-mother-night",
+          "textSha256": "72b1c8d66bb120a631494b5074abff7e83d0b3762bcde4f14196194b12b4e357"
+        },
+        {
+          "section": "i-hear-the-stars-still-singing",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "title": "I Hear the Stars Still Singing",
+          "id": "james-weldon-johnson-i-hear-the-stars-still-singing",
+          "textSha256": "f4c45eea16d85d365bc89be6d758cd77c57f6d9957a5ea00ee5b8a49d8c290fc"
+        },
+        {
+          "section": "deep-in-the-quiet-wood",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "title": "Deep in the Quiet Wood",
+          "id": "james-weldon-johnson-deep-in-the-quiet-wood",
+          "textSha256": "fecfefbec4ee60bae3bc1377ef24731ef3b10abc4c90aff21c68cbaf7907ca6b"
+        },
+        {
+          "section": "prayer-at-sunrise",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "title": "Prayer at Sunrise",
+          "id": "james-weldon-johnson-prayer-at-sunrise",
+          "textSha256": "64e2f331c3c676ad1b6324832881e9a5312f7cee68ecbcd9e1998f83e87ae190"
+        },
+        {
+          "section": "and-the-greatest-of-these-is-war",
+          "themes": [
+            "peace",
+            "conscience"
+          ],
+          "title": "And the Greatest of These Is War",
+          "id": "james-weldon-johnson-and-the-greatest-of-these-is-war",
+          "textSha256": "1faa1d96d2dcfb9c2bd9bba68f17c7c8592745336fceed8bbf1639a320e6d4a6"
+        },
+        {
+          "section": "the-young-warrior",
+          "themes": [
+            "peace",
+            "conscience"
+          ],
+          "title": "The Young Warrior",
+          "id": "james-weldon-johnson-the-young-warrior",
+          "textSha256": "5add098abe0fcfd99706fb1aa46eab964f475f519f7bf653f1df7163344b0968"
+        },
+        {
+          "section": "the-awakening",
+          "themes": [
+            "love",
+            "hope"
+          ],
+          "title": "The Awakening",
+          "id": "james-weldon-johnson-the-awakening",
+          "textSha256": "40d61a4c50d7c52f481dad432b5590bdc05469965efc5b20d5bbc1ab94e28758"
+        },
+        {
+          "section": "beauty-that-is-never-old",
+          "themes": [
+            "love",
+            "hope"
+          ],
+          "title": "Beauty That Is Never Old",
+          "id": "james-weldon-johnson-beauty-that-is-never-old",
+          "textSha256": "0ad992185e219db629b963fb87c4cd6e6b1582e390bd2cc319a00784c6d22a45"
+        },
+        {
+          "section": "the-reward",
+          "themes": [
+            "love",
+            "hope"
+          ],
+          "title": "The Reward",
+          "id": "james-weldon-johnson-the-reward",
+          "textSha256": "c7de77cb57f89956f7cecc87439c098dee80934787910f234f2897bf41f90a2a"
+        }
+      ]
+    },
+    {
+      "author": "Voltairine de Cleyre",
+      "died": 1912,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/voltairine-de-cleyre/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "891d0b1671dd451ac61530eea5aeec54d3fb31a051741e50bbfcb6fa05f86841",
+      "items": [
+        {
+          "section": "mary-wollstonecraft",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "title": "Mary Wollstonecraft",
+          "id": "voltairine-de-cleyre-mary-wollstonecraft",
+          "textSha256": "0816422d749baeb271417174b6a5875833128798f02886d5d7344bdb008df0e0",
+          "note": "Read the address as a conversation across generations."
+        },
+        {
+          "section": "i-am",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "title": "I Am",
+          "id": "voltairine-de-cleyre-i-am",
+          "textSha256": "3f331303a15e16b62f72c3aa28e28fad8b557fe426a4b193898e299acb5fc585"
+        },
+        {
+          "section": "life-or-death",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "title": "Life or Death",
+          "id": "voltairine-de-cleyre-life-or-death",
+          "textSha256": "5a7b721b6422179e1a1db6969d954c13e286c979de88e90e855be7a9a0b66858"
+        },
+        {
+          "section": "optimism",
+          "themes": [
+            "hope",
+            "change"
+          ],
+          "title": "Optimism",
+          "id": "voltairine-de-cleyre-optimism",
+          "textSha256": "6f3d96fdd725ce0b067817b26e4647a2842e3cbbc6b76fc1bd86d440863ca8f7"
+        },
+        {
+          "section": "the-new-hope",
+          "themes": [
+            "hope",
+            "change"
+          ],
+          "title": "The New Hope",
+          "id": "voltairine-de-cleyre-the-new-hope",
+          "textSha256": "4947a23bc0cdd4c7aade961c90422ccff965a89db6e4eef2c5a3f17c2694a7fe"
+        },
+        {
+          "section": "out-of-the-darkness",
+          "themes": [
+            "hope",
+            "change"
+          ],
+          "title": "Out of the Darkness",
+          "id": "voltairine-de-cleyre-out-of-the-darkness",
+          "textSha256": "367c6e016836818f895c0f55e35fa0d01a3f3f5ab60201f83b6c2a774ee4a222"
+        },
+        {
+          "section": "at-the-grave-in-waldheim",
+          "themes": [
+            "memory"
+          ],
+          "title": "At the Grave in Waldheim",
+          "id": "voltairine-de-cleyre-at-the-grave-in-waldheim",
+          "textSha256": "803159a6b1743a659248a7cee8f265612f989085ea86aba6bd3ae7ef0364c42d"
+        },
+        {
+          "section": "to-my-mother",
+          "themes": [
+            "memory"
+          ],
+          "title": "To My Mother",
+          "id": "voltairine-de-cleyre-to-my-mother",
+          "textSha256": "956bc253de5a216e169908c5d7af7a9f5eef56f45e90be0f7f27cbd1e96782cf"
+        }
+      ]
+    },
+    {
+      "author": "Maria White Lowell",
+      "died": 1853,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/maria-lowell/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "61a9ce086ec37d67c3882e28d6f54df12da9619f1fd201d2a41bf226d571e90c",
+      "items": [
+        {
+          "section": "the-slave-mother",
+          "themes": [
+            "liberty",
+            "dignity"
+          ],
+          "title": "The Slave-Mother",
+          "id": "maria-white-lowell-the-slave-mother",
+          "textSha256": "4b1a2c8f0214a88957bd6acd6d5a8262e8ff4295743c648de57088cd2c1b31ed"
+        },
+        {
+          "section": "rome",
+          "themes": [
+            "memory",
+            "home"
+          ],
+          "title": "Rome",
+          "id": "maria-white-lowell-rome",
+          "textSha256": "99eeb89ef72085b0476a83c906b7fd552abdec27e4afb7e5418c3eb32f26026f"
+        },
+        {
+          "section": "cadiz",
+          "themes": [
+            "memory",
+            "home"
+          ],
+          "title": "Cadiz",
+          "id": "maria-white-lowell-cadiz",
+          "textSha256": "1f9318f5d89357060a937a30827eea0a5b21dee1ff2757a4dba9f5dc75fcee4e"
+        },
+        {
+          "section": "avignon",
+          "themes": [
+            "memory",
+            "home"
+          ],
+          "title": "Avignon",
+          "id": "maria-white-lowell-avignon",
+          "textSha256": "4b7a8f8d42e3d8545c28d2051aab16e10d603ef6b377dade9fabc8d2771e2198"
+        },
+        {
+          "section": "the-grave-of-keats",
+          "themes": [
+            "memory",
+            "home"
+          ],
+          "title": "The Grace of Keats",
+          "id": "maria-white-lowell-the-grave-of-keats",
+          "textSha256": "8d497b16f6e0c9712074f20e20e226f09bf4c8a6aacd02aa09221b4291915ffb"
+        },
+        {
+          "section": "the-morning-glory",
+          "themes": [
+            "nature"
+          ],
+          "title": "The Morning-Glory",
+          "id": "maria-white-lowell-the-morning-glory",
+          "textSha256": "a917dd8ecdb6bdc08f6fc7261925c7e5dfc1f9156ab1567b14e26eabb8054e6c"
+        }
+      ]
+    },
+    {
+      "author": "Ameen Rihani",
+      "died": 1940,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/ameen-rihani/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "14ffe8d03a187245aaaf3cf1a530e16d212576e5b7cc00c03c5ef4a36c64d0c1",
+      "items": [
+        {
+          "section": "the-two-brothers",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "title": "The Two Brothers",
+          "id": "ameen-rihani-the-two-brothers",
+          "textSha256": "15dd763eba9381a3f4233afa748c3f9f0ccc6c779dc96de892a19544abeca395"
+        },
+        {
+          "section": "the-flatiron-and-the-ruins-of-palmyra",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "The “Flatiron” and the Ruins of Palmyra",
+          "id": "ameen-rihani-the-flatiron-and-the-ruins-of-palmyra",
+          "textSha256": "fa2953724782735a83235afce45946df48fcff7e9271961f2a43ebd4706834e5",
+          "note": "An American skyscraper and a Syrian ruin occupy the same imaginative space."
+        },
+        {
+          "section": "constantinople",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "Constantinople",
+          "id": "ameen-rihani-constantinople",
+          "textSha256": "7398ccd488d6a670a3a9a12ce1f9f43240b73310aec1603b640da39a131fc2bb"
+        },
+        {
+          "section": "the-wanderer",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "The Wanderer",
+          "id": "ameen-rihani-the-wanderer",
+          "textSha256": "75cff6082ad00d7c45b2d4f480ae074f1aca3eaec3351260515e2273e3e48497"
+        },
+        {
+          "section": "upon-the-peak-of-sanneen",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "title": "Upon the Peak of Sanneen",
+          "id": "ameen-rihani-upon-the-peak-of-sanneen",
+          "textSha256": "b489b4a078a12e868ed6af79da7c928395a5026f61ff92cc6f21f6991d06cf0c"
+        },
+        {
+          "section": "water-and-flowers",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "title": "Water and Flowers",
+          "id": "ameen-rihani-water-and-flowers",
+          "textSha256": "6193fb3e196a33d162a88da2058b0fb1565683db633f055c9ea6cd33b90d0f22"
+        },
+        {
+          "section": "the-song-of-rain",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "title": "The Song of Rain",
+          "id": "ameen-rihani-the-song-of-rain",
+          "textSha256": "e8e2954c4e0491a842a98d888f588951e0a5e1095fd0b901f597c80c4eda03ac"
+        },
+        {
+          "section": "near-the-cascades",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "title": "Near the Cascades",
+          "id": "ameen-rihani-near-the-cascades",
+          "textSha256": "fca0271d4a3321a3e6de6d888256c8a3dcaeacef7739b44d7f51506f938c5916"
+        },
+        {
+          "section": "to-the-sonnet",
+          "themes": [
+            "art",
+            "imagination"
+          ],
+          "title": "To the Sonnet",
+          "id": "ameen-rihani-to-the-sonnet",
+          "textSha256": "7bf8086e9c282cdcfeb91faa52b95d83c25eea27eb3659308420a08e44f78b30"
+        },
+        {
+          "section": "after-reading-king-lear",
+          "themes": [
+            "art",
+            "imagination"
+          ],
+          "title": "After Reading King Lear",
+          "id": "ameen-rihani-after-reading-king-lear",
+          "textSha256": "2dd445b6aa0e748a232065f6c130dac65e4a2613756e0def4bfd7ed9335519b5"
+        },
+        {
+          "section": "independent-blossoms",
+          "themes": [
+            "art",
+            "imagination"
+          ],
+          "title": "Independent Blossoms",
+          "id": "ameen-rihani-independent-blossoms",
+          "textSha256": "082c57990cb69a5fc70c15d5a16a62ee45f82b70034f248a433de2c1454f78fc"
+        }
+      ]
+    },
+    {
+      "author": "Oscar Wilde",
+      "died": 1900,
+      "language": "en",
+      "edition": "Poetry",
+      "provider": "Standard Ebooks",
+      "source": "https://standardebooks.org/ebooks/oscar-wilde/poetry/text/single-page",
+      "rightsBasis": "Historic original; this public-domain edition from Standard Ebooks dedicates its editorial work to the public domain under CC0.",
+      "sourceSha256": "b1dceff84c81e50dadcd8857880bf17dadd9debff501c884b5867728826cfcfe",
+      "items": [
+        {
+          "section": "sonnet-to-liberty",
+          "themes": [
+            "liberty",
+            "power"
+          ],
+          "title": "Sonnet to Liberty",
+          "id": "oscar-wilde-sonnet-to-liberty",
+          "textSha256": "a7d7206b27df308f12c9a0648609ec2dfde6692cae9143009095ddb4a0c8b743"
+        },
+        {
+          "section": "to-milton",
+          "themes": [
+            "liberty",
+            "power"
+          ],
+          "title": "To Milton",
+          "id": "oscar-wilde-to-milton",
+          "textSha256": "a1906d44511274201ecc51ec2a2dba91d862e957dfc30db54235d72c021119a2"
+        },
+        {
+          "section": "libertatis-sacra-fames",
+          "themes": [
+            "liberty",
+            "power"
+          ],
+          "title": "Libertatis Sacra Fames",
+          "id": "oscar-wilde-libertatis-sacra-fames",
+          "textSha256": "7452a1937d8c30a95042bfd1bab533ca02f1311155a6a393a9f7746c4010972e",
+          "note": "Where does a public declaration of principle turn into a private reservation?"
+        },
+        {
+          "section": "theoretikos",
+          "themes": [
+            "liberty",
+            "power"
+          ],
+          "title": "Theoretikos",
+          "id": "oscar-wilde-theoretikos",
+          "textSha256": "718db7d7f52cc8d9fea3dddc88cffc297e984f254557706683e8e91314f9efb4"
+        },
+        {
+          "section": "impression-du-matin",
+          "themes": [
+            "art",
+            "memory"
+          ],
+          "title": "Impression du Matin",
+          "id": "oscar-wilde-impression-du-matin",
+          "textSha256": "7885301030ab2b2263c76d6bf1bc12948a4d32748f7befc33f6eff8818dedc0d"
+        },
+        {
+          "section": "the-grave-of-shelley",
+          "themes": [
+            "art",
+            "memory"
+          ],
+          "title": "The Grave of Shelley",
+          "id": "oscar-wilde-the-grave-of-shelley",
+          "textSha256": "32acfb5c629d227927a053650b08a62345a1438e91ba4c0f8e97f8f4ca73bc46"
+        },
+        {
+          "section": "by-the-arno",
+          "themes": [
+            "art",
+            "memory"
+          ],
+          "title": "By the Arno",
+          "id": "oscar-wilde-by-the-arno",
+          "textSha256": "21c5378dc79da8c81fcf2827254361871fe582ae68761b9d77e685901699541b"
+        },
+        {
+          "section": "le-jardin-des-tuileries",
+          "themes": [
+            "art",
+            "memory"
+          ],
+          "title": "Le Jardin des Tuileries",
+          "id": "oscar-wilde-le-jardin-des-tuileries",
+          "textSha256": "0abf3c337885e2d98d66eef77fc079c21abd365de46748e0f25a004bc9fe2daa"
+        },
+        {
+          "section": "sonnet-on-approaching-italy",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "Sonnet on Approaching Italy",
+          "id": "oscar-wilde-sonnet-on-approaching-italy",
+          "textSha256": "6cb530c36411ae8921a0abdb428259f45d20289eda4e8f1a2d5b831a7b1fda01"
+        },
+        {
+          "section": "italia",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "Italia",
+          "id": "oscar-wilde-italia",
+          "textSha256": "e9943698eb0c802f7f57cf5478418e43e0e3ef446cdf8d6723a5c7bb8f06bde8"
+        },
+        {
+          "section": "at-verona",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "title": "At Verona",
+          "id": "oscar-wilde-at-verona",
+          "textSha256": "4c77a3068c85edcd7fc0ec77d893cf601763889b5fb776911522b0964738693c"
+        }
+      ]
+    },
+    {
+      "author": "Marceline Desbordes-Valmore",
+      "died": 1859,
+      "language": "fr",
+      "edition": "Les Pleurs",
+      "editionYear": 1834,
+      "provider": "Wikisource",
+      "source": "https://fr.wikisource.org/wiki/Les_Pleurs",
+      "layout": "numbered-original",
+      "rightsBasis": "Original printed in the 1834 edition; author died in 1859. Wikisource transcription credited under CC BY-SA 4.0.",
+      "items": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Le_Mal_du_pays",
+          "title": "Le Mal du pays",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "id": "marceline-desbordes-valmore-le-mal-du-pays",
+          "textSha256": "d140b30f5bbd12e2f00727cc67b919381af51db6583818f59472b3ac804adfd1",
+          "note": "Listen for the sounds that can bring an absent landscape back.",
+          "sourceSha256": "f9739b98f0e410767df0e9e825a66ed388b260532974758e20c4c0061b038d4a"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/La_Fianc%C3%A9e_polonaise",
+          "title": "La Fiancée polonaise",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "id": "marceline-desbordes-valmore-la-fiancee-polonaise",
+          "textSha256": "de13c0b70ca96639d0d5b9e763e59232341a2a154782a2cfb2b9e4ec5fa9c846",
+          "sourceSha256": "210c0081180e7371513d9c019a0ac92e6920b9d753b303668973a76870b0c08b"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Le_Retour_du_Marin",
+          "title": "Le Retour du Marin",
+          "themes": [
+            "home",
+            "exile"
+          ],
+          "id": "marceline-desbordes-valmore-le-retour-du-marin",
+          "textSha256": "5707ad8ba12f97a92a6f090374d52a333e1ebb955427ea26699f2778cd2020eb",
+          "sourceSha256": "2313aedf1a0e7d8872051ab65d782c8899c5709fbaf3838ba260564ee130dcdb"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/La_M%C3%A9moire",
+          "title": "La Mémoire",
+          "themes": [
+            "memory"
+          ],
+          "id": "marceline-desbordes-valmore-la-memoire",
+          "textSha256": "e34875f92161b7873d96449f4202537523f77f2cf3f73e163d5f398b4e023bc1",
+          "sourceSha256": "a742dc9708ba08cad78735da209315d30214391019f2eaa6ca6086f575414fd0"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Les_Mots_tristes",
+          "title": "Les Mots tristes",
+          "themes": [
+            "memory"
+          ],
+          "id": "marceline-desbordes-valmore-les-mots-tristes",
+          "textSha256": "f0f5f0de2782f0ead1d10f34ec98653397acf720fbc3d3d9807bafa528a143f3",
+          "sourceSha256": "460de23df3348bc248d964c57f9b04b289cc5e131511b02494b9b8fca85ac558"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/%C3%89crivez-moi",
+          "title": "Écrivez-moi",
+          "themes": [
+            "memory"
+          ],
+          "id": "marceline-desbordes-valmore-ecrivez-moi",
+          "textSha256": "c320d341f55c34d46c2dae9406643627dc1fc5c6a5b696443f291e50f7f0e0c3",
+          "sourceSha256": "c7afeb25ca0349a76f73f0b3f1a430295bcc042d9d3b0514a36c74aa51463050"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Le_Vieux_P%C3%A2tre",
+          "title": "Le vieux Pâtre",
+          "themes": [
+            "memory"
+          ],
+          "id": "marceline-desbordes-valmore-le-vieux-patre",
+          "textSha256": "c381138251d3df6820e391f8bb78559a1545488557847d68d358d569cd865097",
+          "sourceSha256": "8d15dee47ee7daaaf9cadbe681e6b85bb3ec46ca05f55fad51a6739da8b44f7e"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Solitude",
+          "title": "Solitude",
+          "themes": [
+            "solitude",
+            "love"
+          ],
+          "id": "marceline-desbordes-valmore-solitude",
+          "textSha256": "f9ab2275690af380ca4e3c292d47abb26554d4780ec52bab09f7accbb8d61340",
+          "sourceSha256": "4ae9281021e3bab10265e43e0413fd78792e1622c3ed5eae23ed54bd906d5c5a"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/L%E2%80%99Attente",
+          "title": "L’Attente",
+          "themes": [
+            "solitude",
+            "love"
+          ],
+          "id": "marceline-desbordes-valmore-lattente",
+          "textSha256": "76ed7a6387f6ddb1ee21baf64e71ea7fd35bc8b1d7c0031083f90aff6f7b375b",
+          "sourceSha256": "15cb79fb98256b41fe2cf78afc6b62346dba9eabfba8b4d6bb70dac905609661"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Le_Songe",
+          "title": "Le Songe",
+          "themes": [
+            "solitude",
+            "love"
+          ],
+          "id": "marceline-desbordes-valmore-le-songe",
+          "textSha256": "9f6e8afefe455321546791f090d16f87b1d322142d0dbfe7173658633764d82f",
+          "sourceSha256": "1e12314acc4d84b4b54925e29a0cdf28946967959ccae172c8933db7d134c4f1"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Ne_me_plains_pas",
+          "title": "Ne me plains pas",
+          "themes": [
+            "solitude",
+            "love"
+          ],
+          "id": "marceline-desbordes-valmore-ne-me-plains-pas",
+          "textSha256": "87cc0f63c1c5159e35232fd16ed13ce0e5038d699137deb87025a739aa4a6164",
+          "sourceSha256": "05a8d8509959ac3c65c26fad2389944b120732e230d063651602876249a8532c"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Le_Rossignol_aveugle",
+          "title": "Le Rossignol aveugle",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "id": "marceline-desbordes-valmore-le-rossignol-aveugle",
+          "textSha256": "01326d56f44b033744039b9c38f3d45805f759b15e0f1e2724f807c23b031f2d",
+          "sourceSha256": "0dc42a24b85d16e6d826c3bdf1cf3e74e45778155ee758b12c7bd1e160c1871d"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Une_Fleur",
+          "title": "Une Fleur",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "id": "marceline-desbordes-valmore-une-fleur",
+          "textSha256": "d46108c90839c39f68e7e1172f41af04459167bb4a8fe2cf819dce195741703b",
+          "sourceSha256": "07f6ab521827014184e4f4611fd661c8529fe47d2f9238c6269db61759f5df34"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Les_Fleurs",
+          "title": "Les Fleurs",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "id": "marceline-desbordes-valmore-les-fleurs",
+          "textSha256": "ee3294a3421406cfa75713b1fb12b233539c89f13bad9157c8f5b7978736a5e6",
+          "sourceSha256": "e95ed04ae990f8f4a8376b9ce49120c844e17ee9538b9edd24e267209d272183"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/La_derni%C3%A8re_Fleur",
+          "title": "La dernière Fleur",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "id": "marceline-desbordes-valmore-la-derniere-fleur",
+          "textSha256": "b0760e355db389ddfb80e3daf7871d6a99f984609beff248b60192b34b0b137c",
+          "sourceSha256": "6bcf0883ddf085ca25fdf42d433db6597e44877b8f7fdb2a085299b09808700f"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Une_Ondine",
+          "title": "Une Ondine",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "id": "marceline-desbordes-valmore-une-ondine",
+          "textSha256": "6d9696ad31d8d616b1b1cd74a156e85798d9bf5cef502a3b2ed1aff6b343e1cf",
+          "sourceSha256": "d77343c10b93a24f674bd59eea81b15d4d66c7084ca391609089f36b55f5f519"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/Louise_Lab%C3%A9",
+          "title": "Louise Labé",
+          "themes": [
+            "art"
+          ],
+          "id": "marceline-desbordes-valmore-louise-labe",
+          "textSha256": "ca684590babe5f212b99fbdffb498a94ab9674b4e84e44ebde847d6042c46ea8",
+          "sourceSha256": "c70b676a1c1a6214e86bf1dabf1866b9a5e39cb5b41f1797f0080071f3e8862c"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Pleurs/L%E2%80%99%C3%A2me_de_Paganini",
+          "title": "L’ame de Paganini",
+          "themes": [
+            "art"
+          ],
+          "id": "marceline-desbordes-valmore-lame-de-paganini",
+          "textSha256": "66df1b0061e4995cbf13e0476fb8e973e2c3352d42281f26fc34832cd939439e",
+          "sourceSha256": "dddd6a15b2019b0e8f38ea697e6375261c24de5c46567b5832bc5837bb152d07"
+        }
+      ]
+    },
+    {
+      "author": "Charles Baudelaire",
+      "died": 1867,
+      "language": "fr",
+      "edition": "Les Fleurs du mal",
+      "editionYear": 1861,
+      "provider": "Wikisource",
+      "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)",
+      "layout": "fleurs-du-mal",
+      "rightsBasis": "Original printed in the 1861 edition; author died in 1867. Wikisource transcription credited under CC BY-SA 4.0.",
+      "items": [
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Les_Phares",
+          "title": "Les Phares",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "id": "charles-baudelaire-les-phares",
+          "textSha256": "c232106a933b91a392c2162721774167f7edaa2b1558f17c3f82d3ebb7fde894",
+          "sourceSha256": "8daf3c13a2eeb42866d4d3c0f3e1e9ad11440975e8cb5693b85cb0ab1c100108"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Harmonie_du_soir",
+          "title": "Harmonie du soir",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "id": "charles-baudelaire-harmonie-du-soir",
+          "textSha256": "71259d44bfdc10e09d717a8243778ef1204afab23b8e417c52873eda2ebf5a38",
+          "note": "Listen for lines that return in a different place, carrying an earlier stanza into a later one.",
+          "sourceSha256": "95b1eddb8baeb832e802b10c00a81e7761e1fefdaa840b025c7613e883eec957"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Musique",
+          "title": "La Musique",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "id": "charles-baudelaire-la-musique",
+          "textSha256": "6007d6826fd32bfff8429cb686ea19235698294da4ce207fbf584e6530ac55c6",
+          "sourceSha256": "cf5ccd00ce6b7fdeb79b7e230be11899e869f810d00e0a6a1dda85b53da26ef9"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Cloche_f%C3%AAl%C3%A9e",
+          "title": "La Cloche fêlée",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "id": "charles-baudelaire-la-cloche-felee",
+          "textSha256": "25c2de2586948d2ba8a6306b4aff0ad78bc704cb6b07c3bd4b3546b560ae7abc",
+          "sourceSha256": "e826bfa09644f30f6e683eeb84b4eb19b37fae04f238620c4d010299a786b0a2"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Mort_des_artistes",
+          "title": "La Mort des artistes",
+          "themes": [
+            "art",
+            "music"
+          ],
+          "id": "charles-baudelaire-la-mort-des-artistes",
+          "textSha256": "980f545a4ecd7240fc481c02b4ba9e44ad42079e7f8fd4d966fda66dae97875d",
+          "sourceSha256": "28546ad210d57ee70b9df59a63130d91339993b4c2fcee10b11bf432c76c04a7"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/%C3%89l%C3%A9vation",
+          "title": "Élévation",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-elevation",
+          "textSha256": "752da33ed003c46a493bb5a1c9388c82d116b49c1d7e8ff27bc2c6d932a8dc43",
+          "sourceSha256": "28f54580dccce51981ee584ae1bfddf12bf36bee9059d3def5b4d390b9c90805"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Vie_ant%C3%A9rieure",
+          "title": "La Vie antérieure",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-la-vie-anterieure",
+          "textSha256": "52afdf078adb75bbd46b3c03408077e5e564264753571d539177554184b9e7c1",
+          "sourceSha256": "966f9616f29010658f667f382f6fe913baf65db54dfa40d767c6b78642b0ebaa"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/L%E2%80%99Homme_et_la_Mer",
+          "title": "L’Homme et la Mer",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-lhomme-et-la-mer",
+          "textSha256": "39af86253b2ae093f04a843354122a718167af2bcd28f8bc08e446149616ff9d",
+          "sourceSha256": "8b7bf59819b32d88645e74f54eb44bc5bd10d02deef952a26097edefc23263af"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Les_Hiboux",
+          "title": "Les Hiboux",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-les-hiboux",
+          "textSha256": "8bbec085ae688f3e850d4caf8e840fe88b09334cc818b0820e218ac1858e97a6",
+          "sourceSha256": "5dfb7a0ac0e8c87b9a64e4525041b86287f461d0196e897b8bc9fa3c81a3c7f7"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Tristesses_de_la_lune",
+          "title": "Tristesses de la lune",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-tristesses-de-la-lune",
+          "textSha256": "a316725f6218d9786c26f491ef25348e55ee04621f63ca824facd79a821379dc",
+          "sourceSha256": "19705dca4c0a3a2f2ee7af8508971079970d473101e758b96ffda1f1b4ea65e3"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Brumes_et_Pluies",
+          "title": "Brumes et Pluies",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-brumes-et-pluies",
+          "textSha256": "13085ad42410f6e674262b4616e8b8ad27702b7a9047c85d4b40314dc9c5052b",
+          "sourceSha256": "d84db678bd81db22c13dcb3cc7100f69f65d174ad526e6ad7be0b166141e27cc"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Soleil",
+          "title": "Le Soleil",
+          "themes": [
+            "nature",
+            "imagination"
+          ],
+          "id": "charles-baudelaire-le-soleil",
+          "textSha256": "4f4fc772b20cfc9a3d91f195c0b76ab90440d8878ecb566ec1cc22aa0e2458ba",
+          "sourceSha256": "38510ff9e5b1fc16b242ec736e00e7d9131cf59bf32506e7a6987cb4deea8421"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/L%E2%80%99Ennemi",
+          "title": "L’Ennemi",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-lennemi",
+          "textSha256": "983aa7431f491eadf623d0d8e6935d09c4c480eeb787b39479f6c1fac0d6eec8",
+          "sourceSha256": "f4882907f46045c3ff37447d1e461e2c46dee0f963710b761ab868eea25ab1ff"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Balcon",
+          "title": "Le Balcon",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-le-balcon",
+          "textSha256": "a935d0d6d77d2c3b60f880e020015007e3bd20da0abc3e8c35890269e1e53b6d",
+          "sourceSha256": "991eb2d1bf3af7f7b38fa5e28b716f2a4561e92a23ea1e4b1afbf37b9ab69dbe"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Chant_d%E2%80%99automne",
+          "title": "Chant d’automne",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-chant-dautomne",
+          "textSha256": "0da132693c6e091f8094db050f18677ef857c1c35320b6d31b5363d7e099a54d",
+          "sourceSha256": "43be609d4b3a4b96d4bb14946eaf9bdf67f901ddc15f6199c53b16b30faa3fde"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/L%E2%80%99Horloge",
+          "title": "L’Horloge",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-lhorloge",
+          "textSha256": "780e671b49b0d47c5d2e323812df871fba8a6f33b293ed91424eb431e294883f",
+          "note": "Where does the sound of an ordinary clock become a speaking voice?",
+          "sourceSha256": "25c8f12e0782631ccea63be1ffe4bd0bf9acc6596bda8a07506a2a553ce13fbd"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Fin_de_la_journ%C3%A9e",
+          "title": "La Fin de la journée",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-la-fin-de-la-journee",
+          "textSha256": "6ddddaaea94921bbb6d04a9a1f34537b2f027b0b777fe307f6584ddc8b325719",
+          "sourceSha256": "20c07c15f25c617ea6f9c3c58b6cd227d87c2e94354b6ca38228941fa1f43144"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Flacon",
+          "title": "Le Flacon",
+          "themes": [
+            "time",
+            "memory"
+          ],
+          "id": "charles-baudelaire-le-flacon",
+          "textSha256": "acb11f77c0e7a91b69eb634fef0eca40ad2aeb2f095c806138400ce63c2af30b",
+          "sourceSha256": "5f0f33899884d3948c7994da84f97b9875839d0f2f7b3cc2c0da5f5206c6a46f"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Boh%C3%A9miens_en_voyage",
+          "title": "Bohémiens en voyage",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-bohemiens-en-voyage",
+          "textSha256": "311fa0a13338b160d61d0430412eef95cc4338fd3b661178cb594cfffc721ccd",
+          "sourceSha256": "47ce4501b4aad7f29460b72e147053be525bebbcc134a6b395e4378ba0df235d"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Cygne",
+          "title": "Le Cygne",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-le-cygne",
+          "textSha256": "11205f0491b19700128e8f82ea0661a359bb6e28e3d10f3e4c9371ce2cb0977b",
+          "sourceSha256": "671d49e061e8876b74b00ac718e17b0174ae5e5b2a59c6a9016267133b3ac0b1"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/%C3%80_une_passante",
+          "title": "À une passante",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-a-une-passante",
+          "textSha256": "97dbd4b335365e31da2994d199c7e3632f368b6afe0b26b7e8a1da8ac31cc48f",
+          "sourceSha256": "ae1648c3b51249d1f69cf089cf7525604e65af7b18959b6a97a99b04a34ba406"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Les_Aveugles",
+          "title": "Les Aveugles",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-les-aveugles",
+          "textSha256": "f3f1c76b6fc966933aa50e59e1c50158027482d6e6e0f89b1c10abdff554f576",
+          "sourceSha256": "3912c05b2a220afbf1ddb746712dd498605d9fd107b6897fc8b3f336001d5007"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Paysage",
+          "title": "Paysage",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-paysage",
+          "textSha256": "1e092a07cc00e6c10c7ee4ecf41d9f221996e878b90f955f280f8bf35918d0e0",
+          "sourceSha256": "919cd49a9d483f7bcd4a43d3a5107408a4e9edb514f9564f93ffab8b2d0a710f"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/R%C3%AAve_parisien",
+          "title": "Rêve parisien",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-reve-parisien",
+          "textSha256": "28a17f1f6636eac036f15392a3fa8e48784856df97d30249b06923e2570477a5",
+          "sourceSha256": "20c29715385137f9d6fbf549de441a99393f6f52d21fe763d793daed67298a6b"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Cr%C3%A9puscule_du_matin",
+          "title": "Le Crépuscule du matin",
+          "themes": [
+            "exile",
+            "solitude"
+          ],
+          "id": "charles-baudelaire-le-crepuscule-du-matin",
+          "textSha256": "12232320bcf23cd583d6417608740324873e46862a34f21c77ffd8851e85a58f",
+          "sourceSha256": "e78d515ade8534f28d342843c145cec71afe5c04af5489e8ebe2d79cfe5811f2"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/Le_Vin_des_chiffonniers",
+          "title": "Le Vin des chiffonniers",
+          "themes": [
+            "dignity",
+            "witness"
+          ],
+          "id": "charles-baudelaire-le-vin-des-chiffonniers",
+          "textSha256": "bd9bb02781139c0e2d86c191fcf817f37ce73a0f0c4c07a28e0ac31697e2ff77",
+          "sourceSha256": "addf9a4b9f92a498c6426a06ce9b72a82bec93ee0fe0ac85f0c084a3657fcc4c"
+        },
+        {
+          "source": "https://fr.wikisource.org/wiki/Les_Fleurs_du_mal_(1861)/La_Mort_des_pauvres",
+          "title": "La Mort des pauvres",
+          "themes": [
+            "dignity",
+            "witness"
+          ],
+          "id": "charles-baudelaire-la-mort-des-pauvres",
+          "textSha256": "4ba61e54f4b052321d22c3acd2a776ae4e42d06156589730ea60b2a99b23a406",
+          "sourceSha256": "8eec9f22c861768f4c730270ab462093d203e16f84602bff31665027679008c7"
+        }
+      ]
+    },
+    {
+      "author": "Giacomo Leopardi",
+      "died": 1837,
+      "language": "it",
+      "edition": "Canti, ed. Donati",
+      "editionYear": 1917,
+      "provider": "Wikisource",
+      "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)",
+      "rightsBasis": "Original printed in the 1917 edition; author died in 1837. Wikisource transcription credited under CC BY-SA 4.0.",
+      "items": [
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/I._All'Italia",
+          "title": "All'Italia",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "id": "giacomo-leopardi-all-italia",
+          "textSha256": "b9b4be5b9eb6b5685e5a52b1c9870107f32e4d8d77a1155f4d2462ca6dfc0f77",
+          "sourceSha256": "1e229dd7a859367a0070b476c25b454c835a80163673bffebeb0a06b45a85bbc"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/VI._Bruto_minore",
+          "title": "Bruto minore",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "id": "giacomo-leopardi-bruto-minore",
+          "textSha256": "a7c8f94480d6a5b71f2034bc553251d618cc0687451462ae4f07103c593e3ad5",
+          "sourceSha256": "ba1abbc78eb783ae676db5b8eabd2a38f220c90d162036963318e05985a027c3"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XI._Il_passero_solitario",
+          "title": "Il passero solitario",
+          "themes": [
+            "nature",
+            "solitude"
+          ],
+          "id": "giacomo-leopardi-il-passero-solitario",
+          "textSha256": "9a577a15ec8b64e3a9dd39d66db0d18127a430d5db6750ed079c33d69c124816",
+          "sourceSha256": "6d77f8b2df20ec24131b8041ab0f81872d35c980a93c8e2fe48a27690ee95aa1"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XIV._Alla_luna",
+          "title": "Alla luna",
+          "themes": [
+            "nature",
+            "solitude"
+          ],
+          "id": "giacomo-leopardi-alla-luna",
+          "textSha256": "8fb9e25125f3cce47de9caec7c44be4500f088b429ae44ff5bf2ff175edbd981",
+          "note": "The speaker returns to a familiar hill. Compare what has changed in the landscape with what has changed in memory.",
+          "sourceSha256": "02f6e7edf8e3a7040b3df2857db6b99a4803185b2ed5de695347f99736c48b76"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XVI._La_vita_solitaria",
+          "title": "La vita solitaria",
+          "themes": [
+            "nature",
+            "solitude"
+          ],
+          "id": "giacomo-leopardi-la-vita-solitaria",
+          "textSha256": "ec5762dcec1b2e323d45c1c091fa1096d9378d6d3be5c5a1c0a7cf63d9a0b60f",
+          "sourceSha256": "218f5c6dec68ca8b2ecaaca28b1ff6e82c35723569fcf05f7912c7acc8283348"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXIV._La_quiete_dopo_la_tempesta",
+          "title": "La quiete dopo la tempesta",
+          "themes": [
+            "nature",
+            "solitude"
+          ],
+          "id": "giacomo-leopardi-la-quiete-dopo-la-tempesta",
+          "textSha256": "d2a406dfa73ad397694747e155eee040839c3d477a1f4b9a623d073bcc4168f8",
+          "sourceSha256": "24a325144e4a785902671ede00ea5ee3e9d1e6dc5382b6604be58ea4837af00c"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXI._A_Silvia",
+          "title": "A Silvia",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giacomo-leopardi-a-silvia",
+          "textSha256": "2810c2bbd3c8e7f5fb4303459069cca78f4ec56a3e0b2e831afc0541f6402680",
+          "note": "The address keeps Silvia near even as the poem measures the time that has passed.",
+          "sourceSha256": "eec3a26e4dd1b2372136f9db1e6477740a794996d24cc2badb1394173ce640b5"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XIII._La_sera_del_d%C3%AC_di_festa",
+          "title": "La sera del dì di festa",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giacomo-leopardi-la-sera-del-di-di-festa",
+          "textSha256": "7610acf5943db36b5a7a289dab1ec238ffc6cd35a033160facaa538f2a51706f",
+          "sourceSha256": "19420f1117e14d6d6b7c5db9b5e646560af393960629670c088bb069dd6f4ab4"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXII._Le_ricordanze",
+          "title": "Le ricordanze",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giacomo-leopardi-le-ricordanze",
+          "textSha256": "93f7731aa5afa472ed1372a22579feccf51bf58042b9571d3d34ee2b1eff036b",
+          "sourceSha256": "9c86fe61424434bcf5a1bf64e8714905ec7550eef78ba13dec7f0ce828434be4"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXV._Il_sabato_del_villaggio",
+          "title": "Il sabato del villaggio",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giacomo-leopardi-il-sabato-del-villaggio",
+          "textSha256": "a6edacbefe36bdbf9993f7a39384d4c3f51017ef8f283e46e83e964a6daa8f9d",
+          "sourceSha256": "6851daf60e81383fdeb71fd36113757db0c99b6a9663027788cb12a4a346918d"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XVIII._Alla_sua_donna",
+          "title": "Alla sua donna",
+          "themes": [
+            "love"
+          ],
+          "id": "giacomo-leopardi-alla-sua-donna",
+          "textSha256": "2d80a47f9773e8ab4770eaa19dd2af43bff38759798c3e8204a33e1284174ea8",
+          "sourceSha256": "f5f3ad30310f4eb85837bbec0ab89e0efe57af79ea1e7fcd6ea64e08383e2c38"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXVIII._A_se_stesso",
+          "title": "A se stesso",
+          "themes": [
+            "love"
+          ],
+          "id": "giacomo-leopardi-a-se-stesso",
+          "textSha256": "06a79c99503c1d2a14c5b8be6114f852048f13cd11325dded7dca1f18dfce642",
+          "sourceSha256": "bfdedff532f60dec314d4928cf4901d51ea4c8fcc7efe3d8b9b6a028cd5fdc20"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Canti_(Leopardi_-_Donati)/XXVI._Il_pensiero_dominante",
+          "title": "Il pensiero dominante",
+          "themes": [
+            "love"
+          ],
+          "id": "giacomo-leopardi-il-pensiero-dominante",
+          "textSha256": "fd302ab69de62afe70c958d1869932193cd543706d2bb99de1ea07757cf14268",
+          "sourceSha256": "b9c9c686ec3e87297e68a3f79a3d663636d20e69e6aabe2e8e2dc4980e009be4"
+        }
+      ]
+    },
+    {
+      "author": "Giovanni Pascoli",
+      "died": 1912,
+      "language": "it",
+      "edition": "Myricae",
+      "editionYear": 1905,
+      "provider": "Wikisource",
+      "source": "https://it.wikisource.org/wiki/Myricae",
+      "rightsBasis": "Original printed in the 1905 edition; author died in 1912. Wikisource transcription credited under CC BY-SA 4.0.",
+      "items": [
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/Alba_festiva",
+          "title": "Alba festiva",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-alba-festiva",
+          "textSha256": "971b2ffa62a68a3421f782b2a25a5b3929949534d9bd26dae6dd5d1c31e2cf10",
+          "sourceSha256": "49351ccf685cb1e3a33956eb226d958a89678d53d492e3da67d8e665d7ae4cf8"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/Scalpitio",
+          "title": "Scalpitio",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-scalpitio",
+          "textSha256": "5f98fc8b3573c9b4591df446ba9f8a517aeca3b208a20740f467c78e22a0bd85",
+          "sourceSha256": "d19e2eba5e8e8ae8ce09bf35cf5407bacabe22f1ce1cd8dcc70287b74ab1ac4f"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/Il_bosco",
+          "title": "Il bosco",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-il-bosco",
+          "textSha256": "74eb42a815c4da21a64ecf496652de7bdb83342f4183082347a50a3c49ac7027",
+          "sourceSha256": "6e2a9821bcb77806930400a785dba070c41cb36350025e24c1a67d2f1f5b84e3"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/I_puffini_dell'Adriatico",
+          "title": "I puffini dell'Adriatico",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-i-puffini-dell-adriatico",
+          "textSha256": "37630b1bb90f3508d9391da9be1fbe653a726fef8fb84c3aeda11c8dd8553bf4",
+          "sourceSha256": "201c7df8a8e639eca012ac70fa2870c019bbad83eba531c3af81e2c5ebd81d1b"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/La_civetta",
+          "title": "La civetta",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-la-civetta",
+          "textSha256": "7752fd8e09860393c45d1b80a307d94a03f23173f0cff8f13a7ca9b36fda1d42",
+          "sourceSha256": "fff196e70d63da273204211ccc09f1e34525760acb59ec4d2d4a38697260a648"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/L'ultima_passeggiata/Lavandare",
+          "title": "Lavandare",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-lavandare",
+          "textSha256": "a19afede7a04e5197b9dce2f8822580eb493942a40badb351271a0fca1ccd810",
+          "note": "Start with the half-ploughed field, then listen for the women’s voices.",
+          "sourceSha256": "800ab62a859e1d08be95f70c50804d968c4b76019a717b31b663f2dc0374d27c"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Il_bove",
+          "title": "Il bove",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-il-bove",
+          "textSha256": "813366a432709cc17d48b96e5b592e5838b7b344bf56331ece87f0cf85aa7b3b",
+          "sourceSha256": "e07c3f46102342f98157f75cf5d78c76347f35f7d92686cca8d0f5e86d54cb0b"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Vespro",
+          "title": "Vespro",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-vespro",
+          "textSha256": "aaceea31f5e58f7337a86a4800db58bc7503d77daf1ad411e97d0fbaa88fcf80",
+          "sourceSha256": "fda12bfc42b0f45319f0fdf8807688bf81e055d249ee6c6e73b42ee91ac37e1b"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Il_passero_solitario",
+          "title": "Il passero solitario",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-il-passero-solitario",
+          "textSha256": "e3794b55d3f221dcf3e53765447d8a074bf19fcd0889702225e58e9c6d551092",
+          "sourceSha256": "9b5d01c6cb2521bf22728dbdbaba0f52b1a443fe9938538fe2841fb4d16d2469"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/L'assiuolo",
+          "title": "L'assiuolo",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-l-assiuolo",
+          "textSha256": "20775053b12d660b7d8956164101da089bd99e29b554f11663fbf35df10c80b3",
+          "sourceSha256": "0ad17a25fb8edfa98c248ff124a522240ad2107d712986ca4883047713ad7938"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Temporale",
+          "title": "Temporale",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-temporale",
+          "textSha256": "19e95622155dd3e6c6863b625a17840a79c0a09fd17eebe9f423157cbf61f880",
+          "sourceSha256": "7f0489d9a0ec808b50a741410555e22dd945e04c345f077171e4aa661d3eaa58"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Pioggia",
+          "title": "Pioggia",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-pioggia",
+          "textSha256": "74d9b4499acc3de16272ef6fcfa2ede737b88f01dfcf114a9982b321a2bca8f0",
+          "sourceSha256": "47b0b03ad194a446a44949caea7c2c2cf6c6372212542ee14223ad9f39560014"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Primavera/Il_fiume",
+          "title": "Il fiume",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-il-fiume",
+          "textSha256": "5b6735f39d3c00327b26bb196a7aa22b70aee01fcdb85700eee293a2501c5857",
+          "sourceSha256": "4f5fcba215693a53696bc11d798d63e5d90d7af02c240906eaa7610838a7f7df"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Primavera/Lo_stornello",
+          "title": "Lo stornello",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-lo-stornello",
+          "textSha256": "2fd7030be831ab67eed8ad81647232bd34b29904d8afbcbb3f8d5567d7c43a84",
+          "sourceSha256": "9b3d6997bba5ee7bdc8461c5a38cf5e3d3073232d7052a80881835392302cc19"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dolcezze/Mare",
+          "title": "Mare",
+          "themes": [
+            "nature",
+            "listening"
+          ],
+          "id": "giovanni-pascoli-mare",
+          "textSha256": "73ec23dfe669542cd3c2d614c688e8a33e4e028c94668bcc957fe1c03f7252a0",
+          "sourceSha256": "2e56b1a2e2bd858be3dd9939a63bd95b0c3b74390a2b3dc021cc3b628335fecf"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/Patria",
+          "title": "Patria",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-patria",
+          "textSha256": "79ffe348d168a41f294d4897613df542216da36b90d432b77f451f327a401ec5",
+          "note": "Bells and a barking dog interrupt the summer scene. Notice the change in the speaker’s place in it.",
+          "sourceSha256": "425aabf7520b9d0cabec0fdd70d9d17286b506ebea2a97be29c4a01c3c4ed82b"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/Il_fonte",
+          "title": "Il fonte",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-il-fonte",
+          "textSha256": "fb3945f23db76a5e685e196093c7162353126453cd16f1002495c6140c05c02f",
+          "sourceSha256": "ca80833fb9502961ff6a4fe44d84908c127b4257db2c13a9010446659e560ccb"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/Romagna",
+          "title": "Romagna",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-romagna",
+          "textSha256": "2da725711f49b47bd6e8ae7d48f3f5f03f7919693005930887594dcfc669b22a",
+          "sourceSha256": "f2c5fb4da8d4f62339c8b00f3860afe181455a13a3afb2d371b0e494fa8f61cb"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Pensieri/Il_passato",
+          "title": "Il passato",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-il-passato",
+          "textSha256": "868b6eed7bc1840858ebcf348262cc64a35816ad2edf87f2ca1f68e90ed51604",
+          "sourceSha256": "824a14bf077aa62f2cbe8a0c17336f25708ecd61e7895ba194a14b4755f8b038"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/Il_santuario",
+          "title": "Il santuario",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-il-santuario",
+          "textSha256": "eaeb6d40e339ff87501c30f534fc28849d0e7e4804a3408d20b7eb4a521f7363",
+          "sourceSha256": "df4a75ffb24fc6390f1313b9db201d96cd8f610829c6e5a4579a414f16b4a936"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Elegie/X_Agosto",
+          "title": "X Agosto",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-x-agosto",
+          "textSha256": "8871d64b4203ce6cbbb70cfb57e19358ab036f7a46363e2107660f5d3c549efe",
+          "sourceSha256": "6eac54f647fe39bf020b153a1fa0859ab47d38d7a4854988a524e4e3cbde4cd4"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Ricordi/Cavallino",
+          "title": "Cavallino",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-cavallino",
+          "textSha256": "96280df9ca85ed8e60ef0874c32878748aa5ee8d9149c63d2eaa619960f92dc7",
+          "sourceSha256": "96e76a32b820a196d0c51eb74625aa665c8ff997ca2f283dd61d7c36415379ab"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/In_campagna/Il_piccolo_bucato",
+          "title": "Il piccolo bucato",
+          "themes": [
+            "home",
+            "memory"
+          ],
+          "id": "giovanni-pascoli-il-piccolo-bucato",
+          "textSha256": "fa679654a26282c785acb0677793ab897056a355957d926368e6a5836c5efc46",
+          "sourceSha256": "7d96289b376f8cadaf75502fa20478ad8f484feaddf6395123a0a8503b4da802"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/Allora",
+          "title": "Allora",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-allora",
+          "textSha256": "f7975384cf99ad2ef73a08512e5a6a7b70a2c443883b1e205dd839b85239da5a",
+          "sourceSha256": "dae6f1e1c417d0792f94dde6ad9458d562e8c15ee2c7a002d27dc36f7a8ea66f"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Finestra_illuminata/Mezzanotte",
+          "title": "Mezzanotte",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-mezzanotte",
+          "textSha256": "4483eeb0e73888145aa44c0230da1d798c6267c80a2308d08d429379f834b743",
+          "sourceSha256": "10e9a9b77cc62c7d659a79049b55cca12529b74ef94ae1388aecce0f84d95392"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Finestra_illuminata/Un_gatto_nero",
+          "title": "Un gatto nero",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-un-gatto-nero",
+          "textSha256": "af2a2b967c7d1b2aee5d8bb6430455d0794032119a18e28fbf057b499139a083",
+          "sourceSha256": "9f9cd65fd70d581b4f7692601029fd62ce4745381c87f372595d54bda0be1b0a"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/Sera_festiva",
+          "title": "Sera festiva",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-sera-festiva",
+          "textSha256": "468e5c6aa01d5f3b5ddbab46047b4689e931cfe63703becff51199dab2385228",
+          "sourceSha256": "304ea3e2ee968b0d97cbf41160a05450bbef5bf2a3c9d6eab4c3b0398ff82bf5"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Campane_a_sera",
+          "title": "Campane a sera",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-campane-a-sera",
+          "textSha256": "4f73abe4a175fce7eb6622935f3fca5361c6351695d41bcbe206b30bb7ef97de",
+          "sourceSha256": "803c53ee7b902aa5727c085f28592ae62eb4584fbd8ca56d5c2403b2513eadda"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Creature/Orfano",
+          "title": "Orfano",
+          "themes": [
+            "solitude",
+            "stillness"
+          ],
+          "id": "giovanni-pascoli-orfano",
+          "textSha256": "a82467624604e084cc87c6d42af6f71df737296a6dd5718af1d9aa8e671e912f",
+          "sourceSha256": "1235492a7d9abd946422ff1b5f37aca06907c3ff4feee5728d6ae511e4601273"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dall'alba_al_tramonto/La_cucitrice",
+          "title": "La cucitrice",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-la-cucitrice",
+          "textSha256": "1310061127ca24e51654c30133824c52371f9682a7051af51f355d6c5e4c7d49",
+          "sourceSha256": "551a3781ac42becdeef5110be7f8a96e44616d1a9c22600a2a61830a6e94a1f1"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/L'ultima_passeggiata/Arano",
+          "title": "Arano",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-arano",
+          "textSha256": "23876ea527f1228a86327b9139fccc2b4d01ba578c49ca307aa1203634884a14",
+          "sourceSha256": "3121a704d26922b49a0ffa74518bea937a7ac303478c2ad8d3d33743347a856e"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/L'ultima_passeggiata/Carrettiere",
+          "title": "Carrettiere",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-carrettiere",
+          "textSha256": "e0d745c66b973ea19621821c996c77a943cefd29dae64b1d571fdbd140bd546a",
+          "sourceSha256": "cbed32ac84030f056ffe2ee4e1ace2c06dd909cb982f3986909cdad236b6a909"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dolcezze/Il_piccolo_aratore",
+          "title": "Il piccolo aratore",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-il-piccolo-aratore",
+          "textSha256": "9a40ecaa1427af508708700ff867da599cd7ef06aa9050b8c37cc637fc48ed84",
+          "sourceSha256": "1b381fc04cc254fafa4b10e739ceb0c96502151148642be0dd7e1564229e8803"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dolcezze/Il_piccolo_mietitore",
+          "title": "Il piccolo mietitore",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-il-piccolo-mietitore",
+          "textSha256": "90c6a8fafe16ae0010b65c8b58d2a2bd39c4c11758e8b37b2aa4ea17d497872d",
+          "sourceSha256": "13cac6df71ef0ed3864437d006e7b022a5ff87d14565af5c472f405502312a29"
+        },
+        {
+          "source": "https://it.wikisource.org/wiki/Myricae/Dolcezze/Il_mendico",
+          "title": "Il mendico",
+          "themes": [
+            "ordinary life",
+            "dignity"
+          ],
+          "id": "giovanni-pascoli-il-mendico",
+          "textSha256": "5c5c6cf9e4c948b1f15bfd57a24c34bc2d584673b770825fe6d882611d3259d2",
+          "sourceSha256": "f4c5c2037305ce65eec244e9a73e22ded80e49f4769383c356c7a5be320b0c07"
+        }
+      ]
+    },
+    {
+      "author": "Cyprian Kamil Norwid",
+      "died": 1883,
+      "language": "pl",
+      "edition": "Wolne Lektury",
+      "provider": "Wolne Lektury",
+      "rightsBasis": "Original poem in the public domain; Wolne Lektury identifies the author and historical Polish edition.",
+      "items": [
+        {
+          "title": "Fortepian Chopina",
+          "source": "https://wolnelektury.pl/media/book/html/fortepian-chopina.html",
+          "themes": [
+            "music",
+            "art"
+          ],
+          "rightsBasis": "Norwid’s Polish original was published in Paris in 1865. Wolne Lektury transcribes Dzieła Cyprjana Norwida (1934) and identifies the original as public domain.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/fortepian-chopina.xml",
+          "printedEdition": "Cyprian Kamil Norwid, Dzieła Cyprjana Norwida (drobne utwory poetyckie-poematy-utwory dramatyczne-legendy, nowele, gawędy-przekłady-rozprawy wierszem i prozą), Spółka Wydawnicza \"Parnas Polski\", Warszawa 1934",
+          "id": "cyprian-kamil-norwid-fortepian-chopina",
+          "textSha256": "26234d697e76e08c14d502296363094e3f1ef3682b337f1ca8e9f3143e8131cf",
+          "note": "Listen for the moment a remembered performance gives way to sounds from the street.",
+          "sourceSha256": "db059c207c12826241fa83ffdd93b71096542eb5c7d7272d85d7a27d02cc0e5a"
+        }
+      ]
+    },
+    {
+      "author": "Adam Mickiewicz",
+      "died": 1855,
+      "language": "pl",
+      "edition": "Wolne Lektury",
+      "provider": "Wolne Lektury",
+      "rightsBasis": "Original poem in the public domain; Wolne Lektury identifies the author and historical Polish edition.",
+      "items": [
+        {
+          "title": "Pielgrzym",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-pielgrzym.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-pielgrzym.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-pielgrzym",
+          "textSha256": "043c14920715b56fd216112c09997f01b097cd026809e6b0c2552ffa1a56dd2a",
+          "sourceSha256": "4ee59e3320587c71bc0edbb9495e7fe82768aa8abf6b94c2b355a063e838259c"
+        },
+        {
+          "title": "Bakczysaraj",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-bakczysaraj.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-bakczysaraj.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-bakczysaraj",
+          "textSha256": "bdb467dc7dc4522245d26ed597cc0f7ee7afb5c517b5d6d5f05112745409814d",
+          "sourceSha256": "8eee01ef7a05af7220b1553226c0ad6e6d98c236b259c1a54ef4ef5dff0398f5"
+        },
+        {
+          "title": "Ruiny zamku w Bałakławie",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-ruiny-zamku-w-balaklawie.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-ruiny-zamku-w-balaklawie.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-ruiny-zamku-w-balaklawie",
+          "textSha256": "9d65db599266524f4cac924b43b2e72e4e612122ff5c2c97ba9b583d402c3005",
+          "sourceSha256": "0c4caf9e3825407ca6c017d0e0461bbff267b3410e85db2380e4474b10e6e8a8"
+        },
+        {
+          "title": "Grób Potockiéj",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-grob-potockiej.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-grob-potockiej.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-grob-potockiej",
+          "textSha256": "9e79259b5eeae73826e8dd758492683c93f0bc6dc8e3fda119e80f571c136f2d",
+          "sourceSha256": "c6493596277db21cba2dc9ce3cbdf83345c169390125df3e92e1d5c87f340550"
+        },
+        {
+          "title": "Ałuszta w nocy",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-aluszta-w-nocy.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-aluszta-w-nocy.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-aluszta-w-nocy",
+          "textSha256": "dc5b51647ce6bd333b740d98b7b9829d5eb948e126897041707af664b8d2e595",
+          "sourceSha256": "98888dd25b14e64f7b43f8351ea51a25e8cfaff85b734cde31c175f15dd0a260"
+        },
+        {
+          "title": "Burza",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-burza.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-burza.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-burza",
+          "textSha256": "058cc1b7fd9721cedb67735cd429c6062adfd880dce580ea642ff174236b7057",
+          "sourceSha256": "de34909a65e1dad72e4d8a37e1913b200e195eb32aa9a401278ae2732d251cc6"
+        },
+        {
+          "title": "Cisza morska",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-cisza-morska.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-cisza-morska.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-cisza-morska",
+          "textSha256": "ea0d2ad835ebf5155bf6844250cefce1b61f7d0aa5b3c0248df1cb754a0a4b4d",
+          "sourceSha256": "6aebe66c3f072d3db2b7b240aef13d59b8f2cd936213261e94d31a8ceffebf1c"
+        },
+        {
+          "title": "Ajudah",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-ajudah.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-ajudah.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-ajudah",
+          "textSha256": "46a0cfa0f96b00bb3b7ee7a5e653e99606d6325518232e9471892813c8a67dea",
+          "sourceSha256": "e13f41e69995cc9a81cb0dbed26a52cb81ea93f62c48c5e29a820cd7f2de4eec"
+        },
+        {
+          "title": "Czatyrdah",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-czatyrdah.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-czatyrdah.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-czatyrdah",
+          "textSha256": "18b662e1927dda50641616c3876db9470a6846517aa84defe40a4a79c4ee37a3",
+          "sourceSha256": "199dcf51c590a487027488cacf064c3f82ac8a9e4b94053ae2762dc6eea44781"
+        },
+        {
+          "title": "Żegluga",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-zegluga.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-zegluga.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, Tom 2, Wiersze z lat 1825 - 1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2, popr., druk. W. L. Anczyca,  Kraków 1928",
+          "id": "adam-mickiewicz-zegluga",
+          "textSha256": "88d0667719c7348a3bcdc0eebb83751bdaa7fd7d24a1e8374438b5e4cf3bdbcc",
+          "sourceSha256": "f8a55d2ccdbbff5c8465db3fefcb432556a2b2f5aed43f61e7ee1dbadbb6b9fe"
+        },
+        {
+          "title": "Widok gór ze stepów Kozłowa",
+          "source": "https://wolnelektury.pl/media/book/html/sonety-krymskie-widok-gor-ze-stepow-kozlowa.html",
+          "themes": [
+            "nature",
+            "wonder"
+          ],
+          "editionYear": 1928,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1928; Wolne Lektury credits Adam Mickiewicz and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/sonety-krymskie-widok-gor-ze-stepow-kozlowa.xml",
+          "printedEdition": "Adam Mickiewicz, Poezje, tom 2, Wiersze z lat 1825-1855 (Pieśni - Sonety - Poezje patrjotyczne, religijne i filozoficzne - Wiersze okolicznościowe - Bajki), wstęp i układ Józefa Kallenbacha, objaśn. zaopatrzył Jan Bystrzycki, Krakowska Spółdzielnia Wydawnicza, wyd. 2 popr., druk. W. L. Anczyca, Kraków 1928",
+          "id": "adam-mickiewicz-widok-gor-ze-stepow-kozlowa",
+          "textSha256": "8398def263a4f904dc473c27725f594fe5b51a03809e833c14d649ee4b7d6d35",
+          "sourceSha256": "37a4d97db0d0548df0ca934e78055c1dfb33bff59b098464e3a4341c54d4195b"
+        }
+      ]
+    },
+    {
+      "author": "Juliusz Słowacki",
+      "died": 1849,
+      "language": "pl",
+      "edition": "Wolne Lektury",
+      "provider": "Wolne Lektury",
+      "rightsBasis": "Original poem in the public domain; Wolne Lektury identifies the author and historical Polish edition.",
+      "items": [
+        {
+          "title": "Oda do wolności",
+          "source": "https://wolnelektury.pl/media/book/html/oda-do-wolnosci.html",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/oda-do-wolnosci.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-oda-do-wolnosci",
+          "textSha256": "031fa188b2b7a1f357ec780fea5fc2c32519770b79eee8091601844fa16c4edb",
+          "sourceSha256": "9f1ae61a1335424cb00e07012bdc27440fc259209f2b6996bfc3ddbc8557eb3d"
+        },
+        {
+          "title": "Kiedy prawdziwie Polacy powstaną...",
+          "source": "https://wolnelektury.pl/media/book/html/kiedy-prawdziwie-polacy-powstana.html",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/kiedy-prawdziwie-polacy-powstana.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-kiedy-prawdziwie-polacy-powstana",
+          "textSha256": "9a615f9aa08aa7f44aa805d93e7d3f26f3425709f3a08c5b359bb45fe5fcdc91",
+          "sourceSha256": "23b0541778a40855d8f4f44379f69c5917edf30805b712be839829589fbde52d"
+        },
+        {
+          "title": "Hymn (Bogarodzico, Dziewico!)",
+          "source": "https://wolnelektury.pl/media/book/html/hymn-bogarodzico-dziewico.html",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/hymn-bogarodzico-dziewico.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-hymn-bogarodzico-dziewico",
+          "textSha256": "9a46bc37bf0e7d5b6c6782e47241719da95ea310648411327af19dadf7fd7e9c",
+          "sourceSha256": "5b4956d0de1f2091c82592917bade2764a9d361ee2c1372bf017b9675221b671"
+        },
+        {
+          "title": "Narodzie mój...",
+          "source": "https://wolnelektury.pl/media/book/html/narodzie-moj.html",
+          "themes": [
+            "liberty",
+            "conscience"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/narodzie-moj.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-narodzie-moj",
+          "textSha256": "cc444eb85cd46e8e16a1487431b28152f46b586f6ef841d746d3d469b5ca6eca",
+          "sourceSha256": "50cf3c77a9e929e23f755d6938f2c342bb96b975b7ef490bd96733bda71256a4"
+        },
+        {
+          "title": "Rozłączenie",
+          "source": "https://wolnelektury.pl/media/book/html/rozlaczenie.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/rozlaczenie.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-rozlaczenie",
+          "textSha256": "e802837ced9284a26ffbe5a321f4d1c37c79ed028176a5051b9cb8d2923c7473",
+          "sourceSha256": "826dd505bb46217c4715c401d0f605717f4774ae94f1f2c870213b044ce48ca1"
+        },
+        {
+          "title": "Paryż",
+          "source": "https://wolnelektury.pl/media/book/html/paryz.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1909,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1909; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/paryz.xml",
+          "printedEdition": "Juliusz Słowacki, Dzieła Juliusza Słowackiego. Pierwsze krytyczne wydanie zbiorowe, t. I., Wiersze drobne, wyd. Bronisław Gubrynowicz, Lwów 1909",
+          "id": "juliusz-slowacki-paryz",
+          "textSha256": "ff907715004136acb0125c623b391a506bd45336a0a7d7c4aaa3f562357ffb00",
+          "sourceSha256": "a17e2eab48f41084c287b9d2d10739868e792078a5ae49d479fc277e1c854b84"
+        },
+        {
+          "title": "Do matki (Zadrży ci nieraz serce, miła matko moja...)",
+          "source": "https://wolnelektury.pl/media/book/html/do-matki.html",
+          "themes": [
+            "exile",
+            "home"
+          ],
+          "editionYear": 1914,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1914; Wolne Lektury credits Juliusz Słowacki and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/do-matki.xml",
+          "printedEdition": "Antoni Mazanowski, Wypisy polskie na VII klasę gimnazyalną, nakł. Mazanowski Antoni, Kraków 1914",
+          "id": "juliusz-slowacki-do-matki-zadrzy-ci-nieraz-serce-mila-matko-moja",
+          "textSha256": "5648ced016c3ddbad656e9704aab8977c23546f956ad3375679d48fc83347b22",
+          "sourceSha256": "b28d2b5e7ee645f23f2bbd49fe26c4fb7f097ae849597d08fdd2e1487eab6327"
+        }
+      ]
+    },
+    {
+      "author": "Adam Asnyk",
+      "died": 1897,
+      "language": "pl",
+      "edition": "Wolne Lektury",
+      "provider": "Wolne Lektury",
+      "rightsBasis": "Original poem in the public domain; Wolne Lektury identifies the author and historical Polish edition.",
+      "items": [
+        {
+          "title": "Apostrofa",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-apostrofa.html",
+          "themes": [
+            "conscience",
+            "hope"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-apostrofa.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-apostrofa",
+          "textSha256": "24357687a44591cb528f05b8d5d3395dddb6674a0f8edb5fb2336aa0c5904811",
+          "sourceSha256": "3e2c41d4ed078380ace1e9fdf5335fc9f10b1fe476cd7b1af0dde6ab4552259e"
+        },
+        {
+          "title": "Dzień wczorajszy",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-dzien-wczorajszy.html",
+          "themes": [
+            "conscience",
+            "hope"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-dzien-wczorajszy.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-dzien-wczorajszy",
+          "textSha256": "83a7f8d8c367db15388576c8c460e47f7ef868ae1e7ac4fc16ab91cc58b8e124",
+          "sourceSha256": "7ad74a5332dc771b81425f925fc238e2580ef56d3a64859097646f96388269ac"
+        },
+        {
+          "title": "Dwie fazy",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-dwie-fazy.html",
+          "themes": [
+            "conscience",
+            "hope"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-dwie-fazy.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-dwie-fazy",
+          "textSha256": "71e6c0cf01201b791396c8542fb8166aee78db374aa628980e91461675b85926",
+          "sourceSha256": "5d3b7cf1a5f1a1e8a1edad4f693357546c39f911aeab9b1393409c22ec952c6f"
+        },
+        {
+          "title": "Fale",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-fale.html",
+          "themes": [
+            "nature"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-fale.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-fale",
+          "textSha256": "6faa3a82518a5436b5823e0c79f0cb0ce9df826743c64790e00fa8172e11d3f2",
+          "sourceSha256": "e89e0eddef0f97391dc5354455822496d0d85d23832b0a5e909b1c0a559c7f3b"
+        },
+        {
+          "title": "Gałązka jaśminu",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-galazka-jasminu.html",
+          "themes": [
+            "nature"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-galazka-jasminu.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-galazka-jasminu",
+          "textSha256": "19dc66edfe7f0bcf8455fcf452eb2ae7f96bd8d6b1270b8979660f74f01df0f4",
+          "sourceSha256": "aeb5c421cfae762b236246785e91e39be3a4170463b7a15edfc6f024ab519807"
+        },
+        {
+          "title": "Morskie oko",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-morskie-oko.html",
+          "themes": [
+            "nature"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-morskie-oko.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-morskie-oko",
+          "textSha256": "d980aef76daa746aef58f241f4af6bfebd850819cb68568f10a7c808b5927247",
+          "sourceSha256": "76664def4f632be984cd08502e87b9182c609d66ead560cfdf56dae9a9f68aab"
+        },
+        {
+          "title": "[Czego ci trzeba dziś, posępny tłumie...]",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-czego-ci-trzeba-dzis-posepny-tlumie.html",
+          "themes": [
+            "liberty"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-czego-ci-trzeba-dzis-posepny-tlumie.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-czego-ci-trzeba-dzis-posepny-tlumie",
+          "textSha256": "ef036c1d134279c9c51b74be33e3b89e852e4ea5fbd4c9063bee9b53255b823d",
+          "sourceSha256": "9468f2ec30bf5d19e2793329f79f5c98590ccef1d73f80c4086a4723cf7334a3"
+        },
+        {
+          "title": "Głos wołający na puszczy",
+          "source": "https://wolnelektury.pl/media/book/html/asnyk-glos-wolajacy-na-puszczy.html",
+          "themes": [
+            "liberty"
+          ],
+          "editionYear": 1924,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1924; Wolne Lektury credits Adam Asnyk and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/asnyk-glos-wolajacy-na-puszczy.xml",
+          "printedEdition": "Adam Asnyk, Pisma, tom III, wydanie nowe zupełne, w układzie i z objaśnieniami F. Hoesicka, nakładem Księgarni F. Hoesicka, Warszawa 1924.",
+          "id": "adam-asnyk-glos-wolajacy-na-puszczy",
+          "textSha256": "7adf1a5ffb346ecbbc76bea16614b48959cf5e0f4c0b45f80144242382f185d7",
+          "sourceSha256": "1b9c3b8f842560d8447a55070bf8e9de4266549dd83899a75082d5d3cc48c0bf"
+        }
+      ]
+    },
+    {
+      "author": "Maria Konopnicka",
+      "died": 1910,
+      "language": "pl",
+      "edition": "Wolne Lektury",
+      "provider": "Wolne Lektury",
+      "rightsBasis": "Original poem in the public domain; Wolne Lektury identifies the author and historical Polish edition.",
+      "items": [
+        {
+          "title": "Braciom Czechom",
+          "source": "https://wolnelektury.pl/media/book/html/damnata-braciom-czechom.html",
+          "themes": [
+            "liberty",
+            "solidarity"
+          ],
+          "editionYear": 1900,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1900; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/damnata-braciom-czechom.xml",
+          "printedEdition": "Maria Konopnicka, Damnata. Poezye, wyd. Seyfarth i Czajkowski, Lwów 1900.",
+          "id": "maria-konopnicka-braciom-czechom",
+          "textSha256": "1b10b0f21bfb7aa72d9102b700eea0ea8a120bf31cca9a6ba916472f0e8b8c64",
+          "sourceSha256": "500d077f0516ad1a60d087167af6923d033c222244f9a73e1a34918317a95188"
+        },
+        {
+          "title": ",,Nasze Dziady\"",
+          "source": "https://wolnelektury.pl/media/book/html/damnata-nasze-dziady.html",
+          "themes": [
+            "liberty",
+            "solidarity"
+          ],
+          "editionYear": 1900,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1900; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/damnata-nasze-dziady.xml",
+          "printedEdition": "Maria Konopnicka,  Damnata. Poezye, wyd. Seyfarth i Czajkowski, Lwów 1900.",
+          "id": "maria-konopnicka-nasze-dziady",
+          "textSha256": "48726155a60741c9f084205a8875dc51c0fe4e69a914ddb9a0f566087f6bc66c",
+          "sourceSha256": "72d6bb7629b46a6cfa8499f17ca5224506e94a6c65f43ec12eb322baf7b9bfe9"
+        },
+        {
+          "title": "Groby nasze",
+          "source": "https://wolnelektury.pl/media/book/html/damnata-groby-nasze.html",
+          "themes": [
+            "liberty",
+            "solidarity"
+          ],
+          "editionYear": 1900,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1900; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/damnata-groby-nasze.xml",
+          "printedEdition": "Maria Konopnicka,  Damnata. Poezye, wyd. Seyfarth i Czajkowski, Lwów 1900.",
+          "id": "maria-konopnicka-groby-nasze",
+          "textSha256": "a44b657651c8194e8d86b83ce40c9d051484964987b5df9785d534caa75d7bf9",
+          "sourceSha256": "2226f6b4050867aa5bf771cff7507c53efbf1ffedb6ab56c68850ed59a3e9af9"
+        },
+        {
+          "title": "Cichy wieczór",
+          "source": "https://wolnelektury.pl/media/book/html/cichy-wieczor.html",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/cichy-wieczor.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci, część druga dla dzieci do lat 10, wyd. M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-cichy-wieczor",
+          "textSha256": "7b65f590d72daf6c2896ea48f8b416bf98d51b5c7ac7f78274857333a33b8f1a",
+          "sourceSha256": "4c17bbc22f005fbd32642b25e59a79812fa934fb761b3158883af9fbcc7ec94c"
+        },
+        {
+          "title": "Deszczyk",
+          "source": "https://wolnelektury.pl/media/book/html/deszczyk-konopnicka.html",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/deszczyk-konopnicka.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci do lat 10, część II, Wydawnictwo M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-deszczyk",
+          "textSha256": "ab457eca87a24974771bc241536a8a2d7d5ac17ad075ec9cbc190cfc07debbf7",
+          "sourceSha256": "bc947a9d99a25c5bb4c3aca9281b4a2742516c50dbc10840c85f26a971186c85"
+        },
+        {
+          "title": "Derkacz",
+          "source": "https://wolnelektury.pl/media/book/html/derkacz.html",
+          "themes": [
+            "nature",
+            "music"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/derkacz.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci do lat 10, część II, Wydawnictwo M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-derkacz",
+          "textSha256": "93390d06e7894566ade4e79847e122f3ced839efa880f1c0f5e53453a2cae381",
+          "sourceSha256": "a4422ba05818e29a408cce506b495208e0947b0bef3da85039e8da018a899f0c"
+        },
+        {
+          "title": "Czytanie",
+          "source": "https://wolnelektury.pl/media/book/html/czytanie.html",
+          "themes": [
+            "ordinary life"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/czytanie.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci do lat 10, część II, Wydawnictwo M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-czytanie",
+          "textSha256": "2a8945dc99b27286ae467a6d078160c7f2b674e9a6561ed3bc1da90c9c4a7248",
+          "sourceSha256": "22a3a2f03b612d28c8c44fc40b07d9db6078b77e02ebbaf2675b71cc49e71221"
+        },
+        {
+          "title": "Dożynki",
+          "source": "https://wolnelektury.pl/media/book/html/dozynki.html",
+          "themes": [
+            "ordinary life"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/dozynki.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci do lat 10, część II, Wydawnictwo M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-dozynki",
+          "textSha256": "8342bc35d3f7df37ea7578809e8c4504ee233a1aa3c7af3cfc216457b3f48c63",
+          "sourceSha256": "3d23b4ae81b1f2ea46441d427c5c1e81e8bdd0b48f433eadd127500872fb9fda"
+        },
+        {
+          "title": "Co dzieci widziały w drodze",
+          "source": "https://wolnelektury.pl/media/book/html/co-dzieci-widzialy-w-drodze.html",
+          "themes": [
+            "ordinary life"
+          ],
+          "editionYear": 1922,
+          "rightsBasis": "Public-domain Polish original, in an edition printed in 1922; Wolne Lektury credits Maria Konopnicka and records the original’s public-domain status.",
+          "editionSource": "https://wolnelektury.pl/media/book/xml/co-dzieci-widzialy-w-drodze.xml",
+          "printedEdition": "Maria Konopnicka, Poezje dla dzieci, część pierwsza do lat siedmiu, wyd. M. Arcta, Warszawa 1922.",
+          "id": "maria-konopnicka-co-dzieci-widzialy-w-drodze",
+          "textSha256": "e879a5d6e176f24f8684b9f974a221a54f44f037aa0caab09e29b0c0db08e388",
+          "sourceSha256": "a95a1126f63bf45d9c58f871f801fe17a85515cec0b4c95982142d4bdf825b52"
+        }
+      ]
+    }
+  ]
+}

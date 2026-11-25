@@ -8,21 +8,31 @@
   <meta name="supported-color-schemes" content="light">
   <meta name="darkreader-lock">
   <meta name="theme-color" content="#e9ede4">
+  <meta name="poetry-gallery-base" content="assets/gallery/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23793640'/%3E%3Cpath fill='none' stroke='%23fff6e7' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' d='M12 19c7-1 13 1 20 6 7-5 13-7 20-6v24c-7-1-13 1-20 6-7-5-13-7-20-6zm20 6v24'/%3E%3C/svg%3E">
   <title>Poetry I Like · The reading room</title>
   <style>/*__STYLE__*/</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to the poem</a>
-<div class="forest" id="forest" aria-hidden="true"></div>
+<div class="forest" id="forest" aria-hidden="true"><picture class="wall-painting" hidden><source media="(max-width: 700px)"><img alt=""></picture></div>
 <div class="mist" aria-hidden="true"></div>
 <div class="rain" id="rain" aria-hidden="true"></div>
 <header class="masthead">
-  <a class="brand" href="#" aria-label="Poetry I Like home"><span class="mark" aria-hidden="true">p.</span><span>Poetry I Like<small>The reading room</small></span></a>
+  <a class="brand" href="#" aria-label="Poetry I Like home"><span class="mark" aria-hidden="true">p.</span><span>Poetry I Like</span></a>
   <nav aria-label="Reading controls">
     <button class="mobile-library" id="library-toggle" aria-haspopup="dialog" aria-expanded="false" aria-controls="library-dialog">Library</button>
+    <button id="jump-to-tools" type="button">Paths &amp; rain</button>
     <button id="settings-toggle" aria-haspopup="dialog" aria-controls="settings" aria-label="Reading settings">Aa</button>
   </nav>
 </header>
+<figure class="gallery-window" id="painting-window">
+  <picture class="window-painting" hidden><source media="(max-width: 700px)"><img alt="" decoding="async"></picture>
+  <figcaption id="painting-caption" hidden>
+    <a id="painting-record" target="_blank" rel="noopener noreferrer"><cite id="painting-title"></cite><span id="painting-byline"></span></a>
+    <button id="next-painting" type="button" aria-label="Next painting" title="Next painting"><span aria-hidden="true">→</span></button>
+  </figcaption>
+</figure>
 <div class="workspace" id="workspace">
   <aside class="library" id="library" aria-label="Poetry library">
     <label class="shelf-picker" for="shelf">Library
@@ -46,28 +56,10 @@
     <div class="shelf-footer"><span id="collection-count"></span><a href="https://concordiadiscors.org/poetry/" target="_blank" rel="noopener noreferrer">Poets’ Nook</a></div>
   </aside>
   <main id="main" tabindex="-1">
-    <div class="reader-tools">
-      <div class="path-control">
-        <label for="reading-path">Reading path</label>
-        <select id="reading-path"><option value="">Choose a path</option></select>
-        <div class="path-steps" id="path-steps" hidden>
-          <button id="path-back" type="button" aria-label="Previous poem on the path">←</button><span id="path-progress"></span><button id="path-next" type="button" aria-label="Next poem on the path">→</button>
-        </div>
-      </div>
-      <div class="ambient-control">
-        <label for="sound-type">Listen while reading</label>
-        <div><select id="sound-type">
-          <optgroup label="Soundscapes"><option value="rain">Light rain</option><option value="forest">Woodland rain</option><option value="window">Rain on a window</option><option value="stream">Stream</option></optgroup>
-        </select><button id="sound-toggle" aria-pressed="false" type="button">Play</button></div>
-        <label class="ambient-volume" for="ambient-volume">Volume <output id="ambient-level"></output><input id="ambient-volume" type="range" min="0" max="35" step="1"></label>
-        <a class="reading-score-link" id="reading-score-link" hidden>Open the score</a>
-      </div>
-      <p class="path-description" id="path-description" hidden></p>
-    </div>
     <article class="paper" id="paper" aria-labelledby="poem-title">
       <div class="paper-toolbar">
         <span class="caption" id="edition"></span>
-        <div><button id="reading-mode" aria-pressed="false" title="Hide the library">Just the poem</button><button id="save-poem" aria-pressed="false">Save poem</button></div>
+        <button id="random-poem" class="shuffle-poem" type="button"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 6 2.5.2c4.8.4 5.9 11.5 11 11.5H21m-4-4 4 4-4 4M4 18l2-.1c2.7-.1 4.5-4.2 5.5-6.5M14 7.8c1-1.2 2.3-1.8 4.1-1.8H21m-4-4 4 4-4 4"/></svg><span>Another poem</span></button>
       </div>
       <div class="poem-heading">
         <div><p class="poet" id="poet"></p><h1 id="poem-title" tabindex="-1"></h1><p class="poem-meta" id="poem-meta"></p></div>
@@ -80,19 +72,38 @@
       </div>
       <div class="poem-text-grid" id="poem-text-grid">
         <section id="original-column" aria-label="Original poem"><p class="column-label" id="original-label" hidden>Original</p><div class="poem-lines" id="poem-lines" role="region" aria-label="Poem text. In line focus mode use the arrow keys, Home or End." tabindex="0"></div></section>
-        <section id="english-column" aria-label="English translation" hidden><p class="column-label">English</p><div class="poem-lines" id="english-lines" lang="en" tabindex="0" role="region" aria-label="English rendering. Arrow keys move when reading focus is enabled."></div></section>
+        <section id="english-column" aria-label="English translation" hidden><p class="column-label" id="english-label">English</p><div class="poem-lines" id="english-lines" lang="en" tabindex="0" role="region" aria-label="English rendering. Arrow keys move when reading focus is enabled."></div></section>
       </div>
       <p class="translation-note" id="translation-note" hidden></p>
       <div class="reading-reference" id="reading-reference" hidden><p>Read this selection at the source below.</p></div>
       <div class="line-status" id="line-status" aria-live="polite"></div>
       <div class="source-line"><a id="source-link" target="_blank" rel="noopener noreferrer">Read the source</a><span id="rights-label"></span></div>
-      <details class="poem-actions">
-        <summary>Share or print</summary>
-        <div class="poem-tools"><button id="share-poem">Copy link</button><button id="copy-citation">Copy citation</button><button id="print-poem">Print</button></div>
-      </details>
+      <div class="reader-actions">
+        <button id="previous-poem" disabled>← Back</button><button id="save-poem" aria-pressed="false">Save poem</button>
+        <details class="poem-actions">
+          <summary>Share or print</summary>
+          <div class="poem-tools"><button id="share-poem">Copy link</button><button id="copy-citation">Copy citation</button><button id="print-poem">Print</button></div>
+        </details>
+      </div>
     </article>
-    <div class="reader-actions"><button id="previous-poem" disabled>← Back</button><button id="random-poem" class="next">Another poem</button></div>
     <p class="reader-feedback" id="reading-status" role="status" aria-live="polite"></p>
+    <div class="reader-tools" id="reading-tools">
+      <div class="path-control">
+        <label for="reading-path">Reading path</label>
+        <select id="reading-path"><option value="">Choose a path</option></select>
+        <div class="path-steps" id="path-steps" hidden>
+          <button id="path-back" type="button" aria-label="Previous poem on the path">←</button><span id="path-progress"></span><button id="path-next" type="button" aria-label="Next poem on the path">→</button>
+        </div>
+      </div>
+      <div class="ambient-control">
+        <label for="sound-type">Rain &amp; stream</label>
+        <div><select id="sound-type">
+          <optgroup label="Soundscapes"><option value="rain">Light rain</option><option value="forest">Woodland rain</option><option value="window">Rain on a window</option><option value="stream">Stream</option></optgroup>
+        </select><button id="sound-toggle" aria-pressed="false" type="button">Play</button></div>
+        <label class="ambient-volume" for="ambient-volume">Volume <output id="ambient-level"></output><input id="ambient-volume" type="range" min="0" max="35" step="1"></label>
+      </div>
+      <p class="path-description" id="path-description" hidden></p>
+    </div>
     <details class="reading-notes">
       <summary>Reading notes</summary>
       <p class="reading-note" id="reading-note"></p>
@@ -112,6 +123,7 @@
     <label>Reading focus <select id="focus-unit"><option value="line">Line</option><option value="stanza">Stanza</option></select></label>
     <label class="check"><input id="focus-mode" type="checkbox"> Highlight one line or stanza</label>
     <label class="check"><input id="visual-rain" type="checkbox"> Show rain</label>
+    <button id="reading-mode" aria-pressed="false">Just the poem</button>
   </div>
   <details class="saved-settings"><summary>Saved poems</summary><div class="note-tools"><button id="export-shelf">Export</button><label class="import-file">Import <input id="import-shelf" type="file" accept="application/json,.json"></label></div></details>
   <p class="settings-status" id="settings-status" role="status"></p>
@@ -122,6 +134,7 @@
   <a href="https://poetrydb.org/">PoetryDB · CC BY 4.0</a>
   <a href="data/archive/manifest.json">Archive sources</a>
   <a href="assets/ambience/provenance.json">Rain credits</a>
+  <details id="painting-credits" hidden><summary>Paintings</summary><ul id="painting-sources"></ul></details>
   <a href="https://github.com/sargonxg/Poetry-I-Like">Source code</a>
 </footer>
 <noscript><p class="noscript">This reader needs JavaScript. <a href="data/poems.json">Download the source-linked collection</a> to read it with another tool.</p></noscript>
@@ -129,7 +142,7 @@
 <script id="reading-guides" type="application/json">/*__GUIDES__*/</script>
 <script id="reading-files" type="application/json">null</script>
 <script id="archive-files" type="application/json">/*__ARCHIVE__*/</script>
-<script id="reading-music-data" type="application/json">null</script>
+<script id="room-paintings" type="application/json">/*__GALLERY__*/</script>
 <script>/*__SCRIPT__*/</script>
 </body>
 </html>
